@@ -75,7 +75,7 @@ export async function getTargetPage({ url, locale }: any) {
   }
 
   const targetPage = await getBackendData({
-    url: `${BACKEND_URL}/api/pages/get-by-url`,
+    url: `${BACKEND_URL}/api/sps-website-builder/pages/get-by-url`,
     params: {
       url: localUrl,
       locale,
@@ -101,7 +101,9 @@ export function getFiltersFromPageUrl({ page, params }: any): any[] {
 
   for (const [index, pageUrl] of pageUrls.entries()) {
     if (pageUrl.includes(".") && params?.url && params.url[index]) {
-      const key = pageUrl.replace("[", "").replace("]", "").split(".")[0];
+      const sanitizedPageUrl = pageUrl.replace("[", "").replace("]", "");
+      const key =
+        sanitizedPageUrl.split(".")[sanitizedPageUrl.split(".").length - 2];
 
       const filter = {
         [key]: {

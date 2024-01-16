@@ -1,10 +1,12 @@
-import { api as formRequestApi } from "~redux/services/backend/api/form-request/api";
+import { api as formRequestApi } from "~redux/services/backend/extensions/sps-crm/api/form-request/api";
 import { useEffect } from "react";
 import { FormProvider, useForm } from "react-hook-form";
-import Input from "~components/input";
-import Button from "~components/elements/button";
+import Input from "~components/elements/input";
 import useGetPreparedFormInputs from "~hooks/use-get-prepared-form-inputs";
 import { IForm } from "../..";
+import TextInput from "~components/ui/input/text";
+import RadioGroupInput from "~components/ui/input/radio-group";
+import Button from "~components/ui/button";
 
 export default function Simple(props: IForm) {
   const [createFormRequest, { data }] = formRequestApi.useCreateMutation();
@@ -61,8 +63,7 @@ export default function Simple(props: IForm) {
                 options={input.options}
                 name={input.inputName}
                 className={input.input?.className || ""}
-                defaultValue=""
-                by="title"
+                by={input.input?.by || undefined}
                 rules={{
                   required: {
                     value: input.input?.isRequired,
@@ -75,16 +76,15 @@ export default function Simple(props: IForm) {
 
           {preparedInputs?.map((input, index: number) => {
             return (
-              <Input
+              <TextInput
                 {...input}
                 key={index}
                 variant="text"
                 type="text"
                 name={`inputs[${index}].key`}
                 initialValue={input.input.name}
-                defaultValue=""
                 by="id"
-                className="hidden"
+                className="!hidden"
                 rules={{
                   required: {
                     value: input.input?.isRequired,
@@ -95,7 +95,7 @@ export default function Simple(props: IForm) {
             );
           })}
 
-          <Input
+          <RadioGroupInput
             variant="radio-group"
             name="form"
             initialValue={props}
@@ -104,12 +104,15 @@ export default function Simple(props: IForm) {
             by="id"
           />
           <div className="submit-button-container">
-            <Button
-              {...props.button}
-              variant={props.button?.variant || "secondary"}
-              onClick={handleSubmit(onSubmit)}
-              title={props.button?.title || "Submit"}
-            />
+            {props.button ? (
+              <Button
+                className={props.button.className || ""}
+                data-ui-variant={props.button?.variant || "secondary"}
+                onClick={handleSubmit(onSubmit)}
+              >
+                {props.button?.title || "Submit"}
+              </Button>
+            ) : null}
           </div>
         </FormProvider>
       </div>

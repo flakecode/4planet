@@ -7,7 +7,7 @@ import NotFound from "~components/page-blocks/not-found-block";
 import ContactSecton from "~components/page-blocks/contact-section-block";
 import Incentive from "~components/page-blocks/incentives-block";
 import CtaSection from "~components/page-blocks/cta-section-block";
-import Pricing from "~components/page-blocks/pricing-block";
+import TiersListBlock from "~components/page-blocks/tiers-list-block";
 import ReviewsTable from "~components/page-blocks/reviews-table-block";
 import FeaturesSection from "~components/page-blocks/features-section-block";
 import LogotypesCloud from "~components/page-blocks/logotypes-cloud-block";
@@ -16,6 +16,10 @@ import Button from "~components/elements/button";
 import Footer from "~components/page-blocks/footer-block";
 import ButtonsArray from "~components/elements/buttons-array";
 import Alert from "~components/page-blocks/alert-block";
+import CheckoutFormBlock from "~components/page-blocks/checkout-form-block";
+import ProductsListBlock from "~components/page-blocks/products-list-block";
+import ShoppingCartBlock from "~components/page-blocks/shopping-cart-block";
+import EditSubscriptionBlock from "../edit-subscription-block";
 
 export const pageBlockComponents = {
   ["page-blocks.header-section-block"]: HeaderSection,
@@ -29,11 +33,15 @@ export const pageBlockComponents = {
   ["page-blocks.contact-section-block"]: ContactSecton,
   ["page-blocks.incentives-block"]: Incentive,
   ["page-blocks.cta-section-block"]: CtaSection,
-  ["page-blocks.pricing-block"]: Pricing,
+  ["page-blocks.tiers-list-block"]: TiersListBlock,
   ["page-blocks.reviews-table-block"]: ReviewsTable,
   ["page-blocks.navbar-block"]: Navbar,
   ["page-blocks.footer-block"]: Footer,
   ["elements.buttons-array"]: ButtonsArray,
   ["elements.button"]: Button,
   ["page-blocks.alert-block"]: Alert,
+  ["page-blocks.checkout-form-block"]: CheckoutFormBlock,
+  ["page-blocks.products-list-block"]: ProductsListBlock,
+  ["page-blocks.shopping-cart-block"]: ShoppingCartBlock,
+  ["page-blocks.edit-subscription-block"]: EditSubscriptionBlock,
 };

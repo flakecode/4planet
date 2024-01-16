@@ -7,6 +7,13 @@ import sentry from "@strapi/plugin-sentry/strapi-admin";
 import usersPermissions from "@strapi/plugin-users-permissions/strapi-admin";
 import countrySelect from "strapi-plugin-country-select/strapi-admin";
 import emailDesigner from "strapi-plugin-email-designer/strapi-admin";
+import spsBilling from "../../src/plugins/sps-billing/strapi-admin";
+import spsSubscription from "../../src/plugins/sps-subscription/strapi-admin";
+import spsEcommerce from "../../src/plugins/sps-ecommerce/strapi-admin";
+import spsMigrate from "../../src/plugins/sps-migrate/strapi-admin";
+import spsCrm from "../../src/plugins/sps-crm/strapi-admin";
+import spsNotification from "../../src/plugins/sps-notification/strapi-admin";
+import spsWebsiteBuilder from "../../src/plugins/sps-website-builder/strapi-admin";
 import { renderAdmin } from "@strapi/strapi/admin";
 
 renderAdmin(document.getElementById("strapi"), {
@@ -16,5 +23,12 @@ renderAdmin(document.getElementById("strapi"), {
     "users-permissions": usersPermissions,
     "country-select": countrySelect,
     "email-designer": emailDesigner,
+    "sps-billing": spsBilling,
+    "sps-subscription": spsSubscription,
+    "sps-ecommerce": spsEcommerce,
+    "sps-migrate": spsMigrate,
+    "sps-crm": spsCrm,
+    "sps-notification": spsNotification,
+    "sps-website-builder": spsWebsiteBuilder,
   },
 });

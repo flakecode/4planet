@@ -1,73 +1,73 @@
+import Link from "next/link";
 import useGetButtonParams from "~hooks/use-get-button-params";
-import Flyouts from "~components/flyout";
-import Button, { IElement } from "../..";
+import Button from "~components/ui/button";
+import { IElement } from "../..";
+import { useMemo } from "react";
+import Flyout from "~components/flyout";
 import { useParams } from "next/navigation";
-import Image from "next/image";
-import getFileUrl from "~utils/api/get-file-url";
 
-export default function Locale(props: IElement) {
+export default function Default(props: IElement) {
   const params = useParams();
   const { isActive, additionalAttributes, url } = useGetButtonParams(props);
 
-  if (props.onClick) {
-    return (
-      <div
-        data-component="elements.button"
-        data-variant={props.variant}
-        className={`button ${props?.className || ""}`}
-      >
-        <button
-          className="button-locale"
-          {...additionalAttributes}
-          onClick={props.onClick}
-        >
-          {props.children ? props.children : null}
-          {props.media?.length ? (
-            <div className="icon-container">
-              <Image src={getFileUrl(props.media[0])} alt="" fill={true} />
-            </div>
-          ) : null}
-          {props.title || `${params?.locale || ""}`}
-        </button>
-      </div>
-    );
-  }
+  // Bug with Next.js Link component and hash links
+  // https://github.com/vercel/next.js/issues/44295
+  const [Comp, urlPrepared] = useMemo(() => {
+    return url?.pathname?.includes("#")
+      ? ["a", `${url.pathname}${url?.query ? `?${url.query}` : ""}`]
+      : [Link, url];
+  }, [url]);
+
+  // if (props.onClick) {
+  //   return (
+  //     <Button
+  //       data-ui-variant={props.variant}
+  //       onClick={props.onClick}
+  //       {...additionalAttributes}
+  //     >
+  //       {props.title}
+  //     </Button>
+  //   );
+  // }
 
   if (props.flyout) {
     return (
-      <div
-        data-component="elements.button"
-        data-variant={props.variant}
-        className={`button ${props?.className || ""}`}
-      >
-        <Flyouts flyout={props.flyout}>
-          <Button
-            {...props}
-            title={props.title || `${params?.locale || ""}`}
-            flyout={null}
-            onClick={null}
-            url={null}
-          />
-        </Flyouts>
-      </div>
+      <Flyout flyout={props.flyout}>
+        <Button
+          data-component="elements.button"
+          data-ui-variant={props.variant}
+          {...additionalAttributes}
+        >
+          {`${
+            !Array.isArray(params.locale) ? params.locale.toUpperCase() : ""
+          }`}
+        </Button>
+      </Flyout>
+    );
+  }
+
+  if (url && props.url) {
+    return (
+      <Button asChild={true}>
+        <Comp
+          data-component="elements.button"
+          data-ui-variant={props.variant}
+          href={urlPrepared}
+          {...additionalAttributes}
+        >
+          {props.title}
+        </Comp>
+      </Button>
     );
   }
 
   return (
-    <div
+    <Button
       data-component="elements.button"
-      data-variant={props.variant}
-      className={`button ${props?.className || ""}`}
+      data-ui-variant={props.variant}
+      {...additionalAttributes}
     >
-      <button className="button-locale" {...additionalAttributes}>
-        {props.children ? props.children : null}
-        {props.media?.length ? (
-          <div className="icon-container">
-            <Image src={getFileUrl(props.media[0])} alt="" fill={true} />
-          </div>
-        ) : null}
-        {props.title}
-      </button>
-    </div>
+      {props.title}
+    </Button>
   );
 }

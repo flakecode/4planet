@@ -22,6 +22,47 @@ module.exports = ({ env }) => {
         },
       },
     },
+    "sps-billing": {
+      enabled: true,
+      resolve: "./src/plugins/sps-billing",
+      config: {
+        JWT_SECRET: env("JWT_SECRET"),
+        STRIPE_API_KEY: env("STRIPE_API_KEY"),
+        BACKEND_URL: env("BACKEND_URL"),
+        FRONTEND_URL: env("FRONTEND_URL"),
+        ZERO_X_PROCESSING_SHOP_ID: env("ZERO_X_PROCESSING_SHOP_ID"),
+        ZERO_X_PROCESSING_TEST_PAYMENTS: env("ZERO_X_PROCESSING_TEST_PAYMENTS"),
+      },
+    },
+    "sps-subscription": {
+      enabled: true,
+      resolve: "./src/plugins/sps-subscription",
+      config: {
+        JWT_SECRET: env("JWT_SECRET"),
+        BACKEND_URL: env("BACKEND_URL"),
+        FRONTEND_URL: env("FRONTEND_URL"),
+      },
+    },
+    "sps-ecommerce": {
+      enabled: true,
+      resolve: "./src/plugins/sps-ecommerce",
+    },
+    "sps-migrate": {
+      enabled: true,
+      resolve: "./src/plugins/sps-migrate",
+    },
+    "sps-crm": {
+      enabled: true,
+      resolve: "./src/plugins/sps-crm",
+    },
+    "sps-notification": {
+      enabled: true,
+      resolve: "./src/plugins/sps-notification",
+    },
+    "sps-website-builder": {
+      enabled: true,
+      resolve: "./src/plugins/sps-website-builder",
+    },
   };
 
   const emailProvider = env("EMAIL_PROVIDER")
