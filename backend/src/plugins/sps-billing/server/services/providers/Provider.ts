@@ -1,3 +1,5 @@
+import "@strapi/types";
+
 import jsonwebtoken from "jsonwebtoken";
 import StripeClient from "./StripeClient";
 import strapiUtils from "@strapi/utils";
