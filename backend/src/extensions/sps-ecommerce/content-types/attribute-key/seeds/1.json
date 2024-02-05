@@ -9,8 +9,8 @@
   "operator": "equal",
   "inversed": false,
   "not_to_clear": false,
-  "createdAt": "2024-01-09T23:15:46.049Z",
-  "updatedAt": "2024-01-09T23:15:46.049Z",
+  "createdAt": "2024-02-04T22:06:02.293Z",
+  "updatedAt": "2024-02-04T22:06:03.546Z",
   "locale": "en",
   "localizations": [],
   "attributes": [
@@ -22,8 +22,8 @@
       "date": null,
       "datetime": null,
       "time": null,
-      "createdAt": "2024-01-09T23:15:58.212Z",
-      "updatedAt": "2024-01-09T23:20:33.498Z",
+      "createdAt": "2024-02-04T22:06:02.164Z",
+      "updatedAt": "2024-02-04T22:06:03.276Z",
       "locale": "en"
     }
   ]

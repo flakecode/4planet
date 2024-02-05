@@ -413,7 +413,9 @@ export interface PageBlocksFaqsBlock extends Schema.Component {
     title: Attribute.RichText;
     description: Attribute.RichText;
     faqs: Attribute.Component<"elements.faq", true>;
-    variant: Attribute.Enumeration<["two-columns-with-centered-introduction"]> &
+    variant: Attribute.Enumeration<
+      ["two-columns-with-centered-introduction", "for-planet-default"]
+    > &
       Attribute.Required &
       Attribute.DefaultTo<"two-columns-with-centered-introduction">;
     class_name: Attribute.String;
@@ -433,7 +435,16 @@ export interface PageBlocksFeaturesSectionBlock extends Schema.Component {
     description: Attribute.RichText;
     subtitle: Attribute.RichText;
     features: Attribute.Component<"elements.feature", true>;
-    variant: Attribute.Enumeration<["with-icon"]> &
+    variant: Attribute.Enumeration<
+      [
+        "with-icon",
+        "for-planet-timeline",
+        "for-planet-headlines",
+        "for-planet-tiers",
+        "for-planet-how-it-works",
+        "for-planet-requisites",
+      ]
+    > &
       Attribute.Required &
       Attribute.DefaultTo<"with-icon">;
     anchor: Attribute.String;
@@ -498,7 +509,19 @@ export interface PageBlocksHeroSectionBlock extends Schema.Component {
     description: Attribute.RichText;
     media: Attribute.Media;
     buttons: Attribute.Component<"elements.button", true>;
-    variant: Attribute.Enumeration<["simple-centered", "split"]> &
+    variant: Attribute.Enumeration<
+      [
+        "simple-centered",
+        "split",
+        "for-planet-heading",
+        "for-planet-with-target",
+        "for-planet-create-subscription",
+        "for-planet-gallery-and-text",
+        "for-planet-map",
+        "for-planet-videos",
+        "for-planet-gallery-and-text-inversed",
+      ]
+    > &
       Attribute.Required &
       Attribute.DefaultTo<"simple-centered">;
     anchor: Attribute.String;
@@ -555,7 +578,9 @@ export interface PageBlocksNavbarBlock extends Schema.Component {
     description: "";
   };
   attributes: {
-    variant: Attribute.Enumeration<["simple-links-on-left"]> &
+    variant: Attribute.Enumeration<
+      ["simple-links-on-left", "for-planet-default"]
+    > &
       Attribute.Required &
       Attribute.DefaultTo<"simple-links-on-left">;
     description: Attribute.RichText;

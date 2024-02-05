@@ -2756,7 +2756,7 @@ export interface PluginSpsWebsiteBuilderNavbar extends Schema.CollectionType {
           localized: true;
         };
       }>;
-    variant: Attribute.Enumeration<["boxed"]> &
+    variant: Attribute.Enumeration<["boxed", "for-planet-boxed-transparent"]> &
       Attribute.Required &
       Attribute.SetPluginOptions<{
         i18n: {

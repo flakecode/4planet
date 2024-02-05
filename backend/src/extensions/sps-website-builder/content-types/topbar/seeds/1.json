@@ -6,15 +6,15 @@
   "class_name": null,
   "position": "fixed",
   "side": "top",
-  "createdAt": "2024-01-09T22:27:58.456Z",
-  "updatedAt": "2024-01-09T22:27:58.456Z",
+  "createdAt": "2024-02-04T22:06:02.941Z",
+  "updatedAt": "2024-02-04T22:07:08.194Z",
   "publishedAt": "2023-04-08T06:35:32.350Z",
   "locale": "en",
   "localizations": [],
   "page_blocks": [
     {
       "__component": "elements.button",
-      "id": 15,
+      "id": 27,
       "url": "/",
       "description": null,
       "variant": "primary",

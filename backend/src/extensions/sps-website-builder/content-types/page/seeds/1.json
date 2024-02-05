@@ -2,8 +2,8 @@
   "id": 1,
   "title": "Main page",
   "url": "/",
-  "createdAt": "2024-01-09T22:27:45.690Z",
-  "updatedAt": "2024-01-16T18:45:53.512Z",
+  "createdAt": "2024-02-04T22:06:02.699Z",
+  "updatedAt": "2024-02-04T23:54:22.156Z",
   "publishedAt": "2023-04-08T12:06:05.277Z",
   "locale": "en",
   "localizations": [
@@ -11,297 +11,95 @@
       "id": 9,
       "title": "Page d'accueil",
       "url": "/",
-      "createdAt": "2024-01-12T23:28:06.267Z",
-      "updatedAt": "2024-01-16T18:45:53.581Z",
+      "createdAt": "2024-02-04T22:06:02.813Z",
+      "updatedAt": "2024-02-04T23:54:22.200Z",
       "publishedAt": "2024-01-12T23:28:07.163Z",
       "locale": "fr"
     }
   ],
   "page_blocks": [
     {
-      "__component": "page-blocks.contact-section-block",
-      "id": 1,
-      "title": "We’re ready to help",
-      "subtitle": null,
-      "description": "Fill in all the fields below and our manager will contact you.",
-      "anchor": null,
-      "class_name": null,
-      "variant": "centered",
-      "media": null,
-      "additional_media": null,
-      "buttons_arrays": [],
-      "form": {
-        "id": 1,
-        "class_name": null,
-        "additional_attributes": null,
-        "variant": "simple",
-        "uid": "question",
-        "title": "Есть вопросы по продукту?",
-        "createdAt": "2024-01-09T22:27:05.608Z",
-        "updatedAt": "2024-01-15T14:40:25.160Z",
-        "publishedAt": "2023-02-14T15:44:48.245Z",
-        "locale": "en"
-      }
-    },
-    {
       "__component": "page-blocks.hero-section-block",
-      "id": 3,
-      "title": "Jumpstart Your Lean Startup with Developer-Friendly Boilerplate",
-      "description": "Spend less time on setup and more time building your innovative product with our ready-to-use, feature-packed boilerplate designed for lean startup developers.",
-      "variant": "simple-centered",
+      "id": 7,
+      "title": "FOR planet - сервис по посадке  деревьев по всему миру",
+      "description": null,
+      "variant": "for-planet-heading",
       "anchor": null,
-      "class_name": "pt-16",
+      "class_name": null,
       "media": [
         {
-          "id": 19,
-          "name": "preview.png",
+          "id": 48,
+          "name": "for-planet-heading-bg.jpg",
           "alternativeText": null,
           "caption": null,
-          "width": 2050,
-          "height": 1286,
+          "width": 5760,
+          "height": 3320,
           "formats": {
             "large": {
-              "ext": ".png",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_preview_3c23e7e2b1.png",
-              "hash": "large_preview_3c23e7e2b1",
-              "mime": "image/png",
-              "name": "large_preview.png",
+              "ext": ".jpg",
+              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_for_planet_heading_bg_70c35986d2.jpg",
+              "hash": "large_for_planet_heading_bg_70c35986d2",
+              "mime": "image/jpeg",
+              "name": "large_for-planet-heading-bg.jpg",
               "path": null,
-              "size": 224.93,
+              "size": 143.41,
               "width": 1000,
-              "height": 627
+              "height": 576
             },
             "small": {
-              "ext": ".png",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_preview_3c23e7e2b1.png",
-              "hash": "small_preview_3c23e7e2b1",
-              "mime": "image/png",
-              "name": "small_preview.png",
+              "ext": ".jpg",
+              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_for_planet_heading_bg_70c35986d2.jpg",
+              "hash": "small_for_planet_heading_bg_70c35986d2",
+              "mime": "image/jpeg",
+              "name": "small_for-planet-heading-bg.jpg",
               "path": null,
-              "size": 67.66,
+              "size": 32.02,
               "width": 500,
-              "height": 314
+              "height": 288
             },
             "medium": {
-              "ext": ".png",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_preview_3c23e7e2b1.png",
-              "hash": "medium_preview_3c23e7e2b1",
-              "mime": "image/png",
-              "name": "medium_preview.png",
+              "ext": ".jpg",
+              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_for_planet_heading_bg_70c35986d2.jpg",
+              "hash": "medium_for_planet_heading_bg_70c35986d2",
+              "mime": "image/jpeg",
+              "name": "medium_for-planet-heading-bg.jpg",
               "path": null,
-              "size": 133.63,
+              "size": 77.57,
               "width": 750,
-              "height": 470
+              "height": 432
             },
             "thumbnail": {
-              "ext": ".png",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_preview_3c23e7e2b1.png",
-              "hash": "thumbnail_preview_3c23e7e2b1",
-              "mime": "image/png",
-              "name": "thumbnail_preview.png",
+              "ext": ".jpg",
+              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_for_planet_heading_bg_70c35986d2.jpg",
+              "hash": "thumbnail_for_planet_heading_bg_70c35986d2",
+              "mime": "image/jpeg",
+              "name": "thumbnail_for-planet-heading-bg.jpg",
               "path": null,
-              "size": 21.76,
+              "size": 8.28,
               "width": 245,
-              "height": 154
+              "height": 141
             }
           },
-          "hash": "preview_3c23e7e2b1",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 148.03,
-          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/preview_3c23e7e2b1.png",
+          "hash": "for_planet_heading_bg_70c35986d2",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 3685.39,
+          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/for_planet_heading_bg_70c35986d2.jpg",
           "previewUrl": null,
           "provider": "aws-s3",
           "provider_metadata": null,
           "folderPath": "/",
-          "createdAt": "2024-01-09T22:27:19.201Z",
-          "updatedAt": "2024-01-09T22:27:19.201Z"
+          "createdAt": "2024-02-04T23:38:19.250Z",
+          "updatedAt": "2024-02-04T23:38:19.250Z"
         }
       ],
       "buttons": [
         {
-          "id": 27,
-          "url": "/",
+          "id": 28,
+          "url": "#subscribe",
           "description": null,
           "variant": "primary",
-          "title": "Primary",
-          "additional_attributes": null,
-          "class_name": null,
-          "media": null,
-          "additional_media": null,
-          "flyout": null
-        },
-        {
-          "id": 11,
-          "url": "/",
-          "description": null,
-          "variant": "outline",
-          "title": "Outline",
-          "additional_attributes": null,
-          "class_name": null,
-          "media": null,
-          "additional_media": null,
-          "flyout": null
-        },
-        {
-          "id": 24,
-          "url": "/",
-          "description": null,
-          "variant": "destructive",
-          "title": "Destructive",
-          "additional_attributes": null,
-          "class_name": null,
-          "media": null,
-          "additional_media": null,
-          "flyout": null
-        },
-        {
-          "id": 25,
-          "url": "/",
-          "description": null,
-          "variant": "ghost",
-          "title": "Ghost",
-          "additional_attributes": null,
-          "class_name": null,
-          "media": null,
-          "additional_media": null,
-          "flyout": null
-        },
-        {
-          "id": 26,
-          "url": "/",
-          "description": null,
-          "variant": "link",
-          "title": "Link",
-          "additional_attributes": null,
-          "class_name": null,
-          "media": null,
-          "additional_media": null,
-          "flyout": null
-        }
-      ],
-      "additional_media": null
-    },
-    {
-      "__component": "page-blocks.products-list-block",
-      "id": 1,
-      "show_all_products": true,
-      "variant": "simple",
-      "description": "Products",
-      "anchor": null,
-      "class_name": null,
-      "title": null,
-      "subtitle": null,
-      "query": null,
-      "buttons": [],
-      "products": []
-    },
-    {
-      "__component": "page-blocks.shopping-cart-block",
-      "id": 1,
-      "anchor": null,
-      "variant": "simple",
-      "title": "Shopping Cart",
-      "subtitle": null,
-      "description": null,
-      "class_name": null
-    },
-    {
-      "__component": "page-blocks.tiers-list-block",
-      "id": 1,
-      "variant": "two-columns-card",
-      "title": "Tiers",
-      "subtitle": null,
-      "description": null,
-      "class_name": null,
-      "anchor": null,
-      "media": null,
-      "additional_media": null,
-      "tiers": []
-    },
-    {
-      "__component": "page-blocks.cta-section-block",
-      "id": 1,
-      "variant": "dark-with-image",
-      "anchor": null,
-      "class_name": null,
-      "title": "Minimum Viable Product is Ready",
-      "description": "Reduce the time and effort required to build and launch an initial product, helping you validate your ideas and gather customer feedback more quickly. This will allow you to iterate and improve upon your product, increasing your chances of success in the competitive startup landscape.",
-      "subtitle": null,
-      "media": [
-        {
-          "id": 20,
-          "name": "28.png",
-          "alternativeText": null,
-          "caption": null,
-          "width": 5708,
-          "height": 3981,
-          "formats": {
-            "large": {
-              "ext": ".png",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_28_74d9561904.png",
-              "hash": "large_28_74d9561904",
-              "mime": "image/png",
-              "name": "large_28.png",
-              "path": null,
-              "size": 672.37,
-              "width": 1000,
-              "height": 697
-            },
-            "small": {
-              "ext": ".png",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_28_74d9561904.png",
-              "hash": "small_28_74d9561904",
-              "mime": "image/png",
-              "name": "small_28.png",
-              "path": null,
-              "size": 185.78,
-              "width": 500,
-              "height": 349
-            },
-            "medium": {
-              "ext": ".png",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_28_74d9561904.png",
-              "hash": "medium_28_74d9561904",
-              "mime": "image/png",
-              "name": "medium_28.png",
-              "path": null,
-              "size": 392.85,
-              "width": 750,
-              "height": 523
-            },
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_28_74d9561904.png",
-              "hash": "thumbnail_28_74d9561904",
-              "mime": "image/png",
-              "name": "thumbnail_28.png",
-              "path": null,
-              "size": 47.12,
-              "width": 224,
-              "height": 156
-            }
-          },
-          "hash": "28_74d9561904",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 3298.24,
-          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/28_74d9561904.png",
-          "previewUrl": null,
-          "provider": "aws-s3",
-          "provider_metadata": null,
-          "folderPath": "/",
-          "createdAt": "2024-01-09T22:27:23.522Z",
-          "updatedAt": "2024-01-09T22:27:23.522Z"
-        }
-      ],
-      "buttons": [
-        {
-          "id": 12,
-          "url": "https://github.com/singlepagestartup/sps-lite",
-          "description": null,
-          "variant": "primary",
-          "title": "Open GitHub",
+          "title": "Оформить подписку",
           "additional_attributes": null,
           "class_name": null,
           "media": null,
@@ -313,917 +111,509 @@
     },
     {
       "__component": "page-blocks.features-section-block",
-      "id": 1,
-      "title": "Don't repeat yourself",
-      "description": "SignlePageStartup is designed to help you efficiently create a MVP that you can launch quickly to gather customer feedback and validate your ideas. Here's what you can expect from the MVP-ready feature.",
+      "id": 2,
+      "title": "Что мы делаем и куда идем?",
+      "description": null,
       "subtitle": null,
-      "variant": "with-icon",
+      "variant": "for-planet-timeline",
       "anchor": null,
       "class_name": null,
       "media": null,
       "additional_media": null,
       "features": [
         {
-          "id": 1,
-          "description": "Leverage our pre-built navigation elements, forms, photo galleries, text blocks, CTA elements, and more to create a visually appealing and engaging user experience with minimal effort.",
-          "title": "Ready-to-Use UI Components",
+          "id": 15,
+          "description": "- Сажаем деревья в Сибири и Казахстане\n- Боремся против незаконных вырубок\n- Тормозим деструктивные законопроекты",
+          "title": "Сейчас",
           "subtitle": null,
-          "media": [
-            {
-              "id": 21,
-              "name": "augmented reality_ar.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 1920,
-              "height": 1920,
-              "formats": {
-                "large": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_augmented_reality_ar_bace182ee6.png",
-                  "hash": "large_augmented_reality_ar_bace182ee6",
-                  "mime": "image/png",
-                  "name": "large_augmented reality_ar.png",
-                  "path": null,
-                  "size": 984.37,
-                  "width": 1000,
-                  "height": 1000
-                },
-                "small": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_augmented_reality_ar_bace182ee6.png",
-                  "hash": "small_augmented_reality_ar_bace182ee6",
-                  "mime": "image/png",
-                  "name": "small_augmented reality_ar.png",
-                  "path": null,
-                  "size": 268.47,
-                  "width": 500,
-                  "height": 500
-                },
-                "medium": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_augmented_reality_ar_bace182ee6.png",
-                  "hash": "medium_augmented_reality_ar_bace182ee6",
-                  "mime": "image/png",
-                  "name": "medium_augmented reality_ar.png",
-                  "path": null,
-                  "size": 580.28,
-                  "width": 750,
-                  "height": 750
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_augmented_reality_ar_bace182ee6.png",
-                  "hash": "thumbnail_augmented_reality_ar_bace182ee6",
-                  "mime": "image/png",
-                  "name": "thumbnail_augmented reality_ar.png",
-                  "path": null,
-                  "size": 30.71,
-                  "width": 156,
-                  "height": 156
-                }
-              },
-              "hash": "augmented_reality_ar_bace182ee6",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 287.08,
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/augmented_reality_ar_bace182ee6.png",
-              "previewUrl": null,
-              "provider": "aws-s3",
-              "provider_metadata": null,
-              "folderPath": "/",
-              "createdAt": "2024-01-09T22:27:25.075Z",
-              "updatedAt": "2024-01-09T22:27:25.075Z"
-            }
-          ],
+          "media": null,
           "additional_media": null
         },
         {
-          "id": 2,
-          "description": "Your startup's international expansion is a breeze with our boilerplate's built-in multilingual support. Just select the languages you want to support, and you're good to go.",
-          "title": "Global-Ready",
+          "id": 14,
+          "description": "Будем брать в долгосрочную аренду самые важные леса планеты для сохранения биоразнообразия",
+          "title": "Скоро",
           "subtitle": null,
-          "media": [
-            {
-              "id": 22,
-              "name": "earth.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 1920,
-              "height": 1920,
-              "formats": {
-                "large": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_earth_c7db3c64c7.png",
-                  "hash": "large_earth_c7db3c64c7",
-                  "mime": "image/png",
-                  "name": "large_earth.png",
-                  "path": null,
-                  "size": 986.47,
-                  "width": 1000,
-                  "height": 1000
-                },
-                "small": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_earth_c7db3c64c7.png",
-                  "hash": "small_earth_c7db3c64c7",
-                  "mime": "image/png",
-                  "name": "small_earth.png",
-                  "path": null,
-                  "size": 252.45,
-                  "width": 500,
-                  "height": 500
-                },
-                "medium": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_earth_c7db3c64c7.png",
-                  "hash": "medium_earth_c7db3c64c7",
-                  "mime": "image/png",
-                  "name": "medium_earth.png",
-                  "path": null,
-                  "size": 558.68,
-                  "width": 750,
-                  "height": 750
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_earth_c7db3c64c7.png",
-                  "hash": "thumbnail_earth_c7db3c64c7",
-                  "mime": "image/png",
-                  "name": "thumbnail_earth.png",
-                  "path": null,
-                  "size": 31.92,
-                  "width": 156,
-                  "height": 156
-                }
-              },
-              "hash": "earth_c7db3c64c7",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 656.29,
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/earth_c7db3c64c7.png",
-              "previewUrl": null,
-              "provider": "aws-s3",
-              "provider_metadata": null,
-              "folderPath": "/",
-              "createdAt": "2024-01-09T22:27:26.883Z",
-              "updatedAt": "2024-01-09T22:27:26.883Z"
-            }
-          ],
+          "media": null,
           "additional_media": null
         },
         {
-          "id": 3,
-          "description": "Save 20 to 100 hours of development time with our ready-to-use, best-practice authentication and authorization system. Focus on your core features and let us handle the rest.",
-          "title": "Streamlined Authentication & Authorization",
+          "id": 13,
+          "description": "Будем самостоятельно тушить пожары и восстанавливать лес",
+          "title": "В течение 5 лет",
           "subtitle": null,
-          "media": [
-            {
-              "id": 23,
-              "name": "security lock.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 1920,
-              "height": 1920,
-              "formats": {
-                "large": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_security_lock_8f76db1146.png",
-                  "hash": "large_security_lock_8f76db1146",
-                  "mime": "image/png",
-                  "name": "large_security lock.png",
-                  "path": null,
-                  "size": 920.25,
-                  "width": 1000,
-                  "height": 1000
-                },
-                "small": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_security_lock_8f76db1146.png",
-                  "hash": "small_security_lock_8f76db1146",
-                  "mime": "image/png",
-                  "name": "small_security lock.png",
-                  "path": null,
-                  "size": 249.49,
-                  "width": 500,
-                  "height": 500
-                },
-                "medium": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_security_lock_8f76db1146.png",
-                  "hash": "medium_security_lock_8f76db1146",
-                  "mime": "image/png",
-                  "name": "medium_security lock.png",
-                  "path": null,
-                  "size": 543.73,
-                  "width": 750,
-                  "height": 750
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_security_lock_8f76db1146.png",
-                  "hash": "thumbnail_security_lock_8f76db1146",
-                  "mime": "image/png",
-                  "name": "thumbnail_security lock.png",
-                  "path": null,
-                  "size": 28.56,
-                  "width": 156,
-                  "height": 156
-                }
-              },
-              "hash": "security_lock_8f76db1146",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 332.18,
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/security_lock_8f76db1146.png",
-              "previewUrl": null,
-              "provider": "aws-s3",
-              "provider_metadata": null,
-              "folderPath": "/",
-              "createdAt": "2024-01-09T22:27:28.301Z",
-              "updatedAt": "2024-01-09T22:27:28.301Z"
-            }
-          ],
-          "additional_media": null
-        },
-        {
-          "id": 4,
-          "description": "Enhance user profiles with our pre-built avatar functionality. Simply add the PageBlock to the profile page and let your users personalize their accounts with custom avatars.",
-          "title": "Easy Avatar Integration",
-          "subtitle": null,
-          "media": [
-            {
-              "id": 24,
-              "name": "users group.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 1920,
-              "height": 1920,
-              "formats": {
-                "large": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_users_group_d00c07edda.png",
-                  "hash": "large_users_group_d00c07edda",
-                  "mime": "image/png",
-                  "name": "large_users group.png",
-                  "path": null,
-                  "size": 991.04,
-                  "width": 1000,
-                  "height": 1000
-                },
-                "small": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_users_group_d00c07edda.png",
-                  "hash": "small_users_group_d00c07edda",
-                  "mime": "image/png",
-                  "name": "small_users group.png",
-                  "path": null,
-                  "size": 280.56,
-                  "width": 500,
-                  "height": 500
-                },
-                "medium": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_users_group_d00c07edda.png",
-                  "hash": "medium_users_group_d00c07edda",
-                  "mime": "image/png",
-                  "name": "medium_users group.png",
-                  "path": null,
-                  "size": 596.56,
-                  "width": 750,
-                  "height": 750
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_users_group_d00c07edda.png",
-                  "hash": "thumbnail_users_group_d00c07edda",
-                  "mime": "image/png",
-                  "name": "thumbnail_users group.png",
-                  "path": null,
-                  "size": 34.11,
-                  "width": 156,
-                  "height": 156
-                }
-              },
-              "hash": "users_group_d00c07edda",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 386.31,
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/users_group_d00c07edda.png",
-              "previewUrl": null,
-              "provider": "aws-s3",
-              "provider_metadata": null,
-              "folderPath": "/",
-              "createdAt": "2024-01-09T22:27:29.872Z",
-              "updatedAt": "2024-01-09T22:27:29.872Z"
-            }
-          ],
-          "additional_media": null
-        },
-        {
-          "id": 5,
-          "description": "Quickly add essential features to your MVP with built-in support for popular services such as authentication, payment gateways, and analytics tools. Less hassle, more productivity.",
-          "title": "Seamless Third-Party Service Integration",
-          "subtitle": null,
-          "media": [
-            {
-              "id": 25,
-              "name": "api socket.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 1920,
-              "height": 1920,
-              "formats": {
-                "large": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_api_socket_a81c19f975.png",
-                  "hash": "large_api_socket_a81c19f975",
-                  "mime": "image/png",
-                  "name": "large_api socket.png",
-                  "path": null,
-                  "size": 706.97,
-                  "width": 1000,
-                  "height": 1000
-                },
-                "small": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_api_socket_a81c19f975.png",
-                  "hash": "small_api_socket_a81c19f975",
-                  "mime": "image/png",
-                  "name": "small_api socket.png",
-                  "path": null,
-                  "size": 183.66,
-                  "width": 500,
-                  "height": 500
-                },
-                "medium": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_api_socket_a81c19f975.png",
-                  "hash": "medium_api_socket_a81c19f975",
-                  "mime": "image/png",
-                  "name": "medium_api socket.png",
-                  "path": null,
-                  "size": 405.94,
-                  "width": 750,
-                  "height": 750
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_api_socket_a81c19f975.png",
-                  "hash": "thumbnail_api_socket_a81c19f975",
-                  "mime": "image/png",
-                  "name": "thumbnail_api socket.png",
-                  "path": null,
-                  "size": 21.98,
-                  "width": 156,
-                  "height": 156
-                }
-              },
-              "hash": "api_socket_a81c19f975",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 481.64,
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/api_socket_a81c19f975.png",
-              "previewUrl": null,
-              "provider": "aws-s3",
-              "provider_metadata": null,
-              "folderPath": "/",
-              "createdAt": "2024-01-09T22:27:31.512Z",
-              "updatedAt": "2024-01-09T22:27:31.512Z"
-            }
-          ],
-          "additional_media": null
-        },
-        {
-          "id": 6,
-          "description": "Generate documents based on user data or completed forms with ease using our built-in document generation functionality. Just incorporate it into your business logic and you're set.",
-          "title": "Effortless Document Generation",
-          "subtitle": null,
-          "media": [
-            {
-              "id": 26,
-              "name": "file pdf.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 1920,
-              "height": 1920,
-              "formats": {
-                "large": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_file_pdf_8430ad22c5.png",
-                  "hash": "large_file_pdf_8430ad22c5",
-                  "mime": "image/png",
-                  "name": "large_file pdf.png",
-                  "path": null,
-                  "size": 715.34,
-                  "width": 1000,
-                  "height": 1000
-                },
-                "small": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_file_pdf_8430ad22c5.png",
-                  "hash": "small_file_pdf_8430ad22c5",
-                  "mime": "image/png",
-                  "name": "small_file pdf.png",
-                  "path": null,
-                  "size": 197.93,
-                  "width": 500,
-                  "height": 500
-                },
-                "medium": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_file_pdf_8430ad22c5.png",
-                  "hash": "medium_file_pdf_8430ad22c5",
-                  "mime": "image/png",
-                  "name": "medium_file pdf.png",
-                  "path": null,
-                  "size": 433.38,
-                  "width": 750,
-                  "height": 750
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_file_pdf_8430ad22c5.png",
-                  "hash": "thumbnail_file_pdf_8430ad22c5",
-                  "mime": "image/png",
-                  "name": "thumbnail_file pdf.png",
-                  "path": null,
-                  "size": 22.3,
-                  "width": 156,
-                  "height": 156
-                }
-              },
-              "hash": "file_pdf_8430ad22c5",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 224.3,
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/file_pdf_8430ad22c5.png",
-              "previewUrl": null,
-              "provider": "aws-s3",
-              "provider_metadata": null,
-              "folderPath": "/",
-              "createdAt": "2024-01-09T22:27:33.167Z",
-              "updatedAt": "2024-01-09T22:27:33.167Z"
-            }
-          ],
-          "additional_media": null
-        },
-        {
-          "id": 7,
-          "description": "Utilize our ready-to-use product catalog, product pages, shopping cart, delivery options, and order history to jumpstart your e-commerce project.",
-          "title": "Comprehensive E-Commerce Features",
-          "subtitle": null,
-          "media": [
-            {
-              "id": 27,
-              "name": "empty cart.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 1920,
-              "height": 1920,
-              "formats": {
-                "large": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_empty_cart_670e506de0.png",
-                  "hash": "large_empty_cart_670e506de0",
-                  "mime": "image/png",
-                  "name": "large_empty cart.png",
-                  "path": null,
-                  "size": 807.32,
-                  "width": 1000,
-                  "height": 1000
-                },
-                "small": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_empty_cart_670e506de0.png",
-                  "hash": "small_empty_cart_670e506de0",
-                  "mime": "image/png",
-                  "name": "small_empty cart.png",
-                  "path": null,
-                  "size": 205.64,
-                  "width": 500,
-                  "height": 500
-                },
-                "medium": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_empty_cart_670e506de0.png",
-                  "hash": "medium_empty_cart_670e506de0",
-                  "mime": "image/png",
-                  "name": "medium_empty cart.png",
-                  "path": null,
-                  "size": 457.17,
-                  "width": 750,
-                  "height": 750
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_empty_cart_670e506de0.png",
-                  "hash": "thumbnail_empty_cart_670e506de0",
-                  "mime": "image/png",
-                  "name": "thumbnail_empty cart.png",
-                  "path": null,
-                  "size": 25.99,
-                  "width": 156,
-                  "height": 156
-                }
-              },
-              "hash": "empty_cart_670e506de0",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 573.86,
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/empty_cart_670e506de0.png",
-              "previewUrl": null,
-              "provider": "aws-s3",
-              "provider_metadata": null,
-              "folderPath": "/",
-              "createdAt": "2024-01-09T22:27:34.861Z",
-              "updatedAt": "2024-01-09T22:27:34.861Z"
-            }
-          ],
-          "additional_media": null
-        },
-        {
-          "id": 8,
-          "description": "Establish your personal brand by enabling our integrated blogging functionality, perfect for sharing news and insights with your audience.",
-          "title": "Built-In Blogging Capabilities",
-          "subtitle": null,
-          "media": [
-            {
-              "id": 28,
-              "name": "sign doc.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 1920,
-              "height": 1920,
-              "formats": {
-                "large": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_sign_doc_0081bd0c04.png",
-                  "hash": "large_sign_doc_0081bd0c04",
-                  "mime": "image/png",
-                  "name": "large_sign doc.png",
-                  "path": null,
-                  "size": 873.25,
-                  "width": 1000,
-                  "height": 1000
-                },
-                "small": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_sign_doc_0081bd0c04.png",
-                  "hash": "small_sign_doc_0081bd0c04",
-                  "mime": "image/png",
-                  "name": "small_sign doc.png",
-                  "path": null,
-                  "size": 213.41,
-                  "width": 500,
-                  "height": 500
-                },
-                "medium": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_sign_doc_0081bd0c04.png",
-                  "hash": "medium_sign_doc_0081bd0c04",
-                  "mime": "image/png",
-                  "name": "medium_sign doc.png",
-                  "path": null,
-                  "size": 490.11,
-                  "width": 750,
-                  "height": 750
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_sign_doc_0081bd0c04.png",
-                  "hash": "thumbnail_sign_doc_0081bd0c04",
-                  "mime": "image/png",
-                  "name": "thumbnail_sign doc.png",
-                  "path": null,
-                  "size": 24.27,
-                  "width": 156,
-                  "height": 156
-                }
-              },
-              "hash": "sign_doc_0081bd0c04",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 632.97,
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/sign_doc_0081bd0c04.png",
-              "previewUrl": null,
-              "provider": "aws-s3",
-              "provider_metadata": null,
-              "folderPath": "/",
-              "createdAt": "2024-01-09T22:27:37.873Z",
-              "updatedAt": "2024-01-09T22:27:37.873Z"
-            }
-          ],
-          "additional_media": null
-        },
-        {
-          "id": 9,
-          "description": "Tailor your project to your needs using the Strapi admin panel, extend its capabilities with plugins, or create your own custom features.",
-          "title": "Flexible Customization and Extensibility",
-          "subtitle": null,
-          "media": [
-            {
-              "id": 29,
-              "name": "catalog.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 1920,
-              "height": 1920,
-              "formats": {
-                "large": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_catalog_4e4f6a1b41.png",
-                  "hash": "large_catalog_4e4f6a1b41",
-                  "mime": "image/png",
-                  "name": "large_catalog.png",
-                  "path": null,
-                  "size": 1480.71,
-                  "width": 1000,
-                  "height": 1000
-                },
-                "small": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_catalog_4e4f6a1b41.png",
-                  "hash": "small_catalog_4e4f6a1b41",
-                  "mime": "image/png",
-                  "name": "small_catalog.png",
-                  "path": null,
-                  "size": 356.84,
-                  "width": 500,
-                  "height": 500
-                },
-                "medium": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_catalog_4e4f6a1b41.png",
-                  "hash": "medium_catalog_4e4f6a1b41",
-                  "mime": "image/png",
-                  "name": "medium_catalog.png",
-                  "path": null,
-                  "size": 825.5,
-                  "width": 750,
-                  "height": 750
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_catalog_4e4f6a1b41.png",
-                  "hash": "thumbnail_catalog_4e4f6a1b41",
-                  "mime": "image/png",
-                  "name": "thumbnail_catalog.png",
-                  "path": null,
-                  "size": 36.9,
-                  "width": 156,
-                  "height": 156
-                }
-              },
-              "hash": "catalog_4e4f6a1b41",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 1109.29,
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/catalog_4e4f6a1b41.png",
-              "previewUrl": null,
-              "provider": "aws-s3",
-              "provider_metadata": null,
-              "folderPath": "/",
-              "createdAt": "2024-01-09T22:27:39.962Z",
-              "updatedAt": "2024-01-09T22:27:39.962Z"
-            }
-          ],
-          "additional_media": null
-        },
-        {
-          "id": 10,
-          "description": "Easily migrate or seed data by completing your project locally, running a data dump, and migrating it to your server, or by describing your data as JSON and adding it to the data seeding process.",
-          "title": "Hassle-Free Data Migration and Seeding",
-          "subtitle": null,
-          "media": [
-            {
-              "id": 30,
-              "name": "eight ways.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 1920,
-              "height": 1920,
-              "formats": {
-                "large": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_eight_ways_b6aa0e0e99.png",
-                  "hash": "large_eight_ways_b6aa0e0e99",
-                  "mime": "image/png",
-                  "name": "large_eight ways.png",
-                  "path": null,
-                  "size": 838.68,
-                  "width": 1000,
-                  "height": 1000
-                },
-                "small": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_eight_ways_b6aa0e0e99.png",
-                  "hash": "small_eight_ways_b6aa0e0e99",
-                  "mime": "image/png",
-                  "name": "small_eight ways.png",
-                  "path": null,
-                  "size": 214.66,
-                  "width": 500,
-                  "height": 500
-                },
-                "medium": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_eight_ways_b6aa0e0e99.png",
-                  "hash": "medium_eight_ways_b6aa0e0e99",
-                  "mime": "image/png",
-                  "name": "medium_eight ways.png",
-                  "path": null,
-                  "size": 478.03,
-                  "width": 750,
-                  "height": 750
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_eight_ways_b6aa0e0e99.png",
-                  "hash": "thumbnail_eight_ways_b6aa0e0e99",
-                  "mime": "image/png",
-                  "name": "thumbnail_eight ways.png",
-                  "path": null,
-                  "size": 26.6,
-                  "width": 156,
-                  "height": 156
-                }
-              },
-              "hash": "eight_ways_b6aa0e0e99",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 597.16,
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/eight_ways_b6aa0e0e99.png",
-              "previewUrl": null,
-              "provider": "aws-s3",
-              "provider_metadata": null,
-              "folderPath": "/",
-              "createdAt": "2024-01-09T22:27:41.759Z",
-              "updatedAt": "2024-01-09T22:27:41.759Z"
-            }
-          ],
-          "additional_media": null
-        },
-        {
-          "id": 11,
-          "description": "With pre-configured deployment tools and processes, our boilerplate enables you to quickly deploy your MVP to your preferred hosting platform. This helps you reduce the time-to-market and start gathering valuable customer feedback sooner.",
-          "title": "Rapid Deployment (CI/CD)",
-          "subtitle": null,
-          "media": [
-            {
-              "id": 31,
-              "name": "cloud storage.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 1920,
-              "height": 1920,
-              "formats": {
-                "large": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_cloud_storage_74f2757fdf.png",
-                  "hash": "large_cloud_storage_74f2757fdf",
-                  "mime": "image/png",
-                  "name": "large_cloud storage.png",
-                  "path": null,
-                  "size": 973.68,
-                  "width": 1000,
-                  "height": 1000
-                },
-                "small": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_cloud_storage_74f2757fdf.png",
-                  "hash": "small_cloud_storage_74f2757fdf",
-                  "mime": "image/png",
-                  "name": "small_cloud storage.png",
-                  "path": null,
-                  "size": 236.03,
-                  "width": 500,
-                  "height": 500
-                },
-                "medium": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_cloud_storage_74f2757fdf.png",
-                  "hash": "medium_cloud_storage_74f2757fdf",
-                  "mime": "image/png",
-                  "name": "medium_cloud storage.png",
-                  "path": null,
-                  "size": 543.05,
-                  "width": 750,
-                  "height": 750
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_cloud_storage_74f2757fdf.png",
-                  "hash": "thumbnail_cloud_storage_74f2757fdf",
-                  "mime": "image/png",
-                  "name": "thumbnail_cloud storage.png",
-                  "path": null,
-                  "size": 26.86,
-                  "width": 156,
-                  "height": 156
-                }
-              },
-              "hash": "cloud_storage_74f2757fdf",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 721.37,
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/cloud_storage_74f2757fdf.png",
-              "previewUrl": null,
-              "provider": "aws-s3",
-              "provider_metadata": null,
-              "folderPath": "/",
-              "createdAt": "2024-01-09T22:27:43.831Z",
-              "updatedAt": "2024-01-09T22:27:43.831Z"
-            }
-          ],
-          "additional_media": null
-        },
-        {
-          "id": 12,
-          "description": "Our boilerplate is designed to be easily customizable, allowing you to add, modify, or remove features as needed. This flexibility ensures that you can tailor your MVP to meet the specific requirements of your target customers and adapt it as you learn from their feedback.",
-          "title": "Modular and Scalable",
-          "subtitle": null,
-          "media": [
-            {
-              "id": 32,
-              "name": "three block.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 1920,
-              "height": 1920,
-              "formats": {
-                "large": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_three_block_afaa502067.png",
-                  "hash": "large_three_block_afaa502067",
-                  "mime": "image/png",
-                  "name": "large_three block.png",
-                  "path": null,
-                  "size": 1062.72,
-                  "width": 1000,
-                  "height": 1000
-                },
-                "small": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_three_block_afaa502067.png",
-                  "hash": "small_three_block_afaa502067",
-                  "mime": "image/png",
-                  "name": "small_three block.png",
-                  "path": null,
-                  "size": 290.24,
-                  "width": 500,
-                  "height": 500
-                },
-                "medium": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_three_block_afaa502067.png",
-                  "hash": "medium_three_block_afaa502067",
-                  "mime": "image/png",
-                  "name": "medium_three block.png",
-                  "path": null,
-                  "size": 629.91,
-                  "width": 750,
-                  "height": 750
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_three_block_afaa502067.png",
-                  "hash": "thumbnail_three_block_afaa502067",
-                  "mime": "image/png",
-                  "name": "thumbnail_three block.png",
-                  "path": null,
-                  "size": 33.46,
-                  "width": 156,
-                  "height": 156
-                }
-              },
-              "hash": "three_block_afaa502067",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 414.59,
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/three_block_afaa502067.png",
-              "previewUrl": null,
-              "provider": "aws-s3",
-              "provider_metadata": null,
-              "folderPath": "/",
-              "createdAt": "2024-01-09T22:27:45.514Z",
-              "updatedAt": "2024-01-09T22:27:45.514Z"
-            }
-          ],
+          "media": null,
           "additional_media": null
         }
       ]
     },
     {
-      "__component": "page-blocks.reviews-list-block",
-      "id": 1,
-      "variant": "simple-with-avatars",
-      "show_all": true,
+      "__component": "page-blocks.hero-section-block",
+      "id": 8,
+      "title": "Ближайшая цель – посадить 100 тыс деревьев",
+      "description": "весной 2024 в Сибири и Казахстане",
+      "variant": "for-planet-with-target",
       "anchor": null,
       "class_name": null,
-      "title": "Happy customers reviews",
+      "media": null,
+      "buttons": [
+        {
+          "id": 29,
+          "url": "#subscribe",
+          "description": null,
+          "variant": "primary",
+          "title": "Принять участие",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        }
+      ],
+      "additional_media": null
+    },
+    {
+      "__component": "page-blocks.hero-section-block",
+      "id": 9,
+      "title": "Оформить подписку",
+      "description": "Каждый раз мы ставим все более масштабные цели по количеству деревьев за сезон. Чтобы планомерно выполнять эти цели без аврального режима прямо перед посадкой, будет эффективнее ежемесячно приближаться к нужной сумме. Поэтому, вы можете ежемесячно помогать природе и нам идти к заветной цели.",
+      "variant": "for-planet-create-subscription",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "buttons": [
+        {
+          "id": 30,
+          "url": "#subscribe",
+          "description": null,
+          "variant": "primary",
+          "title": "Подписка с картой",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": [
+            {
+              "id": 49,
+              "name": "cards.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 110,
+              "height": 24,
+              "formats": null,
+              "hash": "cards_6a1cb59b20",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 2.54,
+              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/cards_6a1cb59b20.svg",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "folderPath": "/",
+              "createdAt": "2024-02-04T23:42:33.411Z",
+              "updatedAt": "2024-02-04T23:42:33.411Z"
+            }
+          ],
+          "additional_media": null,
+          "flyout": null
+        },
+        {
+          "id": 31,
+          "url": "#subscribe",
+          "description": null,
+          "variant": "primary",
+          "title": "Подписка в криптовалюте",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": [
+            {
+              "id": 50,
+              "name": "Coins.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 83,
+              "height": 32,
+              "formats": null,
+              "hash": "Coins_59bcad421f",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 3.05,
+              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/Coins_59bcad421f.svg",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "folderPath": "/",
+              "createdAt": "2024-02-04T23:42:44.462Z",
+              "updatedAt": "2024-02-04T23:42:44.462Z"
+            }
+          ],
+          "additional_media": null,
+          "flyout": null
+        }
+      ],
+      "additional_media": null
+    },
+    {
+      "__component": "page-blocks.features-section-block",
+      "id": 3,
+      "title": "Почему нужно действовать срочно?",
+      "description": null,
       "subtitle": null,
-      "description": "",
-      "reviews": []
+      "variant": "for-planet-headlines",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "additional_media": null,
+      "features": [
+        {
+          "id": 16,
+          "description": null,
+          "title": "На Камчатке зафиксировали аномальный нагрев вулканического озера",
+          "subtitle": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 17,
+          "description": null,
+          "title": "2024 год станет самым жарким в истории",
+          "subtitle": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 18,
+          "description": null,
+          "title": "The Guardian: власти Норвегии разрешат сбрасывать отходы из шахт во фьорды",
+          "subtitle": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 19,
+          "description": null,
+          "title": "На Камчатке зафиксировали аномальный нагрев вулканического озера",
+          "subtitle": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 20,
+          "description": null,
+          "title": "The Guardian: власти Норвегии разрешат сбрасывать отходы из шахт во фьорды",
+          "subtitle": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 21,
+          "description": null,
+          "title": "2024 год станет самым жарким в истории",
+          "subtitle": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 22,
+          "description": null,
+          "title": "2024 год станет самым жарким в истории",
+          "subtitle": null,
+          "media": null,
+          "additional_media": null
+        }
+      ]
+    },
+    {
+      "__component": "page-blocks.hero-section-block",
+      "id": 11,
+      "title": "Каждую секунду в мире исчезает участок леса размером с футбольное поле.",
+      "description": "Леса предотвращают эрозию почв, удерживают влагу, смягчают последствия изменения климата и наводнений, а главное они обеспечивают стабильность эко системы планеты.\n\nМы едим, пьем и дышим благодаря тому, что биоразнообразие ещё есть. Выделение кислорода, очистка воды, опыление растений – все это часть большой системы.\n\nЕсли потерять леса, восстановить былую экосистему будет уже невозможно. В мире начнется экологический ад. Поэтому, действовать нужно сейчас.",
+      "variant": "for-planet-gallery-and-text",
+      "anchor": null,
+      "class_name": null,
+      "media": [
+        {
+          "id": 51,
+          "name": "car.jpg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 439,
+          "height": 248,
+          "formats": {
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_car_2860ad845a.jpg",
+              "hash": "thumbnail_car_2860ad845a",
+              "mime": "image/jpeg",
+              "name": "thumbnail_car.jpg",
+              "path": null,
+              "size": 14.21,
+              "width": 245,
+              "height": 138
+            }
+          },
+          "hash": "car_2860ad845a",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 39.22,
+          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/car_2860ad845a.jpg",
+          "previewUrl": null,
+          "provider": "aws-s3",
+          "provider_metadata": null,
+          "folderPath": "/",
+          "createdAt": "2024-02-04T23:46:03.755Z",
+          "updatedAt": "2024-02-04T23:46:03.755Z"
+        }
+      ],
+      "buttons": [],
+      "additional_media": null
+    },
+    {
+      "__component": "page-blocks.features-section-block",
+      "id": 4,
+      "title": "Посадить дерево",
+      "description": "Выберете желаемое количество деревьев. На следующем шаге вы сможете выбрать удобный метод оплаты",
+      "subtitle": null,
+      "variant": "for-planet-tiers",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "additional_media": null,
+      "features": [
+        {
+          "id": 23,
+          "description": "Вы можете оплатить любое количество деревьев",
+          "title": "1 дерево = 190р",
+          "subtitle": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 24,
+          "description": "Оплачивая от 50 деревьев, вы получите именной сертификат",
+          "title": "50 деревьев = 9500р",
+          "subtitle": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 25,
+          "description": "Вы создадите целый лес!",
+          "title": "100 деревьев",
+          "subtitle": null,
+          "media": null,
+          "additional_media": null
+        }
+      ]
+    },
+    {
+      "__component": "page-blocks.hero-section-block",
+      "id": 10,
+      "title": "География посадок",
+      "description": "За 1,5 года мы посадили **50 тысяч деревьев**. Первая посадка была в Иркутской области. Дальше были посадки в Республике Бурятия, в Красноярском Крае, а также в Казахстане (ЗКО). \n\nСледущая посадка планируется весной 2024 года в тех же местах, а также в республике Алтай.",
+      "variant": "for-planet-map",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "buttons": [],
+      "additional_media": null
+    },
+    {
+      "__component": "page-blocks.hero-section-block",
+      "id": 12,
+      "title": "Прошедшие посадки",
+      "description": "Вы можете посмотреть, как происходили наши прошлые посадки, а также присоединиться к следующим",
+      "variant": "for-planet-videos",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "buttons": [],
+      "additional_media": null
+    },
+    {
+      "__component": "page-blocks.features-section-block",
+      "id": 5,
+      "title": "Как работает 4 planet",
+      "description": "3 простых шага",
+      "subtitle": null,
+      "variant": "for-planet-how-it-works",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "additional_media": null,
+      "features": [
+        {
+          "id": 26,
+          "description": "Оплатите посадку деревьев и оставьте ваши контакты",
+          "title": "1",
+          "subtitle": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 27,
+          "description": "После оплаты дождитесь страницы, которая ведет на телеграм с результатами. Там вы сможете скачать сертификат, который можно распечатать, заполнить и преподнести как подарок или оставить себе",
+          "title": "2",
+          "subtitle": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 28,
+          "description": "После посадки, в этой же телеграмм группе вы увидите фото, видео отчет и точную локацию места. А также другие новости и бонусы.",
+          "title": "3",
+          "subtitle": null,
+          "media": null,
+          "additional_media": null
+        }
+      ]
+    },
+    {
+      "__component": "page-blocks.faqs-block",
+      "id": 2,
+      "title": "FAQ",
+      "description": "Частые вопросы",
+      "variant": "for-planet-default",
+      "class_name": null,
+      "anchor": null,
+      "subtitle": null,
+      "faqs": [
+        {
+          "id": 2,
+          "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
+          "title": "Где проходит посадка деревьев?"
+        },
+        {
+          "id": 1,
+          "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
+          "title": "Когда происходят посадки?"
+        },
+        {
+          "id": 4,
+          "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
+          "title": "Как я могу поучаствовать кроме финансов?"
+        },
+        {
+          "id": 3,
+          "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
+          "title": "Кто сажает деревья?"
+        },
+        {
+          "id": 5,
+          "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
+          "title": "Могу ли я оплатить деревья из другой страны?"
+        },
+        {
+          "id": 6,
+          "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
+          "title": "Почему 190 рублей?"
+        }
+      ]
+    },
+    {
+      "__component": "page-blocks.hero-section-block",
+      "id": 13,
+      "title": "Миссия компании",
+      "description": "Цель проекта - предоставить людям возможность оплатить посадку деревьев в любой точке мира в 3 клика и по доступной цене. \n\nВажно сделать это экономически выгодным, тогда можно высаживать неограниченное кол-во деревьев по всему миру. Так посадка леса станет масштабной и опередит вырубку по темпам, а прибыль пойдет и на другие способы сохранения леса. Например, на тушение пожаров, долгосрочную аренду территорий для сохранения первозданной природы.",
+      "variant": "for-planet-gallery-and-text-inversed",
+      "anchor": null,
+      "class_name": null,
+      "media": [
+        {
+          "id": 53,
+          "name": "alex-2.jpg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 337,
+          "height": 441,
+          "formats": {
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_alex_2_c431de5a28.jpg",
+              "hash": "thumbnail_alex_2_c431de5a28",
+              "mime": "image/jpeg",
+              "name": "thumbnail_alex-2.jpg",
+              "path": null,
+              "size": 6.56,
+              "width": 119,
+              "height": 156
+            }
+          },
+          "hash": "alex_2_c431de5a28",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 41.14,
+          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/alex_2_c431de5a28.jpg",
+          "previewUrl": null,
+          "provider": "aws-s3",
+          "provider_metadata": null,
+          "folderPath": "/",
+          "createdAt": "2024-02-04T23:53:04.571Z",
+          "updatedAt": "2024-02-04T23:53:04.571Z"
+        },
+        {
+          "id": 52,
+          "name": "alex-1.jpg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 337,
+          "height": 441,
+          "formats": {
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_alex_1_fdd6d0daea.jpg",
+              "hash": "thumbnail_alex_1_fdd6d0daea",
+              "mime": "image/jpeg",
+              "name": "thumbnail_alex-1.jpg",
+              "path": null,
+              "size": 5.22,
+              "width": 119,
+              "height": 156
+            }
+          },
+          "hash": "alex_1_fdd6d0daea",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 26.6,
+          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/alex_1_fdd6d0daea.jpg",
+          "previewUrl": null,
+          "provider": "aws-s3",
+          "provider_metadata": null,
+          "folderPath": "/",
+          "createdAt": "2024-02-04T23:53:04.541Z",
+          "updatedAt": "2024-02-04T23:53:04.541Z"
+        }
+      ],
+      "buttons": [],
+      "additional_media": null
+    },
+    {
+      "__component": "page-blocks.features-section-block",
+      "id": 6,
+      "title": "Для донатов",
+      "description": "Если вы хотите отблагодарить меня за работу, то можете поддержать меня по любым реквизитам. Покупка деревьев через реквизиты не осуществляется.",
+      "subtitle": null,
+      "variant": "for-planet-requisites",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "additional_media": null,
+      "features": [
+        {
+          "id": 30,
+          "description": "Сбер: 2202 2023 0605 8409 (Алексей)\n\nТинькоф: 5536 9138 0663 0055 (Ульяна)",
+          "title": "реквизиты для РФ:",
+          "subtitle": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 29,
+          "description": "Каспи: 4400 4302 7927 2477 (Aleksei Кozhevykh)\n\nПриват: 4731 1856 2659 7162 (Oleksandr Hurov)\n\nPayPal: alex4planet@gmail.com (Viktor)\n\nUSDT (TRC20): TAes5RejWjuGWi9nWfZDgjxPqJtaagncHx",
+          "title": "Для других стран:",
+          "subtitle": null,
+          "media": null,
+          "additional_media": null
+        }
+      ]
     }
   ],
   "layout": {
@@ -1232,8 +622,8 @@
     "uid": "public-page-layout",
     "variant": "wide",
     "class_name": "[&>.layout-container]:pt-16",
-    "createdAt": "2024-01-09T22:27:16.590Z",
-    "updatedAt": "2024-01-10T13:07:29.820Z",
+    "createdAt": "2024-02-04T22:06:02.537Z",
+    "updatedAt": "2024-02-05T00:16:28.627Z",
     "publishedAt": "2023-04-20T03:23:38.447Z",
     "locale": "en"
   }

@@ -2,12 +2,12 @@
   "id": 1,
   "title": "Public Page Navbar",
   "uid": "public-page-navbar",
-  "variant": "boxed",
+  "variant": "for-planet-boxed-transparent",
   "class_name": null,
   "position": "fixed",
   "side": "top",
-  "createdAt": "2024-01-09T22:27:18.061Z",
-  "updatedAt": "2024-01-14T19:25:07.950Z",
+  "createdAt": "2024-02-04T22:06:02.652Z",
+  "updatedAt": "2024-02-05T00:15:05.610Z",
   "publishedAt": "2023-04-08T05:04:22.148Z",
   "locale": "en",
   "localizations": [
@@ -19,8 +19,8 @@
       "class_name": null,
       "position": "fixed",
       "side": "top",
-      "createdAt": "2024-01-12T23:50:07.941Z",
-      "updatedAt": "2024-01-16T18:19:06.259Z",
+      "createdAt": "2024-02-04T22:06:02.675Z",
+      "updatedAt": "2024-02-04T22:06:34.218Z",
       "publishedAt": "2024-01-12T23:50:09.029Z",
       "locale": "fr"
     }
@@ -29,90 +29,56 @@
     {
       "__component": "page-blocks.navbar-block",
       "id": 1,
-      "variant": "simple-links-on-left",
+      "variant": "for-planet-default",
       "description": null,
       "class_name": null,
       "logotype": {
-        "id": 1,
+        "id": 3,
         "title": null,
         "url": "/",
         "media": [
           {
-            "id": 18,
-            "name": "sps-full dark.svg",
+            "id": 54,
+            "name": "logo.svg",
             "alternativeText": null,
             "caption": null,
-            "width": 4725,
-            "height": 729,
+            "width": 203,
+            "height": 21,
             "formats": null,
-            "hash": "sps_full_dark_e8fb90cd29",
+            "hash": "logo_2336638d55",
             "ext": ".svg",
             "mime": "image/svg+xml",
-            "size": 16.9,
-            "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/sps_full_dark_e8fb90cd29.svg",
+            "size": 1.17,
+            "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/logo_2336638d55.svg",
             "previewUrl": null,
             "provider": "aws-s3",
             "provider_metadata": null,
             "folderPath": "/",
-            "createdAt": "2024-01-09T22:27:17.920Z",
-            "updatedAt": "2024-01-09T22:27:17.920Z"
+            "createdAt": "2024-02-04T23:56:33.974Z",
+            "updatedAt": "2024-02-04T23:56:33.974Z"
           }
         ],
         "additional_media": null
       },
       "buttons": [
         {
-          "id": 4,
+          "id": 8,
           "url": "/",
           "description": null,
           "variant": "ghost",
-          "title": "Main",
+          "title": "Посадить дерево",
           "additional_attributes": null,
           "class_name": null,
           "media": null,
           "additional_media": null,
           "flyout": null
-        },
-        {
-          "id": 5,
-          "url": "/page-with-sidebar-layout",
-          "description": null,
-          "variant": "ghost",
-          "title": "Sidebar",
-          "additional_attributes": null,
-          "class_name": null,
-          "media": null,
-          "additional_media": null,
-          "flyout": null
-        },
-        {
-          "id": 6,
-          "url": null,
-          "description": null,
-          "variant": "ghost",
-          "title": "Flyout",
-          "additional_attributes": null,
-          "class_name": null,
-          "media": null,
-          "additional_media": null,
-          "flyout": {
-            "id": 2,
-            "variant": "simple",
-            "title": "Hero Flyout",
-            "uid": "hero-flyout",
-            "class_name": null,
-            "createdAt": "2024-01-09T22:27:16.486Z",
-            "updatedAt": "2024-01-09T22:27:16.486Z",
-            "publishedAt": "2023-05-11T18:03:51.955Z",
-            "locale": "en"
-          }
         },
         {
           "id": 7,
-          "url": "?opened_modal=this-is-modal",
+          "url": "/",
           "description": null,
           "variant": "ghost",
-          "title": "Modal",
+          "title": "Оформить подписку",
           "additional_attributes": null,
           "class_name": null,
           "media": null,
@@ -120,11 +86,35 @@
           "flyout": null
         },
         {
-          "id": 8,
-          "url": "?opened_slide_over=this-is-slide-over",
+          "id": 10,
+          "url": "/",
           "description": null,
           "variant": "ghost",
-          "title": "Slide Over",
+          "title": "Как это работает",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        },
+        {
+          "id": 9,
+          "url": "/",
+          "description": null,
+          "variant": "ghost",
+          "title": "Миссия",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        },
+        {
+          "id": 11,
+          "url": "/",
+          "description": null,
+          "variant": "ghost",
+          "title": "Донат",
           "additional_attributes": null,
           "class_name": null,
           "media": null,
@@ -134,50 +124,16 @@
       ],
       "additional_buttons": [
         {
-          "id": 9,
-          "url": "https://github.com/singlepagestartup/sps-lite",
+          "id": 14,
+          "url": "/",
           "description": null,
-          "variant": "ghost",
-          "title": "GitHub",
+          "variant": "primary",
+          "title": "Посадить дерево",
           "additional_attributes": null,
           "class_name": null,
           "media": null,
           "additional_media": null,
           "flyout": null
-        },
-        {
-          "id": 16,
-          "url": "?opened_slide_over=shopping-cart",
-          "description": null,
-          "variant": "ghost",
-          "title": "Cart",
-          "additional_attributes": null,
-          "class_name": null,
-          "media": null,
-          "additional_media": null,
-          "flyout": null
-        },
-        {
-          "id": 10,
-          "url": null,
-          "description": null,
-          "variant": "locale",
-          "title": null,
-          "additional_attributes": null,
-          "class_name": null,
-          "media": null,
-          "additional_media": null,
-          "flyout": {
-            "id": 1,
-            "variant": "simple",
-            "title": "Icône déroulante Paramètres régionaux",
-            "uid": "locales-flyout",
-            "class_name": null,
-            "createdAt": "2024-01-09T22:27:16.443Z",
-            "updatedAt": "2024-01-16T18:17:45.274Z",
-            "publishedAt": "2023-05-11T16:28:36.473Z",
-            "locale": "en"
-          }
         }
       ],
       "extra_buttons": []
@@ -185,24 +141,13 @@
   ],
   "layouts": [
     {
-      "id": 1,
-      "title": "Public Page Layout With Sidebar",
-      "uid": "public-page-layout-with-sidebar",
-      "variant": "boxed",
-      "class_name": null,
-      "createdAt": "2024-01-09T22:27:16.552Z",
-      "updatedAt": "2024-01-10T13:07:24.042Z",
-      "publishedAt": "2023-04-08T05:04:56.606Z",
-      "locale": "en"
-    },
-    {
       "id": 2,
       "title": "Public Page Layout",
       "uid": "public-page-layout",
       "variant": "wide",
       "class_name": "[&>.layout-container]:pt-16",
-      "createdAt": "2024-01-09T22:27:16.590Z",
-      "updatedAt": "2024-01-10T13:07:29.820Z",
+      "createdAt": "2024-02-04T22:06:02.537Z",
+      "updatedAt": "2024-02-05T00:16:28.627Z",
       "publishedAt": "2023-04-20T03:23:38.447Z",
       "locale": "en"
     }

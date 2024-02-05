@@ -9,8 +9,8 @@
   "operator": "equal",
   "inversed": false,
   "not_to_clear": false,
-  "createdAt": "2024-01-09T23:16:06.828Z",
-  "updatedAt": "2024-01-09T23:16:06.828Z",
+  "createdAt": "2024-02-04T22:06:02.322Z",
+  "updatedAt": "2024-02-04T22:06:03.557Z",
   "locale": "en",
   "localizations": [],
   "attributes": [
@@ -22,8 +22,8 @@
       "date": null,
       "datetime": null,
       "time": null,
-      "createdAt": "2024-01-09T23:16:06.880Z",
-      "updatedAt": "2024-01-15T18:21:05.838Z",
+      "createdAt": "2024-02-04T22:06:02.189Z",
+      "updatedAt": "2024-02-04T22:06:03.335Z",
       "locale": "en"
     },
     {
@@ -34,8 +34,8 @@
       "date": null,
       "datetime": null,
       "time": null,
-      "createdAt": "2024-01-09T23:16:09.443Z",
-      "updatedAt": "2024-01-15T18:21:04.027Z",
+      "createdAt": "2024-02-04T22:06:02.208Z",
+      "updatedAt": "2024-02-04T22:06:03.373Z",
       "locale": "en"
     },
     {
@@ -46,8 +46,8 @@
       "date": null,
       "datetime": null,
       "time": null,
-      "createdAt": "2024-01-09T23:18:37.548Z",
-      "updatedAt": "2024-01-09T23:18:37.548Z",
+      "createdAt": "2024-02-04T22:06:02.227Z",
+      "updatedAt": "2024-02-04T22:06:03.402Z",
       "locale": "en"
     },
     {
@@ -58,8 +58,8 @@
       "date": null,
       "datetime": null,
       "time": null,
-      "createdAt": "2024-01-09T23:20:27.121Z",
-      "updatedAt": "2024-01-09T23:20:59.580Z",
+      "createdAt": "2024-02-04T22:06:02.246Z",
+      "updatedAt": "2024-02-04T22:06:03.445Z",
       "locale": "en"
     },
     {
@@ -70,8 +70,8 @@
       "date": null,
       "datetime": null,
       "time": null,
-      "createdAt": "2024-01-16T14:27:00.415Z",
-      "updatedAt": "2024-01-16T14:27:07.279Z",
+      "createdAt": "2024-02-04T22:06:02.267Z",
+      "updatedAt": "2024-02-04T22:06:03.491Z",
       "locale": "en"
     }
   ]
