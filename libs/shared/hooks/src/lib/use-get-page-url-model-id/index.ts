@@ -3,7 +3,7 @@
 import { useParams } from "next/navigation";
 import { useMemo } from "react";
 import { getFiltersFromPageUrl } from "@sps/utils";
-const R = require("ramda");
+const { path } = require("ramda");
 
 export function useGetPageUrlModelId({
   modelName,
