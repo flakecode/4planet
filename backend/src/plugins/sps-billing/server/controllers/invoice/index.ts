@@ -23,6 +23,10 @@ export default factories.createCoreController(
       return ctx.redirect(`${process.env.FRONTEND_URL}${redirect_to}`);
     },
     async webhook(ctx) {
+      if (1) {
+        ctx.request.body;
+        return { code: 0 };
+      }
       const { Signature, BillingID, PaymentId, Email, Currency } =
         ctx.request.body;
       const string = `${PaymentId}:${process.env.ZERO_X_PROCESSING_SHOP_ID}:${Email}:${Currency}:${process.env.ZERO_X_PROCESSING_WEBHOOK_PASSWORD}`;

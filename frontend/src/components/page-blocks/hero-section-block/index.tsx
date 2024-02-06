@@ -4,7 +4,9 @@ import { variants as spsVariants } from "./sps";
 import { IComponent as IBackendPageBlock } from "~redux/services/backend/components/page-blocks/hero-section-block/interfaces";
 import { IPage } from "..";
 
-export interface IPageBlock extends IBackendPageBlock, IPage {}
+export interface IPageBlock extends IBackendPageBlock, IPage {
+  title: string;
+}
 
 const variants = {
   ...spsLiteVariants,

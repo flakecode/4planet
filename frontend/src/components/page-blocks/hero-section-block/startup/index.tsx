@@ -1,7 +1,10 @@
 import { FC } from "react";
 import { IPageBlock } from "..";
+import FullScreen from "./FullScreen";
 
-export const variants = {};
+export const variants = {
+  "full-screen": FullScreen,
+};
 
 export default function Startup(props: IPageBlock) {
   const Comp = variants[
