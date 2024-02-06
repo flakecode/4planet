@@ -20,7 +20,10 @@
     },
     "variant": {
       "type": "enumeration",
-      "enum": ["two-columns-with-centered-introduction"],
+      "enum": [
+        "two-columns-with-centered-introduction",
+        "for-planet-default"
+      ],
       "required": true,
       "default": "two-columns-with-centered-introduction"
     },

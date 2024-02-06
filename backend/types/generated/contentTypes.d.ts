@@ -2203,6 +2203,47 @@ export interface PluginSpsNotificationTelegram extends Schema.CollectionType {
   };
 }
 
+export interface PluginSpsWebsiteBuilderComponent
+  extends Schema.CollectionType {
+  collectionName: "sps_wb_components";
+  info: {
+    singularName: "component";
+    pluralName: "components";
+    displayName: "Component";
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  pluginOptions: {
+    i18n: {
+      localized: true;
+    };
+  };
+  attributes: {
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    publishedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      "plugin::sps-website-builder.component",
+      "oneToOne",
+      "admin::user"
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      "plugin::sps-website-builder.component",
+      "oneToOne",
+      "admin::user"
+    > &
+      Attribute.Private;
+    localizations: Attribute.Relation<
+      "plugin::sps-website-builder.component",
+      "oneToMany",
+      "plugin::sps-website-builder.component"
+    >;
+    locale: Attribute.String;
+  };
+}
+
 export interface PluginSpsWebsiteBuilderFlyout extends Schema.CollectionType {
   collectionName: "sps_wb_flyouts";
   info: {
@@ -2715,7 +2756,7 @@ export interface PluginSpsWebsiteBuilderNavbar extends Schema.CollectionType {
           localized: true;
         };
       }>;
-    variant: Attribute.Enumeration<["boxed"]> &
+    variant: Attribute.Enumeration<["boxed", "for-planet-boxed-transparent"]> &
       Attribute.Required &
       Attribute.SetPluginOptions<{
         i18n: {
@@ -3414,6 +3455,7 @@ declare module "@strapi/types" {
       "plugin::sps-crm.review": PluginSpsCrmReview;
       "plugin::sps-notification.notification": PluginSpsNotificationNotification;
       "plugin::sps-notification.telegram": PluginSpsNotificationTelegram;
+      "plugin::sps-website-builder.component": PluginSpsWebsiteBuilderComponent;
       "plugin::sps-website-builder.flyout": PluginSpsWebsiteBuilderFlyout;
       "plugin::sps-website-builder.footer": PluginSpsWebsiteBuilderFooter;
       "plugin::sps-website-builder.layout": PluginSpsWebsiteBuilderLayout;

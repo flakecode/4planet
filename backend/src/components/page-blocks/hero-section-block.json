@@ -17,12 +17,7 @@
       "type": "media",
       "multiple": true,
       "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "allowedTypes": ["images", "files", "videos", "audios"]
     },
     "buttons": {
       "type": "component",
@@ -34,7 +29,13 @@
       "enum": [
         "simple-centered",
         "split",
-        "full-screen"
+        "for-planet-heading",
+        "for-planet-with-target",
+        "for-planet-create-subscription",
+        "for-planet-gallery-and-text",
+        "for-planet-map",
+        "for-planet-videos",
+        "for-planet-gallery-and-text-inversed"
       ],
       "default": "simple-centered",
       "required": true
@@ -49,12 +50,7 @@
       "type": "media",
       "multiple": true,
       "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
+      "allowedTypes": ["images", "files", "videos", "audios"]
     }
   }
 }

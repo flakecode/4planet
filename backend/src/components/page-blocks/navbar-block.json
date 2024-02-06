@@ -8,7 +8,10 @@
   "attributes": {
     "variant": {
       "type": "enumeration",
-      "enum": ["simple-links-on-left"],
+      "enum": [
+        "simple-links-on-left",
+        "for-planet-default"
+      ],
       "default": "simple-links-on-left",
       "required": true
     },

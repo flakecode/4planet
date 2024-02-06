@@ -22,7 +22,14 @@
     },
     "variant": {
       "type": "enumeration",
-      "enum": ["with-icon"],
+      "enum": [
+        "with-icon",
+        "for-planet-timeline",
+        "for-planet-headlines",
+        "for-planet-tiers",
+        "for-planet-how-it-works",
+        "for-planet-requisites"
+      ],
       "default": "with-icon",
       "required": true
     },
@@ -36,12 +43,23 @@
       "type": "media",
       "multiple": true,
       "required": false,
-      "allowedTypes": ["images", "files", "videos", "audios"]
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     },
     "additional_media": {
-      "allowedTypes": ["images", "files", "videos", "audios"],
       "type": "media",
-      "multiple": true
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
