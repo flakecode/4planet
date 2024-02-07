@@ -8,7 +8,7 @@ import { IComponentPropsExtended } from "../../interface";
 
 export default function Component(props: IComponentPropsExtended) {
   return (
-    <div className="relative flex flex-col items-center justify-between overflow-hidden bg-white mx-auto max-w-7xl">
+    <div className="relative flex divide-x-2 divide-slate-300 items-center justify-between bg-black">
       {props.additionalMedia?.length ? (
         <Image
           src={getFileUrl(props.additionalMedia[0])}
@@ -18,11 +18,22 @@ export default function Component(props: IComponentPropsExtended) {
         />
       ) : null}
 
-      <div className="relative pt-6 pb-16">
-        <main className="mx-auto mt-16 max-w-2xl lg:max-w-7xl px-4 sm:mt-24">
-          <div className="text-center">
+      {props.media?.length ? (
+        <div className="w-full relative aspect-w-6 aspect-h-2">
+          <Image
+            src={getFileUrl(props.media[0])}
+            alt=""
+            fill={true}
+            className="object-contain"
+          />
+        </div>
+      ) : null}
+
+      <div className="relative pb-16 ">
+        <main className="mx-auto max-w-2xl lg:max-w-7xl px-6">
+          <div className="text-left">
             {props?.title ? (
-              <h1 className="text-4xl font-bold tracking-tight xl:inline text-gray-900 sm:text-5xl md:text-6xl">
+              <h1 className="text-xl tracking-tight xl:inline text-white">
                 <ReactMarkdown>{props?.title}</ReactMarkdown>
               </h1>
             ) : null}
@@ -39,16 +50,6 @@ export default function Component(props: IComponentPropsExtended) {
           </div>
         </main>
       </div>
-      {props.media?.length ? (
-        <div className="w-full relative aspect-w-4 aspect-h-2">
-          <Image
-            src={getFileUrl(props.media[0])}
-            alt=""
-            fill={true}
-            className="object-contain"
-          />
-        </div>
-      ) : null}
     </div>
   );
 }

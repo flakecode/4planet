@@ -4,14 +4,14 @@ import { IComponentPropsExtended } from "../../interface";
 
 export function Component(props: IComponentPropsExtended) {
   return (
-    <div className="mx-auto max-w-xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-      <div className="flex flex-col items-center py-16">
+    <div className="pb-[150px]">
+      <div className="flex flex-col items-center pt-[120px] lg:max-w-[1440px] mx-auto">
         {props?.subtitle ? (
           <ReactMarkdown className="text-lg font-semibold text-indigo-600 w-fit">
             {props?.subtitle}
           </ReactMarkdown>
         ) : null}
-        <h2 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl w-fit">
+        <h2 className="mt-2 text-5xl font-bold leading-8 tracking-tight text-gray-900 w-fit ">
           {props?.title ? <ReactMarkdown>{props?.title}</ReactMarkdown> : null}
         </h2>
         {props.description ? (
@@ -20,7 +20,15 @@ export function Component(props: IComponentPropsExtended) {
           </ReactMarkdown>
         ) : null}
       </div>
-      <dl className="space-y-10 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
+      <div className="w-[1440px] pt-[105px] flex pb-[42px]">
+        <div className="h-0.5 bg-black w-1/4"></div>
+        <div className="h-3 bg-black w-3 rounded-full"></div>
+        <div className="h-0.5 bg-gray-300 w-2/5"></div>
+        <div className="h-3 bg-gray-300 w-3 rounded-full"></div>
+        <div className="h-0.5 bg-gray-300 w-1/3"></div>
+        <div className="h-3 bg-gray-300 w-3 rounded-full"></div>
+      </div>
+      <dl className="space-y-10 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0 lg:max-w-[1440px] mx-auto">
         {props.features?.map((feature, index) => (
           <Feature isServer={props.isServer} key={index} {...feature} />
         ))}
