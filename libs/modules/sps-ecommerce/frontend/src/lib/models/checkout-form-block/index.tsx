@@ -5,7 +5,9 @@ import { variants as spsLiteVariants } from "./sps-lite";
 import { variants as startupVariants } from "./startup";
 import { IModel as IBackendPageBlock } from "@sps/sps-ecommerce-contracts/lib/components/page-blocks/checkout-form-block/interfaces";
 
-export interface IPageBlock extends IBackendPageBlock, IPage {}
+export interface IPageBlock extends IBackendPageBlock, IPage {
+  title: string;
+}
 
 const variants = {
   ...spsLiteVariants,
