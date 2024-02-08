@@ -43,7 +43,7 @@ function DisclosureInner({
               {props.logotype ? (
                 <Logotype isServer={false} {...props.logotype} />
               ) : null}
-              <div className="hidden lg:ml-6 text-white lg:flex lg:space-x-2 items-center">
+              <div className="hidden lg:ml-20 text-white lg:flex lg:space-x-10 items-center">
                 {props.buttons?.map((button, index) => {
                   return <Button isServer={false} key={index} {...button} />;
                 })}
@@ -51,7 +51,14 @@ function DisclosureInner({
             </div>
             <div className="hidden lg:flex lg:space-x-2 items-center">
               {props.additionalButtons?.map((button, index) => {
-                return <Button isServer={false} key={index} {...button} />;
+                return (
+                  <Button
+                    isServer={false}
+                    key={index}
+                    {...button}
+                    className={"bg-transparent"}
+                  />
+                );
               })}
               {props.extraButtons?.map((button, index) => {
                 return <Button isServer={false} key={index} {...button} />;
