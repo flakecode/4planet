@@ -22,7 +22,7 @@ export default function Component(props: IComponentPropsExtended) {
         <main className="mx-auto max-w-2xl lg:max-w-7xl px-4 ">
           <div className="text-center">
             {props?.title ? (
-              <h1 className="text-6xl font-bold tracking-tight xl:inline text-white sm:text-5xl md:text-6xl">
+              <h1 className="text-6xl font-medium tracking-tight xl:inline text-white sm:text-5xl md:text-6xl font-primary">
                 <ReactMarkdown>{props?.title}</ReactMarkdown>
               </h1>
             ) : null}
@@ -33,7 +33,14 @@ export default function Component(props: IComponentPropsExtended) {
             ) : null}
             <div className="mx-auto mt-12 max-w-md flex flex-col sm:flex-row justify-center md:mt-8 gap-4">
               {props?.buttons?.map((button, index) => {
-                return <Button isServer={false} key={index} {...button} />;
+                return (
+                  <Button
+                    isServer={false}
+                    key={index}
+                    {...button}
+                    className={"bg-transparent"}
+                  />
+                );
               })}
             </div>
           </div>

@@ -22,12 +22,12 @@ export default function Component(props: IComponentPropsExtended) {
         <main className="mx-auto px-4">
           <div className="text-left">
             {props?.title ? (
-              <h1 className="text-5xl font-bold tracking-tight xl:inline text-white">
+              <h1 className="text-5xl font-medium font-primary tracking-tight xl:inline text-white">
                 <ReactMarkdown>{props?.title}</ReactMarkdown>
               </h1>
             ) : null}
             {props?.description ? (
-              <ReactMarkdown className=" text-left mt-5 text-gray-500  text-lg">
+              <ReactMarkdown className=" text-left mt-5 font-regular font-primary text-gray-500  text-lg">
                 {props?.description}
               </ReactMarkdown>
             ) : null}

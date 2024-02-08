@@ -39,11 +39,11 @@ function DisclosureInner({
       <div className="mx-auto flex flex-row w-full">
         <div className="flex w-full h-16 justify-between">
           <div className="flex w-full px-2 lg:px-0 justify-between">
-            <div className="flex">
+            <div className="flex p-3.5">
               {props.logotype ? (
                 <Logotype isServer={false} {...props.logotype} />
               ) : null}
-              <div className="hidden lg:ml-6 lg:flex lg:space-x-2 items-center">
+              <div className="hidden lg:ml-6 text-white lg:flex lg:space-x-2 items-center">
                 {props.buttons?.map((button, index) => {
                   return <Button isServer={false} key={index} {...button} />;
                 })}

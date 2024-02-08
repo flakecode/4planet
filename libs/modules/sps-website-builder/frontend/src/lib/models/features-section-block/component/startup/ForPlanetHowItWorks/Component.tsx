@@ -11,18 +11,23 @@ export function Component(props: IComponentPropsExtended) {
             {props?.subtitle}
           </ReactMarkdown>
         ) : null}
-        <h2 className=" text-5xl font-bold leading-8 text-black w-fit">
+        <h2 className=" text-5xl font-medium font-primary leading-8 text-black w-fit">
           {props?.title ? <ReactMarkdown>{props?.title}</ReactMarkdown> : null}
         </h2>
         {props.description ? (
-          <ReactMarkdown className="mt-5 max-w-2xl text-lg text-black text-center">
+          <ReactMarkdown className="mt-5 max-w-2xl text-lg text-black font-regular font-primary text-center">
             {props.description}
           </ReactMarkdown>
         ) : null}
       </div>
       <dl className="space-y-10 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0 max-w-[1200px] mx-auto">
         {props.features?.map((feature, index) => (
-          <Feature isServer={props.isServer} key={index} {...feature} />
+          <Feature
+            isServer={props.isServer}
+            key={index}
+            {...feature}
+            variant="howItWorks"
+          />
         ))}
       </dl>
     </div>

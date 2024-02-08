@@ -12,20 +12,25 @@ export function Component(props: IComponentPropsExtended) {
               {props?.subtitle}
             </ReactMarkdown>
           ) : null}
-          <h2 className="mt-2 text-5xl font-bold leading-8 text-black  w-fit">
+          <h2 className="text-5xl font-medium font-primary leading-8 text-black  w-fit">
             {props?.title ? (
               <ReactMarkdown>{props?.title}</ReactMarkdown>
             ) : null}
           </h2>
           {props.description ? (
-            <ReactMarkdown className="mt-5  text-xl text-black text-center">
+            <ReactMarkdown className="mt-5 font-primary font-regular text-xl text-black text-center">
               {props.description}
             </ReactMarkdown>
           ) : null}
         </div>
-        <dl className="flex justify-between">
+        <dl className="flex justify-between max-w-[1200px]">
           {props.features?.map((feature, index) => (
-            <Feature isServer={props.isServer} key={index} {...feature} />
+            <Feature
+              isServer={props.isServer}
+              key={index}
+              {...feature}
+              variant="requisites"
+            />
           ))}
         </dl>
       </div>

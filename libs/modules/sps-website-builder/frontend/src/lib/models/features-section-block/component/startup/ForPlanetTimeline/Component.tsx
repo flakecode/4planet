@@ -11,7 +11,7 @@ export function Component(props: IComponentPropsExtended) {
             {props?.subtitle}
           </ReactMarkdown>
         ) : null}
-        <h2 className="mt-2 text-5xl font-bold leading-8 tracking-tight text-gray-900 w-fit ">
+        <h2 className="mt-2 text-5xl font-medium font-primary leading-8 text-black w-fit ">
           {props?.title ? <ReactMarkdown>{props?.title}</ReactMarkdown> : null}
         </h2>
         {props.description ? (
@@ -30,7 +30,12 @@ export function Component(props: IComponentPropsExtended) {
       </div>
       <dl className="space-y-10 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0 lg:max-w-[1440px] mx-auto">
         {props.features?.map((feature, index) => (
-          <Feature isServer={props.isServer} key={index} {...feature} />
+          <Feature
+            isServer={props.isServer}
+            key={index}
+            {...feature}
+            variant="timeline"
+          />
         ))}
       </dl>
     </div>
