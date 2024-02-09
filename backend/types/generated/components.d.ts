@@ -579,7 +579,7 @@ export interface PageBlocksNavbarBlock extends Schema.Component {
   };
   attributes: {
     variant: Attribute.Enumeration<
-      ["simple-links-on-left", "centered-logotype"]
+      ["simple-links-on-left", "for-planet-default", "centered-logotype"]
     > &
       Attribute.Required &
       Attribute.DefaultTo<"simple-links-on-left">;

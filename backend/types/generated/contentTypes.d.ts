@@ -1080,7 +1080,7 @@ export interface PluginSpsSubscriptionAttributeKey
         };
       }> &
       Attribute.DefaultTo<"string">;
-    uid: Attribute.String &
+    key: Attribute.String &
       Attribute.Required &
       Attribute.SetPluginOptions<{
         i18n: {
@@ -1466,7 +1466,7 @@ export interface PluginSpsEcommerceAttributeKey extends Schema.CollectionType {
         };
       }> &
       Attribute.DefaultTo<"string">;
-    uid: Attribute.String &
+    key: Attribute.String &
       Attribute.Required &
       Attribute.SetPluginOptions<{
         i18n: {
@@ -2250,7 +2250,6 @@ export interface PluginSpsWebsiteBuilderFlyout extends Schema.CollectionType {
     singularName: "flyout";
     pluralName: "flyouts";
     displayName: "Flyout";
-    description: "";
   };
   options: {
     draftAndPublish: true;
@@ -2869,7 +2868,6 @@ export interface PluginSpsWebsiteBuilderPage extends Schema.CollectionType {
         "page-blocks.products-list-block",
         "page-blocks.shopping-cart-block",
         "page-blocks.edit-subscription-block",
-        "page-blocks.subscription-checkout-form-block",
       ]
     > &
       Attribute.SetPluginOptions<{
