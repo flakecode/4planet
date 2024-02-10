@@ -10,7 +10,7 @@ export interface IComponentProps
     | "timeline"
     | "requisites"
     | "howItWorks"
-    | "tiers"
+    | "tier"
     | "headlines";
 }
 
