@@ -1,5 +1,3 @@
-// import Image from "next/image";
-// import { getFileUrl } from "@sps/utils";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { IComponentPropsExtended } from "../../interface";
 import { Component as Feature } from "../../../../feature/component";
@@ -19,34 +17,13 @@ export function Component(props: IComponentPropsExtended) {
         {props.features?.length
           ? props.features.map((feature, index) => {
               return (
-                <Feature isServer={props.isServer} key={index} {...feature} />
+                <Feature
+                  isServer={props.isServer}
+                  key={index}
+                  {...feature}
+                  variant="default"
+                />
               );
-              // return (
-              //   <div
-              //     key={index}
-              //     className="flex flex-col items-center lg:items-start"
-              //   >
-              //     {feature.media?.length ? (
-              //       <Image
-              //         src={getFileUrl(feature.media[0])}
-              //         height={100}
-              //         width={100}
-              //         alt=""
-              //         className="object-contain"
-              //       />
-              //     ) : null}
-              //     {feature.title ? (
-              //       <h3 className="mt-6 text-sm font-medium text-gray-900">
-              //         <ReactMarkdown>{feature.title}</ReactMarkdown>
-              //       </h3>
-              //     ) : null}
-              //     {feature?.description ? (
-              //       <ReactMarkdown className="mt-2 text-sm text-gray-500">
-              //         {feature?.description}
-              //       </ReactMarkdown>
-              //     ) : null}
-              //   </div>
-              // );
             })
           : null}
       </div>
