@@ -23,7 +23,7 @@ export function Component(props: IComponentPropsExtended) {
         </ReactMarkdown>
       ) : null}
       {props?.description ? (
-        <ReactMarkdown className="text-lg first-of-type:text-black text-slate-300 font-primary font-regular">
+        <ReactMarkdown className="text-lg first-of-type:text-black text-slate-300 font-regular">
           {props?.description}
         </ReactMarkdown>
       ) : null}

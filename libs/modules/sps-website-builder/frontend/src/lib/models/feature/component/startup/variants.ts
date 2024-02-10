@@ -1,3 +1,4 @@
+import { Headlines } from "./Headlines";
 import { HowItWorks } from "./HowItWorks";
 import { Requisites } from "./Requisites";
 import { Tiers } from "./Tiers";
@@ -8,4 +9,5 @@ export const variants = {
   requisites: Requisites,
   howItWorks: HowItWorks,
   tiers: Tiers,
+  headlines: Headlines,
 };

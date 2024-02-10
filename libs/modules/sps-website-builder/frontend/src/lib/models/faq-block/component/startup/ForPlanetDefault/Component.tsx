@@ -48,7 +48,7 @@ export function Component(props: IComponentPropsExtended) {
                     </div>
                     <Disclosure.Panel as="div" className="mt-4 lg:mt-6 pr-12">
                       {faq.description ? (
-                        <ReactMarkdown className="mt-5 text-base text-gray-500">
+                        <ReactMarkdown className="mt-5 text-base font-regular text-gray-500">
                           {faq.description}
                         </ReactMarkdown>
                       ) : null}

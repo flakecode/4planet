@@ -27,7 +27,7 @@ export default function Component(props: IComponentPropsExtended) {
               </h1>
             ) : null}
             {props?.description ? (
-              <ReactMarkdown className="mx-auto mt-7 max-w-md text-black text-lg md:max-w-3xl">
+              <ReactMarkdown className="mx-auto mt-7 max-w-md font-regular text-black text-lg md:max-w-3xl">
                 {props?.description}
               </ReactMarkdown>
             ) : null}

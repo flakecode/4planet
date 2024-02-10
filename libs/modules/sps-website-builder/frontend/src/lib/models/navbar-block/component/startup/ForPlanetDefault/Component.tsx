@@ -43,7 +43,7 @@ function DisclosureInner({
               {props.logotype ? (
                 <Logotype isServer={false} {...props.logotype} />
               ) : null}
-              <div className="hidden lg:ml-20 text-white lg:flex lg:space-x-10 items-center">
+              <div className="hidden lg:ml-20 text-white lg:flex lg:space-x-10 items-center font-bold font-normal">
                 {props.buttons?.map((button, index) => {
                   return <Button isServer={false} key={index} {...button} />;
                 })}

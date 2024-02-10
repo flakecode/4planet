@@ -9,7 +9,7 @@ import { IComponentPropsExtended } from "../../interface";
 export default function Component(props: IComponentPropsExtended) {
   return (
     <div className=" bg-black">
-      <div className="relative flex divide-x-2 divide-slate-300 items-center justify-between max-w-[1200px] mx-auto">
+      <div className="relative flex items-center justify-between max-w-[1200px] mx-auto">
         {props.additionalMedia?.length ? (
           <Image
             src={getFileUrl(props.additionalMedia[0])}
@@ -31,6 +31,10 @@ export default function Component(props: IComponentPropsExtended) {
           </div>
         ) : null}
 
+        <div className="col-span-1 flex flex-col justify-center h-[700px]">
+          <div className="mx-auto h-full w-px bg-gradient-to-t from-white to-transparent"></div>
+        </div>
+
         <div className="relative pb-16 max-w-[500px]">
           <main className="mx-auto max-w-2xl lg:max-w-7xl">
             <div className="text-left">
@@ -40,7 +44,7 @@ export default function Component(props: IComponentPropsExtended) {
                 </h1>
               ) : null}
               {props?.description ? (
-                <ReactMarkdown className="mx-auto mt-3 max-w-md text-base text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">
+                <ReactMarkdown className="mx-auto font-regular mt-3 max-w-md text-base text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">
                   {props?.description}
                 </ReactMarkdown>
               ) : null}

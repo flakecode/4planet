@@ -19,7 +19,7 @@ export default function Component(props: IComponentPropsExtended) {
       ) : null}
 
       <div className="relative pt-[93px] pb-16">
-        <main className="mx-auto max-w-2xl lg:max-w-7xl">
+        <main className="">
           <div className="text-center">
             {props?.title ? (
               <h1 className="text-5xl font-bold xl:inline text-black">
@@ -27,7 +27,7 @@ export default function Component(props: IComponentPropsExtended) {
               </h1>
             ) : null}
             {props?.description ? (
-              <ReactMarkdown className="mx-auto mt-5 max-w-md text-black text-lg md:max-w-3xl">
+              <ReactMarkdown className="mx-auto mt-5 max-w-[930px] text-black text-lg font-regular">
                 {props?.description}
               </ReactMarkdown>
             ) : null}
@@ -39,6 +39,7 @@ export default function Component(props: IComponentPropsExtended) {
           </div>
         </main>
       </div>
+      <script src="https://api-maps.yandex.ru/2.1/?apikey=23ab4c8d-8802-4dce-afcd-70eee7eab5df&lang=ru_RU"></script>
       {props.media?.length ? (
         <div className="w-full relative aspect-w-4 aspect-h-2">
           <Image

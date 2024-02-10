@@ -7,7 +7,8 @@ export function Component(props: IComponentPropsExtended) {
       data-collection-type="navbar"
       data-variant={props.variant}
       className={
-        props.className || "absolute z-20  max-w-[1440px] py-8 w-full left-auto"
+        props.className ||
+        "absolute z-20  max-w-[1440px] py-8 w-full left-[15%]"
       }
     >
       <div className="navbar-container">

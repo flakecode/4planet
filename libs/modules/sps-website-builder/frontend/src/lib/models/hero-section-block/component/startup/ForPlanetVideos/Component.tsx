@@ -27,7 +27,7 @@ export default function Component(props: IComponentPropsExtended) {
               </h1>
             ) : null}
             {props?.description ? (
-              <ReactMarkdown className=" text-base text-black font-primary font-regular sm:text-lg md:mt-5 md:text-xl">
+              <ReactMarkdown className=" text-base text-black font-regular sm:text-lg md:mt-5 md:text-xl">
                 {props?.description}
               </ReactMarkdown>
             ) : null}

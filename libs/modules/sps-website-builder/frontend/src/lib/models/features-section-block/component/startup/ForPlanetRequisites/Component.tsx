@@ -18,7 +18,7 @@ export function Component(props: IComponentPropsExtended) {
             ) : null}
           </h2>
           {props.description ? (
-            <ReactMarkdown className="mt-5 font-primary font-regular text-xl text-black text-center">
+            <ReactMarkdown className="mt-5 font-regular text-xl text-black text-center">
               {props.description}
             </ReactMarkdown>
           ) : null}

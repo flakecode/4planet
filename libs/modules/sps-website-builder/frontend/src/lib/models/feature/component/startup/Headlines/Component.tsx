@@ -17,9 +17,9 @@ export function Component(props: IComponentPropsExtended) {
           />
         ) : null}
       </div>
-      <div className="bg-white rounded-[20px] p-8 h-full">
+      <div className="bg-white rounded-[20px] p-4 h-full">
         {props.title ? (
-          <ReactMarkdown className="text-[28px] font-medium font-primary leading-6 text-black">
+          <ReactMarkdown className="text-base font-regular leading-6 text-black">
             {props.title}
           </ReactMarkdown>
         ) : null}
