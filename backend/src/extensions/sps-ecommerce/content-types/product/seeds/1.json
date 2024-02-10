@@ -8,73 +8,7 @@
   "publishedAt": "2024-01-09T23:14:51.755Z",
   "locale": "en",
   "localizations": [],
-  "media": [
-    {
-      "id": 55,
-      "name": "three block.png",
-      "alternativeText": null,
-      "caption": null,
-      "width": 1920,
-      "height": 1920,
-      "formats": {
-        "large": {
-          "ext": ".png",
-          "url": "/uploads/large_three_block_86c45a0dee.png",
-          "hash": "large_three_block_86c45a0dee",
-          "mime": "image/png",
-          "name": "large_three block.png",
-          "path": null,
-          "size": 1062.72,
-          "width": 1000,
-          "height": 1000
-        },
-        "small": {
-          "ext": ".png",
-          "url": "/uploads/small_three_block_86c45a0dee.png",
-          "hash": "small_three_block_86c45a0dee",
-          "mime": "image/png",
-          "name": "small_three block.png",
-          "path": null,
-          "size": 290.24,
-          "width": 500,
-          "height": 500
-        },
-        "medium": {
-          "ext": ".png",
-          "url": "/uploads/medium_three_block_86c45a0dee.png",
-          "hash": "medium_three_block_86c45a0dee",
-          "mime": "image/png",
-          "name": "medium_three block.png",
-          "path": null,
-          "size": 629.91,
-          "width": 750,
-          "height": 750
-        },
-        "thumbnail": {
-          "ext": ".png",
-          "url": "/uploads/thumbnail_three_block_86c45a0dee.png",
-          "hash": "thumbnail_three_block_86c45a0dee",
-          "mime": "image/png",
-          "name": "thumbnail_three block.png",
-          "path": null,
-          "size": 33.46,
-          "width": 156,
-          "height": 156
-        }
-      },
-      "hash": "three_block_86c45a0dee",
-      "ext": ".png",
-      "mime": "image/png",
-      "size": 414.59,
-      "url": "/uploads/three_block_86c45a0dee.png",
-      "previewUrl": null,
-      "provider": "local",
-      "provider_metadata": null,
-      "folderPath": "/",
-      "createdAt": "2024-02-10T19:23:39.779Z",
-      "updatedAt": "2024-02-10T19:23:39.779Z"
-    }
-  ],
+  "media": null,
   "attributes": [
     {
       "id": 1,

@@ -26,73 +26,7 @@
       "max": null,
       "step": null,
       "options": [],
-      "media": [
-        {
-          "id": 56,
-          "name": "users group.png",
-          "alternativeText": null,
-          "caption": null,
-          "width": 1920,
-          "height": 1920,
-          "formats": {
-            "large": {
-              "ext": ".png",
-              "url": "/uploads/large_users_group_e010a6948c.png",
-              "hash": "large_users_group_e010a6948c",
-              "mime": "image/png",
-              "name": "large_users group.png",
-              "path": null,
-              "size": 991.04,
-              "width": 1000,
-              "height": 1000
-            },
-            "small": {
-              "ext": ".png",
-              "url": "/uploads/small_users_group_e010a6948c.png",
-              "hash": "small_users_group_e010a6948c",
-              "mime": "image/png",
-              "name": "small_users group.png",
-              "path": null,
-              "size": 280.56,
-              "width": 500,
-              "height": 500
-            },
-            "medium": {
-              "ext": ".png",
-              "url": "/uploads/medium_users_group_e010a6948c.png",
-              "hash": "medium_users_group_e010a6948c",
-              "mime": "image/png",
-              "name": "medium_users group.png",
-              "path": null,
-              "size": 596.56,
-              "width": 750,
-              "height": 750
-            },
-            "thumbnail": {
-              "ext": ".png",
-              "url": "/uploads/thumbnail_users_group_e010a6948c.png",
-              "hash": "thumbnail_users_group_e010a6948c",
-              "mime": "image/png",
-              "name": "thumbnail_users group.png",
-              "path": null,
-              "size": 34.11,
-              "width": 156,
-              "height": 156
-            }
-          },
-          "hash": "users_group_e010a6948c",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 386.31,
-          "url": "/uploads/users_group_e010a6948c.png",
-          "previewUrl": null,
-          "provider": "local",
-          "provider_metadata": null,
-          "folderPath": "/",
-          "createdAt": "2024-02-10T19:23:40.957Z",
-          "updatedAt": "2024-02-10T19:23:40.957Z"
-        }
-      ],
+      "media": null,
       "additional_media": null,
       "extra_media": null
     },
@@ -134,73 +68,7 @@
           "id": 5,
           "title": "Lite",
           "description": null,
-          "media": [
-            {
-              "id": 57,
-              "name": "cloud storage.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 1920,
-              "height": 1920,
-              "formats": {
-                "large": {
-                  "ext": ".png",
-                  "url": "/uploads/large_cloud_storage_0e156e200b.png",
-                  "hash": "large_cloud_storage_0e156e200b",
-                  "mime": "image/png",
-                  "name": "large_cloud storage.png",
-                  "path": null,
-                  "size": 953.19,
-                  "width": 1000,
-                  "height": 1000
-                },
-                "small": {
-                  "ext": ".png",
-                  "url": "/uploads/small_cloud_storage_0e156e200b.png",
-                  "hash": "small_cloud_storage_0e156e200b",
-                  "mime": "image/png",
-                  "name": "small_cloud storage.png",
-                  "path": null,
-                  "size": 232.63,
-                  "width": 500,
-                  "height": 500
-                },
-                "medium": {
-                  "ext": ".png",
-                  "url": "/uploads/medium_cloud_storage_0e156e200b.png",
-                  "hash": "medium_cloud_storage_0e156e200b",
-                  "mime": "image/png",
-                  "name": "medium_cloud storage.png",
-                  "path": null,
-                  "size": 532.91,
-                  "width": 750,
-                  "height": 750
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "/uploads/thumbnail_cloud_storage_0e156e200b.png",
-                  "hash": "thumbnail_cloud_storage_0e156e200b",
-                  "mime": "image/png",
-                  "name": "thumbnail_cloud storage.png",
-                  "path": null,
-                  "size": 26.52,
-                  "width": 156,
-                  "height": 156
-                }
-              },
-              "hash": "cloud_storage_0e156e200b",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 650.73,
-              "url": "/uploads/cloud_storage_0e156e200b.png",
-              "previewUrl": null,
-              "provider": "local",
-              "provider_metadata": null,
-              "folderPath": "/",
-              "createdAt": "2024-02-10T19:23:42.347Z",
-              "updatedAt": "2024-02-10T19:23:42.347Z"
-            }
-          ],
+          "media": null,
           "additional_media": null
         },
         {
@@ -211,115 +79,8 @@
           "additional_media": null
         }
       ],
-      "media": [
-        {
-          "id": 58,
-          "name": "eight ways.png",
-          "alternativeText": null,
-          "caption": null,
-          "width": 1920,
-          "height": 1920,
-          "formats": {
-            "large": {
-              "ext": ".png",
-              "url": "/uploads/large_eight_ways_9a9b2d19b5.png",
-              "hash": "large_eight_ways_9a9b2d19b5",
-              "mime": "image/png",
-              "name": "large_eight ways.png",
-              "path": null,
-              "size": 827.14,
-              "width": 1000,
-              "height": 1000
-            },
-            "small": {
-              "ext": ".png",
-              "url": "/uploads/small_eight_ways_9a9b2d19b5.png",
-              "hash": "small_eight_ways_9a9b2d19b5",
-              "mime": "image/png",
-              "name": "small_eight ways.png",
-              "path": null,
-              "size": 214.02,
-              "width": 500,
-              "height": 500
-            },
-            "medium": {
-              "ext": ".png",
-              "url": "/uploads/medium_eight_ways_9a9b2d19b5.png",
-              "hash": "medium_eight_ways_9a9b2d19b5",
-              "mime": "image/png",
-              "name": "medium_eight ways.png",
-              "path": null,
-              "size": 473.32,
-              "width": 750,
-              "height": 750
-            },
-            "thumbnail": {
-              "ext": ".png",
-              "url": "/uploads/thumbnail_eight_ways_9a9b2d19b5.png",
-              "hash": "thumbnail_eight_ways_9a9b2d19b5",
-              "mime": "image/png",
-              "name": "thumbnail_eight ways.png",
-              "path": null,
-              "size": 26.78,
-              "width": 156,
-              "height": 156
-            }
-          },
-          "hash": "eight_ways_9a9b2d19b5",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 532.76,
-          "url": "/uploads/eight_ways_9a9b2d19b5.png",
-          "previewUrl": null,
-          "provider": "local",
-          "provider_metadata": null,
-          "folderPath": "/",
-          "createdAt": "2024-02-10T19:23:43.549Z",
-          "updatedAt": "2024-02-10T19:23:43.549Z"
-        }
-      ],
-      "additional_media": [
-        {
-          "id": 59,
-          "name": "chevron-down.svg",
-          "alternativeText": null,
-          "caption": null,
-          "width": 448,
-          "height": 512,
-          "formats": null,
-          "hash": "chevron_down_cf6edf57a8",
-          "ext": ".svg",
-          "mime": "image/svg+xml",
-          "size": 0.54,
-          "url": "/uploads/chevron_down_cf6edf57a8.svg",
-          "previewUrl": null,
-          "provider": "local",
-          "provider_metadata": null,
-          "folderPath": "/",
-          "createdAt": "2024-02-10T19:23:43.871Z",
-          "updatedAt": "2024-02-10T19:23:43.871Z"
-        },
-        {
-          "id": 60,
-          "name": "chevron-up.svg",
-          "alternativeText": null,
-          "caption": null,
-          "width": 448,
-          "height": 512,
-          "formats": null,
-          "hash": "chevron_up_d121bbe0e7",
-          "ext": ".svg",
-          "mime": "image/svg+xml",
-          "size": 0.54,
-          "url": "/uploads/chevron_up_d121bbe0e7.svg",
-          "previewUrl": null,
-          "provider": "local",
-          "provider_metadata": null,
-          "folderPath": "/",
-          "createdAt": "2024-02-10T19:23:44.163Z",
-          "updatedAt": "2024-02-10T19:23:44.163Z"
-        }
-      ],
+      "media": null,
+      "additional_media": null,
       "extra_media": null
     },
     {
@@ -341,73 +102,7 @@
           "id": 6,
           "title": "Yes",
           "description": null,
-          "media": [
-            {
-              "id": 61,
-              "name": "three block.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 1920,
-              "height": 1920,
-              "formats": {
-                "large": {
-                  "ext": ".png",
-                  "url": "/uploads/large_three_block_5087d92648.png",
-                  "hash": "large_three_block_5087d92648",
-                  "mime": "image/png",
-                  "name": "large_three block.png",
-                  "path": null,
-                  "size": 1062.72,
-                  "width": 1000,
-                  "height": 1000
-                },
-                "small": {
-                  "ext": ".png",
-                  "url": "/uploads/small_three_block_5087d92648.png",
-                  "hash": "small_three_block_5087d92648",
-                  "mime": "image/png",
-                  "name": "small_three block.png",
-                  "path": null,
-                  "size": 290.24,
-                  "width": 500,
-                  "height": 500
-                },
-                "medium": {
-                  "ext": ".png",
-                  "url": "/uploads/medium_three_block_5087d92648.png",
-                  "hash": "medium_three_block_5087d92648",
-                  "mime": "image/png",
-                  "name": "medium_three block.png",
-                  "path": null,
-                  "size": 629.91,
-                  "width": 750,
-                  "height": 750
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "/uploads/thumbnail_three_block_5087d92648.png",
-                  "hash": "thumbnail_three_block_5087d92648",
-                  "mime": "image/png",
-                  "name": "thumbnail_three block.png",
-                  "path": null,
-                  "size": 33.46,
-                  "width": 156,
-                  "height": 156
-                }
-              },
-              "hash": "three_block_5087d92648",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 414.59,
-              "url": "/uploads/three_block_5087d92648.png",
-              "previewUrl": null,
-              "provider": "local",
-              "provider_metadata": null,
-              "folderPath": "/",
-              "createdAt": "2024-02-10T19:23:45.196Z",
-              "updatedAt": "2024-02-10T19:23:45.196Z"
-            }
-          ],
+          "media": null,
           "additional_media": null
         },
         {
@@ -415,73 +110,7 @@
           "title": "No",
           "description": null,
           "media": null,
-          "additional_media": [
-            {
-              "id": 62,
-              "name": "eight ways.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 1920,
-              "height": 1920,
-              "formats": {
-                "large": {
-                  "ext": ".png",
-                  "url": "/uploads/large_eight_ways_18958f12db.png",
-                  "hash": "large_eight_ways_18958f12db",
-                  "mime": "image/png",
-                  "name": "large_eight ways.png",
-                  "path": null,
-                  "size": 827.14,
-                  "width": 1000,
-                  "height": 1000
-                },
-                "small": {
-                  "ext": ".png",
-                  "url": "/uploads/small_eight_ways_18958f12db.png",
-                  "hash": "small_eight_ways_18958f12db",
-                  "mime": "image/png",
-                  "name": "small_eight ways.png",
-                  "path": null,
-                  "size": 214.02,
-                  "width": 500,
-                  "height": 500
-                },
-                "medium": {
-                  "ext": ".png",
-                  "url": "/uploads/medium_eight_ways_18958f12db.png",
-                  "hash": "medium_eight_ways_18958f12db",
-                  "mime": "image/png",
-                  "name": "medium_eight ways.png",
-                  "path": null,
-                  "size": 473.32,
-                  "width": 750,
-                  "height": 750
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "/uploads/thumbnail_eight_ways_18958f12db.png",
-                  "hash": "thumbnail_eight_ways_18958f12db",
-                  "mime": "image/png",
-                  "name": "thumbnail_eight ways.png",
-                  "path": null,
-                  "size": 26.78,
-                  "width": 156,
-                  "height": 156
-                }
-              },
-              "hash": "eight_ways_18958f12db",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 532.76,
-              "url": "/uploads/eight_ways_18958f12db.png",
-              "previewUrl": null,
-              "provider": "local",
-              "provider_metadata": null,
-              "folderPath": "/",
-              "createdAt": "2024-02-10T19:23:46.538Z",
-              "updatedAt": "2024-02-10T19:23:46.538Z"
-            }
-          ]
+          "additional_media": null
         }
       ],
       "media": null,
@@ -541,95 +170,8 @@
       "max": null,
       "step": null,
       "options": [],
-      "media": [
-        {
-          "id": 63,
-          "name": "catalog.png",
-          "alternativeText": null,
-          "caption": null,
-          "width": 1920,
-          "height": 1920,
-          "formats": {
-            "large": {
-              "ext": ".png",
-              "url": "/uploads/large_catalog_5e57e83c1b.png",
-              "hash": "large_catalog_5e57e83c1b",
-              "mime": "image/png",
-              "name": "large_catalog.png",
-              "path": null,
-              "size": 1478.85,
-              "width": 1000,
-              "height": 1000
-            },
-            "small": {
-              "ext": ".png",
-              "url": "/uploads/small_catalog_5e57e83c1b.png",
-              "hash": "small_catalog_5e57e83c1b",
-              "mime": "image/png",
-              "name": "small_catalog.png",
-              "path": null,
-              "size": 353.62,
-              "width": 500,
-              "height": 500
-            },
-            "medium": {
-              "ext": ".png",
-              "url": "/uploads/medium_catalog_5e57e83c1b.png",
-              "hash": "medium_catalog_5e57e83c1b",
-              "mime": "image/png",
-              "name": "medium_catalog.png",
-              "path": null,
-              "size": 821.38,
-              "width": 750,
-              "height": 750
-            },
-            "thumbnail": {
-              "ext": ".png",
-              "url": "/uploads/thumbnail_catalog_5e57e83c1b.png",
-              "hash": "thumbnail_catalog_5e57e83c1b",
-              "mime": "image/png",
-              "name": "thumbnail_catalog.png",
-              "path": null,
-              "size": 36.45,
-              "width": 156,
-              "height": 156
-            }
-          },
-          "hash": "catalog_5e57e83c1b",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 1004.88,
-          "url": "/uploads/catalog_5e57e83c1b.png",
-          "previewUrl": null,
-          "provider": "local",
-          "provider_metadata": null,
-          "folderPath": "/",
-          "createdAt": "2024-02-10T19:23:48.213Z",
-          "updatedAt": "2024-02-10T19:23:48.213Z"
-        }
-      ],
-      "additional_media": [
-        {
-          "id": 64,
-          "name": "calendar.svg",
-          "alternativeText": null,
-          "caption": null,
-          "width": 448,
-          "height": 512,
-          "formats": null,
-          "hash": "calendar_02f7bdd104",
-          "ext": ".svg",
-          "mime": "image/svg+xml",
-          "size": 0.53,
-          "url": "/uploads/calendar_02f7bdd104.svg",
-          "previewUrl": null,
-          "provider": "local",
-          "provider_metadata": null,
-          "folderPath": "/",
-          "createdAt": "2024-02-10T19:23:49.493Z",
-          "updatedAt": "2024-02-10T19:23:49.493Z"
-        }
-      ],
+      "media": null,
+      "additional_media": null,
       "extra_media": null
     },
     {
@@ -647,50 +189,8 @@
       "max": null,
       "step": null,
       "options": [],
-      "media": [
-        {
-          "id": 65,
-          "name": "cloud.svg",
-          "alternativeText": null,
-          "caption": null,
-          "width": 640,
-          "height": 512,
-          "formats": null,
-          "hash": "cloud_4aa9339a09",
-          "ext": ".svg",
-          "mime": "image/svg+xml",
-          "size": 0.51,
-          "url": "/uploads/cloud_4aa9339a09.svg",
-          "previewUrl": null,
-          "provider": "local",
-          "provider_metadata": null,
-          "folderPath": "/",
-          "createdAt": "2024-02-10T19:23:49.758Z",
-          "updatedAt": "2024-02-10T19:23:49.758Z"
-        }
-      ],
-      "additional_media": [
-        {
-          "id": 66,
-          "name": "trash.svg",
-          "alternativeText": null,
-          "caption": null,
-          "width": 448,
-          "height": 512,
-          "formats": null,
-          "hash": "trash_0e5f5bf9f6",
-          "ext": ".svg",
-          "mime": "image/svg+xml",
-          "size": 0.49,
-          "url": "/uploads/trash_0e5f5bf9f6.svg",
-          "previewUrl": null,
-          "provider": "local",
-          "provider_metadata": null,
-          "folderPath": "/",
-          "createdAt": "2024-02-10T19:23:50.060Z",
-          "updatedAt": "2024-02-10T19:23:50.060Z"
-        }
-      ],
+      "media": null,
+      "additional_media": null,
       "extra_media": null
     },
     {
