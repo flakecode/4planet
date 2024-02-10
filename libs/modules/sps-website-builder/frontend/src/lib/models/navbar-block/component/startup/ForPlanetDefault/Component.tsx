@@ -36,29 +36,24 @@ function DisclosureInner({
 
   return (
     <>
-      <div className="mx-auto flex flex-row w-full">
-        <div className="flex w-full h-16 justify-between">
-          <div className="flex w-full px-2 lg:px-0 justify-between">
-            <div className="flex p-3.5">
-              {props.logotype ? (
-                <Logotype isServer={false} {...props.logotype} />
-              ) : null}
-              <div className="hidden lg:ml-20 text-white lg:flex lg:space-x-10 items-center font-bold font-normal">
-                {props.buttons?.map((button, index) => {
-                  return <Button isServer={false} key={index} {...button} />;
-                })}
-              </div>
+      <div className="relative mx-auto flex flex-row w-full pt-8">
+        <div className="flex w-full justify-between">
+          <div className="flex w-full items-center px-2 lg:px-0 justify-between">
+            {props.logotype ? (
+              <Logotype
+                variant="default"
+                isServer={false}
+                {...props.logotype}
+              />
+            ) : null}
+            <div className="hidden lg:flex gap-8 mx-auto">
+              {props.buttons?.map((button, index) => {
+                return <Button isServer={false} key={index} {...button} />;
+              })}
             </div>
             <div className="hidden lg:flex lg:space-x-2 items-center">
               {props.additionalButtons?.map((button, index) => {
-                return (
-                  <Button
-                    isServer={false}
-                    key={index}
-                    {...button}
-                    className={"bg-transparent"}
-                  />
-                );
+                return <Button isServer={false} key={index} {...button} />;
               })}
               {props.extraButtons?.map((button, index) => {
                 return <Button isServer={false} key={index} {...button} />;

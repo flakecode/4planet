@@ -4,13 +4,13 @@
   "description": "Core services are created for each content-type and could be used by controllers to execute reusable logic through a Strapi project. Core services can be customized to implement your own logic. The following code examples should help you get started.",
   "full_description": null,
   "createdAt": "2024-02-04T22:06:02.337Z",
-  "updatedAt": "2024-02-04T22:06:05.576Z",
+  "updatedAt": "2024-02-10T19:23:39.813Z",
   "publishedAt": "2024-01-09T23:14:51.755Z",
   "locale": "en",
   "localizations": [],
   "media": [
     {
-      "id": 2,
+      "id": 55,
       "name": "three block.png",
       "alternativeText": null,
       "caption": null,
@@ -19,8 +19,8 @@
       "formats": {
         "large": {
           "ext": ".png",
-          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_three_block_bc4d9a9494.png",
-          "hash": "large_three_block_bc4d9a9494",
+          "url": "/uploads/large_three_block_86c45a0dee.png",
+          "hash": "large_three_block_86c45a0dee",
           "mime": "image/png",
           "name": "large_three block.png",
           "path": null,
@@ -30,8 +30,8 @@
         },
         "small": {
           "ext": ".png",
-          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_three_block_bc4d9a9494.png",
-          "hash": "small_three_block_bc4d9a9494",
+          "url": "/uploads/small_three_block_86c45a0dee.png",
+          "hash": "small_three_block_86c45a0dee",
           "mime": "image/png",
           "name": "small_three block.png",
           "path": null,
@@ -41,8 +41,8 @@
         },
         "medium": {
           "ext": ".png",
-          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_three_block_bc4d9a9494.png",
-          "hash": "medium_three_block_bc4d9a9494",
+          "url": "/uploads/medium_three_block_86c45a0dee.png",
+          "hash": "medium_three_block_86c45a0dee",
           "mime": "image/png",
           "name": "medium_three block.png",
           "path": null,
@@ -52,8 +52,8 @@
         },
         "thumbnail": {
           "ext": ".png",
-          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_three_block_bc4d9a9494.png",
-          "hash": "thumbnail_three_block_bc4d9a9494",
+          "url": "/uploads/thumbnail_three_block_86c45a0dee.png",
+          "hash": "thumbnail_three_block_86c45a0dee",
           "mime": "image/png",
           "name": "thumbnail_three block.png",
           "path": null,
@@ -62,17 +62,17 @@
           "height": 156
         }
       },
-      "hash": "three_block_bc4d9a9494",
+      "hash": "three_block_86c45a0dee",
       "ext": ".png",
       "mime": "image/png",
       "size": 414.59,
-      "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/three_block_bc4d9a9494.png",
+      "url": "/uploads/three_block_86c45a0dee.png",
       "previewUrl": null,
-      "provider": "aws-s3",
+      "provider": "local",
       "provider_metadata": null,
       "folderPath": "/",
-      "createdAt": "2024-02-04T22:06:05.548Z",
-      "updatedAt": "2024-02-04T22:06:05.548Z"
+      "createdAt": "2024-02-10T19:23:39.779Z",
+      "updatedAt": "2024-02-10T19:23:39.779Z"
     }
   ],
   "attributes": [
@@ -85,7 +85,7 @@
       "datetime": null,
       "time": null,
       "createdAt": "2024-02-04T22:06:02.164Z",
-      "updatedAt": "2024-02-04T22:06:03.276Z",
+      "updatedAt": "2024-02-10T19:23:38.479Z",
       "locale": "en"
     }
   ],

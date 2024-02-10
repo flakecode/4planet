@@ -91,6 +91,7 @@ const shadcnPlugin = plugin(
             600: colors.indigo[600],
             700: colors.indigo[700],
             900: colors.indigo[900],
+            green: "#A8DA1A",
           },
           secondary: {
             DEFAULT: "hsl(var(--secondary))",

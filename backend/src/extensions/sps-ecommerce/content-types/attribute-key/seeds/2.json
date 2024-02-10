@@ -2,7 +2,7 @@
   "id": 2,
   "title": "quantity",
   "type": "number",
-  "uid": "quantity",
+  "key": "quantity",
   "prefix": null,
   "postfix": null,
   "is_multiple": false,
@@ -23,7 +23,7 @@
       "datetime": null,
       "time": null,
       "createdAt": "2024-02-04T22:06:02.189Z",
-      "updatedAt": "2024-02-04T22:06:03.335Z",
+      "updatedAt": "2024-02-10T19:23:38.509Z",
       "locale": "en"
     },
     {
@@ -35,7 +35,7 @@
       "datetime": null,
       "time": null,
       "createdAt": "2024-02-04T22:06:02.208Z",
-      "updatedAt": "2024-02-04T22:06:03.373Z",
+      "updatedAt": "2024-02-10T19:23:38.527Z",
       "locale": "en"
     },
     {
@@ -47,7 +47,7 @@
       "datetime": null,
       "time": null,
       "createdAt": "2024-02-04T22:06:02.227Z",
-      "updatedAt": "2024-02-04T22:06:03.402Z",
+      "updatedAt": "2024-02-10T19:23:38.545Z",
       "locale": "en"
     },
     {
@@ -59,7 +59,7 @@
       "datetime": null,
       "time": null,
       "createdAt": "2024-02-04T22:06:02.246Z",
-      "updatedAt": "2024-02-04T22:06:03.445Z",
+      "updatedAt": "2024-02-10T19:23:38.565Z",
       "locale": "en"
     },
     {
@@ -71,7 +71,7 @@
       "datetime": null,
       "time": null,
       "createdAt": "2024-02-04T22:06:02.267Z",
-      "updatedAt": "2024-02-04T22:06:03.491Z",
+      "updatedAt": "2024-02-10T19:23:38.582Z",
       "locale": "en"
     }
   ]

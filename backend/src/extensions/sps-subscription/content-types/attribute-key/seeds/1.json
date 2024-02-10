@@ -2,7 +2,7 @@
   "id": 1,
   "title": "price",
   "type": "number",
-  "uid": "price",
+  "key": "price",
   "prefix": null,
   "postfix": null,
   "is_multiple": false,
@@ -23,7 +23,7 @@
       "datetime": null,
       "time": null,
       "createdAt": "2024-02-04T22:06:02.085Z",
-      "updatedAt": "2024-02-04T22:06:03.077Z",
+      "updatedAt": "2024-02-10T19:23:38.395Z",
       "locale": "en"
     }
   ]

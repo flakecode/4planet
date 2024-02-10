@@ -9,19 +9,19 @@
   "title": "Features Slider",
   "uid": "features-slider",
   "createdAt": "2024-02-04T22:06:02.902Z",
-  "updatedAt": "2024-02-04T22:07:04.316Z",
+  "updatedAt": "2024-02-10T19:24:22.053Z",
   "publishedAt": "2023-03-28T03:46:50.780Z",
   "locale": "en",
   "localizations": [],
   "slides": [
     {
-      "id": 3,
+      "id": 6,
       "title": "Jumpstart Your Startup Journey",
       "description": "Our pre-built boilerplate offers a comprehensive set of features and tools to accelerate your startup's development process. Say goodbye to repetitive tasks and focus on your core business logic with our customizable, efficient, and scalable solution.",
       "subtitle": "Get ahead with our lean startup developer boilerplate",
       "media": [
         {
-          "id": 40,
+          "id": 85,
           "name": "pexels_karolina_grabowska_5882683_3f2b11722e.jpg",
           "alternativeText": null,
           "caption": null,
@@ -30,8 +30,8 @@
           "formats": {
             "large": {
               "ext": ".jpg",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_pexels_karolina_grabowska_5882683_3f2b11722e_42dd0a599d.jpg",
-              "hash": "large_pexels_karolina_grabowska_5882683_3f2b11722e_42dd0a599d",
+              "url": "/uploads/large_pexels_karolina_grabowska_5882683_3f2b11722e_2850c5a21c.jpg",
+              "hash": "large_pexels_karolina_grabowska_5882683_3f2b11722e_2850c5a21c",
               "mime": "image/jpeg",
               "name": "large_pexels_karolina_grabowska_5882683_3f2b11722e.jpg",
               "path": null,
@@ -41,8 +41,8 @@
             },
             "small": {
               "ext": ".jpg",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_pexels_karolina_grabowska_5882683_3f2b11722e_42dd0a599d.jpg",
-              "hash": "small_pexels_karolina_grabowska_5882683_3f2b11722e_42dd0a599d",
+              "url": "/uploads/small_pexels_karolina_grabowska_5882683_3f2b11722e_2850c5a21c.jpg",
+              "hash": "small_pexels_karolina_grabowska_5882683_3f2b11722e_2850c5a21c",
               "mime": "image/jpeg",
               "name": "small_pexels_karolina_grabowska_5882683_3f2b11722e.jpg",
               "path": null,
@@ -52,8 +52,8 @@
             },
             "medium": {
               "ext": ".jpg",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_pexels_karolina_grabowska_5882683_3f2b11722e_42dd0a599d.jpg",
-              "hash": "medium_pexels_karolina_grabowska_5882683_3f2b11722e_42dd0a599d",
+              "url": "/uploads/medium_pexels_karolina_grabowska_5882683_3f2b11722e_2850c5a21c.jpg",
+              "hash": "medium_pexels_karolina_grabowska_5882683_3f2b11722e_2850c5a21c",
               "mime": "image/jpeg",
               "name": "medium_pexels_karolina_grabowska_5882683_3f2b11722e.jpg",
               "path": null,
@@ -63,8 +63,8 @@
             },
             "thumbnail": {
               "ext": ".jpg",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_pexels_karolina_grabowska_5882683_3f2b11722e_42dd0a599d.jpg",
-              "hash": "thumbnail_pexels_karolina_grabowska_5882683_3f2b11722e_42dd0a599d",
+              "url": "/uploads/thumbnail_pexels_karolina_grabowska_5882683_3f2b11722e_2850c5a21c.jpg",
+              "hash": "thumbnail_pexels_karolina_grabowska_5882683_3f2b11722e_2850c5a21c",
               "mime": "image/jpeg",
               "name": "thumbnail_pexels_karolina_grabowska_5882683_3f2b11722e.jpg",
               "path": null,
@@ -73,22 +73,22 @@
               "height": 156
             }
           },
-          "hash": "pexels_karolina_grabowska_5882683_3f2b11722e_42dd0a599d",
+          "hash": "pexels_karolina_grabowska_5882683_3f2b11722e_2850c5a21c",
           "ext": ".jpg",
           "mime": "image/jpeg",
           "size": 109.43,
-          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/pexels_karolina_grabowska_5882683_3f2b11722e_42dd0a599d.jpg",
+          "url": "/uploads/pexels_karolina_grabowska_5882683_3f2b11722e_2850c5a21c.jpg",
           "previewUrl": null,
-          "provider": "aws-s3",
+          "provider": "local",
           "provider_metadata": null,
           "folderPath": "/",
-          "createdAt": "2024-02-04T22:07:00.627Z",
-          "updatedAt": "2024-02-04T22:07:00.627Z"
+          "createdAt": "2024-02-10T19:24:18.697Z",
+          "updatedAt": "2024-02-10T19:24:18.697Z"
         }
       ],
       "buttons": [
         {
-          "id": 26,
+          "id": 52,
           "url": "https://github.com/singlepagestartup/sps-lite",
           "description": null,
           "variant": "primary",
@@ -103,13 +103,13 @@
       "additional_media": null
     },
     {
-      "id": 2,
+      "id": 4,
       "title": "Empower Your MVP with Best Practices",
       "description": "Our boilerplate comes with essential features like authentication, multilingual support, and integrations with popular third-party services. With minimum viable product (MVP) readiness in mind, we help you save time, effort, and resources as you bring your startup idea to life.",
       "subtitle": "Launch faster with our ready-to-use components",
       "media": [
         {
-          "id": 41,
+          "id": 86,
           "name": "pexels_andrea_piacquadio_3756679_b3a857a74f.jpg",
           "alternativeText": null,
           "caption": null,
@@ -118,8 +118,8 @@
           "formats": {
             "large": {
               "ext": ".jpg",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_pexels_andrea_piacquadio_3756679_b3a857a74f_0807e56182.jpg",
-              "hash": "large_pexels_andrea_piacquadio_3756679_b3a857a74f_0807e56182",
+              "url": "/uploads/large_pexels_andrea_piacquadio_3756679_b3a857a74f_001ae38ee5.jpg",
+              "hash": "large_pexels_andrea_piacquadio_3756679_b3a857a74f_001ae38ee5",
               "mime": "image/jpeg",
               "name": "large_pexels_andrea_piacquadio_3756679_b3a857a74f.jpg",
               "path": null,
@@ -129,8 +129,8 @@
             },
             "small": {
               "ext": ".jpg",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_pexels_andrea_piacquadio_3756679_b3a857a74f_0807e56182.jpg",
-              "hash": "small_pexels_andrea_piacquadio_3756679_b3a857a74f_0807e56182",
+              "url": "/uploads/small_pexels_andrea_piacquadio_3756679_b3a857a74f_001ae38ee5.jpg",
+              "hash": "small_pexels_andrea_piacquadio_3756679_b3a857a74f_001ae38ee5",
               "mime": "image/jpeg",
               "name": "small_pexels_andrea_piacquadio_3756679_b3a857a74f.jpg",
               "path": null,
@@ -140,8 +140,8 @@
             },
             "medium": {
               "ext": ".jpg",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_pexels_andrea_piacquadio_3756679_b3a857a74f_0807e56182.jpg",
-              "hash": "medium_pexels_andrea_piacquadio_3756679_b3a857a74f_0807e56182",
+              "url": "/uploads/medium_pexels_andrea_piacquadio_3756679_b3a857a74f_001ae38ee5.jpg",
+              "hash": "medium_pexels_andrea_piacquadio_3756679_b3a857a74f_001ae38ee5",
               "mime": "image/jpeg",
               "name": "medium_pexels_andrea_piacquadio_3756679_b3a857a74f.jpg",
               "path": null,
@@ -151,8 +151,8 @@
             },
             "thumbnail": {
               "ext": ".jpg",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_pexels_andrea_piacquadio_3756679_b3a857a74f_0807e56182.jpg",
-              "hash": "thumbnail_pexels_andrea_piacquadio_3756679_b3a857a74f_0807e56182",
+              "url": "/uploads/thumbnail_pexels_andrea_piacquadio_3756679_b3a857a74f_001ae38ee5.jpg",
+              "hash": "thumbnail_pexels_andrea_piacquadio_3756679_b3a857a74f_001ae38ee5",
               "mime": "image/jpeg",
               "name": "thumbnail_pexels_andrea_piacquadio_3756679_b3a857a74f.jpg",
               "path": null,
@@ -161,30 +161,30 @@
               "height": 156
             }
           },
-          "hash": "pexels_andrea_piacquadio_3756679_b3a857a74f_0807e56182",
+          "hash": "pexels_andrea_piacquadio_3756679_b3a857a74f_001ae38ee5",
           "ext": ".jpg",
           "mime": "image/jpeg",
           "size": 811.66,
-          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/pexels_andrea_piacquadio_3756679_b3a857a74f_0807e56182.jpg",
+          "url": "/uploads/pexels_andrea_piacquadio_3756679_b3a857a74f_001ae38ee5.jpg",
           "previewUrl": null,
-          "provider": "aws-s3",
+          "provider": "local",
           "provider_metadata": null,
           "folderPath": "/",
-          "createdAt": "2024-02-04T22:07:01.880Z",
-          "updatedAt": "2024-02-04T22:07:01.880Z"
+          "createdAt": "2024-02-10T19:24:19.700Z",
+          "updatedAt": "2024-02-10T19:24:19.700Z"
         }
       ],
       "buttons": [],
       "additional_media": null
     },
     {
-      "id": 1,
+      "id": 5,
       "title": "Built for Agile Development",
       "description": "Our lean startup developer boilerplate is designed for agile development, allowing you to adapt and evolve your project rapidly. Stay ahead in the ever-changing startup landscape with built-in feedback mechanisms, seamless collaboration, and continuous improvement capabilities.",
       "subtitle": "Foster innovation with a flexible and iterative approach",
       "media": [
         {
-          "id": 42,
+          "id": 87,
           "name": "pexels_tima_miroshnichenko_5198239_dfb1d4b60d.jpg",
           "alternativeText": null,
           "caption": null,
@@ -193,8 +193,8 @@
           "formats": {
             "large": {
               "ext": ".jpg",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_pexels_tima_miroshnichenko_5198239_dfb1d4b60d_5113b5e119.jpg",
-              "hash": "large_pexels_tima_miroshnichenko_5198239_dfb1d4b60d_5113b5e119",
+              "url": "/uploads/large_pexels_tima_miroshnichenko_5198239_dfb1d4b60d_eaec877556.jpg",
+              "hash": "large_pexels_tima_miroshnichenko_5198239_dfb1d4b60d_eaec877556",
               "mime": "image/jpeg",
               "name": "large_pexels_tima_miroshnichenko_5198239_dfb1d4b60d.jpg",
               "path": null,
@@ -204,8 +204,8 @@
             },
             "small": {
               "ext": ".jpg",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_pexels_tima_miroshnichenko_5198239_dfb1d4b60d_5113b5e119.jpg",
-              "hash": "small_pexels_tima_miroshnichenko_5198239_dfb1d4b60d_5113b5e119",
+              "url": "/uploads/small_pexels_tima_miroshnichenko_5198239_dfb1d4b60d_eaec877556.jpg",
+              "hash": "small_pexels_tima_miroshnichenko_5198239_dfb1d4b60d_eaec877556",
               "mime": "image/jpeg",
               "name": "small_pexels_tima_miroshnichenko_5198239_dfb1d4b60d.jpg",
               "path": null,
@@ -215,8 +215,8 @@
             },
             "medium": {
               "ext": ".jpg",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_pexels_tima_miroshnichenko_5198239_dfb1d4b60d_5113b5e119.jpg",
-              "hash": "medium_pexels_tima_miroshnichenko_5198239_dfb1d4b60d_5113b5e119",
+              "url": "/uploads/medium_pexels_tima_miroshnichenko_5198239_dfb1d4b60d_eaec877556.jpg",
+              "hash": "medium_pexels_tima_miroshnichenko_5198239_dfb1d4b60d_eaec877556",
               "mime": "image/jpeg",
               "name": "medium_pexels_tima_miroshnichenko_5198239_dfb1d4b60d.jpg",
               "path": null,
@@ -226,8 +226,8 @@
             },
             "thumbnail": {
               "ext": ".jpg",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_pexels_tima_miroshnichenko_5198239_dfb1d4b60d_5113b5e119.jpg",
-              "hash": "thumbnail_pexels_tima_miroshnichenko_5198239_dfb1d4b60d_5113b5e119",
+              "url": "/uploads/thumbnail_pexels_tima_miroshnichenko_5198239_dfb1d4b60d_eaec877556.jpg",
+              "hash": "thumbnail_pexels_tima_miroshnichenko_5198239_dfb1d4b60d_eaec877556",
               "mime": "image/jpeg",
               "name": "thumbnail_pexels_tima_miroshnichenko_5198239_dfb1d4b60d.jpg",
               "path": null,
@@ -236,17 +236,17 @@
               "height": 156
             }
           },
-          "hash": "pexels_tima_miroshnichenko_5198239_dfb1d4b60d_5113b5e119",
+          "hash": "pexels_tima_miroshnichenko_5198239_dfb1d4b60d_eaec877556",
           "ext": ".jpg",
           "mime": "image/jpeg",
           "size": 4287.67,
-          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/pexels_tima_miroshnichenko_5198239_dfb1d4b60d_5113b5e119.jpg",
+          "url": "/uploads/pexels_tima_miroshnichenko_5198239_dfb1d4b60d_eaec877556.jpg",
           "previewUrl": null,
-          "provider": "aws-s3",
+          "provider": "local",
           "provider_metadata": null,
           "folderPath": "/",
-          "createdAt": "2024-02-04T22:07:04.242Z",
-          "updatedAt": "2024-02-04T22:07:04.242Z"
+          "createdAt": "2024-02-10T19:24:21.969Z",
+          "updatedAt": "2024-02-10T19:24:21.969Z"
         }
       ],
       "buttons": [],

@@ -6,11 +6,11 @@
   "subtitle": "GreenTech Innovations, Co-Founder & CTO",
   "rating": 5,
   "createdAt": "2024-02-04T22:06:02.389Z",
-  "updatedAt": "2024-02-04T22:06:25.058Z",
+  "updatedAt": "2024-02-10T19:24:05.416Z",
   "publishedAt": "2023-03-12T04:34:53.754Z",
   "media": [
     {
-      "id": 15,
+      "id": 68,
       "name": "pexels_edmond_dantes_4347368_5f28ada7bb.jpg",
       "alternativeText": null,
       "caption": null,
@@ -19,8 +19,8 @@
       "formats": {
         "large": {
           "ext": ".jpg",
-          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_pexels_edmond_dantes_4347368_5f28ada7bb_247b682c8b.jpg",
-          "hash": "large_pexels_edmond_dantes_4347368_5f28ada7bb_247b682c8b",
+          "url": "/uploads/large_pexels_edmond_dantes_4347368_5f28ada7bb_14cd773ce0.jpg",
+          "hash": "large_pexels_edmond_dantes_4347368_5f28ada7bb_14cd773ce0",
           "mime": "image/jpeg",
           "name": "large_pexels_edmond_dantes_4347368_5f28ada7bb.jpg",
           "path": null,
@@ -30,8 +30,8 @@
         },
         "small": {
           "ext": ".jpg",
-          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_pexels_edmond_dantes_4347368_5f28ada7bb_247b682c8b.jpg",
-          "hash": "small_pexels_edmond_dantes_4347368_5f28ada7bb_247b682c8b",
+          "url": "/uploads/small_pexels_edmond_dantes_4347368_5f28ada7bb_14cd773ce0.jpg",
+          "hash": "small_pexels_edmond_dantes_4347368_5f28ada7bb_14cd773ce0",
           "mime": "image/jpeg",
           "name": "small_pexels_edmond_dantes_4347368_5f28ada7bb.jpg",
           "path": null,
@@ -41,8 +41,8 @@
         },
         "medium": {
           "ext": ".jpg",
-          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_pexels_edmond_dantes_4347368_5f28ada7bb_247b682c8b.jpg",
-          "hash": "medium_pexels_edmond_dantes_4347368_5f28ada7bb_247b682c8b",
+          "url": "/uploads/medium_pexels_edmond_dantes_4347368_5f28ada7bb_14cd773ce0.jpg",
+          "hash": "medium_pexels_edmond_dantes_4347368_5f28ada7bb_14cd773ce0",
           "mime": "image/jpeg",
           "name": "medium_pexels_edmond_dantes_4347368_5f28ada7bb.jpg",
           "path": null,
@@ -52,8 +52,8 @@
         },
         "thumbnail": {
           "ext": ".jpg",
-          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_pexels_edmond_dantes_4347368_5f28ada7bb_247b682c8b.jpg",
-          "hash": "thumbnail_pexels_edmond_dantes_4347368_5f28ada7bb_247b682c8b",
+          "url": "/uploads/thumbnail_pexels_edmond_dantes_4347368_5f28ada7bb_14cd773ce0.jpg",
+          "hash": "thumbnail_pexels_edmond_dantes_4347368_5f28ada7bb_14cd773ce0",
           "mime": "image/jpeg",
           "name": "thumbnail_pexels_edmond_dantes_4347368_5f28ada7bb.jpg",
           "path": null,
@@ -62,17 +62,17 @@
           "height": 156
         }
       },
-      "hash": "pexels_edmond_dantes_4347368_5f28ada7bb_247b682c8b",
+      "hash": "pexels_edmond_dantes_4347368_5f28ada7bb_14cd773ce0",
       "ext": ".jpg",
       "mime": "image/jpeg",
       "size": 6751.8,
-      "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/pexels_edmond_dantes_4347368_5f28ada7bb_247b682c8b.jpg",
+      "url": "/uploads/pexels_edmond_dantes_4347368_5f28ada7bb_14cd773ce0.jpg",
       "previewUrl": null,
-      "provider": "aws-s3",
+      "provider": "local",
       "provider_metadata": null,
       "folderPath": "/",
-      "createdAt": "2024-02-04T22:06:25.029Z",
-      "updatedAt": "2024-02-04T22:06:25.029Z"
+      "createdAt": "2024-02-10T19:24:05.397Z",
+      "updatedAt": "2024-02-10T19:24:05.397Z"
     }
   ],
   "additional_media": null

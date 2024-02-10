@@ -38,7 +38,7 @@ export default function Component(props: IComponentPropsExtended) {
             </div>
           </div>
           <div className="mt-20 flex max-w-[1200px] justify-between">
-            <iframe
+            {/* <iframe
               width="580"
               height="325"
               src="https://www.youtube.com/watch?v=1AEsJ--OzCo"
@@ -53,7 +53,7 @@ export default function Component(props: IComponentPropsExtended) {
               frameborder="0"
               allow="autoplay; encrypted-media"
               allowfullscreen
-            ></iframe>
+            ></iframe> */}
           </div>
         </main>
       </div>
