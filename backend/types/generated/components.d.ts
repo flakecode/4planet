@@ -462,7 +462,9 @@ export interface PageBlocksFooterBlock extends Schema.Component {
   attributes: {
     copyrights: Attribute.RichText;
     description: Attribute.RichText;
-    variant: Attribute.Enumeration<["four-columns-with-company-mission"]> &
+    variant: Attribute.Enumeration<
+      ["four-columns-with-company-mission", "for-planet-default"]
+    > &
       Attribute.Required &
       Attribute.DefaultTo<"four-columns-with-company-mission">;
     class_name: Attribute.String;

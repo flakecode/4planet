@@ -1,58 +1,57 @@
-"use client";
-
-import Image from "next/image";
 import { Component as Button } from "../../../../button/component";
-import { getFileUrl } from "@sps/utils";
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { IComponentPropsExtended } from "../../interface";
+import { Component as File } from "@sps/sps-file-storage-frontend/lib/models/file/component";
 
 export default function Component(props: IComponentPropsExtended) {
   return (
-    <div className=" bg-black">
-      <div className="relative flex items-center justify-between max-w-[1200px] mx-auto">
-        {props.additionalMedia?.length ? (
-          <Image
-            src={getFileUrl(props.additionalMedia[0])}
-            alt=""
-            fill={true}
-            className="object-cover object-center"
-          />
-        ) : null}
-
-        {props.media?.length ? (
-          <div className="relative rotate-3">
-            <Image
-              src={getFileUrl(props.media[0])}
-              alt=""
-              height={247}
-              width={438}
-              className="object-contain"
-            />
-          </div>
-        ) : null}
+    <div className="bg-black">
+      <div className="relative flex items-center justify-between max-w-7xl mx-auto">
+        <div className="w-5/12">
+          {props.media?.length
+            ? props.media.map((media, index) => {
+                const rotate =
+                  index % 2 !== 0
+                    ? `-${(index + 1) * 5}deg`
+                    : `${(index + 1) * 5}deg`;
+                return (
+                  <div
+                    key={index}
+                    className="relative"
+                    style={{
+                      transform: `rotate(${rotate})`,
+                    }}
+                  >
+                    <File
+                      isServer={false}
+                      variant="image"
+                      {...media}
+                      className="object-cover object-center"
+                      containerClassName="w-full aspect-w-5 aspect-h-3"
+                    />
+                  </div>
+                );
+              })
+            : null}
+        </div>
 
         <div className="col-span-1 flex flex-col justify-center h-[700px]">
           <div className="mx-auto h-full w-px bg-gradient-to-t from-white to-transparent"></div>
         </div>
 
-        <div className="relative pb-16 max-w-[500px]">
+        <div className="w-5/12">
           <main className="mx-auto max-w-2xl lg:max-w-7xl">
-            <div className="text-left">
+            <div className="text-left flex flex-col gap-10">
               {props?.title ? (
-                <h1 className="text-xl tracking-tight xl:inline text-white">
+                <h1 className="text-xl font-medium text-white">
                   <ReactMarkdown>{props?.title}</ReactMarkdown>
                 </h1>
               ) : null}
               {props?.description ? (
-                <ReactMarkdown className="mx-auto font-regular mt-3 max-w-md text-base text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">
+                <ReactMarkdown className="text-white text-xl font-medium opacity-30 flex flex-col gap-10">
                   {props?.description}
                 </ReactMarkdown>
               ) : null}
-              <div className="mx-auto mt-5 max-w-md flex flex-col sm:flex-row justify-center md:mt-8 gap-4">
-                {props?.buttons?.map((button, index) => {
-                  return <Button isServer={false} key={index} {...button} />;
-                })}
-              </div>
             </div>
           </main>
         </div>

@@ -8,9 +8,9 @@ export interface IComponentProps
   variant:
     | IParentComponentProps["variant"]
     | "timeline"
-    | "requisites"
-    | "howItWorks"
-    | "tiers"
+    | "requisite"
+    | "how-it-works"
+    | "tier"
     | "headlines";
 }
 
