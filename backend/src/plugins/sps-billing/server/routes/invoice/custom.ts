@@ -8,7 +8,7 @@ export default {
     },
     {
       method: "POST",
-      path: "/invoices/webhook",
+      path: "/invoices/webhook/:provider",
       handler: "invoice.webhook",
     },
   ],
