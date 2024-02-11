@@ -14,7 +14,6 @@
     "id": 1,
     "title": "price",
     "type": "number",
-    "key": "price",
     "prefix": null,
     "postfix": null,
     "is_multiple": false,
@@ -23,7 +22,8 @@
     "not_to_clear": false,
     "createdAt": "2024-02-04T22:06:02.293Z",
     "updatedAt": "2024-02-04T22:06:03.546Z",
-    "locale": "en"
+    "locale": "en",
+    "uid": null
   },
   "media": null,
   "products": [

@@ -7,7 +7,7 @@ export function Component(props: IComponentPropsExtended) {
     <div className="bg-black pt-40 pb-24">
       <div className="mx-auto max-w-7xl bg-white rounded-[20px] p-16">
         <div className="flex flex-col items-center mb-12">
-          <h2 className="text-5xl font-medium font-primary leading-[130%] text-black">
+          <h2 className="text-5xl font-medium font-primary leading-[130%] text-black uppercase">
             {props?.title ? (
               <ReactMarkdown>{props?.title}</ReactMarkdown>
             ) : null}
