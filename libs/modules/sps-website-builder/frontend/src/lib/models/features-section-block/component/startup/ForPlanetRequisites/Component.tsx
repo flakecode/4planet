@@ -4,27 +4,31 @@ import { IComponentPropsExtended } from "../../interface";
 
 export function Component(props: IComponentPropsExtended) {
   return (
-    <div className="mx-auto max-w-xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-      <div className="flex flex-col items-center py-16">
-        {props?.subtitle ? (
-          <ReactMarkdown className="text-lg font-semibold text-indigo-600 w-fit">
-            {props?.subtitle}
-          </ReactMarkdown>
-        ) : null}
-        <h2 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl w-fit">
-          {props?.title ? <ReactMarkdown>{props?.title}</ReactMarkdown> : null}
-        </h2>
-        {props.description ? (
-          <ReactMarkdown className="mt-4 max-w-2xl text-xl text-gray-500 text-center">
-            {props.description}
-          </ReactMarkdown>
-        ) : null}
+    <div className="bg-[#F5F5F5] py-32">
+      <div className="mx-auto max-w-7xl">
+        <div className="mx-auto text-center mb-20">
+          <h2 className="text-5xl font-medium font-primary leading-[130%] text-black mb-5 uppercase">
+            {props?.title ? (
+              <ReactMarkdown>{props?.title}</ReactMarkdown>
+            ) : null}
+          </h2>
+          {props.description ? (
+            <ReactMarkdown className="text-xl text-black text-center max-w-5xl mx-auto">
+              {props.description}
+            </ReactMarkdown>
+          ) : null}
+        </div>
       </div>
-      <dl className="space-y-10 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
+      <div className="mx-auto max-w-5xl grid grid-cols-2 gap-10">
         {props.features?.map((feature, index) => (
-          <Feature isServer={props.isServer} key={index} {...feature} />
+          <Feature
+            isServer={props.isServer}
+            key={index}
+            {...feature}
+            variant="requisite"
+          />
         ))}
-      </dl>
+      </div>
     </div>
   );
 }

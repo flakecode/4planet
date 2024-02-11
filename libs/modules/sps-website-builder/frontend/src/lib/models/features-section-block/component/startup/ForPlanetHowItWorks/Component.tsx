@@ -4,27 +4,37 @@ import { IComponentPropsExtended } from "../../interface";
 
 export function Component(props: IComponentPropsExtended) {
   return (
-    <div className="mx-auto max-w-xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-      <div className="flex flex-col items-center py-16">
-        {props?.subtitle ? (
-          <ReactMarkdown className="text-lg font-semibold text-indigo-600 w-fit">
-            {props?.subtitle}
-          </ReactMarkdown>
-        ) : null}
-        <h2 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl w-fit">
-          {props?.title ? <ReactMarkdown>{props?.title}</ReactMarkdown> : null}
-        </h2>
-        {props.description ? (
-          <ReactMarkdown className="mt-4 max-w-2xl text-xl text-gray-500 text-center">
-            {props.description}
-          </ReactMarkdown>
-        ) : null}
+    <div className="bg-primary-green py-24">
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-20">
+          <h2 className="text-5xl font-medium font-primary leading-[130%] text-black uppercase mb-5">
+            {props?.title ? (
+              <ReactMarkdown>{props?.title}</ReactMarkdown>
+            ) : null}
+          </h2>
+          {props.description ? (
+            <ReactMarkdown className="mx-auto max-w-2xl text-lg text-black">
+              {props.description}
+            </ReactMarkdown>
+          ) : null}
+        </div>
+        <dl className="grid lg:grid-cols-12 gap-8">
+          {props.features?.map((feature, index) => {
+            return (
+              <div
+                key={index}
+                className="col-span-3 [&:nth-child(2)]:col-span-6 flex"
+              >
+                <Feature
+                  isServer={props.isServer}
+                  {...feature}
+                  variant="how-it-works"
+                />
+              </div>
+            );
+          })}
+        </dl>
       </div>
-      <dl className="space-y-10 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
-        {props.features?.map((feature, index) => (
-          <Feature isServer={props.isServer} key={index} {...feature} />
-        ))}
-      </dl>
     </div>
   );
 }

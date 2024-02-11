@@ -1,2 +1,13 @@
 & {
+  &[data-variant="for-planet-default"] {
+    [data-ui="button"] {
+      &[data-ui-variant="link"] {
+        @apply bg-transparent text-white text-base p-0;
+      }
+
+      &[data-ui-variant="primary"] {
+        @apply bg-primary-green text-black hover:bg-white hover:text-black transition duration-200 px-7 py-4 rounded-[20px]  text-xl p-0;
+      }
+    }
+  }
 }

@@ -4,27 +4,31 @@ import { IComponentPropsExtended } from "../../interface";
 
 export function Component(props: IComponentPropsExtended) {
   return (
-    <div className="mx-auto max-w-xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-      <div className="flex flex-col items-center py-16">
-        {props?.subtitle ? (
-          <ReactMarkdown className="text-lg font-semibold text-indigo-600 w-fit">
-            {props?.subtitle}
-          </ReactMarkdown>
-        ) : null}
-        <h2 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl w-fit">
-          {props?.title ? <ReactMarkdown>{props?.title}</ReactMarkdown> : null}
-        </h2>
-        {props.description ? (
-          <ReactMarkdown className="mt-4 max-w-2xl text-xl text-gray-500 text-center">
-            {props.description}
-          </ReactMarkdown>
-        ) : null}
+    <div className="bg-black pt-40 pb-24">
+      <div className="mx-auto max-w-7xl bg-white rounded-[20px] p-16">
+        <div className="flex flex-col items-center mb-12">
+          <h2 className="text-5xl font-medium font-primary leading-[130%] text-black uppercase">
+            {props?.title ? (
+              <ReactMarkdown>{props?.title}</ReactMarkdown>
+            ) : null}
+          </h2>
+          {props.description ? (
+            <ReactMarkdown className="mt-5 max-w-2xl text-xl font-regular text-black text-center">
+              {props.description}
+            </ReactMarkdown>
+          ) : null}
+        </div>
+        <div className="space-y-10 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
+          {props.features?.map((feature, index) => (
+            <Feature
+              isServer={props.isServer}
+              key={index}
+              {...feature}
+              variant="tier"
+            />
+          ))}
+        </div>
       </div>
-      <dl className="space-y-10 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
-        {props.features?.map((feature, index) => (
-          <Feature isServer={props.isServer} key={index} {...feature} />
-        ))}
-      </dl>
     </div>
   );
 }

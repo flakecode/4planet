@@ -4,27 +4,78 @@ import { IComponentPropsExtended } from "../../interface";
 
 export function Component(props: IComponentPropsExtended) {
   return (
-    <div className="mx-auto max-w-xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
-      <div className="flex flex-col items-center py-16">
-        {props?.subtitle ? (
-          <ReactMarkdown className="text-lg font-semibold text-indigo-600 w-fit">
-            {props?.subtitle}
-          </ReactMarkdown>
-        ) : null}
-        <h2 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl w-fit">
-          {props?.title ? <ReactMarkdown>{props?.title}</ReactMarkdown> : null}
-        </h2>
-        {props.description ? (
-          <ReactMarkdown className="mt-4 max-w-2xl text-xl text-gray-500 text-center">
-            {props.description}
-          </ReactMarkdown>
-        ) : null}
+    <div className="bg-black pt-60 pb-40">
+      <div className="mx-auto max-w-7xl flex justify-center">
+        <div className="relative max-w-5xl">
+          <h2 className="text-5xl font-medium font-primary leading-[130%] uppercase text-white text-center">
+            {props?.title ? (
+              <ReactMarkdown>{props?.title}</ReactMarkdown>
+            ) : null}
+          </h2>
+          {props.features?.map((feature, index) => {
+            const style = getStyles({ index });
+            return (
+              <div
+                key={index}
+                className="absolute -translate-y-1/2 -translate-x-1/2"
+                style={style}
+              >
+                <Feature
+                  isServer={props.isServer}
+                  {...feature}
+                  variant="headlines"
+                />
+              </div>
+            );
+          })}
+        </div>
       </div>
-      <dl className="space-y-10 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
-        {props.features?.map((feature, index) => (
-          <Feature isServer={props.isServer} key={index} {...feature} />
-        ))}
-      </dl>
     </div>
   );
+}
+
+function getStyles({ index }: { index: number }) {
+  if (index === 0) {
+    return {
+      left: "1%",
+      top: "-50%",
+      rotate: "-15deg",
+    };
+  } else if (index === 1) {
+    return {
+      left: "20%",
+      top: "-50%",
+      rotate: "10deg",
+    };
+  } else if (index === 2) {
+    return {
+      right: "-15%",
+      top: "-80%",
+      rotate: "-8deg",
+    };
+  } else if (index === 3) {
+    return {
+      right: "-25%",
+      top: "30%",
+      rotate: "14deg",
+    };
+  } else if (index === 4) {
+    return {
+      right: "-24%",
+      bottom: "-70%",
+      rotate: "-14deg",
+    };
+  } else if (index === 5) {
+    return {
+      left: "34%",
+      bottom: "-100%",
+      rotate: "-8deg",
+    };
+  } else if (index === 6) {
+    return {
+      left: "-1%",
+      bottom: "-110%",
+      rotate: "12deg",
+    };
+  }
 }

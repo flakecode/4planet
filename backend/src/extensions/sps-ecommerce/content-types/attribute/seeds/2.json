@@ -7,14 +7,13 @@
   "datetime": null,
   "time": null,
   "createdAt": "2024-02-04T22:06:02.189Z",
-  "updatedAt": "2024-02-04T22:06:03.335Z",
+  "updatedAt": "2024-02-10T19:23:38.509Z",
   "locale": "en",
   "localizations": [],
   "attribute_key": {
     "id": 2,
     "title": "quantity",
     "type": "number",
-    "key": "quantity",
     "prefix": null,
     "postfix": null,
     "is_multiple": false,
@@ -23,7 +22,8 @@
     "not_to_clear": false,
     "createdAt": "2024-02-04T22:06:02.322Z",
     "updatedAt": "2024-02-04T22:06:03.557Z",
-    "locale": "en"
+    "locale": "en",
+    "uid": null
   },
   "media": null,
   "products": [],

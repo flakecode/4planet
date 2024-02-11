@@ -6,13 +6,13 @@
   "uid": "question",
   "title": "Есть вопросы по продукту?",
   "createdAt": "2024-02-04T22:06:02.360Z",
-  "updatedAt": "2024-02-04T22:06:18.148Z",
+  "updatedAt": "2024-02-10T19:23:50.291Z",
   "publishedAt": "2023-02-14T15:44:48.245Z",
   "locale": "en",
   "localizations": [],
   "inputs": [
     {
-      "id": 2,
+      "id": 13,
       "placeholder": "Type your name",
       "variant": "text",
       "is_required": true,
@@ -26,78 +26,12 @@
       "max": null,
       "step": null,
       "options": [],
-      "media": [
-        {
-          "id": 3,
-          "name": "users group.png",
-          "alternativeText": null,
-          "caption": null,
-          "width": 1920,
-          "height": 1920,
-          "formats": {
-            "large": {
-              "ext": ".png",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_users_group_c23771a197.png",
-              "hash": "large_users_group_c23771a197",
-              "mime": "image/png",
-              "name": "large_users group.png",
-              "path": null,
-              "size": 991.04,
-              "width": 1000,
-              "height": 1000
-            },
-            "small": {
-              "ext": ".png",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_users_group_c23771a197.png",
-              "hash": "small_users_group_c23771a197",
-              "mime": "image/png",
-              "name": "small_users group.png",
-              "path": null,
-              "size": 280.56,
-              "width": 500,
-              "height": 500
-            },
-            "medium": {
-              "ext": ".png",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_users_group_c23771a197.png",
-              "hash": "medium_users_group_c23771a197",
-              "mime": "image/png",
-              "name": "medium_users group.png",
-              "path": null,
-              "size": 596.56,
-              "width": 750,
-              "height": 750
-            },
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_users_group_c23771a197.png",
-              "hash": "thumbnail_users_group_c23771a197",
-              "mime": "image/png",
-              "name": "thumbnail_users group.png",
-              "path": null,
-              "size": 34.11,
-              "width": 156,
-              "height": 156
-            }
-          },
-          "hash": "users_group_c23771a197",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 386.31,
-          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/users_group_c23771a197.png",
-          "previewUrl": null,
-          "provider": "aws-s3",
-          "provider_metadata": null,
-          "folderPath": "/",
-          "createdAt": "2024-02-04T22:06:07.205Z",
-          "updatedAt": "2024-02-04T22:06:07.205Z"
-        }
-      ],
+      "media": null,
       "additional_media": null,
       "extra_media": null
     },
     {
-      "id": 4,
+      "id": 14,
       "placeholder": "Type your email",
       "variant": "text",
       "is_required": true,
@@ -116,7 +50,7 @@
       "extra_media": null
     },
     {
-      "id": 9,
+      "id": 17,
       "placeholder": "Choose target tier",
       "variant": "listbox",
       "is_required": false,
@@ -131,199 +65,26 @@
       "step": null,
       "options": [
         {
-          "id": 3,
+          "id": 5,
           "title": "Lite",
           "description": null,
-          "media": [
-            {
-              "id": 4,
-              "name": "cloud storage.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 1920,
-              "height": 1920,
-              "formats": {
-                "large": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_cloud_storage_af57bd77b1.png",
-                  "hash": "large_cloud_storage_af57bd77b1",
-                  "mime": "image/png",
-                  "name": "large_cloud storage.png",
-                  "path": null,
-                  "size": 955.21,
-                  "width": 1000,
-                  "height": 1000
-                },
-                "small": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_cloud_storage_af57bd77b1.png",
-                  "hash": "small_cloud_storage_af57bd77b1",
-                  "mime": "image/png",
-                  "name": "small_cloud storage.png",
-                  "path": null,
-                  "size": 232.66,
-                  "width": 500,
-                  "height": 500
-                },
-                "medium": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_cloud_storage_af57bd77b1.png",
-                  "hash": "medium_cloud_storage_af57bd77b1",
-                  "mime": "image/png",
-                  "name": "medium_cloud storage.png",
-                  "path": null,
-                  "size": 532.99,
-                  "width": 750,
-                  "height": 750
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_cloud_storage_af57bd77b1.png",
-                  "hash": "thumbnail_cloud_storage_af57bd77b1",
-                  "mime": "image/png",
-                  "name": "thumbnail_cloud storage.png",
-                  "path": null,
-                  "size": 26.54,
-                  "width": 156,
-                  "height": 156
-                }
-              },
-              "hash": "cloud_storage_af57bd77b1",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 679.45,
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/cloud_storage_af57bd77b1.png",
-              "previewUrl": null,
-              "provider": "aws-s3",
-              "provider_metadata": null,
-              "folderPath": "/",
-              "createdAt": "2024-02-04T22:06:08.899Z",
-              "updatedAt": "2024-02-04T22:06:08.899Z"
-            }
-          ],
+          "media": null,
           "additional_media": null
         },
         {
-          "id": 2,
+          "id": 7,
           "title": "Pro",
           "description": null,
           "media": null,
           "additional_media": null
         }
       ],
-      "media": [
-        {
-          "id": 5,
-          "name": "eight ways.png",
-          "alternativeText": null,
-          "caption": null,
-          "width": 1920,
-          "height": 1920,
-          "formats": {
-            "large": {
-              "ext": ".png",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_eight_ways_38ca2eadc0.png",
-              "hash": "large_eight_ways_38ca2eadc0",
-              "mime": "image/png",
-              "name": "large_eight ways.png",
-              "path": null,
-              "size": 838.27,
-              "width": 1000,
-              "height": 1000
-            },
-            "small": {
-              "ext": ".png",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_eight_ways_38ca2eadc0.png",
-              "hash": "small_eight_ways_38ca2eadc0",
-              "mime": "image/png",
-              "name": "small_eight ways.png",
-              "path": null,
-              "size": 215.42,
-              "width": 500,
-              "height": 500
-            },
-            "medium": {
-              "ext": ".png",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_eight_ways_38ca2eadc0.png",
-              "hash": "medium_eight_ways_38ca2eadc0",
-              "mime": "image/png",
-              "name": "medium_eight ways.png",
-              "path": null,
-              "size": 477.86,
-              "width": 750,
-              "height": 750
-            },
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_eight_ways_38ca2eadc0.png",
-              "hash": "thumbnail_eight_ways_38ca2eadc0",
-              "mime": "image/png",
-              "name": "thumbnail_eight ways.png",
-              "path": null,
-              "size": 26.74,
-              "width": 156,
-              "height": 156
-            }
-          },
-          "hash": "eight_ways_38ca2eadc0",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 560.39,
-          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/eight_ways_38ca2eadc0.png",
-          "previewUrl": null,
-          "provider": "aws-s3",
-          "provider_metadata": null,
-          "folderPath": "/",
-          "createdAt": "2024-02-04T22:06:10.543Z",
-          "updatedAt": "2024-02-04T22:06:10.543Z"
-        }
-      ],
-      "additional_media": [
-        {
-          "id": 6,
-          "name": "chevron-down.svg",
-          "alternativeText": null,
-          "caption": null,
-          "width": 448,
-          "height": 512,
-          "formats": null,
-          "hash": "chevron_down_586dbcee07",
-          "ext": ".svg",
-          "mime": "image/svg+xml",
-          "size": 0.54,
-          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/chevron_down_586dbcee07.svg",
-          "previewUrl": null,
-          "provider": "aws-s3",
-          "provider_metadata": null,
-          "folderPath": "/",
-          "createdAt": "2024-02-04T22:06:10.987Z",
-          "updatedAt": "2024-02-04T22:06:10.987Z"
-        },
-        {
-          "id": 7,
-          "name": "chevron-up.svg",
-          "alternativeText": null,
-          "caption": null,
-          "width": 448,
-          "height": 512,
-          "formats": null,
-          "hash": "chevron_up_681f950b53",
-          "ext": ".svg",
-          "mime": "image/svg+xml",
-          "size": 0.54,
-          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/chevron_up_681f950b53.svg",
-          "previewUrl": null,
-          "provider": "aws-s3",
-          "provider_metadata": null,
-          "folderPath": "/",
-          "createdAt": "2024-02-04T22:06:11.429Z",
-          "updatedAt": "2024-02-04T22:06:11.429Z"
-        }
-      ],
+      "media": null,
+      "additional_media": null,
       "extra_media": null
     },
     {
-      "id": 8,
+      "id": 18,
       "placeholder": "Select hosting type",
       "variant": "radio-group",
       "is_required": false,
@@ -338,150 +99,18 @@
       "step": null,
       "options": [
         {
-          "id": 4,
+          "id": 6,
           "title": "Yes",
           "description": null,
-          "media": [
-            {
-              "id": 8,
-              "name": "three block.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 1920,
-              "height": 1920,
-              "formats": {
-                "large": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_three_block_a395283ada.png",
-                  "hash": "large_three_block_a395283ada",
-                  "mime": "image/png",
-                  "name": "large_three block.png",
-                  "path": null,
-                  "size": 1062.72,
-                  "width": 1000,
-                  "height": 1000
-                },
-                "small": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_three_block_a395283ada.png",
-                  "hash": "small_three_block_a395283ada",
-                  "mime": "image/png",
-                  "name": "small_three block.png",
-                  "path": null,
-                  "size": 290.24,
-                  "width": 500,
-                  "height": 500
-                },
-                "medium": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_three_block_a395283ada.png",
-                  "hash": "medium_three_block_a395283ada",
-                  "mime": "image/png",
-                  "name": "medium_three block.png",
-                  "path": null,
-                  "size": 629.91,
-                  "width": 750,
-                  "height": 750
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_three_block_a395283ada.png",
-                  "hash": "thumbnail_three_block_a395283ada",
-                  "mime": "image/png",
-                  "name": "thumbnail_three block.png",
-                  "path": null,
-                  "size": 33.46,
-                  "width": 156,
-                  "height": 156
-                }
-              },
-              "hash": "three_block_a395283ada",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 414.59,
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/three_block_a395283ada.png",
-              "previewUrl": null,
-              "provider": "aws-s3",
-              "provider_metadata": null,
-              "folderPath": "/",
-              "createdAt": "2024-02-04T22:06:13.122Z",
-              "updatedAt": "2024-02-04T22:06:13.122Z"
-            }
-          ],
+          "media": null,
           "additional_media": null
         },
         {
-          "id": 1,
+          "id": 8,
           "title": "No",
           "description": null,
           "media": null,
-          "additional_media": [
-            {
-              "id": 9,
-              "name": "eight ways.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 1920,
-              "height": 1920,
-              "formats": {
-                "large": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_eight_ways_ec747aba91.png",
-                  "hash": "large_eight_ways_ec747aba91",
-                  "mime": "image/png",
-                  "name": "large_eight ways.png",
-                  "path": null,
-                  "size": 838.27,
-                  "width": 1000,
-                  "height": 1000
-                },
-                "small": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_eight_ways_ec747aba91.png",
-                  "hash": "small_eight_ways_ec747aba91",
-                  "mime": "image/png",
-                  "name": "small_eight ways.png",
-                  "path": null,
-                  "size": 215.42,
-                  "width": 500,
-                  "height": 500
-                },
-                "medium": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_eight_ways_ec747aba91.png",
-                  "hash": "medium_eight_ways_ec747aba91",
-                  "mime": "image/png",
-                  "name": "medium_eight ways.png",
-                  "path": null,
-                  "size": 477.86,
-                  "width": 750,
-                  "height": 750
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_eight_ways_ec747aba91.png",
-                  "hash": "thumbnail_eight_ways_ec747aba91",
-                  "mime": "image/png",
-                  "name": "thumbnail_eight ways.png",
-                  "path": null,
-                  "size": 26.74,
-                  "width": 156,
-                  "height": 156
-                }
-              },
-              "hash": "eight_ways_ec747aba91",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 560.39,
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/eight_ways_ec747aba91.png",
-              "previewUrl": null,
-              "provider": "aws-s3",
-              "provider_metadata": null,
-              "folderPath": "/",
-              "createdAt": "2024-02-04T22:06:14.728Z",
-              "updatedAt": "2024-02-04T22:06:14.728Z"
-            }
-          ]
+          "additional_media": null
         }
       ],
       "media": null,
@@ -489,7 +118,7 @@
       "extra_media": null
     },
     {
-      "id": 1,
+      "id": 11,
       "placeholder": "Monthly visitors",
       "variant": "range",
       "is_required": false,
@@ -508,7 +137,7 @@
       "extra_media": null
     },
     {
-      "id": 3,
+      "id": 12,
       "placeholder": "Type your question",
       "variant": "text",
       "is_required": false,
@@ -527,7 +156,7 @@
       "extra_media": null
     },
     {
-      "id": 6,
+      "id": 10,
       "placeholder": "Select release date",
       "variant": "date",
       "is_required": false,
@@ -541,99 +170,12 @@
       "max": null,
       "step": null,
       "options": [],
-      "media": [
-        {
-          "id": 10,
-          "name": "catalog.png",
-          "alternativeText": null,
-          "caption": null,
-          "width": 1920,
-          "height": 1920,
-          "formats": {
-            "large": {
-              "ext": ".png",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/large_catalog_d40537fcd2.png",
-              "hash": "large_catalog_d40537fcd2",
-              "mime": "image/png",
-              "name": "large_catalog.png",
-              "path": null,
-              "size": 1489.01,
-              "width": 1000,
-              "height": 1000
-            },
-            "small": {
-              "ext": ".png",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/small_catalog_d40537fcd2.png",
-              "hash": "small_catalog_d40537fcd2",
-              "mime": "image/png",
-              "name": "small_catalog.png",
-              "path": null,
-              "size": 354.53,
-              "width": 500,
-              "height": 500
-            },
-            "medium": {
-              "ext": ".png",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/medium_catalog_d40537fcd2.png",
-              "hash": "medium_catalog_d40537fcd2",
-              "mime": "image/png",
-              "name": "medium_catalog.png",
-              "path": null,
-              "size": 825.38,
-              "width": 750,
-              "height": 750
-            },
-            "thumbnail": {
-              "ext": ".png",
-              "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/thumbnail_catalog_d40537fcd2.png",
-              "hash": "thumbnail_catalog_d40537fcd2",
-              "mime": "image/png",
-              "name": "thumbnail_catalog.png",
-              "path": null,
-              "size": 36.37,
-              "width": 156,
-              "height": 156
-            }
-          },
-          "hash": "catalog_d40537fcd2",
-          "ext": ".png",
-          "mime": "image/png",
-          "size": 1046.94,
-          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/catalog_d40537fcd2.png",
-          "previewUrl": null,
-          "provider": "aws-s3",
-          "provider_metadata": null,
-          "folderPath": "/",
-          "createdAt": "2024-02-04T22:06:16.679Z",
-          "updatedAt": "2024-02-04T22:06:16.679Z"
-        }
-      ],
-      "additional_media": [
-        {
-          "id": 11,
-          "name": "calendar.svg",
-          "alternativeText": null,
-          "caption": null,
-          "width": 448,
-          "height": 512,
-          "formats": null,
-          "hash": "calendar_9d9c525245",
-          "ext": ".svg",
-          "mime": "image/svg+xml",
-          "size": 0.53,
-          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/calendar_9d9c525245.svg",
-          "previewUrl": null,
-          "provider": "aws-s3",
-          "provider_metadata": null,
-          "folderPath": "/",
-          "createdAt": "2024-02-04T22:06:17.114Z",
-          "updatedAt": "2024-02-04T22:06:17.114Z"
-        }
-      ],
+      "media": null,
+      "additional_media": null,
       "extra_media": null
     },
     {
-      "id": 5,
+      "id": 15,
       "placeholder": "Upload design file",
       "variant": "file",
       "is_required": false,
@@ -647,54 +189,12 @@
       "max": null,
       "step": null,
       "options": [],
-      "media": [
-        {
-          "id": 12,
-          "name": "cloud.svg",
-          "alternativeText": null,
-          "caption": null,
-          "width": 640,
-          "height": 512,
-          "formats": null,
-          "hash": "cloud_95cc1c6cb3",
-          "ext": ".svg",
-          "mime": "image/svg+xml",
-          "size": 0.51,
-          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/cloud_95cc1c6cb3.svg",
-          "previewUrl": null,
-          "provider": "aws-s3",
-          "provider_metadata": null,
-          "folderPath": "/",
-          "createdAt": "2024-02-04T22:06:17.557Z",
-          "updatedAt": "2024-02-04T22:06:17.557Z"
-        }
-      ],
-      "additional_media": [
-        {
-          "id": 13,
-          "name": "trash.svg",
-          "alternativeText": null,
-          "caption": null,
-          "width": 448,
-          "height": 512,
-          "formats": null,
-          "hash": "trash_57ac3424bf",
-          "ext": ".svg",
-          "mime": "image/svg+xml",
-          "size": 0.49,
-          "url": "https://spslitedev.s3.eu-central-1.amazonaws.com/trash_57ac3424bf.svg",
-          "previewUrl": null,
-          "provider": "aws-s3",
-          "provider_metadata": null,
-          "folderPath": "/",
-          "createdAt": "2024-02-04T22:06:18.006Z",
-          "updatedAt": "2024-02-04T22:06:18.006Z"
-        }
-      ],
+      "media": null,
+      "additional_media": null,
       "extra_media": null
     },
     {
-      "id": 7,
+      "id": 16,
       "placeholder": null,
       "variant": "switch",
       "is_required": true,
@@ -714,7 +214,7 @@
     }
   ],
   "button": {
-    "id": 2,
+    "id": 33,
     "url": null,
     "description": null,
     "variant": "primary",
@@ -727,12 +227,12 @@
   },
   "side_effects": [
     {
-      "id": 1,
+      "id": 2,
       "type": "send-to-recievers",
       "provider": "email",
       "recievers": [
         {
-          "id": 1,
+          "id": 2,
           "identifier": "rogwild.design@gmail.com",
           "admin": null,
           "user": null

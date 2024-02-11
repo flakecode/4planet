@@ -4,7 +4,7 @@
   "unicode": "$",
   "is_default": true,
   "createdAt": "2024-02-04T22:06:02.030Z",
-  "updatedAt": "2024-02-04T22:06:02.966Z",
+  "updatedAt": "2024-02-10T19:23:38.344Z",
   "publishedAt": "2023-03-29T16:09:52.898Z",
   "locale": "en",
   "localizations": [
@@ -14,7 +14,7 @@
       "unicode": "$",
       "is_default": true,
       "createdAt": "2024-02-04T22:06:02.049Z",
-      "updatedAt": "2024-02-04T22:06:03.001Z",
+      "updatedAt": "2024-02-10T19:23:38.363Z",
       "publishedAt": "2024-01-12T13:25:20.537Z",
       "locale": "fr"
     }
@@ -29,7 +29,7 @@
       "datetime": null,
       "time": null,
       "createdAt": "2024-02-04T22:06:02.164Z",
-      "updatedAt": "2024-02-04T22:06:03.276Z",
+      "updatedAt": "2024-02-10T19:23:38.479Z",
       "locale": "en"
     }
   ],

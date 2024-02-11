@@ -10,7 +10,8 @@
       "type": "enumeration",
       "enum": [
         "simple-links-on-left",
-        "for-planet-default"
+        "for-planet-default",
+        "centered-logotype"
       ],
       "default": "simple-links-on-left",
       "required": true

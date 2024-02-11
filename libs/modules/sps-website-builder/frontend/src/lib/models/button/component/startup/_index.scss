@@ -1,0 +1,5 @@
+& {
+  &[data-ui="button"][data-ui-variant="outline"] {
+    @apply px-7 py-4 text-xl rounded-lg text-white hover:text-black hover:bg-white;
+  }
+}
