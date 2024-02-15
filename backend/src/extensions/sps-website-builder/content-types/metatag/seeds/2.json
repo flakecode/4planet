@@ -5,20 +5,20 @@
   "script": null,
   "gtm_key": null,
   "is_default": true,
-  "createdAt": "2024-02-04T22:06:02.603Z",
-  "updatedAt": "2024-02-10T19:25:45.758Z",
+  "createdAt": "2024-01-16T19:26:58.425Z",
+  "updatedAt": "2024-02-13T09:12:38.874Z",
   "publishedAt": "2024-01-13T00:01:32.693Z",
   "locale": "fr",
   "localizations": [
     {
-      "id": 1,
+      "id": 3,
       "title": "For Planet",
       "description": "Сервис по посадке деревьев по всему миру",
       "script": null,
       "gtm_key": null,
       "is_default": true,
-      "createdAt": "2024-02-04T22:06:02.587Z",
-      "updatedAt": "2024-02-10T19:25:45.711Z",
+      "createdAt": "2024-02-11T20:50:35.831Z",
+      "updatedAt": "2024-02-13T09:12:38.853Z",
       "publishedAt": "2023-04-08T06:09:23.027Z",
       "locale": "en"
     }
