@@ -96,6 +96,10 @@ export interface ElementsFeature extends Schema.Component {
     additional_media: Attribute.Media;
     title: Attribute.RichText;
     subtitle: Attribute.RichText;
+    amount: Attribute.Float &
+      Attribute.SetMinMax<{
+        min: 0;
+      }>;
   };
 }
 

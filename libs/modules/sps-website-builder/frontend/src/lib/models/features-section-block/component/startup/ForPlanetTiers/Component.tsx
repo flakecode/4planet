@@ -28,9 +28,9 @@ export function Component(props: IComponentPropsExtended) {
               {...feature}
               variant="tier"
               onClick={(e) => {
-                const tier = tiers[index];
-                const amount = tier?.amount || 1;
-                const price = 190;
+                const amount = feature.amount || 1;
+                const price = treePriceByCurrency.rub;
+
                 // @ts-ignore
                 const widget = new cp.CloudPayments();
                 widget.pay(
@@ -74,22 +74,4 @@ export function Component(props: IComponentPropsExtended) {
   );
 }
 
-const tiers = [
-  {
-    amount: 1,
-  },
-  {
-    amount: 10,
-  },
-  {
-    amount: 50,
-  },
-];
-
-/*
-id: 1,
-__component: "elements.feature",
-title: "",
-description: "",
-subtitle: "",
-*/
+const treePriceByCurrency = { rub: 190, usd: 3, kzt: 1000 };

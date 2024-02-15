@@ -55,14 +55,12 @@ const billingProviders = {
   "cloud-payments": async (ctx: any) => {
     const { body } = ctx.request;
 
-    console.log("body", body);
-
     const user = await strapi
       .service("plugin::users-permissions.user")
       .findOrCreate({
         email: body.Email,
+        username: body.Email,
       });
-    console.log(`user`, user);
 
     const order = await strapi.entityService.create(
       "plugin::sps-ecommerce.order",
@@ -80,15 +78,17 @@ const billingProviders = {
       {
         data: {
           status: "success",
-          provider_data: JSON.stringify(body),
+          provider: "cloud-payments",
+          provider_data: body,
           amount: parseFloat(body.Amount),
           currency: body.Currency,
           orders: [order.id],
+          publishedAt: new Date(),
         },
       },
     );
 
-    body;
+    invoice;
 
     return { code: 0 };
   },

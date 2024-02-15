@@ -11,7 +11,12 @@
       "type": "media",
       "multiple": true,
       "required": false,
-      "allowedTypes": ["images", "files", "videos", "audios"]
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     },
     "description": {
       "type": "richtext"
@@ -20,13 +25,22 @@
       "type": "media",
       "multiple": true,
       "required": false,
-      "allowedTypes": ["images", "files", "videos", "audios"]
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     },
     "title": {
       "type": "richtext"
     },
     "subtitle": {
       "type": "richtext"
+    },
+    "amount": {
+      "type": "float",
+      "min": 0
     }
   }
 }
