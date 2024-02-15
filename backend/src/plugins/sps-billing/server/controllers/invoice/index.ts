@@ -54,7 +54,77 @@ const billingProviders = {
   },
   "cloud-payments": async (ctx: any) => {
     const { body } = ctx.request;
+
+    console.log("body", body);
+
+    const user = await strapi
+      .service("plugin::users-permissions.user")
+      .findOrCreate({
+        email: body.Email,
+      });
+    console.log(`user`, user);
+
+    const order = await strapi.entityService.create(
+      "plugin::sps-ecommerce.order",
+      {
+        data: {
+          amount: parseFloat(body.Amount),
+          user: user.id,
+          status: "paid",
+          email: body.Email,
+        },
+      },
+    );
+    const invoice = await strapi.entityService.create(
+      "plugin::sps-billing.invoice",
+      {
+        data: {
+          status: "success",
+          provider_data: JSON.stringify(body),
+          amount: parseFloat(body.Amount),
+          currency: body.Currency,
+          orders: [order.id],
+        },
+      },
+    );
+
     body;
+
     return { code: 0 };
   },
 };
+/*
+const paidBody = {
+  TransactionId: "2236146119",
+  Amount: "9500.00",
+  Currency: "RUB",
+  PaymentAmount: "9500.00",
+  PaymentCurrency: "RUB",
+  OperationType: "Payment",
+  InvoiceId: "",
+  AccountId: "",
+  SubscriptionId: "",
+  Name: "",
+  Email: "degoev2@gmail.com",
+  DateTime: "2024-02-15 03:11:42",
+  IpAddress: "64.226.113.147",
+  IpCountry: "US",
+  IpCity: "Атланта",
+  IpRegion: "Джорджия",
+  IpDistrict: "Атланта",
+  IpLatitude: "33.749",
+  IpLongitude: "-84.38798",
+  CardId: "65698efb366fa86fc1e46937",
+  CardFirstSix: "424242",
+  CardLastFour: "4242",
+  CardType: "Visa",
+  CardExpDate: "01/29",
+  Issuer: "TINKOFF",
+  IssuerBankCountry: "RU",
+  Description: "Оплата деревьев в 4planet.ru",
+  TestMode: "1",
+  Status: "Authorized",
+  Data: '{"myProp":"myProp value"}',
+  CardProduct: "",
+  PaymentMethod: "",
+};*/

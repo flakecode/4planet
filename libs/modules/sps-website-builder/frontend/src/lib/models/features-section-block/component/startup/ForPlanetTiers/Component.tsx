@@ -1,3 +1,5 @@
+"use client";
+
 import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { Component as Feature } from "../../../../feature/component";
 import { IComponentPropsExtended } from "../../interface";
@@ -21,10 +23,49 @@ export function Component(props: IComponentPropsExtended) {
         <div className="space-y-10 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
           {props.features?.map((feature, index) => (
             <Feature
-              isServer={props.isServer}
+              isServer={false}
               key={index}
               {...feature}
               variant="tier"
+              onClick={(e) => {
+                const tier = tiers[index];
+                const amount = tier?.amount || 1;
+                const price = 190;
+                // @ts-ignore
+                const widget = new cp.CloudPayments();
+                widget.pay(
+                  "auth", // или 'charge'
+                  {
+                    //options
+                    publicId: "pk_b2124921a65199e4082fd293a1136", //id из личного кабинета
+                    description: "Оплата деревьев в 4planet.ru", //назначение
+                    amount: amount * price, //сумма
+                    currency: "RUB", //валюта
+                    requireEmail: true,
+                    skin: "mini", //дизайн виджета (необязательно)
+                    data: {
+                      myProp: "myProp value",
+                    },
+                  },
+                  {
+                    onSuccess: function (options: any) {
+                      // success
+                      //действие при успешной оплате
+                      console.log(`onSuccess `, options);
+                    },
+                    onFail: function (reason: any, options: any) {
+                      // fail
+                      //действие при неуспешной оплате
+                      console.log(`onFail `, reason, options);
+                    },
+                    onComplete: function (paymentResult, options) {
+                      //Вызывается как только виджет получает от api.cloudpayments ответ с результатом транзакции.
+                      //например вызов вашей аналитики Facebook Pixel
+                      console.log(`onComplete `, paymentResult, options);
+                    },
+                  },
+                );
+              }}
             />
           ))}
         </div>
@@ -32,3 +73,23 @@ export function Component(props: IComponentPropsExtended) {
     </div>
   );
 }
+
+const tiers = [
+  {
+    amount: 1,
+  },
+  {
+    amount: 10,
+  },
+  {
+    amount: 50,
+  },
+];
+
+/*
+id: 1,
+__component: "elements.feature",
+title: "",
+description: "",
+subtitle: "",
+*/

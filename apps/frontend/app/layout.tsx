@@ -9,6 +9,7 @@ import {
 import { Suspense } from "react";
 import { HocParamsProvider, AdditionalHeadersWrapper } from "@sps/store";
 import { ReduxProvider as SpsRbacReduxProvider } from "@sps/sps-rbac-frontend/lib/redux";
+import Script from "next/script";
 
 export const dynamic = "force-dynamic";
 
@@ -19,6 +20,9 @@ export default async function RootLayout({
 }) {
   return (
     <html className="scroll-smooth">
+      <head>
+        <Script src="https://widget.cloudpayments.ru/bundles/cloudpayments.js" />
+      </head>
       <body
         className={`${fonts.defaultFont.variable} ${fonts.primaryFont.variable}`}
       >
