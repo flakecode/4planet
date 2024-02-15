@@ -58,7 +58,7 @@ export function Component(props: IComponentPropsExtended) {
                       //действие при неуспешной оплате
                       console.log(`onFail `, reason, options);
                     },
-                    onComplete: function (paymentResult, options) {
+                    onComplete: function (paymentResult: any, options: any) {
                       //Вызывается как только виджет получает от api.cloudpayments ответ с результатом транзакции.
                       //например вызов вашей аналитики Facebook Pixel
                       console.log(`onComplete `, paymentResult, options);
