@@ -7,6 +7,11 @@ export default {
       handler: "invoice.confirm",
     },
     {
+      method: "GET",
+      path: "/invoices/certificate/:count",
+      handler: "invoice.getCertificate",
+    },
+    {
       method: "POST",
       path: "/invoices/webhook/:provider",
       handler: "invoice.webhook",

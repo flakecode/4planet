@@ -33,6 +33,16 @@ export default factories.createCoreController(
       }
       return providerHandler(ctx);
     },
+    async getCertificate(ctx: any) {
+      const { count } = ctx.params;
+      const cert = await strapi
+        .service("plugin::sps-billing.invoice")
+        .createCertificate({ count });
+
+      ctx;
+      ctx.response.type = "application/pdf"; // "text/html"; //
+      ctx.body = cert;
+    },
   }),
 );
 

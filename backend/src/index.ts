@@ -6,7 +6,13 @@ import Telegram from "./services/Telegram";
 
 export default {
   async bootstrap({ strapi }) {
-    await setPermissions();
+    // await strapi
+    //   .service("plugin::sps-billing.invoice")
+    //   .createCertificate({ count: 123 });
+
+    if (process.env.NODE_ENV === "production") {
+      await setPermissions();
+    }
 
     strapi;
 
