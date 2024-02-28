@@ -14,6 +14,7 @@ module.exports = ({ env }) => {
                 "data:",
                 "*.strapi.io",
                 env("AWS_S3_URL"),
+                "*.singlepagestartup.com",
               ],
               "connect-src": ["'self'", "https:"],
               "media-src": [
@@ -22,6 +23,7 @@ module.exports = ({ env }) => {
                 "data:",
                 "*.strapi.io",
                 env("AWS_S3_URL"),
+                "*.singlepagestartup.com",
               ],
               upgradeInsecureRequests: null,
             },
@@ -44,6 +46,7 @@ module.exports = ({ env }) => {
                 "*.amazonaws.com",
                 "*.selcdn.ru",
                 "*.strapi.io",
+                "*.singlepagestartup.com",
               ],
               "media-src": [
                 "'self'",

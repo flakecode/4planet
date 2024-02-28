@@ -4,4 +4,5 @@ export interface IModel {
   title: string | null;
   description: string | null;
   subtitle: string | null;
+  amount: number | null;
 }
