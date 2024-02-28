@@ -7,4 +7,5 @@ export const entity: IModel = {
   title: faker.lorem.words(3),
   description: faker.lorem.paragraph(),
   subtitle: faker.lorem.sentences(1),
+  amount: faker.number.int(),
 };

@@ -1,0 +1,78 @@
+{
+  "id": 3,
+  "title": "Public Page Footer",
+  "uid": "footer",
+  "variant": "for-planet-default",
+  "class_name": null,
+  "createdAt": "2024-02-11T20:50:35.786Z",
+  "updatedAt": "2024-02-13T09:12:38.721Z",
+  "publishedAt": "2024-01-10T11:45:35.047Z",
+  "locale": "en",
+  "localizations": [
+    {
+      "id": 2,
+      "title": "Pied de page public",
+      "uid": "pied-de-page-public",
+      "variant": "boxed",
+      "class_name": null,
+      "createdAt": "2024-01-16T19:26:58.380Z",
+      "updatedAt": "2024-02-13T09:12:38.764Z",
+      "publishedAt": "2024-01-12T23:31:13.162Z",
+      "locale": "fr"
+    }
+  ],
+  "page_blocks": [
+    {
+      "__component": "page-blocks.footer-block",
+      "id": 9,
+      "copyrights": "2024 ForPlanet",
+      "description": "",
+      "variant": "for-planet-default",
+      "class_name": null,
+      "logotype": {
+        "id": 17,
+        "title": null,
+        "url": null,
+        "media": [
+          {
+            "id": 128,
+            "name": "logo.svg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 203,
+            "height": 21,
+            "formats": null,
+            "hash": "logo_d925f9fb47",
+            "ext": ".svg",
+            "mime": "image/svg+xml",
+            "size": 1.17,
+            "url": "/uploads/logo_d925f9fb47.svg",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "folderPath": "/",
+            "createdAt": "2024-02-13T09:12:38.608Z",
+            "updatedAt": "2024-02-13T09:12:38.608Z"
+          }
+        ],
+        "additional_media": null
+      },
+      "buttons_arrays": [],
+      "additional_buttons_arrays": [],
+      "extra_buttons_arrays": []
+    }
+  ],
+  "layouts": [
+    {
+      "id": 2,
+      "title": "Public Page Layout",
+      "uid": "public-page-layout",
+      "variant": "wide",
+      "class_name": "[&>.layout-container]:pt-16",
+      "createdAt": "2024-01-16T19:26:58.408Z",
+      "updatedAt": "2024-02-13T09:12:38.781Z",
+      "publishedAt": "2023-04-20T03:23:38.447Z",
+      "locale": "en"
+    }
+  ]
+}

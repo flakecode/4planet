@@ -24,7 +24,7 @@
     },
     "provider": {
       "type": "enumeration",
-      "enum": ["stripe", "zero_x_processing"],
+      "enum": ["stripe", "zero_x_processing", "cloud-payments"],
       "default": "stripe",
       "required": true
     },

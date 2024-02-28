@@ -1,2 +1,7 @@
 & {
+  &[data-variant="for-planet-create-subscription"] {
+    [data-ui="button"][data-ui-variant="outline"] {
+      @apply border-black text-black rounded-[20px] hover:bg-black hover:text-white px-10 py-4;
+    }
+  }
 }
