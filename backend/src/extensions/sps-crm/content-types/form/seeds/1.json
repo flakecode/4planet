@@ -5,14 +5,14 @@
   "variant": "simple",
   "uid": "question",
   "title": "Есть вопросы по продукту?",
-  "createdAt": "2024-01-16T19:26:58.334Z",
-  "updatedAt": "2024-02-13T09:12:38.338Z",
+  "createdAt": "2024-02-04T22:06:02.360Z",
+  "updatedAt": "2024-02-10T19:23:50.291Z",
   "publishedAt": "2023-02-14T15:44:48.245Z",
   "locale": "en",
   "localizations": [],
   "inputs": [
     {
-      "id": 39,
+      "id": 13,
       "placeholder": "Type your name",
       "variant": "text",
       "is_required": true,
@@ -31,7 +31,7 @@
       "extra_media": null
     },
     {
-      "id": 41,
+      "id": 14,
       "placeholder": "Type your email",
       "variant": "text",
       "is_required": true,
@@ -50,7 +50,7 @@
       "extra_media": null
     },
     {
-      "id": 44,
+      "id": 17,
       "placeholder": "Choose target tier",
       "variant": "listbox",
       "is_required": false,
@@ -65,14 +65,14 @@
       "step": null,
       "options": [
         {
-          "id": 17,
+          "id": 5,
           "title": "Lite",
           "description": null,
           "media": null,
           "additional_media": null
         },
         {
-          "id": 18,
+          "id": 7,
           "title": "Pro",
           "description": null,
           "media": null,
@@ -84,7 +84,7 @@
       "extra_media": null
     },
     {
-      "id": 45,
+      "id": 18,
       "placeholder": "Select hosting type",
       "variant": "radio-group",
       "is_required": false,
@@ -99,14 +99,14 @@
       "step": null,
       "options": [
         {
-          "id": 19,
+          "id": 6,
           "title": "Yes",
           "description": null,
           "media": null,
           "additional_media": null
         },
         {
-          "id": 20,
+          "id": 8,
           "title": "No",
           "description": null,
           "media": null,
@@ -118,7 +118,7 @@
       "extra_media": null
     },
     {
-      "id": 38,
+      "id": 11,
       "placeholder": "Monthly visitors",
       "variant": "range",
       "is_required": false,
@@ -137,7 +137,7 @@
       "extra_media": null
     },
     {
-      "id": 37,
+      "id": 12,
       "placeholder": "Type your question",
       "variant": "text",
       "is_required": false,
@@ -156,7 +156,7 @@
       "extra_media": null
     },
     {
-      "id": 40,
+      "id": 10,
       "placeholder": "Select release date",
       "variant": "date",
       "is_required": false,
@@ -175,7 +175,7 @@
       "extra_media": null
     },
     {
-      "id": 42,
+      "id": 15,
       "placeholder": "Upload design file",
       "variant": "file",
       "is_required": false,
@@ -194,7 +194,7 @@
       "extra_media": null
     },
     {
-      "id": 43,
+      "id": 16,
       "placeholder": null,
       "variant": "switch",
       "is_required": true,
@@ -214,7 +214,7 @@
     }
   ],
   "button": {
-    "id": 100,
+    "id": 33,
     "url": null,
     "description": null,
     "variant": "primary",
@@ -227,12 +227,12 @@
   },
   "side_effects": [
     {
-      "id": 5,
+      "id": 2,
       "type": "send-to-recievers",
       "provider": "email",
       "recievers": [
         {
-          "id": 5,
+          "id": 2,
           "identifier": "rogwild.design@gmail.com",
           "admin": null,
           "user": null

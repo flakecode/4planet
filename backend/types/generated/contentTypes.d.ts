@@ -839,9 +839,7 @@ export interface PluginSpsBillingInvoice extends Schema.CollectionType {
     status: Attribute.Enumeration<["new", "pending", "success", "failed"]> &
       Attribute.Required &
       Attribute.DefaultTo<"new">;
-    provider: Attribute.Enumeration<
-      ["stripe", "zero_x_processing", "cloud-payments"]
-    > &
+    provider: Attribute.Enumeration<["stripe", "zero_x_processing"]> &
       Attribute.Required &
       Attribute.DefaultTo<"stripe">;
     provider_data: Attribute.JSON & Attribute.Private;

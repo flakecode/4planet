@@ -3,8 +3,8 @@
   "title": "United States Dollar",
   "unicode": "$",
   "is_default": true,
-  "createdAt": "2024-01-16T19:26:58.221Z",
-  "updatedAt": "2024-02-13T09:12:37.624Z",
+  "createdAt": "2024-02-04T22:06:02.030Z",
+  "updatedAt": "2024-02-10T19:23:38.344Z",
   "publishedAt": "2023-03-29T16:09:52.898Z",
   "locale": "en",
   "localizations": [
@@ -13,8 +13,8 @@
       "title": "Dollar Américain",
       "unicode": "$",
       "is_default": true,
-      "createdAt": "2024-01-16T19:26:58.227Z",
-      "updatedAt": "2024-02-13T09:12:37.648Z",
+      "createdAt": "2024-02-04T22:06:02.049Z",
+      "updatedAt": "2024-02-10T19:23:38.363Z",
       "publishedAt": "2024-01-12T13:25:20.537Z",
       "locale": "fr"
     }
@@ -28,8 +28,8 @@
       "date": null,
       "datetime": null,
       "time": null,
-      "createdAt": "2024-01-16T19:26:58.279Z",
-      "updatedAt": "2024-02-13T09:12:37.842Z",
+      "createdAt": "2024-02-04T22:06:02.164Z",
+      "updatedAt": "2024-02-10T19:23:38.479Z",
       "locale": "en"
     }
   ],
