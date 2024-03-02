@@ -7,6 +7,8 @@ import { factories } from "@strapi/strapi";
 import { errors } from "@strapi/utils";
 
 const { ValidationError } = errors;
+
+const isPdf = true;
 export default factories.createCoreController(
   "plugin::sps-billing.invoice",
   ({ strapi }) => ({
@@ -34,13 +36,16 @@ export default factories.createCoreController(
       return providerHandler(ctx);
     },
     async getCertificate(ctx: any) {
-      const { count } = ctx.params;
+      const { count, type = "pdf" } = ctx.query;
+
+      const returnType = type === "pdf" ? "pdf" : "html";
       const cert = await strapi
         .service("plugin::sps-billing.invoice")
-        .createCertificate({ count });
+        .createCertificate({ count, returnType });
 
       ctx;
-      ctx.response.type = "application/pdf"; // "text/html"; //
+      ctx.response.type =
+        returnType === "html" ? "text/html" : "application/pdf";
       ctx.body = cert;
     },
   }),

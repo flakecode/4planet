@@ -8,7 +8,7 @@ export default {
     },
     {
       method: "GET",
-      path: "/invoices/certificate/:count",
+      path: "/invoices/certificate/",
       handler: "invoice.getCertificate",
     },
     {
