@@ -115,7 +115,7 @@ const billingProviders = {
           replyTo: "alex4planet@mail.ru",
           subject: "Сертификат",
           html: `<h1>Сертификат о посадке деревьев</h1>
-          Спасибо, что сажаете деревья вместе с нами! Ваш сертификат доступен <a target="_blank" href="https://forplanet-api.singlepagestartup.com/api/sps-billing/invoices/certificate/?count=${treeCount}&type=pdf">по ссылке</a>`,
+          Спасибо, что сажаете деревья вместе с нами! Ваш сертификат доступен <a target="_blank" href="https://forplanet.singlepagestartup.com/api/certificate/?count=${treeCount}&type=pdf">по ссылке</a>`,
         });
 
         res;
