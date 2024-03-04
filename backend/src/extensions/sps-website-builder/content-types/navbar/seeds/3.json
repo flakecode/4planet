@@ -7,7 +7,7 @@
   "position": "fixed",
   "side": "top",
   "createdAt": "2024-02-11T20:50:35.861Z",
-  "updatedAt": "2024-03-04T16:42:20.184Z",
+  "updatedAt": "2024-03-04T16:44:54.572Z",
   "publishedAt": "2023-04-08T05:04:22.148Z",
   "locale": "en",
   "localizations": [
@@ -20,7 +20,7 @@
       "position": "fixed",
       "side": "top",
       "createdAt": "2024-01-16T19:26:58.444Z",
-      "updatedAt": "2024-03-04T16:42:20.133Z",
+      "updatedAt": "2024-03-04T16:44:54.528Z",
       "publishedAt": "2024-01-12T23:50:09.029Z",
       "locale": "fr"
     }
@@ -28,12 +28,12 @@
   "page_blocks": [
     {
       "__component": "page-blocks.navbar-block",
-      "id": 16,
+      "id": 18,
       "variant": "for-planet-default",
       "description": null,
       "class_name": null,
       "logotype": {
-        "id": 32,
+        "id": 36,
         "title": null,
         "url": "/",
         "media": null,
@@ -41,7 +41,7 @@
       },
       "buttons": [
         {
-          "id": 174,
+          "id": 196,
           "url": "/",
           "description": null,
           "variant": "link",
@@ -53,7 +53,7 @@
           "flyout": null
         },
         {
-          "id": 175,
+          "id": 198,
           "url": "/",
           "description": null,
           "variant": "link",
@@ -65,7 +65,7 @@
           "flyout": null
         },
         {
-          "id": 176,
+          "id": 197,
           "url": "/",
           "description": null,
           "variant": "link",
@@ -77,7 +77,7 @@
           "flyout": null
         },
         {
-          "id": 178,
+          "id": 199,
           "url": "/",
           "description": null,
           "variant": "link",
@@ -89,7 +89,7 @@
           "flyout": null
         },
         {
-          "id": 177,
+          "id": 200,
           "url": "/",
           "description": null,
           "variant": "link",
@@ -103,7 +103,7 @@
       ],
       "additional_buttons": [
         {
-          "id": 179,
+          "id": 201,
           "url": "/",
           "description": null,
           "variant": "primary",
@@ -126,7 +126,7 @@
       "variant": "wide",
       "class_name": "[&>.layout-container]:pt-16",
       "createdAt": "2024-01-16T19:26:58.408Z",
-      "updatedAt": "2024-03-04T16:42:20.013Z",
+      "updatedAt": "2024-03-04T16:44:54.417Z",
       "publishedAt": "2023-04-20T03:23:38.447Z",
       "locale": "en"
     }

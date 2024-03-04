@@ -5,7 +5,7 @@
   "variant": "wide",
   "class_name": "[&>.layout-container]:pt-16",
   "createdAt": "2024-01-16T19:26:58.412Z",
-  "updatedAt": "2024-03-04T16:42:20.036Z",
+  "updatedAt": "2024-03-04T16:44:54.437Z",
   "publishedAt": "2024-01-12T23:28:53.035Z",
   "locale": "fr",
   "localizations": [],
@@ -16,7 +16,7 @@
     "variant": "boxed",
     "class_name": null,
     "createdAt": "2024-01-16T19:26:58.380Z",
-    "updatedAt": "2024-03-04T16:42:19.975Z",
+    "updatedAt": "2024-03-04T16:44:54.384Z",
     "publishedAt": "2024-01-12T23:31:13.162Z",
     "locale": "fr"
   },
@@ -30,7 +30,7 @@
     "position": "fixed",
     "side": "top",
     "createdAt": "2024-01-16T19:26:58.444Z",
-    "updatedAt": "2024-03-04T16:42:20.133Z",
+    "updatedAt": "2024-03-04T16:44:54.528Z",
     "publishedAt": "2024-01-12T23:50:09.029Z",
     "locale": "fr"
   },
@@ -43,7 +43,7 @@
       "title": "Page d'accueil",
       "url": "/",
       "createdAt": "2024-01-16T19:26:58.479Z",
-      "updatedAt": "2024-03-04T16:42:20.367Z",
+      "updatedAt": "2024-03-04T16:44:54.733Z",
       "publishedAt": "2024-01-12T23:28:07.163Z",
       "locale": "fr"
     }

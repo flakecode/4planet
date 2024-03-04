@@ -6,14 +6,14 @@
   "class_name": null,
   "side": "right",
   "createdAt": "2024-01-16T19:26:58.490Z",
-  "updatedAt": "2024-03-04T16:42:20.381Z",
+  "updatedAt": "2024-03-04T16:44:54.749Z",
   "publishedAt": "2023-04-07T17:35:29.006Z",
   "locale": "en",
   "localizations": [],
   "page_blocks": [
     {
       "__component": "page-blocks.hero-section-block",
-      "id": 74,
+      "id": 85,
       "title": "Sidebar",
       "description": "With Page Blocks",
       "variant": "simple-centered",

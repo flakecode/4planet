@@ -5,7 +5,7 @@
   "variant": "for-planet-default",
   "class_name": null,
   "createdAt": "2024-02-11T20:50:35.786Z",
-  "updatedAt": "2024-03-04T16:42:20.005Z",
+  "updatedAt": "2024-03-04T16:44:54.409Z",
   "publishedAt": "2024-01-10T11:45:35.047Z",
   "locale": "en",
   "localizations": [
@@ -16,7 +16,7 @@
       "variant": "boxed",
       "class_name": null,
       "createdAt": "2024-01-16T19:26:58.380Z",
-      "updatedAt": "2024-03-04T16:42:19.975Z",
+      "updatedAt": "2024-03-04T16:44:54.384Z",
       "publishedAt": "2024-01-12T23:31:13.162Z",
       "locale": "fr"
     }
@@ -24,13 +24,13 @@
   "page_blocks": [
     {
       "__component": "page-blocks.footer-block",
-      "id": 16,
+      "id": 18,
       "copyrights": "2024 ForPlanet",
       "description": "",
       "variant": "for-planet-default",
       "class_name": null,
       "logotype": {
-        "id": 30,
+        "id": 34,
         "title": null,
         "url": null,
         "media": null,
@@ -49,7 +49,7 @@
       "variant": "wide",
       "class_name": "[&>.layout-container]:pt-16",
       "createdAt": "2024-01-16T19:26:58.408Z",
-      "updatedAt": "2024-03-04T16:42:20.013Z",
+      "updatedAt": "2024-03-04T16:44:54.417Z",
       "publishedAt": "2023-04-20T03:23:38.447Z",
       "locale": "en"
     }
