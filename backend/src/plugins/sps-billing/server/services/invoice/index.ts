@@ -47,7 +47,10 @@ async function createDocumentFromTemplate(params: CreateDocParams) {
   );
   const html = decode(template)
     .replace("{{COUNT}}", String(params.count))
-    .replace("{{TREES}}", String("дерево"));
+    .replace(
+      "{{TREES}}",
+      inflectNoun(params.count, "дерево", "дерева", "деревьев"),
+    );
 
   if (params.returnType === "html") {
     return html;
@@ -64,4 +67,28 @@ async function createDocumentFromTemplate(params: CreateDocParams) {
   });
 
   return pdfBuffer; // html; //
+}
+
+/**
+ * @abstract inflect == склонять, тут применяются правила склонения для русского языка, но для английского они тоже подходят
+ * @param number - число, по которому определяется склонение
+ * @param one - форма склонения для 1 (или если число заканчивается на 1, кроме 11)
+ * @param two  - форма склонения для чисел от 2 до 4 (или если число заканчивается на 2, 3, 4, кроме 12, 13, 14)
+ * @param five – форма склонения для чисел от 5 до 20 (или если число заканчивается на 5, 6, 7, 8, 9, 0)
+ * @returns одну из 3ех форм склонения
+ */
+export function inflectNoun<T>(number: number, one: T, two: T, five: T): T {
+  let n = Math.abs(number);
+  n %= 100;
+  if (n >= 5 && n <= 20) {
+    return five;
+  }
+  n %= 10;
+  if (n === 1) {
+    return one;
+  }
+  if (n >= 2 && n <= 4) {
+    return two;
+  }
+  return five;
 }
