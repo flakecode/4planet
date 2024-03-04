@@ -4,6 +4,10 @@ import { ReactMarkdown } from "react-markdown/lib/react-markdown";
 import { Component as Feature } from "../../../../feature/component";
 import { IComponentPropsExtended } from "../../interface";
 
+const cloudPaymentsPublicId =
+  process.env.NODE_ENV === "development"
+    ? "pk_4eddbc1335cd8507962a357186a21"
+    : "pk_b2124921a65199e4082fd293a1136";
 export function Component(props: IComponentPropsExtended) {
   return (
     <div className="bg-black pt-40 pb-24">
@@ -27,7 +31,7 @@ export function Component(props: IComponentPropsExtended) {
               key={index}
               {...feature}
               variant="tier"
-              onClick={(e) => {
+              onClick={() => {
                 const amount = feature.amount || 1;
                 const price = treePriceByCurrency.rub;
 
@@ -37,14 +41,14 @@ export function Component(props: IComponentPropsExtended) {
                   "auth", // или 'charge'
                   {
                     //options
-                    publicId: "pk_b2124921a65199e4082fd293a1136", //id из личного кабинета
+                    publicId: cloudPaymentsPublicId, //id из личного кабинета
                     description: "Оплата деревьев в 4planet.ru", //назначение
                     amount: amount * price, //сумма
                     currency: "RUB", //валюта
                     requireEmail: true,
                     skin: "mini", //дизайн виджета (необязательно)
                     data: {
-                      myProp: "myProp value",
+                      treeAmount: amount,
                     },
                   },
                   {

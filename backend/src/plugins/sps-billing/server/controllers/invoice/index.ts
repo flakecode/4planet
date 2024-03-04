@@ -105,6 +105,25 @@ const billingProviders = {
 
     invoice;
 
+    try {
+      const treeCount = JSON.parse(body.Data)?.["treeAmount"];
+
+      if (treeCount && treeCount > 0) {
+        const res = await strapi.plugins["email"].services.email.send({
+          to: body.Email,
+          from: "no-reply@4planet.ru",
+          replyTo: "alex4planet@mail.ru",
+          subject: "Сертификат",
+          html: `<h1>Сертификат о посадке деревьев</h1>
+          Спасибо, что сажаете деревья вместе с нами! Ваш сертификат доступен <a target="_blank" href="https://forplanet-api.singlepagestartup.com/api/sps-billing/invoices/certificate/?count=${treeCount}&type=pdf">по ссылке </a>`,
+        });
+
+        res;
+      }
+    } catch (error) {
+      console.log("webhook error", error);
+    }
+
     return { code: 0 };
   },
 };
