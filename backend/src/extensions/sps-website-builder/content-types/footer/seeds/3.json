@@ -5,7 +5,7 @@
   "variant": "for-planet-default",
   "class_name": null,
   "createdAt": "2024-02-11T20:50:35.786Z",
-  "updatedAt": "2024-03-04T15:26:23.936Z",
+  "updatedAt": "2024-03-04T16:42:20.005Z",
   "publishedAt": "2024-01-10T11:45:35.047Z",
   "locale": "en",
   "localizations": [
@@ -16,7 +16,7 @@
       "variant": "boxed",
       "class_name": null,
       "createdAt": "2024-01-16T19:26:58.380Z",
-      "updatedAt": "2024-03-04T15:26:23.978Z",
+      "updatedAt": "2024-03-04T16:42:19.975Z",
       "publishedAt": "2024-01-12T23:31:13.162Z",
       "locale": "fr"
     }
@@ -24,37 +24,16 @@
   "page_blocks": [
     {
       "__component": "page-blocks.footer-block",
-      "id": 11,
+      "id": 16,
       "copyrights": "2024 ForPlanet",
       "description": "",
       "variant": "for-planet-default",
       "class_name": null,
       "logotype": {
-        "id": 21,
+        "id": 30,
         "title": null,
         "url": null,
-        "media": [
-          {
-            "id": 145,
-            "name": "logo.svg",
-            "alternativeText": null,
-            "caption": null,
-            "width": 203,
-            "height": 21,
-            "formats": null,
-            "hash": "logo_38f70c10f4",
-            "ext": ".svg",
-            "mime": "image/svg+xml",
-            "size": 1.17,
-            "url": "/uploads/logo_38f70c10f4.svg",
-            "previewUrl": null,
-            "provider": "local",
-            "provider_metadata": null,
-            "folderPath": "/",
-            "createdAt": "2024-03-04T15:26:23.868Z",
-            "updatedAt": "2024-03-04T15:26:23.868Z"
-          }
-        ],
+        "media": null,
         "additional_media": null
       },
       "buttons_arrays": [],
@@ -70,7 +49,7 @@
       "variant": "wide",
       "class_name": "[&>.layout-container]:pt-16",
       "createdAt": "2024-01-16T19:26:58.408Z",
-      "updatedAt": "2024-03-04T15:26:23.990Z",
+      "updatedAt": "2024-03-04T16:42:20.013Z",
       "publishedAt": "2023-04-20T03:23:38.447Z",
       "locale": "en"
     }

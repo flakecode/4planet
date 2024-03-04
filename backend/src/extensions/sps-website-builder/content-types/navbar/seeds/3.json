@@ -7,7 +7,7 @@
   "position": "fixed",
   "side": "top",
   "createdAt": "2024-02-11T20:50:35.861Z",
-  "updatedAt": "2024-03-04T15:26:24.221Z",
+  "updatedAt": "2024-03-04T16:42:20.184Z",
   "publishedAt": "2023-04-08T05:04:22.148Z",
   "locale": "en",
   "localizations": [
@@ -20,7 +20,7 @@
       "position": "fixed",
       "side": "top",
       "createdAt": "2024-01-16T19:26:58.444Z",
-      "updatedAt": "2024-03-04T15:26:24.374Z",
+      "updatedAt": "2024-03-04T16:42:20.133Z",
       "publishedAt": "2024-01-12T23:50:09.029Z",
       "locale": "fr"
     }
@@ -28,41 +28,20 @@
   "page_blocks": [
     {
       "__component": "page-blocks.navbar-block",
-      "id": 11,
+      "id": 16,
       "variant": "for-planet-default",
       "description": null,
       "class_name": null,
       "logotype": {
-        "id": 23,
+        "id": 32,
         "title": null,
         "url": "/",
-        "media": [
-          {
-            "id": 147,
-            "name": "logo.svg",
-            "alternativeText": null,
-            "caption": null,
-            "width": 203,
-            "height": 21,
-            "formats": null,
-            "hash": "logo_0f58a057b5",
-            "ext": ".svg",
-            "mime": "image/svg+xml",
-            "size": 1.17,
-            "url": "/uploads/logo_0f58a057b5.svg",
-            "previewUrl": null,
-            "provider": "local",
-            "provider_metadata": null,
-            "folderPath": "/",
-            "createdAt": "2024-03-04T15:26:24.118Z",
-            "updatedAt": "2024-03-04T15:26:24.118Z"
-          }
-        ],
+        "media": null,
         "additional_media": null
       },
       "buttons": [
         {
-          "id": 127,
+          "id": 174,
           "url": "/",
           "description": null,
           "variant": "link",
@@ -74,7 +53,7 @@
           "flyout": null
         },
         {
-          "id": 128,
+          "id": 175,
           "url": "/",
           "description": null,
           "variant": "link",
@@ -86,7 +65,7 @@
           "flyout": null
         },
         {
-          "id": 130,
+          "id": 176,
           "url": "/",
           "description": null,
           "variant": "link",
@@ -98,7 +77,7 @@
           "flyout": null
         },
         {
-          "id": 129,
+          "id": 178,
           "url": "/",
           "description": null,
           "variant": "link",
@@ -110,7 +89,7 @@
           "flyout": null
         },
         {
-          "id": 131,
+          "id": 177,
           "url": "/",
           "description": null,
           "variant": "link",
@@ -124,7 +103,7 @@
       ],
       "additional_buttons": [
         {
-          "id": 132,
+          "id": 179,
           "url": "/",
           "description": null,
           "variant": "primary",
@@ -147,7 +126,7 @@
       "variant": "wide",
       "class_name": "[&>.layout-container]:pt-16",
       "createdAt": "2024-01-16T19:26:58.408Z",
-      "updatedAt": "2024-03-04T15:26:23.990Z",
+      "updatedAt": "2024-03-04T16:42:20.013Z",
       "publishedAt": "2023-04-20T03:23:38.447Z",
       "locale": "en"
     }

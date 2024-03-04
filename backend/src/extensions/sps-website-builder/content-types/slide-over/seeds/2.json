@@ -5,14 +5,14 @@
   "uid": "shopping-cart",
   "class_name": null,
   "createdAt": "2024-01-16T19:26:58.502Z",
-  "updatedAt": "2024-03-04T15:26:26.509Z",
+  "updatedAt": "2024-03-04T16:42:20.403Z",
   "publishedAt": "2024-01-10T11:47:04.683Z",
   "locale": "en",
   "localizations": [],
   "page_blocks": [
     {
       "__component": "page-blocks.shopping-cart-block",
-      "id": 8,
+      "id": 10,
       "anchor": null,
       "variant": "simple",
       "title": "Cart",
@@ -29,7 +29,7 @@
       "variant": "wide",
       "class_name": "[&>.layout-container]:pt-16",
       "createdAt": "2024-01-16T19:26:58.408Z",
-      "updatedAt": "2024-03-04T15:26:23.990Z",
+      "updatedAt": "2024-03-04T16:42:20.013Z",
       "publishedAt": "2023-04-20T03:23:38.447Z",
       "locale": "en"
     }

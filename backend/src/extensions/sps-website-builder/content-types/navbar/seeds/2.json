@@ -7,7 +7,7 @@
   "position": "fixed",
   "side": "top",
   "createdAt": "2024-01-16T19:26:58.444Z",
-  "updatedAt": "2024-03-04T15:26:24.374Z",
+  "updatedAt": "2024-03-04T16:42:20.133Z",
   "publishedAt": "2024-01-12T23:50:09.029Z",
   "locale": "fr",
   "localizations": [
@@ -20,7 +20,7 @@
       "position": "fixed",
       "side": "top",
       "createdAt": "2024-02-11T20:50:35.861Z",
-      "updatedAt": "2024-03-04T15:26:24.221Z",
+      "updatedAt": "2024-03-04T16:42:20.184Z",
       "publishedAt": "2023-04-08T05:04:22.148Z",
       "locale": "en"
     }
@@ -28,12 +28,12 @@
   "page_blocks": [
     {
       "__component": "page-blocks.navbar-block",
-      "id": 12,
+      "id": 15,
       "variant": "simple-links-on-left",
       "description": null,
       "class_name": null,
       "logotype": {
-        "id": 24,
+        "id": 31,
         "title": null,
         "url": "/",
         "media": null,
@@ -41,7 +41,7 @@
       },
       "buttons": [
         {
-          "id": 133,
+          "id": 171,
           "url": "/",
           "description": null,
           "variant": "ghost",
@@ -55,7 +55,7 @@
       ],
       "additional_buttons": [
         {
-          "id": 134,
+          "id": 172,
           "url": "https://github.com/singlepagestartup/sps-lite",
           "description": null,
           "variant": "secondary",
@@ -67,7 +67,7 @@
           "flyout": null
         },
         {
-          "id": 135,
+          "id": 173,
           "url": null,
           "description": null,
           "variant": "locale",
@@ -83,7 +83,7 @@
             "uid": "icone-deroulante-parametres-regionaux",
             "class_name": null,
             "createdAt": "2024-01-16T19:26:58.369Z",
-            "updatedAt": "2024-03-04T15:26:23.839Z",
+            "updatedAt": "2024-03-04T16:42:19.946Z",
             "publishedAt": "2024-01-12T23:59:23.441Z",
             "locale": "fr"
           }
@@ -100,7 +100,7 @@
       "variant": "wide",
       "class_name": "[&>.layout-container]:pt-16",
       "createdAt": "2024-01-16T19:26:58.412Z",
-      "updatedAt": "2024-03-04T15:26:24.016Z",
+      "updatedAt": "2024-03-04T16:42:20.036Z",
       "publishedAt": "2024-01-12T23:28:53.035Z",
       "locale": "fr"
     }

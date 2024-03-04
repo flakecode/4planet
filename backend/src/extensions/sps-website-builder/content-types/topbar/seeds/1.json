@@ -7,14 +7,14 @@
   "position": "fixed",
   "side": "top",
   "createdAt": "2024-01-16T19:26:58.520Z",
-  "updatedAt": "2024-03-04T15:26:26.702Z",
+  "updatedAt": "2024-03-04T16:42:20.475Z",
   "publishedAt": "2023-04-08T06:35:32.350Z",
   "locale": "en",
   "localizations": [],
   "page_blocks": [
     {
       "__component": "elements.button",
-      "id": 142,
+      "id": 186,
       "url": "/",
       "description": null,
       "variant": "primary",
