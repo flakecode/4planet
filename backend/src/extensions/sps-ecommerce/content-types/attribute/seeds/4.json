@@ -6,8 +6,8 @@
   "date": null,
   "datetime": null,
   "time": null,
-  "createdAt": "2024-02-04T22:06:02.227Z",
-  "updatedAt": "2024-02-10T19:23:38.545Z",
+  "createdAt": "2024-01-16T19:26:58.303Z",
+  "updatedAt": "2024-03-04T15:26:23.237Z",
   "locale": "en",
   "localizations": [],
   "attribute_key": {
@@ -20,8 +20,8 @@
     "operator": "equal",
     "inversed": false,
     "not_to_clear": false,
-    "createdAt": "2024-02-04T22:06:02.322Z",
-    "updatedAt": "2024-02-04T22:06:03.557Z",
+    "createdAt": "2024-01-16T19:26:58.324Z",
+    "updatedAt": "2024-01-16T19:30:42.624Z",
     "locale": "en",
     "uid": null
   },

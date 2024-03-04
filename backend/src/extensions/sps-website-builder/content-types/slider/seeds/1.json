@@ -8,21 +8,21 @@
   "aspect_ratio_class_name": "aspect-h-1 aspect-w-1 xl:aspect-w-15 xl:aspect-h-10",
   "title": "Features Slider",
   "uid": "features-slider",
-  "createdAt": "2024-02-04T22:06:02.902Z",
-  "updatedAt": "2024-02-10T19:24:22.053Z",
+  "createdAt": "2024-01-16T19:26:58.507Z",
+  "updatedAt": "2024-03-04T15:26:26.561Z",
   "publishedAt": "2023-03-28T03:46:50.780Z",
   "locale": "en",
   "localizations": [],
   "slides": [
     {
-      "id": 6,
+      "id": 18,
       "title": "Jumpstart Your Startup Journey",
       "description": "Our pre-built boilerplate offers a comprehensive set of features and tools to accelerate your startup's development process. Say goodbye to repetitive tasks and focus on your core business logic with our customizable, efficient, and scalable solution.",
       "subtitle": "Get ahead with our lean startup developer boilerplate",
       "media": null,
       "buttons": [
         {
-          "id": 52,
+          "id": 141,
           "url": "https://github.com/singlepagestartup/sps-lite",
           "description": null,
           "variant": "primary",
@@ -37,7 +37,7 @@
       "additional_media": null
     },
     {
-      "id": 4,
+      "id": 16,
       "title": "Empower Your MVP with Best Practices",
       "description": "Our boilerplate comes with essential features like authentication, multilingual support, and integrations with popular third-party services. With minimum viable product (MVP) readiness in mind, we help you save time, effort, and resources as you bring your startup idea to life.",
       "subtitle": "Launch faster with our ready-to-use components",
@@ -46,7 +46,7 @@
       "additional_media": null
     },
     {
-      "id": 5,
+      "id": 17,
       "title": "Built for Agile Development",
       "description": "Our lean startup developer boilerplate is designed for agile development, allowing you to adapt and evolve your project rapidly. Stay ahead in the ever-changing startup landscape with built-in feedback mechanisms, seamless collaboration, and continuous improvement capabilities.",
       "subtitle": "Foster innovation with a flexible and iterative approach",
