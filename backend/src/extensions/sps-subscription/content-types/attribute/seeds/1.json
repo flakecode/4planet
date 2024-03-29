@@ -7,7 +7,7 @@
   "datetime": null,
   "time": null,
   "createdAt": "2024-01-16T19:26:58.242Z",
-  "updatedAt": "2024-03-04T16:44:53.982Z",
+  "updatedAt": "2024-03-04T16:51:24.837Z",
   "locale": "en",
   "localizations": [],
   "attribute_key": {
@@ -33,7 +33,7 @@
     "unicode": "$",
     "is_default": true,
     "createdAt": "2024-01-16T19:26:58.221Z",
-    "updatedAt": "2024-03-04T16:44:53.928Z",
+    "updatedAt": "2024-03-04T16:51:24.788Z",
     "publishedAt": "2023-03-29T16:09:52.898Z",
     "locale": "en"
   },
@@ -45,7 +45,7 @@
       "type": "one-time",
       "period": null,
       "createdAt": "2024-01-16T19:26:58.272Z",
-      "updatedAt": "2024-03-04T16:44:54.041Z",
+      "updatedAt": "2024-03-04T16:51:24.900Z",
       "publishedAt": "2023-02-14T15:48:56.695Z",
       "locale": "en"
     }

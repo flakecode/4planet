@@ -3,7 +3,7 @@
   "title": "Page d'accueil",
   "url": "/",
   "createdAt": "2024-01-16T19:26:58.479Z",
-  "updatedAt": "2024-03-04T16:44:54.733Z",
+  "updatedAt": "2024-03-04T16:51:25.658Z",
   "publishedAt": "2024-01-12T23:28:07.163Z",
   "locale": "fr",
   "localizations": [
@@ -12,7 +12,7 @@
       "title": "Main page",
       "url": "/",
       "createdAt": "2024-01-16T19:26:58.450Z",
-      "updatedAt": "2024-03-04T16:44:54.712Z",
+      "updatedAt": "2024-03-04T16:51:25.634Z",
       "publishedAt": "2023-04-08T12:06:05.277Z",
       "locale": "en"
     }
@@ -20,7 +20,7 @@
   "page_blocks": [
     {
       "__component": "page-blocks.hero-section-block",
-      "id": 84,
+      "id": 95,
       "title": "Démarrez votre Lean Startup avec un Boilerplate convivial pour les développeurs",
       "description": "Passez moins de temps à la configuration et plus de temps à créer votre produit innovant grâce à notre modèle prêt à l'emploi et riche en fonctionnalités, conçu pour les développeurs de startups Lean.",
       "variant": "simple-centered",
@@ -29,7 +29,7 @@
       "media": null,
       "buttons": [
         {
-          "id": 206,
+          "id": 228,
           "url": "https://github.com/singlepagestartup/sps-lite",
           "description": "",
           "variant": "primary",
@@ -51,7 +51,7 @@
     "variant": "wide",
     "class_name": "[&>.layout-container]:pt-16",
     "createdAt": "2024-01-16T19:26:58.412Z",
-    "updatedAt": "2024-03-04T16:44:54.437Z",
+    "updatedAt": "2024-03-04T16:51:25.327Z",
     "publishedAt": "2024-01-12T23:28:53.035Z",
     "locale": "fr"
   }

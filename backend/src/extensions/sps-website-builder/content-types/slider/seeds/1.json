@@ -9,20 +9,20 @@
   "title": "Features Slider",
   "uid": "features-slider",
   "createdAt": "2024-01-16T19:26:58.507Z",
-  "updatedAt": "2024-03-04T16:44:54.795Z",
+  "updatedAt": "2024-03-04T16:51:25.719Z",
   "publishedAt": "2023-03-28T03:46:50.780Z",
   "locale": "en",
   "localizations": [],
   "slides": [
     {
-      "id": 27,
+      "id": 30,
       "title": "Jumpstart Your Startup Journey",
       "description": "Our pre-built boilerplate offers a comprehensive set of features and tools to accelerate your startup's development process. Say goodbye to repetitive tasks and focus on your core business logic with our customizable, efficient, and scalable solution.",
       "subtitle": "Get ahead with our lean startup developer boilerplate",
       "media": null,
       "buttons": [
         {
-          "id": 207,
+          "id": 229,
           "url": "https://github.com/singlepagestartup/sps-lite",
           "description": null,
           "variant": "primary",
@@ -37,7 +37,7 @@
       "additional_media": null
     },
     {
-      "id": 25,
+      "id": 29,
       "title": "Empower Your MVP with Best Practices",
       "description": "Our boilerplate comes with essential features like authentication, multilingual support, and integrations with popular third-party services. With minimum viable product (MVP) readiness in mind, we help you save time, effort, and resources as you bring your startup idea to life.",
       "subtitle": "Launch faster with our ready-to-use components",
@@ -46,7 +46,7 @@
       "additional_media": null
     },
     {
-      "id": 26,
+      "id": 28,
       "title": "Built for Agile Development",
       "description": "Our lean startup developer boilerplate is designed for agile development, allowing you to adapt and evolve your project rapidly. Stay ahead in the ever-changing startup landscape with built-in feedback mechanisms, seamless collaboration, and continuous improvement capabilities.",
       "subtitle": "Foster innovation with a flexible and iterative approach",

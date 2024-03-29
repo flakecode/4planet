@@ -5,14 +5,14 @@
   "uid": "this-is-slide-over",
   "class_name": "sps-lite-slide-over",
   "createdAt": "2024-01-16T19:26:58.497Z",
-  "updatedAt": "2024-03-04T16:44:54.761Z",
+  "updatedAt": "2024-03-04T16:51:25.684Z",
   "publishedAt": "2023-04-07T16:54:17.781Z",
   "locale": "en",
   "localizations": [],
   "page_blocks": [
     {
       "__component": "page-blocks.faqs-block",
-      "id": 16,
+      "id": 18,
       "title": "This Is Slide Over",
       "description": "With Page Blocks",
       "variant": "two-columns-with-centered-introduction",
@@ -30,7 +30,7 @@
       "variant": "wide",
       "class_name": "[&>.layout-container]:pt-16",
       "createdAt": "2024-01-16T19:26:58.408Z",
-      "updatedAt": "2024-03-04T16:44:54.417Z",
+      "updatedAt": "2024-03-04T16:51:25.308Z",
       "publishedAt": "2023-04-20T03:23:38.447Z",
       "locale": "en"
     }

@@ -14,53 +14,53 @@
     }
   },
   "createdAt": "2024-01-16T19:26:58.514Z",
-  "updatedAt": "2024-03-04T16:44:54.819Z",
+  "updatedAt": "2024-03-04T16:51:25.745Z",
   "publishedAt": "2023-02-13T16:01:44.156Z",
   "fonts": [
     {
-      "id": 53,
+      "id": 60,
       "weight": "medium",
       "style": "normal",
       "variant": "default",
       "media": null
     },
     {
-      "id": 54,
+      "id": 61,
       "weight": "light",
       "style": "normal",
       "variant": "default",
       "media": null
     },
     {
-      "id": 56,
+      "id": 62,
       "weight": "semi_bold",
       "style": "normal",
       "variant": "default",
       "media": null
     },
     {
-      "id": 55,
+      "id": 63,
       "weight": "regular",
       "style": "normal",
       "variant": "default",
       "media": null
     },
     {
-      "id": 57,
+      "id": 65,
       "weight": "bold",
       "style": "normal",
       "variant": "default",
       "media": null
     },
     {
-      "id": 58,
+      "id": 64,
       "weight": "medium",
       "style": "normal",
       "variant": "primary",
       "media": null
     },
     {
-      "id": 59,
+      "id": 66,
       "weight": "medium",
       "style": "italic",
       "variant": "primary",
