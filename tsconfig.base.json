@@ -748,6 +748,21 @@
       "@sps/sps-website-builder-models-features-section-block-frontend-component-variants-sps-lite-with-icon": [
         "libs/modules/sps-website-builder/models/features-section-block/frontend/component/variants/sps-lite/with-icon/src/index.ts"
       ],
+      "@sps/sps-website-builder-models-features-section-block-frontend-component-variants-startup-for-planet-headlines": [
+        "libs/modules/sps-website-builder/models/features-section-block/frontend/component/variants/startup/for-planet-headlines/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-features-section-block-frontend-component-variants-startup-for-planet-how-it-works": [
+        "libs/modules/sps-website-builder/models/features-section-block/frontend/component/variants/startup/for-planet-how-it-works/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-features-section-block-frontend-component-variants-startup-for-planet-requisites": [
+        "libs/modules/sps-website-builder/models/features-section-block/frontend/component/variants/startup/for-planet-requisites/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-features-section-block-frontend-component-variants-startup-for-planet-tiers": [
+        "libs/modules/sps-website-builder/models/features-section-block/frontend/component/variants/startup/for-planet-tiers/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-features-section-block-frontend-component-variants-startup-for-planet-timeline": [
+        "libs/modules/sps-website-builder/models/features-section-block/frontend/component/variants/startup/for-planet-timeline/src/index.ts"
+      ],
       "@sps/sps-website-builder-models-features-section-block-frontend-redux": [
         "libs/modules/sps-website-builder/models/features-section-block/frontend/redux/src/index.ts"
       ],
@@ -799,6 +814,9 @@
       "@sps/sps-website-builder-models-footer-block-frontend-component-variants-sps-lite-four-columns-with-company-mission": [
         "libs/modules/sps-website-builder/models/footer-block/frontend/component/variants/sps-lite/four-columns-with-company-mission/src/index.ts"
       ],
+      "@sps/sps-website-builder-models-footer-block-frontend-component-variants-startup-for-planet-default": [
+        "libs/modules/sps-website-builder/models/footer-block/frontend/component/variants/startup/for-planet-default/src/index.ts"
+      ],
       "@sps/sps-website-builder-models-footer-block-frontend-redux": [
         "libs/modules/sps-website-builder/models/footer-block/frontend/redux/src/index.ts"
       ],
@@ -816,6 +834,9 @@
       ],
       "@sps/sps-website-builder-models-footer-frontend-component-variants-sps-lite-boxed": [
         "libs/modules/sps-website-builder/models/footer/frontend/component/variants/sps-lite/boxed/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-footer-frontend-component-variants-startup-for-planet-default": [
+        "libs/modules/sps-website-builder/models/footer/frontend/component/variants/startup/for-planet-default/src/index.ts"
       ],
       "@sps/sps-website-builder-models-footer-frontend-redux": [
         "libs/modules/sps-website-builder/models/footer/frontend/redux/src/index.ts"
@@ -855,6 +876,27 @@
       ],
       "@sps/sps-website-builder-models-hero-section-block-frontend-component-variants-sps-split": [
         "libs/modules/sps-website-builder/models/hero-section-block/frontend/component/variants/sps/split/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-hero-section-block-frontend-component-variants-startup-for-planet-create-subscription": [
+        "libs/modules/sps-website-builder/models/hero-section-block/frontend/component/variants/startup/for-planet-create-subscription/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-hero-section-block-frontend-component-variants-startup-for-planet-gallery-and-text": [
+        "libs/modules/sps-website-builder/models/hero-section-block/frontend/component/variants/startup/for-planet-gallery-and-text/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-hero-section-block-frontend-component-variants-startup-for-planet-gallery-and-text-inversed": [
+        "libs/modules/sps-website-builder/models/hero-section-block/frontend/component/variants/startup/for-planet-gallery-and-text-inversed/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-hero-section-block-frontend-component-variants-startup-for-planet-heading": [
+        "libs/modules/sps-website-builder/models/hero-section-block/frontend/component/variants/startup/for-planet-heading/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-hero-section-block-frontend-component-variants-startup-for-planet-map": [
+        "libs/modules/sps-website-builder/models/hero-section-block/frontend/component/variants/startup/for-planet-map/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-hero-section-block-frontend-component-variants-startup-for-planet-videos": [
+        "libs/modules/sps-website-builder/models/hero-section-block/frontend/component/variants/startup/for-planet-videos/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-hero-section-block-frontend-component-variants-startup-for-planet-with-target": [
+        "libs/modules/sps-website-builder/models/hero-section-block/frontend/component/variants/startup/for-planet-with-target/src/index.ts"
       ],
       "@sps/sps-website-builder-models-hero-section-block-frontend-redux": [
         "libs/modules/sps-website-builder/models/hero-section-block/frontend/redux/src/index.ts"
