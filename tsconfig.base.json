@@ -1063,6 +1063,9 @@
       "@sps/sps-website-builder-models-navbar-block-frontend-component-variants-sps-lite-simple-links-on-left": [
         "libs/modules/sps-website-builder/models/navbar-block/frontend/component/variants/sps-lite/simple-links-on-left/src/index.ts"
       ],
+      "@sps/sps-website-builder-models-navbar-block-frontend-component-variants-startup-for-planet-default": [
+        "libs/modules/sps-website-builder/models/navbar-block/frontend/component/variants/startup/for-planet-default/src/index.ts"
+      ],
       "@sps/sps-website-builder-models-navbar-block-frontend-redux": [
         "libs/modules/sps-website-builder/models/navbar-block/frontend/redux/src/index.ts"
       ],
@@ -1080,6 +1083,9 @@
       ],
       "@sps/sps-website-builder-models-navbar-frontend-component-variants-sps-lite-boxed": [
         "libs/modules/sps-website-builder/models/navbar/frontend/component/variants/sps-lite/boxed/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-navbar-frontend-component-variants-startup-for-planet-boxed-transparent": [
+        "libs/modules/sps-website-builder/models/navbar/frontend/component/variants/startup/for-planet-boxed-transparent/src/index.ts"
       ],
       "@sps/sps-website-builder-models-navbar-frontend-redux": [
         "libs/modules/sps-website-builder/models/navbar/frontend/redux/src/index.ts"

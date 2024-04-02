@@ -26,7 +26,7 @@ export function useGetPageUrlModelId({
       (filter) => filter[modelName] !== undefined,
     );
 
-    if (path([modelName, "id", "$in", 0], targetFilter)) {
+    if (R.path([modelName, "id", "$in", 0], targetFilter)) {
       return targetFilter[modelName].id["$in"][0];
     }
 
