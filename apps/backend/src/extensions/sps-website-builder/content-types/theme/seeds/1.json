@@ -1,0 +1,203 @@
+{
+  "id": 1,
+  "theme": {
+    "colors": {
+      "primary": {
+        "50": "#FFF9CC",
+        "300": "#FFF297",
+        "400": "#FFDF01",
+        "500": "#FFCF01",
+        "600": "#FFC501",
+        "700": "#FFB201",
+        "900": "#FFA101"
+      }
+    }
+  },
+  "createdAt": "2024-02-05T00:06:02.920Z",
+  "updatedAt": "2024-04-01T23:10:08.944Z",
+  "publishedAt": "2023-02-13T16:01:44.156Z",
+  "fonts": [
+    {
+      "id": 20,
+      "weight": "medium",
+      "style": "normal",
+      "variant": "default",
+      "media": {
+        "id": 117,
+        "name": "Gilroy-Medium.ttf",
+        "alternativeText": null,
+        "caption": null,
+        "width": null,
+        "height": null,
+        "formats": null,
+        "hash": "Gilroy_Medium_5840909aa7",
+        "ext": ".ttf",
+        "mime": "font/ttf",
+        "size": 84.56,
+        "url": "/uploads/Gilroy_Medium_5840909aa7.ttf",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "folderPath": "/",
+        "createdAt": "2024-04-01T23:06:31.235Z",
+        "updatedAt": "2024-04-01T23:06:31.235Z"
+      }
+    },
+    {
+      "id": 22,
+      "weight": "light",
+      "style": "normal",
+      "variant": "default",
+      "media": {
+        "id": 118,
+        "name": "Gilroy-Light.ttf",
+        "alternativeText": null,
+        "caption": null,
+        "width": null,
+        "height": null,
+        "formats": null,
+        "hash": "Gilroy_Light_9d8eb0adfa",
+        "ext": ".ttf",
+        "mime": "font/ttf",
+        "size": 84.73,
+        "url": "/uploads/Gilroy_Light_9d8eb0adfa.ttf",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "folderPath": "/",
+        "createdAt": "2024-04-01T23:09:00.173Z",
+        "updatedAt": "2024-04-01T23:09:00.173Z"
+      }
+    },
+    {
+      "id": 21,
+      "weight": "semi_bold",
+      "style": "normal",
+      "variant": "default",
+      "media": {
+        "id": 119,
+        "name": "Gilroy-Semibold.ttf",
+        "alternativeText": null,
+        "caption": null,
+        "width": null,
+        "height": null,
+        "formats": null,
+        "hash": "Gilroy_Semibold_2f850388c5",
+        "ext": ".ttf",
+        "mime": "font/ttf",
+        "size": 83.95,
+        "url": "/uploads/Gilroy_Semibold_2f850388c5.ttf",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "folderPath": "/",
+        "createdAt": "2024-04-01T23:09:13.183Z",
+        "updatedAt": "2024-04-01T23:09:13.183Z"
+      }
+    },
+    {
+      "id": 23,
+      "weight": "regular",
+      "style": "normal",
+      "variant": "default",
+      "media": {
+        "id": 116,
+        "name": "Gilroy-Regular.ttf",
+        "alternativeText": null,
+        "caption": null,
+        "width": null,
+        "height": null,
+        "formats": null,
+        "hash": "Gilroy_Regular_872c940ee0",
+        "ext": ".ttf",
+        "mime": "font/ttf",
+        "size": 84.3,
+        "url": "/uploads/Gilroy_Regular_872c940ee0.ttf",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "folderPath": "/",
+        "createdAt": "2024-04-01T23:06:31.236Z",
+        "updatedAt": "2024-04-01T23:06:31.236Z"
+      }
+    },
+    {
+      "id": 25,
+      "weight": "bold",
+      "style": "normal",
+      "variant": "default",
+      "media": {
+        "id": 120,
+        "name": "Gilroy-Bold.ttf",
+        "alternativeText": null,
+        "caption": null,
+        "width": null,
+        "height": null,
+        "formats": null,
+        "hash": "Gilroy_Bold_af70c24bea",
+        "ext": ".ttf",
+        "mime": "font/ttf",
+        "size": 83.46,
+        "url": "/uploads/Gilroy_Bold_af70c24bea.ttf",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "folderPath": "/",
+        "createdAt": "2024-04-01T23:09:29.973Z",
+        "updatedAt": "2024-04-01T23:09:29.973Z"
+      }
+    },
+    {
+      "id": 24,
+      "weight": "medium",
+      "style": "normal",
+      "variant": "primary",
+      "media": {
+        "id": 114,
+        "name": "Druk-Wide-Cyr-Medium.ttf",
+        "alternativeText": null,
+        "caption": null,
+        "width": null,
+        "height": null,
+        "formats": null,
+        "hash": "Druk_Wide_Cyr_Medium_d806569559",
+        "ext": ".ttf",
+        "mime": "font/ttf",
+        "size": 123.54,
+        "url": "/uploads/Druk_Wide_Cyr_Medium_d806569559.ttf",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "folderPath": "/",
+        "createdAt": "2024-04-01T23:05:52.268Z",
+        "updatedAt": "2024-04-01T23:05:52.268Z"
+      }
+    },
+    {
+      "id": 26,
+      "weight": "medium",
+      "style": "italic",
+      "variant": "primary",
+      "media": {
+        "id": 115,
+        "name": "Druk-Wide-Cyr-Medium-Italic.ttf",
+        "alternativeText": null,
+        "caption": null,
+        "width": null,
+        "height": null,
+        "formats": null,
+        "hash": "Druk_Wide_Cyr_Medium_Italic_68a3dc4f8c",
+        "ext": ".ttf",
+        "mime": "font/ttf",
+        "size": 126.25,
+        "url": "/uploads/Druk_Wide_Cyr_Medium_Italic_68a3dc4f8c.ttf",
+        "previewUrl": null,
+        "provider": "local",
+        "provider_metadata": null,
+        "folderPath": "/",
+        "createdAt": "2024-04-01T23:05:52.269Z",
+        "updatedAt": "2024-04-01T23:05:52.269Z"
+      }
+    }
+  ]
+}

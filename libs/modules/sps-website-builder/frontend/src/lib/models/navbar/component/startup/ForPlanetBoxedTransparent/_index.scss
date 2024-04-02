@@ -1,9 +1,0 @@
-& {
-  &[data-variant="for-planet-boxed-transparent"] {
-    @apply bg-transparent w-screen z-30 absolute top-0 inset-x-0;
-
-    .navbar-container {
-      @apply w-full mx-auto max-w-[1360px];
-    }
-  }
-}

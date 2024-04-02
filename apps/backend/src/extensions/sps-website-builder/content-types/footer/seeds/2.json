@@ -1,0 +1,57 @@
+{
+  "id": 2,
+  "title": "Pied de page public",
+  "uid": "pied-de-page-public",
+  "variant": "boxed",
+  "class_name": null,
+  "createdAt": "2024-02-05T00:06:02.499Z",
+  "updatedAt": "2024-04-01T21:32:24.778Z",
+  "publishedAt": "2024-01-12T23:31:13.162Z",
+  "locale": "fr",
+  "localizations": [
+    {
+      "id": 4,
+      "title": "Public Page Footer",
+      "uid": "footer",
+      "variant": "for-planet-default",
+      "class_name": null,
+      "createdAt": "2024-04-01T21:32:23.928Z",
+      "updatedAt": "2024-04-01T21:32:24.813Z",
+      "publishedAt": "2024-01-10T11:45:35.047Z",
+      "locale": "en"
+    }
+  ],
+  "page_blocks": [
+    {
+      "__component": "page-blocks.footer-block",
+      "id": 6,
+      "copyrights": "2024 Démarrage d'une seule page",
+      "description": "Le moyen le plus rapide de développer votre startup",
+      "variant": "four-columns-with-company-mission",
+      "class_name": null,
+      "logotype": {
+        "id": 12,
+        "title": null,
+        "url": null,
+        "media": null,
+        "additional_media": null
+      },
+      "buttons_arrays": [],
+      "additional_buttons_arrays": [],
+      "extra_buttons_arrays": []
+    }
+  ],
+  "layouts": [
+    {
+      "id": 3,
+      "title": "Mise en page publique",
+      "uid": "mise-en-page-publique",
+      "variant": "wide",
+      "class_name": "[&>.layout-container]:pt-16",
+      "createdAt": "2024-02-05T00:06:02.551Z",
+      "updatedAt": "2024-04-01T21:32:24.863Z",
+      "publishedAt": "2024-01-12T23:28:53.035Z",
+      "locale": "fr"
+    }
+  ]
+}
