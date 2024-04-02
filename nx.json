@@ -1,16 +1,33 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "targetDefaults": {
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "ignorePath": ".eslintignore",
+        "eslintConfig": "{projectRoot}/.eslintrc.json",
+        "quiet": false
+      }
+    },
     "build": {
       "cache": true,
       "dependsOn": ["^build"]
     },
-    "lint": {
-      "inputs": [
-        "default",
-        "{workspaceRoot}/.eslintrc.json",
-        "{workspaceRoot}/.eslintignore"
-      ]
+    "tsc:build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "dependsOn": ["^tsc:build", "^build"],
+      "options": {
+        "outputPath": "dist/{projectRoot}",
+        "main": "{projectRoot}/src/index.ts",
+        "tsConfig": "{projectRoot}/tsconfig.json",
+        "transformers": [
+          {
+            "name": "typescript-transform-paths/nx-transformer"
+          }
+        ]
+      }
     },
     "@nx/jest:jest": {
       "cache": true,
@@ -28,6 +45,11 @@
     "e2e": {
       "cache": true,
       "inputs": ["default", "^production"]
+    },
+    "@nx/js:tsc": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
     }
   },
   "namedInputs": {
@@ -44,21 +66,13 @@
     ],
     "sharedGlobals": []
   },
-  "pluginsConfig": {},
   "generators": {
     "@nx/react": {
-      "application": {
-        "babel": true
-      },
-      "library": {
-        "unitTestRunner": "jest"
-      }
-    },
-    "@nx/next": {
-      "application": {
-        "style": "scss",
-        "linter": "eslint"
-      }
+      "library": {}
     }
-  }
+  },
+  "release": {
+    "projects": ["apps/*"]
+  },
+  "plugins": []
 }

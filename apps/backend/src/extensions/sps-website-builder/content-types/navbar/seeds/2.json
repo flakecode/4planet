@@ -1,0 +1,108 @@
+{
+  "id": 2,
+  "title": "Barre de navigation des pages publiques",
+  "uid": "barre-de-navigation-des-pages-publiques",
+  "variant": "boxed",
+  "class_name": null,
+  "position": "fixed",
+  "side": "top",
+  "createdAt": "2024-02-05T00:06:02.675Z",
+  "updatedAt": "2024-04-01T21:32:24.957Z",
+  "publishedAt": "2024-01-12T23:50:09.029Z",
+  "locale": "fr",
+  "localizations": [
+    {
+      "id": 1,
+      "title": "Public Page Navbar",
+      "uid": "public-page-navbar",
+      "variant": "for-planet-boxed-transparent",
+      "class_name": null,
+      "position": "fixed",
+      "side": "top",
+      "createdAt": "2024-02-05T00:06:02.652Z",
+      "updatedAt": "2024-04-01T23:07:48.647Z",
+      "publishedAt": "2023-04-08T05:04:22.148Z",
+      "locale": "en"
+    }
+  ],
+  "page_blocks": [
+    {
+      "__component": "page-blocks.navbar-block",
+      "id": 7,
+      "variant": "simple-links-on-left",
+      "description": null,
+      "class_name": null,
+      "logotype": {
+        "id": 14,
+        "title": null,
+        "url": "/",
+        "media": null,
+        "additional_media": null
+      },
+      "buttons": [
+        {
+          "id": 80,
+          "url": "/",
+          "description": null,
+          "variant": "ghost",
+          "title": "Principale",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        }
+      ],
+      "additional_buttons": [
+        {
+          "id": 81,
+          "url": "https://github.com/singlepagestartup/sps-lite",
+          "description": null,
+          "variant": "secondary",
+          "title": "GitHub",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        },
+        {
+          "id": 82,
+          "url": null,
+          "description": null,
+          "variant": "locale",
+          "title": null,
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": {
+            "id": 3,
+            "variant": "simple",
+            "title": "Icône déroulante Paramètres régionaux",
+            "uid": "icone-deroulante-parametres-regionaux",
+            "class_name": null,
+            "createdAt": "2024-02-05T00:06:02.463Z",
+            "updatedAt": "2024-04-01T21:32:24.644Z",
+            "publishedAt": "2024-01-12T23:59:23.441Z",
+            "locale": "fr"
+          }
+        }
+      ],
+      "extra_buttons": []
+    }
+  ],
+  "layouts": [
+    {
+      "id": 3,
+      "title": "Mise en page publique",
+      "uid": "mise-en-page-publique",
+      "variant": "wide",
+      "class_name": "[&>.layout-container]:pt-16",
+      "createdAt": "2024-02-05T00:06:02.551Z",
+      "updatedAt": "2024-04-01T21:32:24.863Z",
+      "publishedAt": "2024-01-12T23:28:53.035Z",
+      "locale": "fr"
+    }
+  ]
+}

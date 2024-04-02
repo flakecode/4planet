@@ -1,0 +1,47 @@
+{
+  "name": "bdd",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/bdd",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "dependsOn": ["^build"],
+      "options": {
+        "outputPath": "apps/bdd/dist",
+        "main": "apps/bdd/index.ts",
+        "tsConfig": "apps/bdd/tsconfig.json",
+        "transformers": [
+          {
+            "name": "typescript-transform-paths/nx-transformer"
+          }
+        ]
+      }
+    },
+    "dev": {
+      "executor": "nx:run-commands",
+      "options": {
+        "parallel": false,
+        "cwd": "apps/bdd",
+        "commands": [
+          {
+            "command": "npx playwright install"
+          },
+          {
+            "command": "PWVIDEO=true ../../node_modules/.bin/cucumber-js tests/**/*.feature"
+          }
+        ]
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "ignorePath": ".eslintignore",
+        "quiet": false
+      }
+    }
+  },
+  "tags": []
+}
