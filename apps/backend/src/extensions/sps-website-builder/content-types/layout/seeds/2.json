@@ -1,0 +1,51 @@
+{
+  "id": 2,
+  "title": "Public Page Layout",
+  "uid": "public-page-layout",
+  "variant": "wide",
+  "class_name": "[&>.layout-container]:pt-16",
+  "createdAt": "2024-02-05T00:06:02.537Z",
+  "updatedAt": "2024-04-01T21:32:24.828Z",
+  "publishedAt": "2023-04-20T03:23:38.447Z",
+  "locale": "en",
+  "localizations": [],
+  "footer": {
+    "id": 4,
+    "title": "Public Page Footer",
+    "uid": "footer",
+    "variant": "for-planet-default",
+    "class_name": null,
+    "createdAt": "2024-04-01T21:32:23.928Z",
+    "updatedAt": "2024-04-01T21:32:24.813Z",
+    "publishedAt": "2024-01-10T11:45:35.047Z",
+    "locale": "en"
+  },
+  "modals": [],
+  "navbar": {
+    "id": 1,
+    "title": "Public Page Navbar",
+    "uid": "public-page-navbar",
+    "variant": "for-planet-boxed-transparent",
+    "class_name": null,
+    "position": "fixed",
+    "side": "top",
+    "createdAt": "2024-02-05T00:06:02.652Z",
+    "updatedAt": "2024-04-01T23:07:48.647Z",
+    "publishedAt": "2023-04-08T05:04:22.148Z",
+    "locale": "en"
+  },
+  "sidebar": null,
+  "slide_overs": [],
+  "topbar": null,
+  "pages": [
+    {
+      "id": 1,
+      "title": "Main page",
+      "url": "/",
+      "createdAt": "2024-02-05T00:06:02.699Z",
+      "updatedAt": "2024-04-01T23:12:15.234Z",
+      "publishedAt": "2023-04-08T12:06:05.277Z",
+      "locale": "en"
+    }
+  ]
+}

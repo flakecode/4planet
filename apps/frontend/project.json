@@ -4,31 +4,16 @@
   "sourceRoot": "apps/frontend",
   "projectType": "application",
   "targets": {
-    "build-theme": {
-      "executor": "@nx/js:tsc",
-      "outputs": ["{options.outputPath}"],
-      "options": {
-        "outputPath": "apps/frontend/.theme",
-        "main": "apps/frontend/theme.ts",
-        "tsConfig": "apps/frontend/tsconfig.theme.json",
-        "rootDir": ".",
-        "transformers": [
-          {
-            "name": "typescript-transform-paths/nx-transformer"
-          }
-        ]
-      }
-    },
     "theme": {
       "executor": "nx:run-commands",
       "options": {
         "parallel": false,
         "commands": [
           {
-            "command": "nx run @sps/sps-utils-backend:build"
+            "command": "nx run @sps/shared-frontend-utils-server:build"
           },
           {
-            "command": "NODE_ENV=development node dist/libs/shared/backend/utils/src/lib/create-tailwind-theme.js"
+            "command": "node dist/libs/shared/frontend/utils/server/src/lib/create-tailwind-theme.js"
           }
         ]
       }
@@ -89,14 +74,7 @@
         "jestConfig": "apps/frontend/jest.config.ts"
       }
     },
-    "lint": {
-      "executor": "@nx/eslint:lint",
-      "outputs": ["{options.outputFile}"],
-      "options": {
-        "ignorePath": "apps/frontend/.eslintignore",
-        "quiet": true
-      }
-    }
+    "lint": {}
   },
   "tags": []
 }

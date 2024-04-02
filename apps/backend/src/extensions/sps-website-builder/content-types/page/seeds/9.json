@@ -1,0 +1,58 @@
+{
+  "id": 9,
+  "title": "Page d'accueil",
+  "url": "/",
+  "createdAt": "2024-02-05T00:06:02.813Z",
+  "updatedAt": "2024-04-01T23:12:15.262Z",
+  "publishedAt": "2024-01-12T23:28:07.163Z",
+  "locale": "fr",
+  "localizations": [
+    {
+      "id": 1,
+      "title": "Main page",
+      "url": "/",
+      "createdAt": "2024-02-05T00:06:02.699Z",
+      "updatedAt": "2024-04-01T23:12:15.234Z",
+      "publishedAt": "2023-04-08T12:06:05.277Z",
+      "locale": "en"
+    }
+  ],
+  "page_blocks": [
+    {
+      "__component": "page-blocks.hero-section-block",
+      "id": 40,
+      "title": "Démarrez votre Lean Startup avec un Boilerplate convivial pour les développeurs",
+      "description": "Passez moins de temps à la configuration et plus de temps à créer votre produit innovant grâce à notre modèle prêt à l'emploi et riche en fonctionnalités, conçu pour les développeurs de startups Lean.",
+      "variant": "simple-centered",
+      "anchor": null,
+      "class_name": "pt-16",
+      "media": null,
+      "buttons": [
+        {
+          "id": 93,
+          "url": "https://github.com/singlepagestartup/sps-lite",
+          "description": "",
+          "variant": "primary",
+          "title": "Commencez gratuitement",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        }
+      ],
+      "additional_media": null
+    }
+  ],
+  "layout": {
+    "id": 3,
+    "title": "Mise en page publique",
+    "uid": "mise-en-page-publique",
+    "variant": "wide",
+    "class_name": "[&>.layout-container]:pt-16",
+    "createdAt": "2024-02-05T00:06:02.551Z",
+    "updatedAt": "2024-04-01T21:32:24.863Z",
+    "publishedAt": "2024-01-12T23:28:53.035Z",
+    "locale": "fr"
+  }
+}
