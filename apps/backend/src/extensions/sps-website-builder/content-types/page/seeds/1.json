@@ -1,0 +1,1732 @@
+{
+  "id": 1,
+  "title": "Main page",
+  "url": "/",
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/page/seeds/1.json
+  "createdAt": "2024-01-16T19:26:58.450Z",
+  "updatedAt": "2024-03-04T16:51:25.634Z",
+=======
+  "createdAt": "2024-02-01T09:01:22.410Z",
+  "updatedAt": "2024-02-24T15:20:53.500Z",
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/page/seeds/1.json
+  "publishedAt": "2023-04-08T12:06:05.277Z",
+  "locale": "en",
+  "localizations": [
+    {
+      "id": 9,
+      "title": "Page d'accueil",
+      "url": "/",
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/page/seeds/1.json
+      "createdAt": "2024-01-16T19:26:58.479Z",
+      "updatedAt": "2024-03-04T16:51:25.658Z",
+=======
+      "createdAt": "2024-02-01T09:01:22.496Z",
+      "updatedAt": "2024-02-24T15:20:53.557Z",
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/page/seeds/1.json
+      "publishedAt": "2024-01-12T23:28:07.163Z",
+      "locale": "fr"
+    }
+  ],
+  "page_blocks": [
+    {
+      "__component": "page-blocks.hero-section-block",
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/page/seeds/1.json
+      "id": 92,
+      "title": "FOR planet - сервис по посадке  деревьев по всему миру",
+      "description": null,
+      "variant": "for-planet-heading",
+=======
+      "id": 22,
+      "title": "Jumpstart Your Lean Startup with Developer-Friendly Boilerplate",
+      "description": "Spend less time on setup and more time building your innovative product with our ready-to-use, feature-packed boilerplate designed for lean startup developers.",
+      "variant": "simple-centered",
+      "anchor": null,
+      "class_name": "pt-16",
+      "media": [
+        {
+          "id": 168,
+          "name": "preview.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 2050,
+          "height": 1286,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "/uploads/large_preview_a4b1aa2b28.png",
+              "hash": "large_preview_a4b1aa2b28",
+              "mime": "image/png",
+              "name": "large_preview.png",
+              "path": null,
+              "size": 221.64,
+              "width": 1000,
+              "height": 627
+            },
+            "small": {
+              "ext": ".png",
+              "url": "/uploads/small_preview_a4b1aa2b28.png",
+              "hash": "small_preview_a4b1aa2b28",
+              "mime": "image/png",
+              "name": "small_preview.png",
+              "path": null,
+              "size": 67.83,
+              "width": 500,
+              "height": 314
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "/uploads/medium_preview_a4b1aa2b28.png",
+              "hash": "medium_preview_a4b1aa2b28",
+              "mime": "image/png",
+              "name": "medium_preview.png",
+              "path": null,
+              "size": 131.31,
+              "width": 750,
+              "height": 470
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/uploads/thumbnail_preview_a4b1aa2b28.png",
+              "hash": "thumbnail_preview_a4b1aa2b28",
+              "mime": "image/png",
+              "name": "thumbnail_preview.png",
+              "path": null,
+              "size": 22.03,
+              "width": 245,
+              "height": 154
+            }
+          },
+          "hash": "preview_a4b1aa2b28",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 130.44,
+          "url": "/uploads/preview_a4b1aa2b28.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "folderPath": "/",
+          "createdAt": "2024-02-09T15:14:42.623Z",
+          "updatedAt": "2024-02-09T15:14:42.623Z"
+        }
+      ],
+      "buttons": [
+        {
+          "id": 112,
+          "url": "/",
+          "description": null,
+          "variant": "primary",
+          "title": "Primary",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": [
+            {
+              "id": 181,
+              "name": "three block.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1920,
+              "height": 1920,
+              "formats": {
+                "large": {
+                  "ext": ".png",
+                  "url": "/uploads/large_three_block_a7d8408c3d.png",
+                  "hash": "large_three_block_a7d8408c3d",
+                  "mime": "image/png",
+                  "name": "large_three block.png",
+                  "path": null,
+                  "size": 1062.72,
+                  "width": 1000,
+                  "height": 1000
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "/uploads/small_three_block_a7d8408c3d.png",
+                  "hash": "small_three_block_a7d8408c3d",
+                  "mime": "image/png",
+                  "name": "small_three block.png",
+                  "path": null,
+                  "size": 290.24,
+                  "width": 500,
+                  "height": 500
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "/uploads/medium_three_block_a7d8408c3d.png",
+                  "hash": "medium_three_block_a7d8408c3d",
+                  "mime": "image/png",
+                  "name": "medium_three block.png",
+                  "path": null,
+                  "size": 629.91,
+                  "width": 750,
+                  "height": 750
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_three_block_a7d8408c3d.png",
+                  "hash": "thumbnail_three_block_a7d8408c3d",
+                  "mime": "image/png",
+                  "name": "thumbnail_three block.png",
+                  "path": null,
+                  "size": 33.46,
+                  "width": 156,
+                  "height": 156
+                }
+              },
+              "hash": "three_block_a7d8408c3d",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 414.59,
+              "url": "/uploads/three_block_a7d8408c3d.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "folderPath": "/",
+              "createdAt": "2024-02-09T15:15:00.244Z",
+              "updatedAt": "2024-02-09T15:15:00.244Z"
+            }
+          ],
+          "additional_media": null,
+          "flyout": null
+        },
+        {
+          "id": 110,
+          "url": "/",
+          "description": null,
+          "variant": "outline",
+          "title": "Outline",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        },
+        {
+          "id": 108,
+          "url": "/",
+          "description": null,
+          "variant": "destructive",
+          "title": "Destructive",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        },
+        {
+          "id": 107,
+          "url": "/",
+          "description": null,
+          "variant": "ghost",
+          "title": "Ghost",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        },
+        {
+          "id": 111,
+          "url": "/",
+          "description": null,
+          "variant": "link",
+          "title": "Link",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        }
+      ],
+      "additional_media": null
+    },
+    {
+      "__component": "page-blocks.slider-block",
+      "id": 6,
+      "variant": "simple",
+      "anchor": null,
+      "class_name": "py-20",
+      "title": "Slider block",
+      "description": null,
+      "subtitle": null,
+      "slider": {
+        "id": 1,
+        "variant": "fade-with-previews",
+        "show_full_screen": true,
+        "show_previews": true,
+        "class_name": null,
+        "aspect_ratio_class_name": "aspect-h-1 aspect-w-1 xl:aspect-w-15 xl:aspect-h-10",
+        "title": "Features Slider",
+        "uid": "features-slider",
+        "createdAt": "2024-02-01T09:01:22.580Z",
+        "updatedAt": "2024-02-24T14:49:28.866Z",
+        "publishedAt": "2023-03-28T03:46:50.780Z",
+        "locale": "en"
+      }
+    },
+    {
+      "__component": "page-blocks.contact-section-block",
+      "id": 5,
+      "title": "We’re ready to help",
+      "subtitle": null,
+      "description": "Fill in all the fields below and our manager will contact you.",
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/page/seeds/1.json
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/page/seeds/1.json
+      "buttons": [
+        {
+          "id": 224,
+          "url": "#subscribe",
+          "description": null,
+          "variant": "outline",
+          "title": "Оформить подписку",
+=======
+      "additional_media": null,
+      "buttons_arrays": [],
+      "form": {
+        "id": 1,
+        "class_name": null,
+        "additional_attributes": null,
+        "variant": "simple",
+        "uid": "question",
+        "title": "Есть вопросы по продукту?",
+        "createdAt": "2024-02-01T09:01:22.195Z",
+        "updatedAt": "2024-02-24T13:32:08.691Z",
+        "publishedAt": "2023-02-14T15:44:48.245Z",
+        "locale": "en"
+      }
+    },
+    {
+      "__component": "page-blocks.tiers-list-block",
+      "id": 4,
+      "variant": "two-columns-card",
+      "title": "Tiers",
+      "subtitle": null,
+      "description": null,
+      "class_name": null,
+      "anchor": null,
+      "media": null,
+      "additional_media": null,
+      "tiers": []
+    },
+    {
+      "__component": "page-blocks.products-list-block",
+      "id": 6,
+      "variant": "simple",
+      "description": "",
+      "anchor": null,
+      "class_name": null,
+      "title": "Products",
+      "subtitle": null,
+      "query": null,
+      "show_all": true,
+      "buttons": [],
+      "products": []
+    },
+    {
+      "__component": "page-blocks.shopping-cart-block",
+      "id": 8,
+      "anchor": null,
+      "variant": "simple",
+      "title": "Shopping Cart",
+      "subtitle": null,
+      "description": null,
+      "class_name": null
+    },
+    {
+      "__component": "page-blocks.cta-section-block",
+      "id": 4,
+      "variant": "dark-with-image",
+      "anchor": null,
+      "class_name": null,
+      "title": "Minimum Viable Product is Ready",
+      "description": "Reduce the time and effort required to build and launch an initial product, helping you validate your ideas and gather customer feedback more quickly. This will allow you to iterate and improve upon your product, increasing your chances of success in the competitive startup landscape.",
+      "subtitle": null,
+      "media": [
+        {
+          "id": 169,
+          "name": "28.png",
+          "alternativeText": null,
+          "caption": null,
+          "width": 5708,
+          "height": 3981,
+          "formats": {
+            "large": {
+              "ext": ".png",
+              "url": "/uploads/large_28_33d040d6e8.png",
+              "hash": "large_28_33d040d6e8",
+              "mime": "image/png",
+              "name": "large_28.png",
+              "path": null,
+              "size": 671.9,
+              "width": 1000,
+              "height": 697
+            },
+            "small": {
+              "ext": ".png",
+              "url": "/uploads/small_28_33d040d6e8.png",
+              "hash": "small_28_33d040d6e8",
+              "mime": "image/png",
+              "name": "small_28.png",
+              "path": null,
+              "size": 185.23,
+              "width": 500,
+              "height": 349
+            },
+            "medium": {
+              "ext": ".png",
+              "url": "/uploads/medium_28_33d040d6e8.png",
+              "hash": "medium_28_33d040d6e8",
+              "mime": "image/png",
+              "name": "medium_28.png",
+              "path": null,
+              "size": 391.89,
+              "width": 750,
+              "height": 523
+            },
+            "thumbnail": {
+              "ext": ".png",
+              "url": "/uploads/thumbnail_28_33d040d6e8.png",
+              "hash": "thumbnail_28_33d040d6e8",
+              "mime": "image/png",
+              "name": "thumbnail_28.png",
+              "path": null,
+              "size": 47.01,
+              "width": 224,
+              "height": 156
+            }
+          },
+          "hash": "28_33d040d6e8",
+          "ext": ".png",
+          "mime": "image/png",
+          "size": 3169.32,
+          "url": "/uploads/28_33d040d6e8.png",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "folderPath": "/",
+          "createdAt": "2024-02-09T15:14:46.149Z",
+          "updatedAt": "2024-02-09T15:14:46.149Z"
+        }
+      ],
+      "buttons": [
+        {
+          "id": 109,
+          "url": "https://github.com/singlepagestartup/sps-lite",
+          "description": null,
+          "variant": "primary",
+          "title": "Open GitHub",
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/page/seeds/1.json
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        }
+      ],
+      "additional_media": null
+    },
+    {
+      "__component": "page-blocks.features-section-block",
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/page/seeds/1.json
+      "id": 38,
+      "title": "Что мы делаем и куда идем?",
+      "description": null,
+=======
+      "id": 4,
+      "title": "Don't repeat yourself",
+      "description": "SignlePageStartup is designed to help you efficiently create a MVP that you can launch quickly to gather customer feedback and validate your ideas. Here's what you can expect from the MVP-ready feature.",
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/page/seeds/1.json
+      "subtitle": null,
+      "variant": "for-planet-timeline",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "additional_media": null,
+      "features": [
+        {
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/page/seeds/1.json
+          "id": 151,
+          "description": "- Сажаем деревья в Сибири и Казахстане\n- Боремся против незаконных вырубок\n- Тормозим деструктивные законопроекты",
+          "title": "Сейчас",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 153,
+          "description": "Будем брать в долгосрочную аренду самые важные леса планеты для сохранения биоразнообразия",
+          "title": "Скоро",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 152,
+          "description": "Будем самостоятельно тушить пожары и восстанавливать лес",
+          "title": "В течение 5 лет",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+=======
+          "id": 37,
+          "description": "Leverage our pre-built navigation elements, forms, photo galleries, text blocks, CTA elements, and more to create a visually appealing and engaging user experience with minimal effort.",
+          "title": "Ready-to-Use UI Components",
+          "subtitle": null,
+          "media": [
+            {
+              "id": 170,
+              "name": "augmented reality_ar.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1920,
+              "height": 1920,
+              "formats": {
+                "large": {
+                  "ext": ".png",
+                  "url": "/uploads/large_augmented_reality_ar_0e8706270c.png",
+                  "hash": "large_augmented_reality_ar_0e8706270c",
+                  "mime": "image/png",
+                  "name": "large_augmented reality_ar.png",
+                  "path": null,
+                  "size": 984.37,
+                  "width": 1000,
+                  "height": 1000
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "/uploads/small_augmented_reality_ar_0e8706270c.png",
+                  "hash": "small_augmented_reality_ar_0e8706270c",
+                  "mime": "image/png",
+                  "name": "small_augmented reality_ar.png",
+                  "path": null,
+                  "size": 268.47,
+                  "width": 500,
+                  "height": 500
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "/uploads/medium_augmented_reality_ar_0e8706270c.png",
+                  "hash": "medium_augmented_reality_ar_0e8706270c",
+                  "mime": "image/png",
+                  "name": "medium_augmented reality_ar.png",
+                  "path": null,
+                  "size": 580.28,
+                  "width": 750,
+                  "height": 750
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_augmented_reality_ar_0e8706270c.png",
+                  "hash": "thumbnail_augmented_reality_ar_0e8706270c",
+                  "mime": "image/png",
+                  "name": "thumbnail_augmented reality_ar.png",
+                  "path": null,
+                  "size": 30.71,
+                  "width": 156,
+                  "height": 156
+                }
+              },
+              "hash": "augmented_reality_ar_0e8706270c",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 287.08,
+              "url": "/uploads/augmented_reality_ar_0e8706270c.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "folderPath": "/",
+              "createdAt": "2024-02-09T15:14:47.225Z",
+              "updatedAt": "2024-02-09T15:14:47.225Z"
+            }
+          ],
+          "additional_media": null
+        },
+        {
+          "id": 38,
+          "description": "Your startup's international expansion is a breeze with our boilerplate's built-in multilingual support. Just select the languages you want to support, and you're good to go.",
+          "title": "Global-Ready",
+          "subtitle": null,
+          "media": [
+            {
+              "id": 171,
+              "name": "earth.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1920,
+              "height": 1920,
+              "formats": {
+                "large": {
+                  "ext": ".png",
+                  "url": "/uploads/large_earth_909ca5461e.png",
+                  "hash": "large_earth_909ca5461e",
+                  "mime": "image/png",
+                  "name": "large_earth.png",
+                  "path": null,
+                  "size": 966.19,
+                  "width": 1000,
+                  "height": 1000
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "/uploads/small_earth_909ca5461e.png",
+                  "hash": "small_earth_909ca5461e",
+                  "mime": "image/png",
+                  "name": "small_earth.png",
+                  "path": null,
+                  "size": 248.27,
+                  "width": 500,
+                  "height": 500
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "/uploads/medium_earth_909ca5461e.png",
+                  "hash": "medium_earth_909ca5461e",
+                  "mime": "image/png",
+                  "name": "medium_earth.png",
+                  "path": null,
+                  "size": 548.27,
+                  "width": 750,
+                  "height": 750
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_earth_909ca5461e.png",
+                  "hash": "thumbnail_earth_909ca5461e",
+                  "mime": "image/png",
+                  "name": "thumbnail_earth.png",
+                  "path": null,
+                  "size": 31.7,
+                  "width": 156,
+                  "height": 156
+                }
+              },
+              "hash": "earth_909ca5461e",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 637.95,
+              "url": "/uploads/earth_909ca5461e.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "folderPath": "/",
+              "createdAt": "2024-02-09T15:14:48.387Z",
+              "updatedAt": "2024-02-09T15:14:48.387Z"
+            }
+          ],
+          "additional_media": null
+        },
+        {
+          "id": 39,
+          "description": "Save 20 to 100 hours of development time with our ready-to-use, best-practice authentication and authorization system. Focus on your core features and let us handle the rest.",
+          "title": "Streamlined Authentication & Authorization",
+          "subtitle": null,
+          "media": [
+            {
+              "id": 172,
+              "name": "security lock.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1920,
+              "height": 1920,
+              "formats": {
+                "large": {
+                  "ext": ".png",
+                  "url": "/uploads/large_security_lock_8aa082f459.png",
+                  "hash": "large_security_lock_8aa082f459",
+                  "mime": "image/png",
+                  "name": "large_security lock.png",
+                  "path": null,
+                  "size": 920.25,
+                  "width": 1000,
+                  "height": 1000
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "/uploads/small_security_lock_8aa082f459.png",
+                  "hash": "small_security_lock_8aa082f459",
+                  "mime": "image/png",
+                  "name": "small_security lock.png",
+                  "path": null,
+                  "size": 249.49,
+                  "width": 500,
+                  "height": 500
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "/uploads/medium_security_lock_8aa082f459.png",
+                  "hash": "medium_security_lock_8aa082f459",
+                  "mime": "image/png",
+                  "name": "medium_security lock.png",
+                  "path": null,
+                  "size": 543.73,
+                  "width": 750,
+                  "height": 750
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_security_lock_8aa082f459.png",
+                  "hash": "thumbnail_security_lock_8aa082f459",
+                  "mime": "image/png",
+                  "name": "thumbnail_security lock.png",
+                  "path": null,
+                  "size": 28.56,
+                  "width": 156,
+                  "height": 156
+                }
+              },
+              "hash": "security_lock_8aa082f459",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 332.18,
+              "url": "/uploads/security_lock_8aa082f459.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "folderPath": "/",
+              "createdAt": "2024-02-09T15:14:49.478Z",
+              "updatedAt": "2024-02-09T15:14:49.478Z"
+            }
+          ],
+          "additional_media": null
+        },
+        {
+          "id": 40,
+          "description": "Enhance user profiles with our pre-built avatar functionality. Simply add the PageBlock to the profile page and let your users personalize their accounts with custom avatars.",
+          "title": "Easy Avatar Integration",
+          "subtitle": null,
+          "media": [
+            {
+              "id": 173,
+              "name": "users group.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1920,
+              "height": 1920,
+              "formats": {
+                "large": {
+                  "ext": ".png",
+                  "url": "/uploads/large_users_group_e71e5b9d3e.png",
+                  "hash": "large_users_group_e71e5b9d3e",
+                  "mime": "image/png",
+                  "name": "large_users group.png",
+                  "path": null,
+                  "size": 991.04,
+                  "width": 1000,
+                  "height": 1000
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "/uploads/small_users_group_e71e5b9d3e.png",
+                  "hash": "small_users_group_e71e5b9d3e",
+                  "mime": "image/png",
+                  "name": "small_users group.png",
+                  "path": null,
+                  "size": 280.56,
+                  "width": 500,
+                  "height": 500
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "/uploads/medium_users_group_e71e5b9d3e.png",
+                  "hash": "medium_users_group_e71e5b9d3e",
+                  "mime": "image/png",
+                  "name": "medium_users group.png",
+                  "path": null,
+                  "size": 596.56,
+                  "width": 750,
+                  "height": 750
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_users_group_e71e5b9d3e.png",
+                  "hash": "thumbnail_users_group_e71e5b9d3e",
+                  "mime": "image/png",
+                  "name": "thumbnail_users group.png",
+                  "path": null,
+                  "size": 34.11,
+                  "width": 156,
+                  "height": 156
+                }
+              },
+              "hash": "users_group_e71e5b9d3e",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 386.31,
+              "url": "/uploads/users_group_e71e5b9d3e.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "folderPath": "/",
+              "createdAt": "2024-02-09T15:14:50.517Z",
+              "updatedAt": "2024-02-09T15:14:50.517Z"
+            }
+          ],
+          "additional_media": null
+        },
+        {
+          "id": 41,
+          "description": "Quickly add essential features to your MVP with built-in support for popular services such as authentication, payment gateways, and analytics tools. Less hassle, more productivity.",
+          "title": "Seamless Third-Party Service Integration",
+          "subtitle": null,
+          "media": [
+            {
+              "id": 174,
+              "name": "api socket.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1920,
+              "height": 1920,
+              "formats": {
+                "large": {
+                  "ext": ".png",
+                  "url": "/uploads/large_api_socket_8ae9da4d25.png",
+                  "hash": "large_api_socket_8ae9da4d25",
+                  "mime": "image/png",
+                  "name": "large_api socket.png",
+                  "path": null,
+                  "size": 700.4,
+                  "width": 1000,
+                  "height": 1000
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "/uploads/small_api_socket_8ae9da4d25.png",
+                  "hash": "small_api_socket_8ae9da4d25",
+                  "mime": "image/png",
+                  "name": "small_api socket.png",
+                  "path": null,
+                  "size": 182.29,
+                  "width": 500,
+                  "height": 500
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "/uploads/medium_api_socket_8ae9da4d25.png",
+                  "hash": "medium_api_socket_8ae9da4d25",
+                  "mime": "image/png",
+                  "name": "medium_api socket.png",
+                  "path": null,
+                  "size": 402.27,
+                  "width": 750,
+                  "height": 750
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_api_socket_8ae9da4d25.png",
+                  "hash": "thumbnail_api_socket_8ae9da4d25",
+                  "mime": "image/png",
+                  "name": "thumbnail_api socket.png",
+                  "path": null,
+                  "size": 21.99,
+                  "width": 156,
+                  "height": 156
+                }
+              },
+              "hash": "api_socket_8ae9da4d25",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 454.53,
+              "url": "/uploads/api_socket_8ae9da4d25.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "folderPath": "/",
+              "createdAt": "2024-02-09T15:14:51.719Z",
+              "updatedAt": "2024-02-09T15:14:51.719Z"
+            }
+          ],
+          "additional_media": null
+        },
+        {
+          "id": 42,
+          "description": "Generate documents based on user data or completed forms with ease using our built-in document generation functionality. Just incorporate it into your business logic and you're set.",
+          "title": "Effortless Document Generation",
+          "subtitle": null,
+          "media": [
+            {
+              "id": 175,
+              "name": "file pdf.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1920,
+              "height": 1920,
+              "formats": {
+                "large": {
+                  "ext": ".png",
+                  "url": "/uploads/large_file_pdf_579baf18c2.png",
+                  "hash": "large_file_pdf_579baf18c2",
+                  "mime": "image/png",
+                  "name": "large_file pdf.png",
+                  "path": null,
+                  "size": 715.34,
+                  "width": 1000,
+                  "height": 1000
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "/uploads/small_file_pdf_579baf18c2.png",
+                  "hash": "small_file_pdf_579baf18c2",
+                  "mime": "image/png",
+                  "name": "small_file pdf.png",
+                  "path": null,
+                  "size": 197.93,
+                  "width": 500,
+                  "height": 500
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "/uploads/medium_file_pdf_579baf18c2.png",
+                  "hash": "medium_file_pdf_579baf18c2",
+                  "mime": "image/png",
+                  "name": "medium_file pdf.png",
+                  "path": null,
+                  "size": 433.38,
+                  "width": 750,
+                  "height": 750
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_file_pdf_579baf18c2.png",
+                  "hash": "thumbnail_file_pdf_579baf18c2",
+                  "mime": "image/png",
+                  "name": "thumbnail_file pdf.png",
+                  "path": null,
+                  "size": 22.3,
+                  "width": 156,
+                  "height": 156
+                }
+              },
+              "hash": "file_pdf_579baf18c2",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 224.3,
+              "url": "/uploads/file_pdf_579baf18c2.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "folderPath": "/",
+              "createdAt": "2024-02-09T15:14:52.586Z",
+              "updatedAt": "2024-02-09T15:14:52.586Z"
+            }
+          ],
+          "additional_media": null
+        },
+        {
+          "id": 43,
+          "description": "Utilize our ready-to-use product catalog, product pages, shopping cart, delivery options, and order history to jumpstart your e-commerce project.",
+          "title": "Comprehensive E-Commerce Features",
+          "subtitle": null,
+          "media": [
+            {
+              "id": 176,
+              "name": "empty cart.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1920,
+              "height": 1920,
+              "formats": {
+                "large": {
+                  "ext": ".png",
+                  "url": "/uploads/large_empty_cart_2ffc796631.png",
+                  "hash": "large_empty_cart_2ffc796631",
+                  "mime": "image/png",
+                  "name": "large_empty cart.png",
+                  "path": null,
+                  "size": 800.15,
+                  "width": 1000,
+                  "height": 1000
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "/uploads/small_empty_cart_2ffc796631.png",
+                  "hash": "small_empty_cart_2ffc796631",
+                  "mime": "image/png",
+                  "name": "small_empty cart.png",
+                  "path": null,
+                  "size": 204.06,
+                  "width": 500,
+                  "height": 500
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "/uploads/medium_empty_cart_2ffc796631.png",
+                  "hash": "medium_empty_cart_2ffc796631",
+                  "mime": "image/png",
+                  "name": "medium_empty cart.png",
+                  "path": null,
+                  "size": 452.92,
+                  "width": 750,
+                  "height": 750
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_empty_cart_2ffc796631.png",
+                  "hash": "thumbnail_empty_cart_2ffc796631",
+                  "mime": "image/png",
+                  "name": "thumbnail_empty cart.png",
+                  "path": null,
+                  "size": 25.74,
+                  "width": 156,
+                  "height": 156
+                }
+              },
+              "hash": "empty_cart_2ffc796631",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 530.45,
+              "url": "/uploads/empty_cart_2ffc796631.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "folderPath": "/",
+              "createdAt": "2024-02-09T15:14:54.034Z",
+              "updatedAt": "2024-02-09T15:14:54.034Z"
+            }
+          ],
+          "additional_media": null
+        },
+        {
+          "id": 44,
+          "description": "Establish your personal brand by enabling our integrated blogging functionality, perfect for sharing news and insights with your audience.",
+          "title": "Built-In Blogging Capabilities",
+          "subtitle": null,
+          "media": [
+            {
+              "id": 177,
+              "name": "sign doc.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1920,
+              "height": 1920,
+              "formats": {
+                "large": {
+                  "ext": ".png",
+                  "url": "/uploads/large_sign_doc_805aa34b77.png",
+                  "hash": "large_sign_doc_805aa34b77",
+                  "mime": "image/png",
+                  "name": "large_sign doc.png",
+                  "path": null,
+                  "size": 851.37,
+                  "width": 1000,
+                  "height": 1000
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "/uploads/small_sign_doc_805aa34b77.png",
+                  "hash": "small_sign_doc_805aa34b77",
+                  "mime": "image/png",
+                  "name": "small_sign doc.png",
+                  "path": null,
+                  "size": 208.64,
+                  "width": 500,
+                  "height": 500
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "/uploads/medium_sign_doc_805aa34b77.png",
+                  "hash": "medium_sign_doc_805aa34b77",
+                  "mime": "image/png",
+                  "name": "medium_sign doc.png",
+                  "path": null,
+                  "size": 477.19,
+                  "width": 750,
+                  "height": 750
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_sign_doc_805aa34b77.png",
+                  "hash": "thumbnail_sign_doc_805aa34b77",
+                  "mime": "image/png",
+                  "name": "thumbnail_sign doc.png",
+                  "path": null,
+                  "size": 24.04,
+                  "width": 156,
+                  "height": 156
+                }
+              },
+              "hash": "sign_doc_805aa34b77",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 596.27,
+              "url": "/uploads/sign_doc_805aa34b77.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "folderPath": "/",
+              "createdAt": "2024-02-09T15:14:55.369Z",
+              "updatedAt": "2024-02-09T15:14:55.369Z"
+            }
+          ],
+          "additional_media": null
+        },
+        {
+          "id": 45,
+          "description": "Tailor your project to your needs using the Strapi admin panel, extend its capabilities with plugins, or create your own custom features.",
+          "title": "Flexible Customization and Extensibility",
+          "subtitle": null,
+          "media": [
+            {
+              "id": 178,
+              "name": "catalog.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1920,
+              "height": 1920,
+              "formats": {
+                "large": {
+                  "ext": ".png",
+                  "url": "/uploads/large_catalog_8b8611f0f4.png",
+                  "hash": "large_catalog_8b8611f0f4",
+                  "mime": "image/png",
+                  "name": "large_catalog.png",
+                  "path": null,
+                  "size": 1489.01,
+                  "width": 1000,
+                  "height": 1000
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "/uploads/small_catalog_8b8611f0f4.png",
+                  "hash": "small_catalog_8b8611f0f4",
+                  "mime": "image/png",
+                  "name": "small_catalog.png",
+                  "path": null,
+                  "size": 354.53,
+                  "width": 500,
+                  "height": 500
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "/uploads/medium_catalog_8b8611f0f4.png",
+                  "hash": "medium_catalog_8b8611f0f4",
+                  "mime": "image/png",
+                  "name": "medium_catalog.png",
+                  "path": null,
+                  "size": 825.38,
+                  "width": 750,
+                  "height": 750
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_catalog_8b8611f0f4.png",
+                  "hash": "thumbnail_catalog_8b8611f0f4",
+                  "mime": "image/png",
+                  "name": "thumbnail_catalog.png",
+                  "path": null,
+                  "size": 36.37,
+                  "width": 156,
+                  "height": 156
+                }
+              },
+              "hash": "catalog_8b8611f0f4",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 1046.94,
+              "url": "/uploads/catalog_8b8611f0f4.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "folderPath": "/",
+              "createdAt": "2024-02-09T15:14:56.722Z",
+              "updatedAt": "2024-02-09T15:14:56.722Z"
+            }
+          ],
+          "additional_media": null
+        },
+        {
+          "id": 46,
+          "description": "Easily migrate or seed data by completing your project locally, running a data dump, and migrating it to your server, or by describing your data as JSON and adding it to the data seeding process.",
+          "title": "Hassle-Free Data Migration and Seeding",
+          "subtitle": null,
+          "media": [
+            {
+              "id": 179,
+              "name": "eight ways.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1920,
+              "height": 1920,
+              "formats": {
+                "large": {
+                  "ext": ".png",
+                  "url": "/uploads/large_eight_ways_d3c74aecee.png",
+                  "hash": "large_eight_ways_d3c74aecee",
+                  "mime": "image/png",
+                  "name": "large_eight ways.png",
+                  "path": null,
+                  "size": 838.27,
+                  "width": 1000,
+                  "height": 1000
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "/uploads/small_eight_ways_d3c74aecee.png",
+                  "hash": "small_eight_ways_d3c74aecee",
+                  "mime": "image/png",
+                  "name": "small_eight ways.png",
+                  "path": null,
+                  "size": 215.42,
+                  "width": 500,
+                  "height": 500
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "/uploads/medium_eight_ways_d3c74aecee.png",
+                  "hash": "medium_eight_ways_d3c74aecee",
+                  "mime": "image/png",
+                  "name": "medium_eight ways.png",
+                  "path": null,
+                  "size": 477.86,
+                  "width": 750,
+                  "height": 750
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_eight_ways_d3c74aecee.png",
+                  "hash": "thumbnail_eight_ways_d3c74aecee",
+                  "mime": "image/png",
+                  "name": "thumbnail_eight ways.png",
+                  "path": null,
+                  "size": 26.74,
+                  "width": 156,
+                  "height": 156
+                }
+              },
+              "hash": "eight_ways_d3c74aecee",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 560.39,
+              "url": "/uploads/eight_ways_d3c74aecee.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "folderPath": "/",
+              "createdAt": "2024-02-09T15:14:57.974Z",
+              "updatedAt": "2024-02-09T15:14:57.974Z"
+            }
+          ],
+          "additional_media": null
+        },
+        {
+          "id": 47,
+          "description": "With pre-configured deployment tools and processes, our boilerplate enables you to quickly deploy your MVP to your preferred hosting platform. This helps you reduce the time-to-market and start gathering valuable customer feedback sooner.",
+          "title": "Rapid Deployment (CI/CD)",
+          "subtitle": null,
+          "media": [
+            {
+              "id": 180,
+              "name": "cloud storage.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1920,
+              "height": 1920,
+              "formats": {
+                "large": {
+                  "ext": ".png",
+                  "url": "/uploads/large_cloud_storage_451f6a59a2.png",
+                  "hash": "large_cloud_storage_451f6a59a2",
+                  "mime": "image/png",
+                  "name": "large_cloud storage.png",
+                  "path": null,
+                  "size": 955.21,
+                  "width": 1000,
+                  "height": 1000
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "/uploads/small_cloud_storage_451f6a59a2.png",
+                  "hash": "small_cloud_storage_451f6a59a2",
+                  "mime": "image/png",
+                  "name": "small_cloud storage.png",
+                  "path": null,
+                  "size": 232.66,
+                  "width": 500,
+                  "height": 500
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "/uploads/medium_cloud_storage_451f6a59a2.png",
+                  "hash": "medium_cloud_storage_451f6a59a2",
+                  "mime": "image/png",
+                  "name": "medium_cloud storage.png",
+                  "path": null,
+                  "size": 532.99,
+                  "width": 750,
+                  "height": 750
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_cloud_storage_451f6a59a2.png",
+                  "hash": "thumbnail_cloud_storage_451f6a59a2",
+                  "mime": "image/png",
+                  "name": "thumbnail_cloud storage.png",
+                  "path": null,
+                  "size": 26.54,
+                  "width": 156,
+                  "height": 156
+                }
+              },
+              "hash": "cloud_storage_451f6a59a2",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 679.45,
+              "url": "/uploads/cloud_storage_451f6a59a2.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "folderPath": "/",
+              "createdAt": "2024-02-09T15:14:59.136Z",
+              "updatedAt": "2024-02-09T15:14:59.136Z"
+            }
+          ],
+          "additional_media": null
+        },
+        {
+          "id": 48,
+          "description": "Our boilerplate is designed to be easily customizable, allowing you to add, modify, or remove features as needed. This flexibility ensures that you can tailor your MVP to meet the specific requirements of your target customers and adapt it as you learn from their feedback.",
+          "title": "Modular and Scalable",
+          "subtitle": null,
+          "media": [
+            {
+              "id": 181,
+              "name": "three block.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1920,
+              "height": 1920,
+              "formats": {
+                "large": {
+                  "ext": ".png",
+                  "url": "/uploads/large_three_block_a7d8408c3d.png",
+                  "hash": "large_three_block_a7d8408c3d",
+                  "mime": "image/png",
+                  "name": "large_three block.png",
+                  "path": null,
+                  "size": 1062.72,
+                  "width": 1000,
+                  "height": 1000
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "/uploads/small_three_block_a7d8408c3d.png",
+                  "hash": "small_three_block_a7d8408c3d",
+                  "mime": "image/png",
+                  "name": "small_three block.png",
+                  "path": null,
+                  "size": 290.24,
+                  "width": 500,
+                  "height": 500
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "/uploads/medium_three_block_a7d8408c3d.png",
+                  "hash": "medium_three_block_a7d8408c3d",
+                  "mime": "image/png",
+                  "name": "medium_three block.png",
+                  "path": null,
+                  "size": 629.91,
+                  "width": 750,
+                  "height": 750
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "/uploads/thumbnail_three_block_a7d8408c3d.png",
+                  "hash": "thumbnail_three_block_a7d8408c3d",
+                  "mime": "image/png",
+                  "name": "thumbnail_three block.png",
+                  "path": null,
+                  "size": 33.46,
+                  "width": 156,
+                  "height": 156
+                }
+              },
+              "hash": "three_block_a7d8408c3d",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 414.59,
+              "url": "/uploads/three_block_a7d8408c3d.png",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "folderPath": "/",
+              "createdAt": "2024-02-09T15:15:00.244Z",
+              "updatedAt": "2024-02-09T15:15:00.244Z"
+            }
+          ],
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/page/seeds/1.json
+          "additional_media": null
+        }
+      ]
+    },
+    {
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/page/seeds/1.json
+      "__component": "page-blocks.hero-section-block",
+      "id": 93,
+      "title": "Ближайшая цель –\nпосадить 100 тыс деревьев",
+      "description": "весной 2024 в Сибири и Казахстане",
+      "variant": "for-planet-with-target",
+=======
+      "__component": "page-blocks.reviews-list-block",
+      "id": 4,
+      "variant": "simple-with-avatars",
+      "show_all": true,
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/page/seeds/1.json
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "buttons": [
+        {
+          "id": 227,
+          "url": "#subscribe",
+          "description": null,
+          "variant": "primary",
+          "title": "Принять участие",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        }
+      ],
+      "additional_media": null
+    },
+    {
+      "__component": "page-blocks.hero-section-block",
+      "id": 94,
+      "title": "Оформить подписку",
+      "description": "Каждый раз мы ставим все более масштабные цели по количеству деревьев за сезон. Чтобы планомерно выполнять эти цели без аврального режима прямо перед посадкой, будет эффективнее ежемесячно приближаться к нужной сумме. Поэтому, вы можете ежемесячно помогать природе и нам идти к заветной цели.",
+      "variant": "for-planet-create-subscription",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "buttons": [
+        {
+          "id": 226,
+          "url": "#subscribe",
+          "description": null,
+          "variant": "outline",
+          "title": "Подписка с картой",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        },
+        {
+          "id": 225,
+          "url": "#subscribe",
+          "description": null,
+          "variant": "outline",
+          "title": "Подписка в криптовалюте",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        }
+      ],
+      "additional_media": null
+    },
+    {
+      "__component": "page-blocks.features-section-block",
+      "id": 39,
+      "title": "Почему нужно действовать срочно?",
+      "description": null,
+      "subtitle": null,
+      "variant": "for-planet-headlines",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "additional_media": null,
+      "features": [
+        {
+          "id": 154,
+          "description": null,
+          "title": "На Камчатке зафиксировали аномальный нагрев вулканического озера",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 156,
+          "description": null,
+          "title": "2024 год станет самым жарким в истории",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 155,
+          "description": null,
+          "title": "The Guardian: власти Норвегии разрешат сбрасывать отходы из шахт во фьорды",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 157,
+          "description": null,
+          "title": "На Камчатке зафиксировали аномальный нагрев вулканического озера",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 158,
+          "description": null,
+          "title": "The Guardian: власти Норвегии разрешат сбрасывать отходы из шахт во фьорды",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 159,
+          "description": null,
+          "title": "2024 год станет самым жарким в истории",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 160,
+          "description": null,
+          "title": "2024 год станет самым жарким в истории",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        }
+      ]
+    },
+    {
+      "__component": "page-blocks.hero-section-block",
+      "id": 88,
+      "title": "Каждую секунду в мире исчезает участок леса размером с футбольное поле.",
+      "description": "Леса предотвращают эрозию почв, удерживают влагу, смягчают последствия изменения климата и наводнений, а главное они обеспечивают стабильность эко системы планеты.\n\nМы едим, пьем и дышим благодаря тому, что биоразнообразие ещё есть. Выделение кислорода, очистка воды, опыление растений – все это часть большой системы.\n\nЕсли потерять леса, восстановить былую экосистему будет уже невозможно. В мире начнется экологический ад. Поэтому, действовать нужно сейчас.",
+      "variant": "for-planet-gallery-and-text",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "buttons": [],
+      "additional_media": null
+    },
+    {
+      "__component": "page-blocks.features-section-block",
+      "id": 40,
+      "title": "Посадить дерево",
+      "description": "Выберете желаемое количество деревьев. На следующем шаге вы сможете выбрать удобный метод оплаты",
+      "subtitle": null,
+      "variant": "for-planet-tiers",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "additional_media": null,
+      "features": [
+        {
+          "id": 161,
+          "description": "Вы можете оплатить любое количество деревьев",
+          "title": "1 дерево = 190р",
+          "subtitle": null,
+          "amount": 1,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 163,
+          "description": "Оплачивая от 50 деревьев, вы получите именной сертификат",
+          "title": "50 деревьев = 9500р",
+          "subtitle": null,
+          "amount": 50,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 162,
+          "description": "Вы создадите целый лес!",
+          "title": "100 деревьев",
+          "subtitle": null,
+          "amount": 100,
+          "media": null,
+          "additional_media": null
+        }
+      ]
+    },
+    {
+      "__component": "page-blocks.hero-section-block",
+      "id": 89,
+      "title": "География посадок",
+      "description": "За 1,5 года мы посадили **50 тысяч деревьев**. Первая посадка была в Иркутской области. Дальше были посадки в Республике Бурятия, в Красноярском Крае, а также в Казахстане (ЗКО). \n\nСледущая посадка планируется весной 2024 года в тех же местах, а также в республике Алтай.",
+      "variant": "for-planet-map",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "buttons": [],
+      "additional_media": null
+    },
+    {
+      "__component": "page-blocks.hero-section-block",
+      "id": 90,
+      "title": "Прошедшие посадки",
+      "description": "Вы можете посмотреть, как происходили наши прошлые посадки, а также присоединиться к следующим",
+      "variant": "for-planet-videos",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "buttons": [],
+      "additional_media": null
+    },
+    {
+      "__component": "page-blocks.features-section-block",
+      "id": 42,
+      "title": "Как работает 4 planet",
+      "description": "3 простых шага",
+      "subtitle": null,
+      "variant": "for-planet-how-it-works",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "additional_media": null,
+      "features": [
+        {
+          "id": 164,
+          "description": "Оплатите посадку деревьев и оставьте ваши контакты",
+          "title": "1",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 165,
+          "description": "После оплаты дождитесь страницы, которая ведет на телеграм с результатами. Там вы сможете скачать сертификат, который можно распечатать, заполнить и преподнести как подарок или оставить себе",
+          "title": "2",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 166,
+          "description": "После посадки, в этой же телеграмм группе вы увидите фото, видео отчет и точную локацию места. А также другие новости и бонусы.",
+          "title": "3",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        }
+      ]
+    },
+    {
+      "__component": "page-blocks.faqs-block",
+      "id": 17,
+      "title": "FAQ",
+      "description": "Частые вопросы",
+      "variant": "for-planet-default",
+      "class_name": null,
+      "anchor": null,
+      "subtitle": null,
+      "faqs": [
+        {
+          "id": 43,
+          "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
+          "title": "Где проходит посадка деревьев?"
+        },
+        {
+          "id": 44,
+          "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
+          "title": "Когда происходят посадки?"
+        },
+        {
+          "id": 45,
+          "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
+          "title": "Как я могу поучаствовать кроме финансов?"
+        },
+        {
+          "id": 46,
+          "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
+          "title": "Кто сажает деревья?"
+        },
+        {
+          "id": 47,
+          "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
+          "title": "Могу ли я оплатить деревья из другой страны?"
+        },
+        {
+          "id": 48,
+          "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
+          "title": "Почему 190 рублей?"
+        }
+      ]
+    },
+    {
+      "__component": "page-blocks.hero-section-block",
+      "id": 91,
+      "title": "Миссия компании",
+      "description": "Цель проекта - предоставить людям возможность оплатить посадку деревьев в любой точке мира в 3 клика и по доступной цене. \n\nВажно сделать это экономически выгодным, тогда можно высаживать неограниченное кол-во деревьев по всему миру. Так посадка леса станет масштабной и опередит вырубку по темпам, а прибыль пойдет и на другие способы сохранения леса. Например, на тушение пожаров, долгосрочную аренду территорий для сохранения первозданной природы.",
+      "variant": "for-planet-gallery-and-text-inversed",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "buttons": [],
+      "additional_media": null
+    },
+    {
+      "__component": "page-blocks.features-section-block",
+      "id": 41,
+      "title": "Для донатов",
+      "description": "Если вы хотите отблагодарить меня за работу, то можете поддержать меня по любым реквизитам. Покупка деревьев через реквизиты не осуществляется.",
+      "subtitle": null,
+      "variant": "for-planet-requisites",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "additional_media": null,
+      "features": [
+        {
+          "id": 167,
+          "description": "Сбер: 2202 2023 0605 8409 (Алексей)\n\nТинькоф: 5536 9138 0663 0055 (Ульяна)",
+          "title": "реквизиты для РФ:",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 168,
+          "description": "Каспи: 4400 4302 7927 2477 (Aleksei Кozhevykh)\n\nПриват: 4731 1856 2659 7162 (Oleksandr Hurov)\n\nPayPal: alex4planet@gmail.com (Viktor)\n\nUSDT (TRC20): TAes5RejWjuGWi9nWfZDgjxPqJtaagncHx",
+          "title": "Для других стран:",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        }
+      ]
+    }
+  ],
+  "layout": {
+    "id": 2,
+    "title": "Public Page Layout",
+    "uid": "public-page-layout",
+    "variant": "wide",
+    "class_name": "[&>.layout-container]:pt-16",
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/page/seeds/1.json
+    "createdAt": "2024-01-16T19:26:58.408Z",
+    "updatedAt": "2024-03-04T16:51:25.308Z",
+=======
+    "createdAt": "2024-02-01T09:01:22.297Z",
+    "updatedAt": "2024-02-09T15:14:39.946Z",
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/page/seeds/1.json
+    "publishedAt": "2023-04-20T03:23:38.447Z",
+    "locale": "en"
+  }
+}

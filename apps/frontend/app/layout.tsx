@@ -32,17 +32,17 @@ export default async function RootLayout({
         <div className="relative">
           {/* Suspense here is for static build, without that build will return nothing */}
           <Suspense>
-            <SpsRbacReduxProvider>
-              <TranslationsContextWrapper>
-                <HocParamsProvider>
-                  <AdditionalHeadersWrapper>
-                    <SpsWebsiteBuilderRootLayout>
-                      {children}
-                    </SpsWebsiteBuilderRootLayout>
-                  </AdditionalHeadersWrapper>
-                </HocParamsProvider>
-              </TranslationsContextWrapper>
-            </SpsRbacReduxProvider>
+            {/* <SpsRbacReduxProvider> */}
+            <TranslationsContextWrapper>
+              <HocParamsProvider>
+                <AdditionalHeadersWrapper>
+                  <SpsWebsiteBuilderRootLayout>
+                    {children}
+                  </SpsWebsiteBuilderRootLayout>
+                </AdditionalHeadersWrapper>
+              </HocParamsProvider>
+            </TranslationsContextWrapper>
+            {/* </SpsRbacReduxProvider> */}
           </Suspense>
         </div>
       </body>

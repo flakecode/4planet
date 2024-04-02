@@ -1,0 +1,34 @@
+{
+  "generators": {
+    "create-model-frontend-component-variant": {
+      "factory": "./src/generators/create-model-frontend-component-variant/generator",
+      "schema": "./src/generators/create-model-frontend-component-variant/schema.json",
+      "description": "create-model-frontend-component-variant generator"
+    },
+    "remove-model-frontend-component-variant": {
+      "factory": "./src/generators/remove-model-frontend-component-variant/generator",
+      "schema": "./src/generators/remove-model-frontend-component-variant/schema.json",
+      "description": "remove-model-frontend-component-variant generator"
+    },
+    "create-model": {
+      "factory": "./src/generators/create-model/generator",
+      "schema": "./src/generators/create-model/schema.json",
+      "description": "create-model generator"
+    },
+    "remove-model": {
+      "factory": "./src/generators/remove-model/generator",
+      "schema": "./src/generators/remove-model/schema.json",
+      "description": "remove-model generator"
+    },
+    "create-module": {
+      "factory": "./src/generators/create-module/generator",
+      "schema": "./src/generators/create-module/schema.json",
+      "description": "create-module generator"
+    },
+    "remove-module": {
+      "factory": "./src/generators/remove-module/generator",
+      "schema": "./src/generators/remove-module/schema.json",
+      "description": "remove-module generator"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "id": 1,
+  "variant": "one-quarter",
+  "title": "Ads Sidebar",
+  "uid": "ads-sidebar-1",
+  "class_name": null,
+  "side": "right",
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/sidebar/seeds/1.json
+  "createdAt": "2024-01-16T19:26:58.490Z",
+  "updatedAt": "2024-03-04T16:51:25.671Z",
+=======
+  "createdAt": "2024-02-01T09:01:22.527Z",
+  "updatedAt": "2024-02-09T15:15:01.459Z",
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/sidebar/seeds/1.json
+  "publishedAt": "2023-04-07T17:35:29.006Z",
+  "locale": "en",
+  "localizations": [],
+  "page_blocks": [
+    {
+      "__component": "page-blocks.hero-section-block",
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/sidebar/seeds/1.json
+      "id": 96,
+=======
+      "id": 25,
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/sidebar/seeds/1.json
+      "title": "Sidebar",
+      "description": "With Page Blocks",
+      "variant": "simple-centered",
+      "anchor": null,
+      "class_name": "pt-16",
+      "media": null,
+      "buttons": [],
+      "additional_media": null
+    }
+  ],
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/sidebar/seeds/1.json
+  "layouts": []
+=======
+  "layouts": [
+    {
+      "id": 1,
+      "title": "Public Page Layout With Sidebar",
+      "uid": "public-page-layout-with-sidebar",
+      "variant": "boxed",
+      "class_name": null,
+      "createdAt": "2024-02-01T09:01:22.285Z",
+      "updatedAt": "2024-02-09T15:14:39.896Z",
+      "publishedAt": "2023-04-08T05:04:56.606Z",
+      "locale": "en"
+    }
+  ]
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/sidebar/seeds/1.json
+}

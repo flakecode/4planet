@@ -1,0 +1,68 @@
+{
+  "id": 1,
+  "uid": "this-is-modal",
+  "dialog_panel_class_name": "w-8/12",
+  "variant": "simple",
+  "title": "This Is Modal",
+  "class_name": null,
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/modal/seeds/1.json
+  "createdAt": "2024-01-16T19:26:58.430Z",
+  "updatedAt": "2024-03-04T16:51:25.371Z",
+=======
+  "createdAt": "2024-02-01T09:01:22.357Z",
+  "updatedAt": "2024-02-09T15:14:40.683Z",
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/modal/seeds/1.json
+  "publishedAt": "2023-03-28T04:07:57.457Z",
+  "locale": "en",
+  "localizations": [],
+  "page_blocks": [
+    {
+      "__component": "page-blocks.hero-section-block",
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/modal/seeds/1.json
+      "id": 87,
+=======
+      "id": 21,
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/modal/seeds/1.json
+      "title": "This Is Modal",
+      "description": "With Page Blocks",
+      "variant": "simple-centered",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "buttons": [],
+      "additional_media": null
+    }
+  ],
+  "layouts": [
+    {
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/modal/seeds/1.json
+=======
+      "id": 1,
+      "title": "Public Page Layout With Sidebar",
+      "uid": "public-page-layout-with-sidebar",
+      "variant": "boxed",
+      "class_name": null,
+      "createdAt": "2024-02-01T09:01:22.285Z",
+      "updatedAt": "2024-02-09T15:14:39.896Z",
+      "publishedAt": "2023-04-08T05:04:56.606Z",
+      "locale": "en"
+    },
+    {
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/modal/seeds/1.json
+      "id": 2,
+      "title": "Public Page Layout",
+      "uid": "public-page-layout",
+      "variant": "wide",
+      "class_name": "[&>.layout-container]:pt-16",
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/modal/seeds/1.json
+      "createdAt": "2024-01-16T19:26:58.408Z",
+      "updatedAt": "2024-03-04T16:51:25.308Z",
+=======
+      "createdAt": "2024-02-01T09:01:22.297Z",
+      "updatedAt": "2024-02-09T15:14:39.946Z",
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/modal/seeds/1.json
+      "publishedAt": "2023-04-20T03:23:38.447Z",
+      "locale": "en"
+    }
+  ]
+}

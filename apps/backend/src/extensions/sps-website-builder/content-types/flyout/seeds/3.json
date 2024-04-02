@@ -1,0 +1,70 @@
+{
+  "id": 3,
+  "variant": "simple",
+  "title": "Icône déroulante Paramètres régionaux",
+  "uid": "icone-deroulante-parametres-regionaux",
+  "class_name": null,
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/flyout/seeds/3.json
+  "createdAt": "2024-01-16T19:26:58.369Z",
+  "updatedAt": "2024-03-04T16:51:25.238Z",
+=======
+  "createdAt": "2024-02-01T09:01:22.249Z",
+  "updatedAt": "2024-02-09T15:14:38.919Z",
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/flyout/seeds/3.json
+  "publishedAt": "2024-01-12T23:59:23.441Z",
+  "locale": "fr",
+  "localizations": [
+    {
+      "id": 4,
+      "variant": "simple",
+      "title": "Locales",
+      "uid": "locales-flyout",
+      "class_name": null,
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/flyout/seeds/3.json
+      "createdAt": "2024-01-16T19:26:58.361Z",
+      "updatedAt": "2024-03-04T16:51:25.204Z",
+=======
+      "createdAt": "2024-02-04T09:31:41.332Z",
+      "updatedAt": "2024-02-09T22:29:42.078Z",
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/flyout/seeds/3.json
+      "publishedAt": "2023-05-11T16:28:36.473Z",
+      "locale": "en"
+    }
+  ],
+  "page_blocks": [
+    {
+      "__component": "elements.button",
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/flyout/seeds/3.json
+      "id": 213,
+=======
+      "id": 95,
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/flyout/seeds/3.json
+      "url": "/en",
+      "description": null,
+      "variant": "ghost",
+      "title": "EN (English)",
+      "additional_attributes": null,
+      "class_name": null,
+      "media": null,
+      "additional_media": null,
+      "flyout": null
+    },
+    {
+      "__component": "elements.button",
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/flyout/seeds/3.json
+      "id": 214,
+=======
+      "id": 94,
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/flyout/seeds/3.json
+      "url": "/fr",
+      "description": null,
+      "variant": "ghost",
+      "title": "FR (French)",
+      "additional_attributes": null,
+      "class_name": null,
+      "media": null,
+      "additional_media": null,
+      "flyout": null
+    }
+  ]
+}

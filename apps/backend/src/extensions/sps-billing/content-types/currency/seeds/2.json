@@ -1,0 +1,34 @@
+{
+  "id": 2,
+  "title": "Dollar Américain",
+  "unicode": "$",
+  "is_default": true,
+<<<<<<< HEAD:backend/src/extensions/sps-billing/content-types/currency/seeds/2.json
+  "createdAt": "2024-01-16T19:26:58.227Z",
+  "updatedAt": "2024-03-04T16:51:24.802Z",
+=======
+  "createdAt": "2024-02-01T09:01:22.044Z",
+  "updatedAt": "2024-02-09T15:14:21.750Z",
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-billing/content-types/currency/seeds/2.json
+  "publishedAt": "2024-01-12T13:25:20.537Z",
+  "locale": "fr",
+  "localizations": [
+    {
+      "id": 1,
+      "title": "United States Dollar",
+      "unicode": "$",
+      "is_default": true,
+<<<<<<< HEAD:backend/src/extensions/sps-billing/content-types/currency/seeds/2.json
+      "createdAt": "2024-01-16T19:26:58.221Z",
+      "updatedAt": "2024-03-04T16:51:24.788Z",
+=======
+      "createdAt": "2024-02-01T09:01:22.036Z",
+      "updatedAt": "2024-02-09T15:14:21.724Z",
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-billing/content-types/currency/seeds/2.json
+      "publishedAt": "2023-03-29T16:09:52.898Z",
+      "locale": "en"
+    }
+  ],
+  "attributes": [],
+  "tiers": []
+}

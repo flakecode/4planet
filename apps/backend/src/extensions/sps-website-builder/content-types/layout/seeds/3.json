@@ -1,0 +1,71 @@
+{
+  "id": 3,
+  "title": "Mise en page publique",
+  "uid": "mise-en-page-publique",
+  "variant": "wide",
+  "class_name": "[&>.layout-container]:pt-16",
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/layout/seeds/3.json
+  "createdAt": "2024-01-16T19:26:58.412Z",
+  "updatedAt": "2024-03-04T16:51:25.327Z",
+=======
+  "createdAt": "2024-02-01T09:01:22.307Z",
+  "updatedAt": "2024-02-09T15:14:39.973Z",
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/layout/seeds/3.json
+  "publishedAt": "2024-01-12T23:28:53.035Z",
+  "locale": "fr",
+  "localizations": [],
+  "footer": {
+    "id": 2,
+    "title": "Pied de page public",
+    "uid": "pied-de-page-public",
+    "variant": "boxed",
+    "class_name": null,
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/layout/seeds/3.json
+    "createdAt": "2024-01-16T19:26:58.380Z",
+    "updatedAt": "2024-03-04T16:51:25.273Z",
+=======
+    "createdAt": "2024-02-01T09:01:22.273Z",
+    "updatedAt": "2024-02-09T15:14:39.866Z",
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/layout/seeds/3.json
+    "publishedAt": "2024-01-12T23:31:13.162Z",
+    "locale": "fr"
+  },
+  "modals": [],
+  "navbar": {
+    "id": 2,
+    "title": "Barre de navigation des pages publiques",
+    "uid": "barre-de-navigation-des-pages-publiques",
+    "variant": "boxed",
+    "class_name": null,
+    "position": "fixed",
+    "side": "top",
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/layout/seeds/3.json
+    "createdAt": "2024-01-16T19:26:58.444Z",
+    "updatedAt": "2024-03-04T16:51:25.418Z",
+=======
+    "createdAt": "2024-02-01T09:01:22.393Z",
+    "updatedAt": "2024-02-09T15:14:41.760Z",
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/layout/seeds/3.json
+    "publishedAt": "2024-01-12T23:50:09.029Z",
+    "locale": "fr"
+  },
+  "sidebar": null,
+  "slide_overs": [],
+  "topbar": null,
+  "pages": [
+    {
+      "id": 9,
+      "title": "Page d'accueil",
+      "url": "/",
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/layout/seeds/3.json
+      "createdAt": "2024-01-16T19:26:58.479Z",
+      "updatedAt": "2024-03-04T16:51:25.658Z",
+=======
+      "createdAt": "2024-02-01T09:01:22.496Z",
+      "updatedAt": "2024-02-24T15:20:53.557Z",
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/layout/seeds/3.json
+      "publishedAt": "2024-01-12T23:28:07.163Z",
+      "locale": "fr"
+    }
+  ]
+}

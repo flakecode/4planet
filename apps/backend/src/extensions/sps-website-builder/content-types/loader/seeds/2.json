@@ -1,0 +1,19 @@
+{
+  "id": 2,
+  "variant": "simple",
+  "class_name": null,
+  "anchor": null,
+  "title": null,
+  "subtitle": null,
+  "description": null,
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/loader/seeds/1.json
+  "createdAt": "2024-01-16T19:26:58.416Z",
+  "updatedAt": "2024-03-04T16:51:25.336Z",
+=======
+  "createdAt": "2024-02-04T09:31:41.469Z",
+  "updatedAt": "2024-02-09T15:14:39.992Z",
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/loader/seeds/2.json
+  "publishedAt": null,
+  "media": null,
+  "additional_media": null
+}

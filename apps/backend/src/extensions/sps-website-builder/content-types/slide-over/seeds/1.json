@@ -1,0 +1,66 @@
+{
+  "id": 1,
+  "variant": "right-side-half-width",
+  "title": "This Is Slide Over",
+  "uid": "this-is-slide-over",
+  "class_name": "sps-lite-slide-over",
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/slide-over/seeds/1.json
+  "createdAt": "2024-01-16T19:26:58.497Z",
+  "updatedAt": "2024-03-04T16:51:25.684Z",
+=======
+  "createdAt": "2024-02-01T09:01:22.547Z",
+  "updatedAt": "2024-02-09T15:15:01.502Z",
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/slide-over/seeds/1.json
+  "publishedAt": "2023-04-07T16:54:17.781Z",
+  "locale": "en",
+  "localizations": [],
+  "page_blocks": [
+    {
+      "__component": "page-blocks.faqs-block",
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/slide-over/seeds/1.json
+      "id": 18,
+=======
+      "id": 5,
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/slide-over/seeds/1.json
+      "title": "This Is Slide Over",
+      "description": "With Page Blocks",
+      "variant": "two-columns-with-centered-introduction",
+      "class_name": null,
+      "anchor": null,
+      "subtitle": null,
+      "faqs": []
+    }
+  ],
+  "layouts": [
+    {
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/slide-over/seeds/1.json
+=======
+      "id": 1,
+      "title": "Public Page Layout With Sidebar",
+      "uid": "public-page-layout-with-sidebar",
+      "variant": "boxed",
+      "class_name": null,
+      "createdAt": "2024-02-01T09:01:22.285Z",
+      "updatedAt": "2024-02-09T15:14:39.896Z",
+      "publishedAt": "2023-04-08T05:04:56.606Z",
+      "locale": "en"
+    },
+    {
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/slide-over/seeds/1.json
+      "id": 2,
+      "title": "Public Page Layout",
+      "uid": "public-page-layout",
+      "variant": "wide",
+      "class_name": "[&>.layout-container]:pt-16",
+<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/slide-over/seeds/1.json
+      "createdAt": "2024-01-16T19:26:58.408Z",
+      "updatedAt": "2024-03-04T16:51:25.308Z",
+=======
+      "createdAt": "2024-02-01T09:01:22.297Z",
+      "updatedAt": "2024-02-09T15:14:39.946Z",
+>>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/slide-over/seeds/1.json
+      "publishedAt": "2023-04-20T03:23:38.447Z",
+      "locale": "en"
+    }
+  ]
+}
