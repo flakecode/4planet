@@ -1,0 +1,155 @@
+{
+  "id": 1,
+  "title": "Public Page Navbar",
+  "uid": "public-page-navbar",
+  "variant": "for-planet-boxed-transparent",
+  "class_name": null,
+  "position": "fixed",
+  "side": "top",
+  "createdAt": "2024-02-05T00:06:02.652Z",
+  "updatedAt": "2024-04-01T23:07:48.647Z",
+  "publishedAt": "2023-04-08T05:04:22.148Z",
+  "locale": "en",
+  "localizations": [
+    {
+      "id": 2,
+      "title": "Barre de navigation des pages publiques",
+      "uid": "barre-de-navigation-des-pages-publiques",
+      "variant": "boxed",
+      "class_name": null,
+      "position": "fixed",
+      "side": "top",
+      "createdAt": "2024-02-05T00:06:02.675Z",
+      "updatedAt": "2024-04-01T21:32:24.957Z",
+      "publishedAt": "2024-01-12T23:50:09.029Z",
+      "locale": "fr"
+    }
+  ],
+  "page_blocks": [
+    {
+      "__component": "page-blocks.navbar-block",
+      "id": 8,
+      "variant": "for-planet-default",
+      "description": null,
+      "class_name": null,
+      "logotype": {
+        "id": 15,
+        "title": null,
+        "url": "/",
+        "media": [
+          {
+            "id": 105,
+            "name": "logo.svg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 203,
+            "height": 21,
+            "formats": null,
+            "hash": "logo_8979267b7e",
+            "ext": ".svg",
+            "mime": "image/svg+xml",
+            "size": 1.17,
+            "url": "/uploads/logo_8979267b7e.svg",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "folderPath": "/",
+            "createdAt": "2024-04-01T23:04:51.223Z",
+            "updatedAt": "2024-04-01T23:04:51.223Z"
+          }
+        ],
+        "additional_media": null
+      },
+      "buttons": [
+        {
+          "id": 83,
+          "url": "/",
+          "description": null,
+          "variant": "link",
+          "title": "Посадить дерево",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        },
+        {
+          "id": 84,
+          "url": "/",
+          "description": null,
+          "variant": "link",
+          "title": "Оформить подписку",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        },
+        {
+          "id": 85,
+          "url": "/",
+          "description": null,
+          "variant": "link",
+          "title": "Как это работает",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        },
+        {
+          "id": 86,
+          "url": "/",
+          "description": null,
+          "variant": "link",
+          "title": "Миссия",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        },
+        {
+          "id": 87,
+          "url": "/",
+          "description": null,
+          "variant": "link",
+          "title": "Донат",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        }
+      ],
+      "additional_buttons": [
+        {
+          "id": 88,
+          "url": "/",
+          "description": null,
+          "variant": "primary",
+          "title": "Посадить дерево",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        }
+      ],
+      "extra_buttons": []
+    }
+  ],
+  "layouts": [
+    {
+      "id": 2,
+      "title": "Public Page Layout",
+      "uid": "public-page-layout",
+      "variant": "wide",
+      "class_name": "[&>.layout-container]:pt-16",
+      "createdAt": "2024-02-05T00:06:02.537Z",
+      "updatedAt": "2024-04-01T21:32:24.828Z",
+      "publishedAt": "2023-04-20T03:23:38.447Z",
+      "locale": "en"
+    }
+  ]
+}

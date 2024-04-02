@@ -4,175 +4,48 @@
   "uid": "public-page-layout",
   "variant": "wide",
   "class_name": "[&>.layout-container]:pt-16",
-<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/layout/seeds/2.json
-  "createdAt": "2024-01-16T19:26:58.408Z",
-  "updatedAt": "2024-03-04T16:51:25.308Z",
-=======
-  "createdAt": "2024-02-01T09:01:22.297Z",
-  "updatedAt": "2024-02-09T15:14:39.946Z",
->>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/layout/seeds/2.json
+  "createdAt": "2024-02-05T00:06:02.537Z",
+  "updatedAt": "2024-04-01T21:32:24.828Z",
   "publishedAt": "2023-04-20T03:23:38.447Z",
   "locale": "en",
   "localizations": [],
   "footer": {
-    "id": 3,
+    "id": 4,
     "title": "Public Page Footer",
     "uid": "footer",
     "variant": "for-planet-default",
     "class_name": null,
-<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/layout/seeds/2.json
-    "createdAt": "2024-02-11T20:50:35.786Z",
-    "updatedAt": "2024-03-04T16:51:25.299Z",
-=======
-    "createdAt": "2024-02-01T09:01:22.261Z",
-    "updatedAt": "2024-02-09T18:39:36.997Z",
->>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/layout/seeds/2.json
+    "createdAt": "2024-04-01T21:32:23.928Z",
+    "updatedAt": "2024-04-01T21:32:24.813Z",
     "publishedAt": "2024-01-10T11:45:35.047Z",
     "locale": "en"
   },
-  "modals": [
-    {
-      "id": 1,
-      "uid": "this-is-modal",
-      "dialog_panel_class_name": "w-8/12",
-      "variant": "simple",
-      "title": "This Is Modal",
-      "class_name": null,
-<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/layout/seeds/2.json
-      "createdAt": "2024-01-16T19:26:58.430Z",
-      "updatedAt": "2024-03-04T16:51:25.371Z",
-=======
-      "createdAt": "2024-02-01T09:01:22.357Z",
-      "updatedAt": "2024-02-09T15:14:40.683Z",
->>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/layout/seeds/2.json
-      "publishedAt": "2023-03-28T04:07:57.457Z",
-      "locale": "en"
-    }
-  ],
+  "modals": [],
   "navbar": {
-    "id": 3,
+    "id": 1,
     "title": "Public Page Navbar",
     "uid": "public-page-navbar",
     "variant": "for-planet-boxed-transparent",
     "class_name": null,
     "position": "fixed",
     "side": "top",
-<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/layout/seeds/2.json
-    "createdAt": "2024-02-11T20:50:35.861Z",
-    "updatedAt": "2024-03-04T16:51:25.474Z",
-=======
-    "createdAt": "2024-02-01T09:01:22.378Z",
-    "updatedAt": "2024-02-12T22:09:31.030Z",
->>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/layout/seeds/2.json
+    "createdAt": "2024-02-05T00:06:02.652Z",
+    "updatedAt": "2024-04-01T23:07:48.647Z",
     "publishedAt": "2023-04-08T05:04:22.148Z",
     "locale": "en"
   },
   "sidebar": null,
-  "slide_overs": [
-    {
-      "id": 1,
-      "variant": "right-side-half-width",
-      "title": "This Is Slide Over",
-      "uid": "this-is-slide-over",
-      "class_name": "sps-lite-slide-over",
-<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/layout/seeds/2.json
-      "createdAt": "2024-01-16T19:26:58.497Z",
-      "updatedAt": "2024-03-04T16:51:25.684Z",
-=======
-      "createdAt": "2024-02-01T09:01:22.547Z",
-      "updatedAt": "2024-02-09T15:15:01.502Z",
->>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/layout/seeds/2.json
-      "publishedAt": "2023-04-07T16:54:17.781Z",
-      "locale": "en"
-    },
-    {
-      "id": 2,
-      "variant": "right-side-half-width",
-      "title": "Shopping Cart",
-      "uid": "shopping-cart",
-      "class_name": null,
-<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/layout/seeds/2.json
-      "createdAt": "2024-01-16T19:26:58.502Z",
-      "updatedAt": "2024-03-04T16:51:25.693Z",
-=======
-      "createdAt": "2024-02-01T09:01:22.563Z",
-      "updatedAt": "2024-02-09T15:15:01.532Z",
->>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/layout/seeds/2.json
-      "publishedAt": "2024-01-10T11:47:04.683Z",
-      "locale": "en"
-    }
-  ],
+  "slide_overs": [],
   "topbar": null,
   "pages": [
     {
       "id": 1,
       "title": "Main page",
       "url": "/",
-<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/layout/seeds/2.json
-      "createdAt": "2024-01-16T19:26:58.450Z",
-      "updatedAt": "2024-03-04T16:51:25.634Z",
+      "createdAt": "2024-02-05T00:06:02.699Z",
+      "updatedAt": "2024-04-01T23:12:15.234Z",
       "publishedAt": "2023-04-08T12:06:05.277Z",
       "locale": "en"
-=======
-      "createdAt": "2024-02-01T09:01:22.410Z",
-      "updatedAt": "2024-02-24T15:20:53.500Z",
-      "publishedAt": "2023-04-08T12:06:05.277Z",
-      "locale": "en"
-    },
-    {
-      "id": 3,
-      "title": "Not found page",
-      "url": "/404",
-      "createdAt": "2024-02-01T09:01:22.433Z",
-      "updatedAt": "2024-02-09T15:15:00.541Z",
-      "publishedAt": "2023-04-20T04:18:21.051Z",
-      "locale": "en"
-    },
-    {
-      "id": 4,
-      "title": "Terms and Conditions",
-      "url": "/terms-and-conditions",
-      "createdAt": "2024-02-01T09:01:22.444Z",
-      "updatedAt": "2024-02-09T15:15:00.560Z",
-      "publishedAt": "2023-05-04T08:38:22.465Z",
-      "locale": "en"
-    },
-    {
-      "id": 5,
-      "title": "Subscription Page",
-      "url": "/tiers/[plugin::sps-subscription.tier.id]/subscribe",
-      "createdAt": "2024-02-01T09:01:22.453Z",
-      "updatedAt": "2024-02-09T15:15:00.579Z",
-      "publishedAt": "2023-12-02T23:44:54.598Z",
-      "locale": "en"
-    },
-    {
-      "id": 6,
-      "title": "One Product Checkout",
-      "url": "/checkout/[plugin::sps-ecommerce.product.id]",
-      "createdAt": "2024-02-01T09:01:22.465Z",
-      "updatedAt": "2024-02-09T15:15:00.599Z",
-      "publishedAt": "2024-01-09T23:17:14.307Z",
-      "locale": "en"
-    },
-    {
-      "id": 7,
-      "title": "Checkout Page",
-      "url": "/checkout",
-      "createdAt": "2024-02-01T09:01:22.476Z",
-      "updatedAt": "2024-02-09T15:15:00.617Z",
-      "publishedAt": "2024-01-09T23:19:07.550Z",
-      "locale": "en"
-    },
-    {
-      "id": 8,
-      "title": "Unsubscribe Page",
-      "url": "/unsubscribe",
-      "createdAt": "2024-02-01T09:01:22.487Z",
-      "updatedAt": "2024-02-09T15:15:00.637Z",
-      "publishedAt": "2024-01-10T09:19:36.800Z",
-      "locale": "en"
->>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/layout/seeds/2.json
     }
   ]
 }

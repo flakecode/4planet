@@ -4,29 +4,19 @@
   "uid": "pied-de-page-public",
   "variant": "boxed",
   "class_name": null,
-<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/footer/seeds/2.json
-  "createdAt": "2024-01-16T19:26:58.380Z",
-  "updatedAt": "2024-03-04T16:51:25.273Z",
-=======
-  "createdAt": "2024-02-01T09:01:22.273Z",
-  "updatedAt": "2024-02-09T15:14:39.866Z",
->>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/footer/seeds/2.json
+  "createdAt": "2024-02-05T00:06:02.499Z",
+  "updatedAt": "2024-04-01T21:32:24.778Z",
   "publishedAt": "2024-01-12T23:31:13.162Z",
   "locale": "fr",
   "localizations": [
     {
-      "id": 3,
+      "id": 4,
       "title": "Public Page Footer",
       "uid": "footer",
       "variant": "for-planet-default",
       "class_name": null,
-<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/footer/seeds/2.json
-      "createdAt": "2024-02-11T20:50:35.786Z",
-      "updatedAt": "2024-03-04T16:51:25.299Z",
-=======
-      "createdAt": "2024-02-01T09:01:22.261Z",
-      "updatedAt": "2024-02-09T18:39:36.997Z",
->>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/footer/seeds/2.json
+      "createdAt": "2024-04-01T21:32:23.928Z",
+      "updatedAt": "2024-04-01T21:32:24.813Z",
       "publishedAt": "2024-01-10T11:45:35.047Z",
       "locale": "en"
     }
@@ -34,48 +24,16 @@
   "page_blocks": [
     {
       "__component": "page-blocks.footer-block",
-<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/footer/seeds/2.json
-      "id": 19,
-=======
-      "id": 8,
->>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/footer/seeds/2.json
+      "id": 6,
       "copyrights": "2024 Démarrage d'une seule page",
       "description": "Le moyen le plus rapide de développer votre startup",
       "variant": "four-columns-with-company-mission",
       "class_name": null,
       "logotype": {
-<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/footer/seeds/2.json
-        "id": 37,
+        "id": 12,
         "title": null,
         "url": null,
         "media": null,
-=======
-        "id": 14,
-        "title": null,
-        "url": null,
-        "media": [
-          {
-            "id": 163,
-            "name": "sps-full dark.svg",
-            "alternativeText": null,
-            "caption": null,
-            "width": 4725,
-            "height": 729,
-            "formats": null,
-            "hash": "sps_full_dark_a497ec2fa3",
-            "ext": ".svg",
-            "mime": "image/svg+xml",
-            "size": 16.9,
-            "url": "/uploads/sps_full_dark_a497ec2fa3.svg",
-            "previewUrl": null,
-            "provider": "local",
-            "provider_metadata": null,
-            "folderPath": "/",
-            "createdAt": "2024-02-09T15:14:39.800Z",
-            "updatedAt": "2024-02-09T15:14:39.800Z"
-          }
-        ],
->>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/footer/seeds/2.json
         "additional_media": null
       },
       "buttons_arrays": [],
@@ -90,13 +48,8 @@
       "uid": "mise-en-page-publique",
       "variant": "wide",
       "class_name": "[&>.layout-container]:pt-16",
-<<<<<<< HEAD:backend/src/extensions/sps-website-builder/content-types/footer/seeds/2.json
-      "createdAt": "2024-01-16T19:26:58.412Z",
-      "updatedAt": "2024-03-04T16:51:25.327Z",
-=======
-      "createdAt": "2024-02-01T09:01:22.307Z",
-      "updatedAt": "2024-02-09T15:14:39.973Z",
->>>>>>> 0b53e23eb8445e24eb4dd9d5179ab4019a502b14:apps/backend/src/extensions/sps-website-builder/content-types/footer/seeds/2.json
+      "createdAt": "2024-02-05T00:06:02.551Z",
+      "updatedAt": "2024-04-01T21:32:24.863Z",
       "publishedAt": "2024-01-12T23:28:53.035Z",
       "locale": "fr"
     }
