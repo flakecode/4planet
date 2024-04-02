@@ -8,7 +8,6 @@ import {
 } from "@sps/sps-website-builder-frontend";
 import { Suspense } from "react";
 import { HocParamsProvider, AdditionalHeadersWrapper } from "@sps/store";
-import { ReduxProvider as SpsRbacReduxProvider } from "@sps/sps-rbac-frontend/lib/redux";
 import Script from "next/script";
 
 export const dynamic = "force-dynamic";

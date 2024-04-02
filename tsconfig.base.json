@@ -679,6 +679,9 @@
       "@sps/sps-website-builder-models-faq-block-frontend-component-variants-sps-lite-two-columns-with-centered-introduction": [
         "libs/modules/sps-website-builder/models/faq-block/frontend/component/variants/sps-lite/two-columns-with-centered-introduction/src/index.ts"
       ],
+      "@sps/sps-website-builder-models-faq-block-frontend-component-variants-startup-for-planet-default": [
+        "libs/modules/sps-website-builder/models/faq-block/frontend/component/variants/startup/for-planet-default/src/index.ts"
+      ],
       "@sps/sps-website-builder-models-faq-block-frontend-redux": [
         "libs/modules/sps-website-builder/models/faq-block/frontend/redux/src/index.ts"
       ],
@@ -711,6 +714,21 @@
       ],
       "@sps/sps-website-builder-models-feature-frontend-component-variants-sps-lite-default": [
         "libs/modules/sps-website-builder/models/feature/frontend/component/variants/sps-lite/default/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-feature-frontend-component-variants-startup-headlines": [
+        "libs/modules/sps-website-builder/models/feature/frontend/component/variants/startup/headlines/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-feature-frontend-component-variants-startup-how-it-works": [
+        "libs/modules/sps-website-builder/models/feature/frontend/component/variants/startup/how-it-works/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-feature-frontend-component-variants-startup-requisite": [
+        "libs/modules/sps-website-builder/models/feature/frontend/component/variants/startup/requisite/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-feature-frontend-component-variants-startup-tier": [
+        "libs/modules/sps-website-builder/models/feature/frontend/component/variants/startup/tier/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-feature-frontend-component-variants-startup-timeline": [
+        "libs/modules/sps-website-builder/models/feature/frontend/component/variants/startup/timeline/src/index.ts"
       ],
       "@sps/sps-website-builder-models-feature-frontend-redux": [
         "libs/modules/sps-website-builder/models/feature/frontend/redux/src/index.ts"
