@@ -11,8 +11,8 @@ export function Component(props: IComponentPropsExtended) {
       data-variant={props.variant}
       className="w-full bg-black"
     >
-      <div className="relative flex items-center justify-between max-w-7xl mx-auto">
-        <div className="w-5/12">
+      <div className="relative hidden md:flex items-center justify-between max-w-7xl mx-auto">
+        <div className="w-5/12 ">
           {props.data.media?.length
             ? props.data.media.map((media, index) => {
                 const rotate =
@@ -59,6 +59,35 @@ export function Component(props: IComponentPropsExtended) {
               ) : null}
             </div>
           </main>
+        </div>
+      </div>
+      <div className="flex flex-col md:hidden px-5">
+        {props.data?.title ? (
+          <h1 className="text-xl font-medium text-white mb-4">
+            <ReactMarkdown>{props.data?.title}</ReactMarkdown>
+          </h1>
+        ) : null}
+        <div className="flex flex-col">
+          {props.data.media?.length && props.data?.description
+            ? props.data.media.map((media, index) => {
+                return (
+                  <div key={index} className="relative">
+                    <File
+                      isServer={false}
+                      variant="image"
+                      className="object-cover object-center"
+                      containerClassName="w-full aspect-w-5 aspect-h-3"
+                      data={media}
+                    />
+                    {props.data.description ? (
+                      <ReactMarkdown className="mt-10 text-white text-xl font-medium mb-5 flex flex-col gap-10">
+                        {props.data?.description}
+                      </ReactMarkdown>
+                    ) : null}
+                  </div>
+                );
+              })
+            : null}
         </div>
       </div>
     </div>

@@ -10,7 +10,10 @@ export default {
     //   .service("plugin::sps-billing.invoice")
     //   .createCertificate({ count: 123 });
 
-    if (process.env.NODE_ENV === "production") {
+    if (
+      process.env.NODE_ENV === "production" ||
+      process.env.SET_PERMISSIONS === "true"
+    ) {
       await setPermissions();
     }
 

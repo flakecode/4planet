@@ -583,6 +583,9 @@
       "@sps/sps-website-builder-models-buttons-array-frontend-component-variants-sps-lite-row": [
         "libs/modules/sps-website-builder/models/buttons-array/frontend/component/variants/sps-lite/row/src/index.ts"
       ],
+      "@sps/sps-website-builder-models-buttons-array-frontend-component-variants-startup-for-planet-column-with-title": [
+        "libs/modules/sps-website-builder/models/buttons-array/frontend/component/variants/startup/for-planet-column-with-title/src/index.ts"
+      ],
       "@sps/sps-website-builder-models-buttons-array-frontend-redux": [
         "libs/modules/sps-website-builder/models/buttons-array/frontend/redux/src/index.ts"
       ],
@@ -715,6 +718,12 @@
       "@sps/sps-website-builder-models-feature-frontend-component-variants-sps-lite-default": [
         "libs/modules/sps-website-builder/models/feature/frontend/component/variants/sps-lite/default/src/index.ts"
       ],
+      "@sps/sps-website-builder-models-feature-frontend-component-variants-startup-for-planet-gallery": [
+        "libs/modules/sps-website-builder/models/feature/frontend/component/variants/startup/for-planet-gallery/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-feature-frontend-component-variants-startup-gallery-and-text": [
+        "libs/modules/sps-website-builder/models/feature/frontend/component/variants/startup/gallery-and-text/src/index.ts"
+      ],
       "@sps/sps-website-builder-models-feature-frontend-component-variants-startup-headlines": [
         "libs/modules/sps-website-builder/models/feature/frontend/component/variants/startup/headlines/src/index.ts"
       ],
@@ -723,6 +732,9 @@
       ],
       "@sps/sps-website-builder-models-feature-frontend-component-variants-startup-requisite": [
         "libs/modules/sps-website-builder/models/feature/frontend/component/variants/startup/requisite/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-feature-frontend-component-variants-startup-text-and-image": [
+        "libs/modules/sps-website-builder/models/feature/frontend/component/variants/startup/text-and-image/src/index.ts"
       ],
       "@sps/sps-website-builder-models-feature-frontend-component-variants-startup-tier": [
         "libs/modules/sps-website-builder/models/feature/frontend/component/variants/startup/tier/src/index.ts"
@@ -747,6 +759,9 @@
       ],
       "@sps/sps-website-builder-models-features-section-block-frontend-component-variants-sps-lite-with-icon": [
         "libs/modules/sps-website-builder/models/features-section-block/frontend/component/variants/sps-lite/with-icon/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-features-section-block-frontend-component-variants-startup-for-planet-gallery-and-text": [
+        "libs/modules/sps-website-builder/models/features-section-block/frontend/component/variants/startup/for-planet-gallery-and-text/src/index.ts"
       ],
       "@sps/sps-website-builder-models-features-section-block-frontend-component-variants-startup-for-planet-headlines": [
         "libs/modules/sps-website-builder/models/features-section-block/frontend/component/variants/startup/for-planet-headlines/src/index.ts"

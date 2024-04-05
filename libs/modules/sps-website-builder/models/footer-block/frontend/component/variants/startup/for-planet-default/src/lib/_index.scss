@@ -1,6 +1,29 @@
 [data-module="sps-website-builder"] {
   &[data-model="page-blocks.footer-block"] {
     &[data-variant="for-planet-default"] {
+      [data-module="sps-website-builder"][data-model="elements.buttons-array"][data-variant="column-with-title"]
+        .buttons-array-column-with-title {
+        @apply flex flex-col gap-5 md:gap-10 relative;
+        .buttons-array-title {
+          @apply text-white font-primary uppercase font-medium text-xl opacity-100;
+        }
+        .buttons-array-description {
+          @apply text-white font-primary uppercase font-medium text-lg opacity-100;
+        }
+        .buttons-array-buttons-container {
+          @apply w-full items-start flex-wrap flex-row flex md:flex-col gap-7;
+        }
+      }
+      [data-ui="button"][data-ui-variant="link"] {
+        @apply md:text-lg text-base p-0 text-[#B9B9B9];
+        .icon-container {
+          @apply w-10 h-10;
+
+          img {
+            @apply object-contain object-center;
+          }
+        }
+      }
     }
   }
 }

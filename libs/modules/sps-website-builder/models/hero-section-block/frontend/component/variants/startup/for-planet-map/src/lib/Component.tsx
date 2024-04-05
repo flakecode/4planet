@@ -10,15 +10,15 @@ export function Component(props: IComponentPropsExtended) {
       data-variant={props.variant}
       className="w-full bg-[#F5F5F5] py-16"
     >
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto px-5 md:px-0">
         <div className="text-center">
           {props.data?.title ? (
-            <h1 className="text-5xl font-medium font-primary text-black mb-5 uppercase">
+            <h1 className="md:text-5xl text-[32px] font-medium font-primary text-black mb-5 uppercase">
               <ReactMarkdown>{props.data?.title}</ReactMarkdown>
             </h1>
           ) : null}
           {props.data?.description ? (
-            <ReactMarkdown className="mx-auto text-lg max-w-4xl">
+            <ReactMarkdown className="mx-auto text-base md:text-lg max-w-4xl">
               {props.data?.description}
             </ReactMarkdown>
           ) : null}

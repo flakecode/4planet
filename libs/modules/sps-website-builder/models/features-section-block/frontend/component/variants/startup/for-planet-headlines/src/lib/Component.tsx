@@ -9,31 +9,33 @@ export function Component(props: IComponentPropsExtended) {
       data-module="sps-website-builder"
       data-model="page-blocks.features-section-block"
       data-variant={props.variant}
-      className="w-full bg-black pt-60 pb-40"
+      className="w-full bg-black pt-[60px] md:pt-60 pb-[60px] md:pb-40 px-5 md:px-0"
     >
       <div className="mx-auto max-w-7xl flex justify-center">
         <div className="relative max-w-5xl">
-          <h2 className="text-5xl font-medium font-primary leading-[130%] uppercase text-white text-center">
+          <h2 className="md:text-5xl text-[32px] font-medium font-primary leading-[130%] uppercase text-white md:text-center">
             {props.data?.title ? (
               <ReactMarkdown>{props.data?.title}</ReactMarkdown>
             ) : null}
           </h2>
-          {props.data.features?.map((feature, index) => {
-            const style = getStyles({ index });
-            return (
-              <div
-                key={index}
-                className="absolute -translate-y-1/2 -translate-x-1/2"
-                style={style}
-              >
-                <Feature
-                  isServer={props.isServer}
-                  variant="headlines"
-                  data={feature}
-                />
-              </div>
-            );
-          })}
+          <div className="hidden md:flex">
+            {props.data.features?.map((feature, index) => {
+              const style = getStyles({ index });
+              return (
+                <div
+                  key={index}
+                  className="absolute -translate-y-1/2 -translate-x-1/2"
+                  style={style}
+                >
+                  <Feature
+                    isServer={props.isServer}
+                    variant="headlines"
+                    data={feature}
+                  />
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>

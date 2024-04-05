@@ -1,0 +1,21 @@
+[data-module="sps-website-builder"] {
+  &[data-model="buttons-array"] {
+    &[data-variant="for-planet-column-with-title"] {
+      .buttons-array-column-with-title {
+        @apply flex flex-col gap-10 relative;
+        .buttons-array-title {
+          @apply text-white font-primary text-left uppercase font-medium text-xl opacity-100;
+        }
+        .buttons-array-description {
+          @apply text-lg p-0 text-left text-[#B9B9B9];
+        }
+        .buttons-array-buttons-container {
+          @apply w-full items-start flex flex-col gap-7;
+        }
+      }
+      [data-ui="button"][data-ui-variant="link"] {
+        @apply text-lg p-0 text-[#B9B9B9];
+      }
+    }
+  }
+}

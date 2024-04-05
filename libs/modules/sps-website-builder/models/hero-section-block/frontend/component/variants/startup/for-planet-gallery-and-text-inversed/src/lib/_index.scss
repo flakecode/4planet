@@ -1,6 +1,9 @@
 [data-module="sps-website-builder"] {
   &[data-model="page-blocks.hero-section-block"] {
     &[data-variant="for-planet-gallery-and-text-inversed"] {
+      [data-ui="button"][data-ui-variant="link"] {
+        @apply p-0 md:text-xl text-lg  text-black underline;
+      }
     }
   }
 }

@@ -8,15 +8,15 @@ export function Component(props: IComponentPropsExtended) {
       data-module="sps-website-builder"
       data-model="feature"
       data-variant={props.variant}
-      className="p-10 bg-white rounded-[20px]"
+      className="md:p-10 p-5 bg-white rounded-[20px]"
     >
       {props.data.title ? (
-        <ReactMarkdown className="text-2xl font-medium font-primary leading-[130%] text-black uppercase mb-10">
+        <ReactMarkdown className="md:text-2xl text-xl font-medium font-primary leading-[130%] text-black uppercase mb-10">
           {props.data.title}
         </ReactMarkdown>
       ) : null}
       {props.data.description ? (
-        <ReactMarkdown className="text-lg text-black flex flex-col gap-4">
+        <ReactMarkdown className="md:text-lg text-black flex flex-col gap-4">
           {props.data.description}
         </ReactMarkdown>
       ) : null}
