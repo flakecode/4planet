@@ -1,7 +1,9 @@
-import { TransformedApiArray } from "../types";
-import { BACKEND_URL } from "./envs";
-import { prepareFormDataToSend } from "./preapare-form-data-to-send";
-import { transformResponseItem } from "./transform-response-item";
+import {
+  BACKEND_URL,
+  TransformedApiArray,
+  prepareFormDataToSend,
+  transformResponseItem,
+} from "@sps/shared-utils";
 import QueryString from "qs";
 
 async function findByIdAndName<T>(params: {
