@@ -108,6 +108,7 @@
     "react-table": "^7.8.0",
     "react-transition-group": "^4.4.5",
     "remark-gfm": "^4.0.0",
+    "run-func": "^3.0.0",
     "semver": "^7.5.4",
     "sendpulse-api": "^1.1.5",
     "server-only": "^0.0.1",
