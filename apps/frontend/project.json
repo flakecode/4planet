@@ -13,7 +13,7 @@
             "command": "nx run @sps/shared-frontend-utils-server:build"
           },
           {
-            "command": "run-func dist/libs/shared/frontend/utils/server/src/lib/create-tailwind-theme.js getThemeFromBackend"
+            "command": "node dist/libs/shared/frontend/utils/server/src/lib/create-tailwind-theme.js"
           }
         ]
       }
