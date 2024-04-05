@@ -19,15 +19,15 @@ export function Component(props: IComponentPropsExtended) {
       data-variant={props.variant}
       className="w-full bg-black pt-40 pb-24"
     >
-      <div className="mx-auto max-w-7xl bg-white rounded-[20px] p-16">
+      <div className="mx-auto max-w-7xl mx-5 md:mx-auto bg-white rounded-[20px] py-10 px-5 md:p-16">
         <div className="flex flex-col items-center mb-12">
-          <h2 className="text-5xl font-medium font-primary leading-[130%] text-black uppercase">
+          <h2 className="md:text-5xl text-[32px] font-medium font-primary leading-[130%] text-center text-black uppercase">
             {props.data?.title ? (
               <ReactMarkdown>{props.data?.title}</ReactMarkdown>
             ) : null}
           </h2>
           {props.data.description ? (
-            <ReactMarkdown className="mt-5 max-w-2xl text-xl font-regular text-black text-center">
+            <ReactMarkdown className="mt-5 max-w-2xl text-lg md:text-xl font-regular text-black text-center">
               {props.data.description}
             </ReactMarkdown>
           ) : null}

@@ -9,11 +9,11 @@ export function Component(props: IComponentPropsExtended) {
       data-module="sps-website-builder"
       data-model="page-blocks.features-section-block"
       data-variant={props.variant}
-      className="w-full bg-primary-green py-24"
+      className="w-full bg-primary-green py-[60px] md:py-24"
     >
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-20">
-          <h2 className="text-5xl font-medium font-primary leading-[130%] text-black uppercase mb-5">
+        <div className="text-center mb-10 md:mb-20">
+          <h2 className="md:text-5xl text-[32px] font-medium font-primary leading-[130%] text-black uppercase mb-5">
             {props.data?.title ? (
               <ReactMarkdown>{props.data?.title}</ReactMarkdown>
             ) : null}
@@ -24,7 +24,7 @@ export function Component(props: IComponentPropsExtended) {
             </ReactMarkdown>
           ) : null}
         </div>
-        <dl className="grid lg:grid-cols-12 gap-8">
+        <dl className="md:grid flex flex-col px-5 md:px-0 md:grid-cols-12 gap-8">
           {props.data.features?.map((feature, index) => {
             return (
               <div

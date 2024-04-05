@@ -8,22 +8,22 @@ export function Component(props: IComponentPropsExtended) {
       data-module="sps-website-builder"
       data-model="page-blocks.hero-section-block"
       data-variant={props.variant}
-      className="w-full bg-[#F5F5F5] py-32"
+      className="w-full bg-[#F5F5F5] py-[60px] md:py-32"
     >
-      <div className="mx-auto max-w-7xl">
+      <div className="mx-auto max-w-7xl px-5 md:px-0">
         <div className="text-left">
           {props.data?.title ? (
-            <h1 className="text-5xl font-medium text-black font-primary uppercase mb-5">
+            <h1 className="md:text-5xl text-[32px] font-medium text-black font-primary uppercase mb-5">
               <ReactMarkdown>{props.data?.title}</ReactMarkdown>
             </h1>
           ) : null}
           {props.data?.description ? (
-            <ReactMarkdown className="text-lg text-black">
+            <ReactMarkdown className="md:text-lg text-base text-black">
               {props.data?.description}
             </ReactMarkdown>
           ) : null}
         </div>
-        <div className="mt-20 grid grid-cols-2 gap-6">
+        <div className="md:mt-20 mt-10 flex flex-col md:grid md:grid-cols-2 gap-6">
           <iframe
             width="100%"
             height="315"

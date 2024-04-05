@@ -24,11 +24,11 @@ export function Component(props: IComponentPropsExtended) {
         />
       ) : null}
 
-      <div className="relative pt-6 pb-16 m-auto">
+      <div className="relative pt-60 m-auto">
         <main className="mx-auto max-w-2xl lg:max-w-7xl px-4 ">
           <div className="text-center">
             {props.data?.title ? (
-              <h1 className="text-6xl font-primary text-white font-medium uppercase leading-[130%]">
+              <h1 className="md:text-6xl text-[32px] font-primary text-white font-medium uppercase leading-[130%]">
                 <ReactMarkdown>{props.data?.title}</ReactMarkdown>
               </h1>
             ) : null}
@@ -37,7 +37,7 @@ export function Component(props: IComponentPropsExtended) {
                 {props.data?.description}
               </ReactMarkdown>
             ) : null}
-            <div className="mx-auto mt-12 max-w-md flex flex-col sm:flex-row justify-center md:mt-8 gap-4">
+            <div className="mx-auto mt-12 max-w-md flex flex-col sm:flex-row justify-center gap-4 items-center">
               {props.data?.buttons?.map((button, index) => {
                 return (
                   <Button

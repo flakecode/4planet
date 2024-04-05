@@ -1,6 +1,9 @@
 [data-module="sps-website-builder"] {
   &[data-model="page-blocks.hero-section-block"] {
     &[data-variant="for-planet-heading"] {
+      [data-ui="button"][data-ui-variant="outline"] {
+        @apply bg-transparent w-fit py-3 px-5 text-white text-xl hover:bg-white hover:text-black rounded-[20px];
+      }
     }
   }
 }

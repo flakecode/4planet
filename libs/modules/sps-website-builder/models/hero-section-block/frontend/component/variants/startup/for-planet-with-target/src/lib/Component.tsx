@@ -2,6 +2,8 @@ import React from "react";
 import { IComponentPropsExtended } from "./interface";
 import { Component as Button } from "@sps/sps-website-builder-models-button-frontend-component";
 import ReactMarkdown from "react-markdown";
+import Image from "next/image";
+import { getFileUrl } from "@sps/shared-frontend-utils-client";
 
 export function Component(props: IComponentPropsExtended) {
   return (
@@ -9,12 +11,20 @@ export function Component(props: IComponentPropsExtended) {
       data-module="sps-website-builder"
       data-model="page-blocks.hero-section-block"
       data-variant={props.variant}
-      className="w-full bg-black py-32"
+      className="w-full relative py-32"
     >
-      <div className="max-w-7xl mx-auto px-4">
+      {props.data.media?.length ? (
+        <Image
+          src={getFileUrl(props.data.media[0])}
+          alt=""
+          fill={true}
+          className="object-cover object-center"
+        />
+      ) : null}
+      <div className="relative max-w-7xl mx-auto px-4">
         <div className="text-left">
           {props.data?.title ? (
-            <h1 className="text-5xl font-medium font-primary tracking-tight leading-[130%] text-white uppercase">
+            <h1 className="md:text-5xl text-[28px] font-medium font-primary tracking-tight leading-[130%] text-white uppercase">
               <ReactMarkdown>{props.data?.title}</ReactMarkdown>
             </h1>
           ) : null}

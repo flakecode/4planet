@@ -6,8 +6,8 @@
   "class_name": null,
   "position": "fixed",
   "side": "top",
-  "createdAt": "2024-02-05T00:06:02.675Z",
-  "updatedAt": "2024-04-01T21:32:24.957Z",
+  "createdAt": "2024-04-03T16:18:52.597Z",
+  "updatedAt": "2024-04-03T16:18:55.027Z",
   "publishedAt": "2024-01-12T23:50:09.029Z",
   "locale": "fr",
   "localizations": [
@@ -19,8 +19,8 @@
       "class_name": null,
       "position": "fixed",
       "side": "top",
-      "createdAt": "2024-02-05T00:06:02.652Z",
-      "updatedAt": "2024-04-01T23:07:48.647Z",
+      "createdAt": "2024-04-03T16:18:52.548Z",
+      "updatedAt": "2024-04-03T18:49:20.348Z",
       "publishedAt": "2023-04-08T05:04:22.148Z",
       "locale": "en"
     }
@@ -28,12 +28,12 @@
   "page_blocks": [
     {
       "__component": "page-blocks.navbar-block",
-      "id": 7,
+      "id": 2,
       "variant": "simple-links-on-left",
       "description": null,
       "class_name": null,
       "logotype": {
-        "id": 14,
+        "id": 4,
         "title": null,
         "url": "/",
         "media": null,
@@ -41,7 +41,7 @@
       },
       "buttons": [
         {
-          "id": 80,
+          "id": 9,
           "url": "/",
           "description": null,
           "variant": "ghost",
@@ -55,7 +55,7 @@
       ],
       "additional_buttons": [
         {
-          "id": 81,
+          "id": 10,
           "url": "https://github.com/singlepagestartup/sps-lite",
           "description": null,
           "variant": "secondary",
@@ -67,7 +67,7 @@
           "flyout": null
         },
         {
-          "id": 82,
+          "id": 11,
           "url": null,
           "description": null,
           "variant": "locale",
@@ -77,13 +77,13 @@
           "media": null,
           "additional_media": null,
           "flyout": {
-            "id": 3,
+            "id": 1,
             "variant": "simple",
             "title": "Icône déroulante Paramètres régionaux",
             "uid": "icone-deroulante-parametres-regionaux",
             "class_name": null,
-            "createdAt": "2024-02-05T00:06:02.463Z",
-            "updatedAt": "2024-04-01T21:32:24.644Z",
+            "createdAt": "2024-04-03T16:18:52.120Z",
+            "updatedAt": "2024-04-03T16:18:53.161Z",
             "publishedAt": "2024-01-12T23:59:23.441Z",
             "locale": "fr"
           }
@@ -94,13 +94,13 @@
   ],
   "layouts": [
     {
-      "id": 3,
+      "id": 2,
       "title": "Mise en page publique",
       "uid": "mise-en-page-publique",
       "variant": "wide",
       "class_name": "[&>.layout-container]:pt-16",
-      "createdAt": "2024-02-05T00:06:02.551Z",
-      "updatedAt": "2024-04-01T21:32:24.863Z",
+      "createdAt": "2024-04-03T16:18:52.353Z",
+      "updatedAt": "2024-04-03T16:18:53.991Z",
       "publishedAt": "2024-01-12T23:28:53.035Z",
       "locale": "fr"
     }

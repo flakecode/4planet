@@ -6,8 +6,8 @@
   "class_name": null,
   "position": "fixed",
   "side": "top",
-  "createdAt": "2024-02-05T00:06:02.652Z",
-  "updatedAt": "2024-04-01T23:07:48.647Z",
+  "createdAt": "2024-04-03T16:18:52.548Z",
+  "updatedAt": "2024-04-03T18:49:20.348Z",
   "publishedAt": "2023-04-08T05:04:22.148Z",
   "locale": "en",
   "localizations": [
@@ -19,8 +19,8 @@
       "class_name": null,
       "position": "fixed",
       "side": "top",
-      "createdAt": "2024-02-05T00:06:02.675Z",
-      "updatedAt": "2024-04-01T21:32:24.957Z",
+      "createdAt": "2024-04-03T16:18:52.597Z",
+      "updatedAt": "2024-04-03T16:18:55.027Z",
       "publishedAt": "2024-01-12T23:50:09.029Z",
       "locale": "fr"
     }
@@ -28,41 +28,41 @@
   "page_blocks": [
     {
       "__component": "page-blocks.navbar-block",
-      "id": 8,
+      "id": 1,
       "variant": "for-planet-default",
       "description": null,
       "class_name": null,
       "logotype": {
-        "id": 15,
+        "id": 3,
         "title": null,
         "url": "/",
         "media": [
           {
-            "id": 105,
-            "name": "logo.svg",
+            "id": 12,
+            "name": "FOR planet.svg",
             "alternativeText": null,
             "caption": null,
-            "width": 203,
-            "height": 21,
+            "width": 260,
+            "height": 23,
             "formats": null,
-            "hash": "logo_8979267b7e",
+            "hash": "FOR_planet_0814df3bcc",
             "ext": ".svg",
             "mime": "image/svg+xml",
-            "size": 1.17,
-            "url": "/uploads/logo_8979267b7e.svg",
+            "size": 2.17,
+            "url": "/uploads/FOR_planet_0814df3bcc.svg",
             "previewUrl": null,
             "provider": "local",
             "provider_metadata": null,
             "folderPath": "/",
-            "createdAt": "2024-04-01T23:04:51.223Z",
-            "updatedAt": "2024-04-01T23:04:51.223Z"
+            "createdAt": "2024-04-03T18:49:17.648Z",
+            "updatedAt": "2024-04-03T18:49:17.648Z"
           }
         ],
         "additional_media": null
       },
       "buttons": [
         {
-          "id": 83,
+          "id": 7,
           "url": "/",
           "description": null,
           "variant": "link",
@@ -74,7 +74,7 @@
           "flyout": null
         },
         {
-          "id": 84,
+          "id": 3,
           "url": "/",
           "description": null,
           "variant": "link",
@@ -86,7 +86,7 @@
           "flyout": null
         },
         {
-          "id": 85,
+          "id": 4,
           "url": "/",
           "description": null,
           "variant": "link",
@@ -98,7 +98,7 @@
           "flyout": null
         },
         {
-          "id": 86,
+          "id": 6,
           "url": "/",
           "description": null,
           "variant": "link",
@@ -110,7 +110,7 @@
           "flyout": null
         },
         {
-          "id": 87,
+          "id": 5,
           "url": "/",
           "description": null,
           "variant": "link",
@@ -124,7 +124,7 @@
       ],
       "additional_buttons": [
         {
-          "id": 88,
+          "id": 8,
           "url": "/",
           "description": null,
           "variant": "primary",
@@ -141,13 +141,13 @@
   ],
   "layouts": [
     {
-      "id": 2,
+      "id": 1,
       "title": "Public Page Layout",
       "uid": "public-page-layout",
       "variant": "wide",
       "class_name": "[&>.layout-container]:pt-16",
-      "createdAt": "2024-02-05T00:06:02.537Z",
-      "updatedAt": "2024-04-01T21:32:24.828Z",
+      "createdAt": "2024-04-03T16:18:52.287Z",
+      "updatedAt": "2024-04-03T16:18:53.786Z",
       "publishedAt": "2023-04-20T03:23:38.447Z",
       "locale": "en"
     }

@@ -12,12 +12,12 @@ export function Component(props: IComponentPropsExtended) {
     >
       <div className="bg-white rounded-[20px] p-8 h-full">
         {props.data.title ? (
-          <ReactMarkdown className="text-[28px] font-medium font-primary leading-6 text-black">
+          <ReactMarkdown className="md:text-[28px] text-2xl font-medium font-primary leading-6 text-black">
             {props.data.title}
           </ReactMarkdown>
         ) : null}
         {props.data.description ? (
-          <ReactMarkdown className="text-lg text-black font-regular mt-5">
+          <ReactMarkdown className="md:text-lg text-bases text-black font-regular mt-5">
             {props.data.description}
           </ReactMarkdown>
         ) : null}

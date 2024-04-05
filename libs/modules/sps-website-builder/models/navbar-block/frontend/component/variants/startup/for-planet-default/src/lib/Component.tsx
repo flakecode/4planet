@@ -3,7 +3,7 @@
 import React from "react";
 import { Component as Button } from "@sps/sps-website-builder-models-button-frontend-component";
 import { Disclosure } from "@headlessui/react";
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/20/solid";
+import { Bars2Icon, Bars3Icon, XMarkIcon } from "@heroicons/react/20/solid";
 import { useEffect } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import { Component as Logotype } from "@sps/sps-website-builder-models-logotype-frontend-component";
@@ -45,7 +45,7 @@ function DisclosureInner({
     <>
       <div className="relative mx-auto flex flex-row w-full pt-8">
         <div className="flex w-full justify-between">
-          <div className="flex w-full items-center px-2 lg:px-0 justify-between">
+          <div className="flex w-full items-center px-5 md:px-2 lg:px-0 justify-between">
             {props.data.logotype ? (
               <Logotype
                 variant="default"
@@ -90,12 +90,12 @@ function DisclosureInner({
           </div>
         </div>
         <div className="flex flex-shrink-0 items-center lg:hidden pr-2">
-          <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500">
+          <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500">
             <span className="sr-only">Open main menu</span>
             {disclosure.open ? (
               <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
             ) : (
-              <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
+              <Bars2Icon className="block h-6 w-6" aria-hidden="true" />
             )}
           </Disclosure.Button>
         </div>

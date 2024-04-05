@@ -15,12 +15,12 @@ export function Component(props: IComponentPropsExtended) {
       className="w-full bg-black"
     >
       <div className="bg-black">
-        <div className=" mx-auto max-w-[1440px] py-16 px-4 sm:py-24 sm:px-6 lg:px-8 flex gap-[183px]">
+        <div className=" mx-auto max-w-7xl py-16 sm:py-[60px] px-5 md:px-0 flex flex-col md:flex-row gap-10 md:gap-[183px]">
           <div>
-            <h2 className="text-center text-5xl font-bold text-white">
+            <h2 className="text-center text-[32px] md:text-5xl font-bold text-white font-primary font-medium">
               {props.data.title}
             </h2>
-            <p className="text-center mt-5 text-xl text-white">
+            <p className="text-center mt-5 text-base md:text-xl text-white">
               {props.data.description}
             </p>
           </div>
@@ -30,14 +30,14 @@ export function Component(props: IComponentPropsExtended) {
                 <Disclosure
                   as="div"
                   key={index}
-                  className="bg-[#FFFFFF] p-8 rounded-xl "
+                  className="bg-[#FFFFFF] md:p-8 p-5 rounded-xl "
                 >
                   {({ open }) => (
                     <>
                       <div className="text-lg">
                         <Disclosure.Button className="flex w-full items-start justify-between text-left">
                           {faq.title ? (
-                            <ReactMarkdown className="text-xl font-medium leading-6 text-black">
+                            <ReactMarkdown className="md:text-xl text-lg font-medium  leading-6 text-black">
                               {faq.title}
                             </ReactMarkdown>
                           ) : null}
@@ -55,7 +55,7 @@ export function Component(props: IComponentPropsExtended) {
                       </div>
                       <Disclosure.Panel as="div" className="mt-4 lg:mt-6 pr-12">
                         {faq.description ? (
-                          <ReactMarkdown className="mt-5 text-base font-regular text-gray-500">
+                          <ReactMarkdown className="mt-5 md:text-lg text-base font-regular text-gray-500">
                             {faq.description}
                           </ReactMarkdown>
                         ) : null}

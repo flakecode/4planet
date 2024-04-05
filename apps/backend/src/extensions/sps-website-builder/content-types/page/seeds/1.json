@@ -2,17 +2,17 @@
   "id": 1,
   "title": "Main page",
   "url": "/",
-  "createdAt": "2024-02-05T00:06:02.699Z",
-  "updatedAt": "2024-04-01T23:12:15.234Z",
+  "createdAt": "2024-04-03T16:18:52.621Z",
+  "updatedAt": "2024-04-05T13:07:22.755Z",
   "publishedAt": "2023-04-08T12:06:05.277Z",
   "locale": "en",
   "localizations": [
     {
-      "id": 9,
+      "id": 2,
       "title": "Page d'accueil",
       "url": "/",
-      "createdAt": "2024-02-05T00:06:02.813Z",
-      "updatedAt": "2024-04-01T23:12:15.262Z",
+      "createdAt": "2024-04-03T16:18:52.729Z",
+      "updatedAt": "2024-04-05T13:07:23.091Z",
       "publishedAt": "2024-01-12T23:28:07.163Z",
       "locale": "fr"
     }
@@ -20,7 +20,7 @@
   "page_blocks": [
     {
       "__component": "page-blocks.hero-section-block",
-      "id": 39,
+      "id": 5,
       "title": "FOR planet - сервис по посадке  деревьев по всему миру",
       "description": null,
       "variant": "for-planet-heading",
@@ -28,8 +28,8 @@
       "class_name": null,
       "media": [
         {
-          "id": 113,
-          "name": "for-planet-heading-bg.jpg",
+          "id": 11,
+          "name": "background.jpg",
           "alternativeText": null,
           "caption": null,
           "width": 5760,
@@ -37,65 +37,65 @@
           "formats": {
             "large": {
               "ext": ".jpg",
-              "url": "/uploads/large_for_planet_heading_bg_a06e9d5f0d.jpg",
-              "hash": "large_for_planet_heading_bg_a06e9d5f0d",
+              "url": "/uploads/large_background_e137810253.jpg",
+              "hash": "large_background_e137810253",
               "mime": "image/jpeg",
-              "name": "large_for-planet-heading-bg.jpg",
+              "name": "large_background.jpg",
               "path": null,
-              "size": 143.41,
+              "size": 63.79,
               "width": 1000,
               "height": 576
             },
             "small": {
               "ext": ".jpg",
-              "url": "/uploads/small_for_planet_heading_bg_a06e9d5f0d.jpg",
-              "hash": "small_for_planet_heading_bg_a06e9d5f0d",
+              "url": "/uploads/small_background_e137810253.jpg",
+              "hash": "small_background_e137810253",
               "mime": "image/jpeg",
-              "name": "small_for-planet-heading-bg.jpg",
+              "name": "small_background.jpg",
               "path": null,
-              "size": 32.02,
+              "size": 22.02,
               "width": 500,
               "height": 288
             },
             "medium": {
               "ext": ".jpg",
-              "url": "/uploads/medium_for_planet_heading_bg_a06e9d5f0d.jpg",
-              "hash": "medium_for_planet_heading_bg_a06e9d5f0d",
+              "url": "/uploads/medium_background_e137810253.jpg",
+              "hash": "medium_background_e137810253",
               "mime": "image/jpeg",
-              "name": "medium_for-planet-heading-bg.jpg",
+              "name": "medium_background.jpg",
               "path": null,
-              "size": 77.57,
+              "size": 41.57,
               "width": 750,
               "height": 432
             },
             "thumbnail": {
               "ext": ".jpg",
-              "url": "/uploads/thumbnail_for_planet_heading_bg_a06e9d5f0d.jpg",
-              "hash": "thumbnail_for_planet_heading_bg_a06e9d5f0d",
+              "url": "/uploads/thumbnail_background_e137810253.jpg",
+              "hash": "thumbnail_background_e137810253",
               "mime": "image/jpeg",
-              "name": "thumbnail_for-planet-heading-bg.jpg",
+              "name": "thumbnail_background.jpg",
               "path": null,
-              "size": 8.28,
+              "size": 6.78,
               "width": 245,
               "height": 141
             }
           },
-          "hash": "for_planet_heading_bg_a06e9d5f0d",
+          "hash": "background_e137810253",
           "ext": ".jpg",
           "mime": "image/jpeg",
-          "size": 3685.39,
-          "url": "/uploads/for_planet_heading_bg_a06e9d5f0d.jpg",
+          "size": 882.65,
+          "url": "/uploads/background_e137810253.jpg",
           "previewUrl": null,
           "provider": "local",
           "provider_metadata": null,
           "folderPath": "/",
-          "createdAt": "2024-04-01T23:04:52.198Z",
-          "updatedAt": "2024-04-01T23:04:52.198Z"
+          "createdAt": "2024-04-03T18:43:47.866Z",
+          "updatedAt": "2024-04-03T18:43:47.866Z"
         }
       ],
       "buttons": [
         {
-          "id": 89,
+          "id": 12,
           "url": "#subscribe",
           "description": null,
           "variant": "outline",
@@ -110,58 +110,149 @@
       "additional_media": null
     },
     {
-      "__component": "page-blocks.features-section-block",
-      "id": 17,
-      "title": "Что мы делаем и куда идем?",
-      "description": null,
-      "subtitle": null,
-      "variant": "for-planet-timeline",
+      "__component": "page-blocks.hero-section-block",
+      "id": 4,
+      "title": "О проекте\nи создателе",
+      "description": "В современном мире супер-герои не носят плащи, это обычные люди, живущие среди нас. Алексей Сибирский (alex4planet), создатель проекта For Planet и эко-блогер занимается спасением планеты более 5 лет. \n\nНачиналось все с уборки пляжей от мусора и маленького блога на тысячу человек. Спустя время, когда у проекта появилось комьюнити и тысячи людей, готовых помогать планете, было принято решение сажать деревья в России и по всему миру. На сегодняшний день благодаря проекту посажено 150 тысяч деревьев. И это только начало!",
+      "variant": "for-planet-gallery-and-text-inversed",
       "anchor": null,
       "class_name": null,
-      "media": null,
-      "additional_media": null,
-      "features": [
+      "media": [
         {
-          "id": 67,
-          "description": "- Сажаем деревья в Сибири и Казахстане\n- Боремся против незаконных вырубок\n- Тормозим деструктивные законопроекты",
-          "title": "Сейчас",
-          "subtitle": null,
-          "amount": null,
-          "media": null,
-          "additional_media": null
+          "id": 18,
+          "name": "about-project.svg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 336,
+          "height": 441,
+          "formats": null,
+          "hash": "about_project_06c42240b5",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 4421.5,
+          "url": "/uploads/about_project_06c42240b5.svg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "folderPath": "/",
+          "createdAt": "2024-04-04T19:17:50.847Z",
+          "updatedAt": "2024-04-04T19:17:50.847Z"
         },
         {
-          "id": 68,
-          "description": "Будем брать в долгосрочную аренду самые важные леса планеты для сохранения биоразнообразия",
-          "title": "Скоро",
-          "subtitle": null,
-          "amount": null,
-          "media": null,
-          "additional_media": null
-        },
-        {
-          "id": 69,
-          "description": "Будем самостоятельно тушить пожары и восстанавливать лес",
-          "title": "В течение 5 лет",
-          "subtitle": null,
-          "amount": null,
-          "media": null,
-          "additional_media": null
+          "id": 19,
+          "name": "about-project2.svg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 337,
+          "height": 441,
+          "formats": null,
+          "hash": "about_project2_5eca8f360c",
+          "ext": ".svg",
+          "mime": "image/svg+xml",
+          "size": 861.58,
+          "url": "/uploads/about_project2_5eca8f360c.svg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "folderPath": "/",
+          "createdAt": "2024-04-04T19:17:57.320Z",
+          "updatedAt": "2024-04-04T19:17:57.320Z"
         }
-      ]
+      ],
+      "buttons": [
+        {
+          "id": 17,
+          "url": "/",
+          "description": null,
+          "variant": "link",
+          "title": "Прошедшие посадки",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        }
+      ],
+      "additional_media": null
     },
     {
       "__component": "page-blocks.hero-section-block",
-      "id": 37,
+      "id": 6,
       "title": "Ближайшая цель –\nпосадить 100 тыс деревьев",
       "description": "весной 2024 в Сибири и Казахстане",
       "variant": "for-planet-with-target",
       "anchor": null,
       "class_name": null,
-      "media": null,
+      "media": [
+        {
+          "id": 17,
+          "name": "Bg.jpg",
+          "alternativeText": null,
+          "caption": null,
+          "width": 5760,
+          "height": 3320,
+          "formats": {
+            "large": {
+              "ext": ".jpg",
+              "url": "/uploads/large_Bg_46989ea525.jpg",
+              "hash": "large_Bg_46989ea525",
+              "mime": "image/jpeg",
+              "name": "large_Bg.jpg",
+              "path": null,
+              "size": 87.68,
+              "width": 1000,
+              "height": 576
+            },
+            "small": {
+              "ext": ".jpg",
+              "url": "/uploads/small_Bg_46989ea525.jpg",
+              "hash": "small_Bg_46989ea525",
+              "mime": "image/jpeg",
+              "name": "small_Bg.jpg",
+              "path": null,
+              "size": 23.83,
+              "width": 500,
+              "height": 288
+            },
+            "medium": {
+              "ext": ".jpg",
+              "url": "/uploads/medium_Bg_46989ea525.jpg",
+              "hash": "medium_Bg_46989ea525",
+              "mime": "image/jpeg",
+              "name": "medium_Bg.jpg",
+              "path": null,
+              "size": 51.75,
+              "width": 750,
+              "height": 432
+            },
+            "thumbnail": {
+              "ext": ".jpg",
+              "url": "/uploads/thumbnail_Bg_46989ea525.jpg",
+              "hash": "thumbnail_Bg_46989ea525",
+              "mime": "image/jpeg",
+              "name": "thumbnail_Bg.jpg",
+              "path": null,
+              "size": 6.56,
+              "width": 245,
+              "height": 141
+            }
+          },
+          "hash": "Bg_46989ea525",
+          "ext": ".jpg",
+          "mime": "image/jpeg",
+          "size": 2031,
+          "url": "/uploads/Bg_46989ea525.jpg",
+          "previewUrl": null,
+          "provider": "local",
+          "provider_metadata": null,
+          "folderPath": "/",
+          "createdAt": "2024-04-03T19:21:20.670Z",
+          "updatedAt": "2024-04-03T19:21:20.670Z"
+        }
+      ],
       "buttons": [
         {
-          "id": 90,
+          "id": 13,
           "url": "#subscribe",
           "description": null,
           "variant": "primary",
@@ -177,7 +268,312 @@
     },
     {
       "__component": "page-blocks.hero-section-block",
-      "id": 38,
+      "id": 2,
+      "title": "География посадок",
+      "description": "За 1,5 года мы посадили **50 тысяч деревьев**. Первая посадка была в Иркутской области. Дальше были посадки в Республике Бурятия, в Красноярском Крае, а также в Казахстане (ЗКО). \n\nСледущая посадка планируется весной 2024 года в тех же местах, а также в республике Алтай.",
+      "variant": "for-planet-map",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "buttons": [],
+      "additional_media": null
+    },
+    {
+      "__component": "page-blocks.features-section-block",
+      "id": 1,
+      "title": "Что мы делаем и куда идем?",
+      "description": null,
+      "subtitle": null,
+      "variant": "for-planet-timeline",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "additional_media": null,
+      "features": [
+        {
+          "id": 1,
+          "description": "- Сажаем деревья в Сибири и Казахстане\n- Боремся против незаконных вырубок\n- Тормозим деструктивные законопроекты",
+          "title": "Сейчас",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 2,
+          "description": "Будем брать в долгосрочную аренду самые важные леса планеты для сохранения биоразнообразия",
+          "title": "Скоро",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 3,
+          "description": "Будем самостоятельно тушить пожары и восстанавливать лес",
+          "title": "В течение 5 лет",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        }
+      ]
+    },
+    {
+      "__component": "page-blocks.features-section-block",
+      "id": 3,
+      "title": "Почему нужно действовать срочно?",
+      "description": null,
+      "subtitle": null,
+      "variant": "for-planet-headlines",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "additional_media": null,
+      "features": [
+        {
+          "id": 4,
+          "description": null,
+          "title": "На Камчатке зафиксировали аномальный нагрев вулканического озера",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 6,
+          "description": null,
+          "title": "2024 год станет самым жарким в истории",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 5,
+          "description": null,
+          "title": "The Guardian: власти Норвегии разрешат сбрасывать отходы из шахт во фьорды",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 7,
+          "description": null,
+          "title": "На Камчатке зафиксировали аномальный нагрев вулканического озера",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 8,
+          "description": null,
+          "title": "The Guardian: власти Норвегии разрешат сбрасывать отходы из шахт во фьорды",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 9,
+          "description": null,
+          "title": "2024 год станет самым жарким в истории",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 10,
+          "description": null,
+          "title": "2024 год станет самым жарким в истории",
+          "subtitle": null,
+          "amount": null,
+          "media": null,
+          "additional_media": null
+        }
+      ]
+    },
+    {
+      "__component": "page-blocks.features-section-block",
+      "id": 6,
+      "title": null,
+      "description": null,
+      "subtitle": null,
+      "variant": "for-planet-gallery-and-text",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "additional_media": null,
+      "features": [
+        {
+          "id": 19,
+          "description": "Каждую секунду в мире исчезает участок леса размером с футбольное поле.",
+          "title": null,
+          "subtitle": null,
+          "amount": null,
+          "media": [
+            {
+              "id": 13,
+              "name": "slider1.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 440,
+              "height": 280,
+              "formats": null,
+              "hash": "slider1_4e7dda7505",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 357.38,
+              "url": "/uploads/slider1_4e7dda7505.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "folderPath": "/",
+              "createdAt": "2024-04-03T18:57:29.374Z",
+              "updatedAt": "2024-04-03T18:57:29.374Z"
+            }
+          ],
+          "additional_media": null
+        },
+        {
+          "id": 21,
+          "description": "Леса предотвращают эрозию почв, удерживают\nвлагу, смягчают последствия изменения климата\nи наводнений, а главное они обеспечивают\nстабильность эко системы планеты.",
+          "title": null,
+          "subtitle": null,
+          "amount": null,
+          "media": [
+            {
+              "id": 14,
+              "name": "slider4.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": null,
+              "height": null,
+              "formats": null,
+              "hash": "slider4_ee5ed83b96",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 10421.75,
+              "url": "/uploads/slider4_ee5ed83b96.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "folderPath": "/",
+              "createdAt": "2024-04-03T18:57:29.641Z",
+              "updatedAt": "2024-04-03T18:57:29.641Z"
+            }
+          ],
+          "additional_media": null
+        },
+        {
+          "id": 22,
+          "description": "Мы едим, пьем и дышим благодаря тому, что биоразнообразие ещё есть. Выделение кислорода, очистка воды, опыление растений – все это часть большой системы.",
+          "title": null,
+          "subtitle": null,
+          "amount": null,
+          "media": [
+            {
+              "id": 15,
+              "name": "slider3.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": null,
+              "height": null,
+              "formats": null,
+              "hash": "slider3_1185c10551",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 10709.62,
+              "url": "/uploads/slider3_1185c10551.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "folderPath": "/",
+              "createdAt": "2024-04-03T18:57:29.720Z",
+              "updatedAt": "2024-04-03T18:57:29.720Z"
+            }
+          ],
+          "additional_media": null
+        },
+        {
+          "id": 25,
+          "description": "Если потерять леса, восстановить былую экосистему будет уже невозможно. В мире начнется экологический ад. Поэтому, действовать нужно сейчас.",
+          "title": null,
+          "subtitle": null,
+          "amount": null,
+          "media": [
+            {
+              "id": 16,
+              "name": "sleder2.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": null,
+              "height": null,
+              "formats": null,
+              "hash": "sleder2_987fc8a00d",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 13823,
+              "url": "/uploads/sleder2_987fc8a00d.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "folderPath": "/",
+              "createdAt": "2024-04-03T18:57:29.774Z",
+              "updatedAt": "2024-04-03T18:57:29.774Z"
+            }
+          ],
+          "additional_media": null
+        }
+      ]
+    },
+    {
+      "__component": "page-blocks.features-section-block",
+      "id": 4,
+      "title": "Посадить дерево",
+      "description": "Выберете желаемое количество деревьев. На следующем шаге вы сможете выбрать удобный метод оплаты",
+      "subtitle": null,
+      "variant": "for-planet-tiers",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "additional_media": null,
+      "features": [
+        {
+          "id": 11,
+          "description": "Вы можете оплатить любое количество деревьев",
+          "title": "1 дерево = 190р",
+          "subtitle": null,
+          "amount": 1,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 14,
+          "description": "Оплачивая от 50 деревьев, вы получите именной сертификат",
+          "title": "50 деревьев = 9500р",
+          "subtitle": null,
+          "amount": 50,
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 12,
+          "description": "Вы создадите целый лес!",
+          "title": "100 деревьев",
+          "subtitle": null,
+          "amount": 100,
+          "media": null,
+          "additional_media": null
+        }
+      ]
+    },
+    {
+      "__component": "page-blocks.hero-section-block",
+      "id": 7,
       "title": "Оформить подписку",
       "description": "Каждый раз мы ставим все более масштабные цели по количеству деревьев за сезон. Чтобы планомерно выполнять эти цели без аврального режима прямо перед посадкой, будет эффективнее ежемесячно приближаться к нужной сумме. Поэтому, вы можете ежемесячно помогать природе и нам идти к заветной цели.",
       "variant": "for-planet-create-subscription",
@@ -186,7 +582,7 @@
       "media": null,
       "buttons": [
         {
-          "id": 91,
+          "id": 14,
           "url": "#subscribe",
           "description": null,
           "variant": "outline",
@@ -198,7 +594,7 @@
           "flyout": null
         },
         {
-          "id": 92,
+          "id": 15,
           "url": "#subscribe",
           "description": null,
           "variant": "outline",
@@ -214,161 +610,7 @@
     },
     {
       "__component": "page-blocks.features-section-block",
-      "id": 20,
-      "title": "Почему нужно действовать срочно?",
-      "description": null,
-      "subtitle": null,
-      "variant": "for-planet-headlines",
-      "anchor": null,
-      "class_name": null,
-      "media": null,
-      "additional_media": null,
-      "features": [
-        {
-          "id": 70,
-          "description": null,
-          "title": "На Камчатке зафиксировали аномальный нагрев вулканического озера",
-          "subtitle": null,
-          "amount": null,
-          "media": null,
-          "additional_media": null
-        },
-        {
-          "id": 71,
-          "description": null,
-          "title": "2024 год станет самым жарким в истории",
-          "subtitle": null,
-          "amount": null,
-          "media": null,
-          "additional_media": null
-        },
-        {
-          "id": 72,
-          "description": null,
-          "title": "The Guardian: власти Норвегии разрешат сбрасывать отходы из шахт во фьорды",
-          "subtitle": null,
-          "amount": null,
-          "media": null,
-          "additional_media": null
-        },
-        {
-          "id": 73,
-          "description": null,
-          "title": "На Камчатке зафиксировали аномальный нагрев вулканического озера",
-          "subtitle": null,
-          "amount": null,
-          "media": null,
-          "additional_media": null
-        },
-        {
-          "id": 74,
-          "description": null,
-          "title": "The Guardian: власти Норвегии разрешат сбрасывать отходы из шахт во фьорды",
-          "subtitle": null,
-          "amount": null,
-          "media": null,
-          "additional_media": null
-        },
-        {
-          "id": 75,
-          "description": null,
-          "title": "2024 год станет самым жарким в истории",
-          "subtitle": null,
-          "amount": null,
-          "media": null,
-          "additional_media": null
-        },
-        {
-          "id": 76,
-          "description": null,
-          "title": "2024 год станет самым жарким в истории",
-          "subtitle": null,
-          "amount": null,
-          "media": null,
-          "additional_media": null
-        }
-      ]
-    },
-    {
-      "__component": "page-blocks.hero-section-block",
-      "id": 33,
-      "title": "Каждую секунду в мире исчезает участок леса размером с футбольное поле.",
-      "description": "Леса предотвращают эрозию почв, удерживают влагу, смягчают последствия изменения климата и наводнений, а главное они обеспечивают стабильность эко системы планеты.\n\nМы едим, пьем и дышим благодаря тому, что биоразнообразие ещё есть. Выделение кислорода, очистка воды, опыление растений – все это часть большой системы.\n\nЕсли потерять леса, восстановить былую экосистему будет уже невозможно. В мире начнется экологический ад. Поэтому, действовать нужно сейчас.",
-      "variant": "for-planet-gallery-and-text",
-      "anchor": null,
-      "class_name": null,
-      "media": null,
-      "buttons": [],
-      "additional_media": null
-    },
-    {
-      "__component": "page-blocks.features-section-block",
-      "id": 19,
-      "title": "Посадить дерево",
-      "description": "Выберете желаемое количество деревьев. На следующем шаге вы сможете выбрать удобный метод оплаты",
-      "subtitle": null,
-      "variant": "for-planet-tiers",
-      "anchor": null,
-      "class_name": null,
-      "media": null,
-      "additional_media": null,
-      "features": [
-        {
-          "id": 77,
-          "description": "Вы можете оплатить любое количество деревьев",
-          "title": "1 дерево = 190р",
-          "subtitle": null,
-          "amount": 1,
-          "media": null,
-          "additional_media": null
-        },
-        {
-          "id": 78,
-          "description": "Оплачивая от 50 деревьев, вы получите именной сертификат",
-          "title": "50 деревьев = 9500р",
-          "subtitle": null,
-          "amount": 50,
-          "media": null,
-          "additional_media": null
-        },
-        {
-          "id": 79,
-          "description": "Вы создадите целый лес!",
-          "title": "100 деревьев",
-          "subtitle": null,
-          "amount": 100,
-          "media": null,
-          "additional_media": null
-        }
-      ]
-    },
-    {
-      "__component": "page-blocks.hero-section-block",
-      "id": 34,
-      "title": "География посадок",
-      "description": "За 1,5 года мы посадили **50 тысяч деревьев**. Первая посадка была в Иркутской области. Дальше были посадки в Республике Бурятия, в Красноярском Крае, а также в Казахстане (ЗКО). \n\nСледущая посадка планируется весной 2024 года в тех же местах, а также в республике Алтай.",
-      "variant": "for-planet-map",
-      "anchor": null,
-      "class_name": null,
-      "media": null,
-      "buttons": [],
-      "additional_media": null
-    },
-    {
-      "__component": "page-blocks.hero-section-block",
-      "id": 35,
-      "title": "Прошедшие посадки",
-      "description": "Вы можете посмотреть, как происходили наши прошлые посадки, а также присоединиться к следующим",
-      "variant": "for-planet-videos",
-      "anchor": null,
-      "class_name": null,
-      "media": null,
-      "buttons": [],
-      "additional_media": null
-    },
-    {
-      "__component": "page-blocks.features-section-block",
-      "id": 18,
+      "id": 2,
       "title": "Как работает 4 planet",
       "description": "3 простых шага",
       "subtitle": null,
@@ -379,7 +621,7 @@
       "additional_media": null,
       "features": [
         {
-          "id": 80,
+          "id": 13,
           "description": "Оплатите посадку деревьев и оставьте ваши контакты",
           "title": "1",
           "subtitle": null,
@@ -388,7 +630,7 @@
           "additional_media": null
         },
         {
-          "id": 81,
+          "id": 15,
           "description": "После оплаты дождитесь страницы, которая ведет на телеграм с результатами. Там вы сможете скачать сертификат, который можно распечатать, заполнить и преподнести как подарок или оставить себе",
           "title": "2",
           "subtitle": null,
@@ -397,7 +639,7 @@
           "additional_media": null
         },
         {
-          "id": 82,
+          "id": 16,
           "description": "После посадки, в этой же телеграмм группе вы увидите фото, видео отчет и точную локацию места. А также другие новости и бонусы.",
           "title": "3",
           "subtitle": null,
@@ -408,8 +650,20 @@
       ]
     },
     {
+      "__component": "page-blocks.hero-section-block",
+      "id": 3,
+      "title": "Прошедшие посадки",
+      "description": "Вы можете посмотреть, как происходили наши прошлые посадки, а также присоединиться к следующим",
+      "variant": "for-planet-videos",
+      "anchor": null,
+      "class_name": null,
+      "media": null,
+      "buttons": [],
+      "additional_media": null
+    },
+    {
       "__component": "page-blocks.faqs-block",
-      "id": 6,
+      "id": 1,
       "title": "FAQ",
       "description": "Частые вопросы",
       "variant": "for-planet-default",
@@ -418,52 +672,40 @@
       "subtitle": null,
       "faqs": [
         {
-          "id": 19,
+          "id": 1,
           "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
           "title": "Где проходит посадка деревьев?"
         },
         {
-          "id": 20,
+          "id": 2,
           "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
           "title": "Когда происходят посадки?"
         },
         {
-          "id": 21,
+          "id": 3,
           "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
           "title": "Как я могу поучаствовать кроме финансов?"
         },
         {
-          "id": 22,
+          "id": 4,
           "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
           "title": "Кто сажает деревья?"
         },
         {
-          "id": 23,
+          "id": 6,
           "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
           "title": "Могу ли я оплатить деревья из другой страны?"
         },
         {
-          "id": 24,
+          "id": 5,
           "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
           "title": "Почему 190 рублей?"
         }
       ]
     },
     {
-      "__component": "page-blocks.hero-section-block",
-      "id": 36,
-      "title": "Миссия компании",
-      "description": "Цель проекта - предоставить людям возможность оплатить посадку деревьев в любой точке мира в 3 клика и по доступной цене. \n\nВажно сделать это экономически выгодным, тогда можно высаживать неограниченное кол-во деревьев по всему миру. Так посадка леса станет масштабной и опередит вырубку по темпам, а прибыль пойдет и на другие способы сохранения леса. Например, на тушение пожаров, долгосрочную аренду территорий для сохранения первозданной природы.",
-      "variant": "for-planet-gallery-and-text-inversed",
-      "anchor": null,
-      "class_name": null,
-      "media": null,
-      "buttons": [],
-      "additional_media": null
-    },
-    {
       "__component": "page-blocks.features-section-block",
-      "id": 21,
+      "id": 5,
       "title": "Для донатов",
       "description": "Если вы хотите отблагодарить меня за работу, то можете поддержать меня по любым реквизитам. Покупка деревьев через реквизиты не осуществляется.",
       "subtitle": null,
@@ -474,7 +716,7 @@
       "additional_media": null,
       "features": [
         {
-          "id": 83,
+          "id": 17,
           "description": "Сбер: 2202 2023 0605 8409 (Алексей)\n\nТинькоф: 5536 9138 0663 0055 (Ульяна)",
           "title": "реквизиты для РФ:",
           "subtitle": null,
@@ -483,7 +725,7 @@
           "additional_media": null
         },
         {
-          "id": 84,
+          "id": 18,
           "description": "Каспи: 4400 4302 7927 2477 (Aleksei Кozhevykh)\n\nПриват: 4731 1856 2659 7162 (Oleksandr Hurov)\n\nPayPal: alex4planet@gmail.com (Viktor)\n\nUSDT (TRC20): TAes5RejWjuGWi9nWfZDgjxPqJtaagncHx",
           "title": "Для других стран:",
           "subtitle": null,
@@ -495,13 +737,13 @@
     }
   ],
   "layout": {
-    "id": 2,
+    "id": 1,
     "title": "Public Page Layout",
     "uid": "public-page-layout",
     "variant": "wide",
     "class_name": "[&>.layout-container]:pt-16",
-    "createdAt": "2024-02-05T00:06:02.537Z",
-    "updatedAt": "2024-04-01T21:32:24.828Z",
+    "createdAt": "2024-04-03T16:18:52.287Z",
+    "updatedAt": "2024-04-03T16:18:53.786Z",
     "publishedAt": "2023-04-20T03:23:38.447Z",
     "locale": "en"
   }

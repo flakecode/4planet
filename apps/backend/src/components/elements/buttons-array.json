@@ -26,7 +26,7 @@
     },
     "variant": {
       "type": "enumeration",
-      "enum": ["column-with-title", "row"],
+      "enum": ["column-with-title", "row", "for-planet-column-with-title"],
       "default": "column-with-title",
       "required": true
     },
