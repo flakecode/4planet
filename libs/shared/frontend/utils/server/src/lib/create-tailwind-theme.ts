@@ -37,7 +37,7 @@ export const getThemeFromBackend = async () => {
       return res.data?.data;
     })
     .catch((error: any) => {
-      console.log("getThemeFromBackend error: ", error.message);
+      console.log("getThemeFromBackend error: ", error);
     });
 
   if (themeData) {
