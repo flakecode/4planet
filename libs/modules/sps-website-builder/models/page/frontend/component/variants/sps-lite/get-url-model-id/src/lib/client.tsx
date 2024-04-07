@@ -50,8 +50,8 @@ export default function Client(props: IComponentProps) {
     }
   }, [localId]);
 
-  if (!data) {
-    return <></>;
+  if (!data && props.children) {
+    return props.children({ data: undefined });
   }
 
   if (props?.children && localId) {
