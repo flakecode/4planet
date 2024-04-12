@@ -5,7 +5,7 @@
   "variant": "for-planet-default",
   "class_name": null,
   "createdAt": "2024-04-03T16:18:52.256Z",
-  "updatedAt": "2024-04-05T17:48:41.680Z",
+  "updatedAt": "2024-04-12T11:50:21.075Z",
   "publishedAt": "2024-01-10T11:45:35.047Z",
   "locale": "en",
   "localizations": [
@@ -69,7 +69,7 @@
           "buttons": [
             {
               "id": 18,
-              "url": "/",
+              "url": "/#plans",
               "description": null,
               "variant": "link",
               "title": "Планы",
@@ -81,7 +81,7 @@
             },
             {
               "id": 20,
-              "url": null,
+              "url": "/#works",
               "description": null,
               "variant": "link",
               "title": "Как работает",
@@ -93,7 +93,7 @@
             },
             {
               "id": 19,
-              "url": null,
+              "url": "/#planting",
               "description": null,
               "variant": "link",
               "title": "Прошедшие посадки",
@@ -118,7 +118,7 @@
           "buttons": [
             {
               "id": 22,
-              "url": "/",
+              "url": "/#landing",
               "description": null,
               "variant": "link",
               "title": "Посадить дерево",
@@ -130,7 +130,7 @@
             },
             {
               "id": 21,
-              "url": null,
+              "url": "/#subscription",
               "description": null,
               "variant": "link",
               "title": "Оформить подписку",
@@ -142,7 +142,7 @@
             },
             {
               "id": 23,
-              "url": null,
+              "url": "/#donate",
               "description": null,
               "variant": "link",
               "title": "Донат",

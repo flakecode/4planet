@@ -1,8 +1,12 @@
+"use client";
+
 import React from "react";
 import { IComponentPropsExtended } from "./interface";
 import ReactMarkdown from "react-markdown";
 
 export function Component(props: IComponentPropsExtended) {
+  const apiKey = process.env.NEXT_PUBLIC_YANDEX_MAPS_API_KEY;
+  console.log(`🚀 ~ Component ~ apiKey:`, apiKey);
   return (
     <div
       data-module="sps-website-builder"

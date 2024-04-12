@@ -28,7 +28,8 @@
         "destructive",
         "outline",
         "ghost",
-        "link"
+        "link",
+        "for-planet-button-language"
       ],
       "default": "primary",
       "required": true

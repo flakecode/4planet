@@ -11,6 +11,7 @@ export function Component(props: IComponentPropsExtended) {
       data-module="sps-website-builder"
       data-model="page-blocks.hero-section-block"
       data-variant={props.variant}
+      id={props.data.anchor || ""}
       className="w-full relative py-32"
     >
       {props.data.media?.length ? (

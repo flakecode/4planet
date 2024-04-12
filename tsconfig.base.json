@@ -562,6 +562,9 @@
       "@sps/sps-website-builder-models-button-frontend-component-variants-sps-lite-default": [
         "libs/modules/sps-website-builder/models/button/frontend/component/variants/sps-lite/default/src/index.ts"
       ],
+      "@sps/sps-website-builder-models-button-frontend-component-variants-startup-for-planet-button-language": [
+        "libs/modules/sps-website-builder/models/button/frontend/component/variants/startup/for-planet-button-language/src/index.ts"
+      ],
       "@sps/sps-website-builder-models-button-frontend-redux": [
         "libs/modules/sps-website-builder/models/button/frontend/redux/src/index.ts"
       ],
@@ -1002,6 +1005,9 @@
       ],
       "@sps/sps-website-builder-models-logotype-frontend-component-variants-sps-lite-default": [
         "libs/modules/sps-website-builder/models/logotype/frontend/component/variants/sps-lite/default/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-logotype-frontend-component-variants-startup-for-plenet-navbar-logotype": [
+        "libs/modules/sps-website-builder/models/logotype/frontend/component/variants/startup/for-plenet-navbar-logotype/src/index.ts"
       ],
       "@sps/sps-website-builder-models-logotype-frontend-redux": [
         "libs/modules/sps-website-builder/models/logotype/frontend/redux/src/index.ts"

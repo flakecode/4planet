@@ -42,8 +42,8 @@ function DisclosureInner({
   }, [pathname, searchParams, disclosure.close]);
 
   return (
-    <>
-      <div className="relative mx-auto flex flex-row w-full pt-8">
+    <div className="relative">
+      <div className="relative mx-auto flex flex-row w-full pt-[50px] lg:pt-8">
         <div className="flex w-full justify-between">
           <div className="flex w-full items-center px-5 md:px-2 lg:px-0 justify-between">
             {props.data.logotype ? (
@@ -65,7 +65,7 @@ function DisclosureInner({
                 );
               })}
             </div>
-            <div className="hidden lg:flex lg:space-x-2 items-center">
+            <div className="hidden lg:flex lg:space-x-2 items-center gap-5">
               {props.data.additionalButtons?.map((button, index) => {
                 return (
                   <Button
@@ -89,42 +89,66 @@ function DisclosureInner({
             </div>
           </div>
         </div>
-        <div className="flex flex-shrink-0 items-center lg:hidden pr-2">
-          <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary-500">
+        <div className="flex flex-shrink-0 items-center lg:hidden pr-5 ">
+          <Disclosure.Button className="inline-flex items-center justify-center rounded-md text-white hover:text-gray-500">
             <span className="sr-only">Open main menu</span>
             {disclosure.open ? (
-              <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
+              <XMarkIcon
+                className="block h-8 w-8 text-black fixed z-20 mr-5"
+                aria-hidden="true"
+              />
             ) : (
-              <Bars2Icon className="block h-6 w-6" aria-hidden="true" />
+              <Bars2Icon className="block h-8 w-8 " aria-hidden="true" />
             )}
           </Disclosure.Button>
         </div>
       </div>
 
-      <Disclosure.Panel className="lg:hidden py-2">
-        <div className="flex flex-col gap-3 px-2 ">
-          {props.data.buttons?.map((button, index) => {
-            return (
-              <Button
-                isServer={false}
-                key={index}
-                variant={button.variant}
-                data={button}
-              />
-            );
-          })}
-          {props.data.additionalButtons?.map((button, index) => {
-            return (
-              <Button
-                isServer={false}
-                key={index}
-                variant={button.variant}
-                data={button}
-              />
-            );
-          })}
+      <Disclosure.Panel className="lg:hidden h-screen bg-white fixed w-screen top-0">
+        <div className="flex flex-col gap-4 w-10/12 lg:w-4/12 max-w-[450px] pt-[50px] px-5">
+          {props.data.logotype ? (
+            <Logotype
+              isServer={false}
+              data={props.data.logotype}
+              variant="for-plenet-navbar-logotype"
+            />
+          ) : null}
+        </div>
+        <div className="flex flex-col gap-3  h-full justify-center">
+          <div className="flex-col flex gap-[18px]">
+            {props.data.buttons?.map((button, index) => {
+              return (
+                <div
+                  className="flex flex-col gap-[18px] font-primary font-medium p-5 pb-0 uppercase"
+                  key={index}
+                >
+                  <Button
+                    isServer={false}
+                    key={index}
+                    variant={button.variant}
+                    data={button}
+                  />
+                  <div className="col-span-1 flex flex-col justify-center w-full h-1">
+                    <div className="h-px bg-[#E7E7E7]"></div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+          <div className="absolute bottom-[5%] px-5 flex justify-between w-full">
+            {props.data.additionalButtons?.map((button, index) => {
+              return (
+                <Button
+                  isServer={false}
+                  key={index}
+                  variant={button.variant}
+                  data={button}
+                />
+              );
+            })}
+          </div>
         </div>
       </Disclosure.Panel>
-    </>
+    </div>
   );
 }
