@@ -3,7 +3,7 @@ import { IComponentPropsExtended } from "./interface";
 import { Component as Button } from "@sps/sps-website-builder-models-button-frontend-component";
 import ReactMarkdown from "react-markdown";
 import Image from "next/image";
-import { getFileUrl } from "@sps/shared-frontend-utils-client";
+import { getFileUrl } from "@sps/shared-utils";
 
 export function Component(props: IComponentPropsExtended) {
   return (

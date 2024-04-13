@@ -28,12 +28,15 @@ export default factories.createCoreService(
         await fs.unlink(oldSeedFile);
       }
 
-      if (!entites.length && !entites) {
-        return;
-      }
-
-      if (!entites.length) {
+      if (strapi.contentTypes[uid].kind === "singleType") {
+        if (!entites?.id) {
+          return;
+        }
         entites = [entites];
+      } else {
+        if (!entites.length || !entites) {
+          return;
+        }
       }
 
       for (const entity of entites) {
@@ -433,6 +436,9 @@ export default factories.createCoreService(
 
         for (const seedData of seed) {
           let componentData = {};
+          if (!seedData) {
+            continue;
+          }
 
           const plainData = strapi
             .service("plugin::sps-migrate.entity")
@@ -458,6 +464,10 @@ export default factories.createCoreService(
           data.push(componentData);
         }
       } else {
+        if (!seed) {
+          return seed;
+        }
+
         const plainData = strapi
           .service("plugin::sps-migrate.entity")
           .getPlainSeedData({
@@ -493,6 +503,10 @@ export default factories.createCoreService(
       const data: any = [];
 
       for (const seedData of seed) {
+        if (!seedData) {
+          continue;
+        }
+
         let dynamiczoneData: any = {
           __component: seedData.__component,
         };
@@ -531,6 +545,10 @@ export default factories.createCoreService(
 
       if (!strapi.entityService) {
         throw new Error("strapi.entityService is undefined");
+      }
+
+      if (!seed) {
+        return;
       }
 
       const data = await strapi

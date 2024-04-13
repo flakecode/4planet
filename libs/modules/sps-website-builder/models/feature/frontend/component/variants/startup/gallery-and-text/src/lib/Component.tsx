@@ -2,7 +2,7 @@ import React from "react";
 import { IComponentPropsExtended } from "./interface";
 import { Component as File } from "@sps/sps-file-storage-models-file-frontend-component";
 import Image from "next/image";
-import { getFileUrl } from "@sps/shared-frontend-utils-client";
+import { getFileUrl } from "@sps/shared-utils";
 import ReactMarkdown from "react-markdown";
 
 export function Component(props: IComponentPropsExtended) {

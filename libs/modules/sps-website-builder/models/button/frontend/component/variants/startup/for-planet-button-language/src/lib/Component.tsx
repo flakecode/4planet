@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import { IComponentPropsExtended } from "./interface";
 import { Popover, PopoverContent, PopoverTrigger } from "@sps/shadcn";

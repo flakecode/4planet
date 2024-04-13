@@ -3,7 +3,7 @@ import * as fs from "fs/promises";
 import * as fsExtra from "fs-extra";
 import { createWriteStream } from "fs";
 import path from "path";
-import { snakeCaseToCamelCase } from "@sps/shared-frontend-utils-client";
+import { snakeCaseToCamelCase } from "@sps/shared-utils";
 
 let iteration = 0;
 
@@ -96,6 +96,29 @@ export const getThemeFromBackend = async () => {
             });
         }
       }
+
+      const requiredFontFiles = requiredFontVariants.map(
+        (requiredFontVariant) => {
+          return requiredFontWeights.map((requiredFontWeight) => {
+            return requiredFontStyles.map((requiredFontStyle) => {
+              return `${requiredFontVariant}-${requiredFontWeight}${requiredFontStyle}.ttf`;
+            });
+          });
+        },
+      );
+
+      const existingFonts = await fs.readdir(
+        path.join(frontendDir, "./themes/fonts"),
+      );
+
+      for (const requiredFontFile of requiredFontFiles.flat(2)) {
+        if (!existingFonts.includes(requiredFontFile)) {
+          await fs.copyFile(
+            path.join(frontendDir, `./themes/fonts/Default-Regular.ttf`),
+            path.join(frontendDir, `./themes/fonts/${requiredFontFile}`),
+          );
+        }
+      }
     }
   } else {
     iteration++;
@@ -104,6 +127,8 @@ export const getThemeFromBackend = async () => {
       setTimeout(() => {
         getThemeFromBackend();
       }, 5000);
+    } else {
+      return { success: false };
     }
   }
 
@@ -153,9 +178,24 @@ export const getThemeFromBackend = async () => {
       }
     }
   }
+
+  return { success: true };
 };
 
-getThemeFromBackend();
+(async () => {
+  let result = await getThemeFromBackend();
+
+  if (!result.success) {
+    for (let i = 0; i < 5; i++) {
+      result = await getThemeFromBackend();
+      if (result.success) {
+        break;
+      }
+    }
+  }
+
+  console.log(`🚀 ~ Create Tailwind theme result:`, result);
+})();
 
 function getFileUrl(
   obj: any,
