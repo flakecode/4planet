@@ -1,10 +1,9 @@
 "use client";
 
-import React from "react";
+import React, { useEffect } from "react";
 import { Component as Button } from "@sps/sps-website-builder-models-button-frontend-component";
 import { Disclosure } from "@headlessui/react";
 import { Bars2Icon, Bars3Icon, XMarkIcon } from "@heroicons/react/20/solid";
-import { useEffect } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import { Component as Logotype } from "@sps/sps-website-builder-models-logotype-frontend-component";
 import { IComponentPropsExtended } from "./interface";
