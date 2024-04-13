@@ -17,6 +17,7 @@ export function Component(props: IComponentPropsExtended) {
       data-module="sps-website-builder"
       data-model="page-blocks.features-section-block"
       data-variant={props.variant}
+      id={props.data.anchor || ""}
       className="w-full bg-black pt-40 pb-24"
     >
       <div className="mx-auto max-w-7xl mx-5 md:mx-auto bg-white rounded-[20px] py-10 px-5 md:p-16">

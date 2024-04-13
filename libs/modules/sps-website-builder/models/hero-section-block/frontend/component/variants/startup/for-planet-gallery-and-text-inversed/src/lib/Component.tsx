@@ -14,6 +14,7 @@ export function Component(props: IComponentPropsExtended) {
       data-module="sps-website-builder"
       data-model="page-blocks.hero-section-block"
       data-variant={props.variant}
+      id={props.data.anchor || ""}
       className="w-full relative flex flex-col items-center justify-between overflow-hidden bg-[#F4F4F4] mx-auto"
     >
       {props.data.additionalMedia?.length ? (
@@ -38,7 +39,7 @@ export function Component(props: IComponentPropsExtended) {
                 {props.data?.description}
               </ReactMarkdown>
             ) : null}
-            <div className="mt-5 hidden md:flex flex-col sm:flex-row md:mt-8 gap-4">
+            <div className="lg:mt-20 hidden md:flex flex-col sm:flex-row md:mt-8 gap-4">
               {props.data?.buttons?.map((button, index) => {
                 return (
                   <Button
@@ -96,7 +97,7 @@ export function Component(props: IComponentPropsExtended) {
               })
             : null}
         </div>
-        <div className="mt-20 flex md:hidden flex-col sm:flex-row md:mt-8 gap-4">
+        <div className="lg:mt-20 flex md:hidden flex-col sm:flex-row md:mt-8 gap-4">
           {props.data?.buttons?.map((button, index) => {
             return (
               <Button
@@ -158,12 +159,12 @@ function getStyles({ index }: { index: number }) {
 function getStylesSmal({ index }: { index: number }) {
   if (index === 0) {
     return {
-      top: "40%",
+      top: "45%",
       rotate: "-4deg",
     };
   } else if (index === 1) {
     return {
-      top: "45%",
+      top: "50%",
       rotate: "3deg",
     };
   } else if (index === 2) {

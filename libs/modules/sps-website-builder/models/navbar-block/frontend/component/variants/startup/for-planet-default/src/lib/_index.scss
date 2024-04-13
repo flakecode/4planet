@@ -3,7 +3,7 @@
     &[data-variant="for-planet-default"] {
       [data-ui="button"] {
         &[data-ui-variant="link"] {
-          @apply bg-transparent text-white text-base p-0;
+          @apply bg-transparent lg:text-white lg:text-base lg:p-0 text-black text-xl lg:normal-case;
         }
 
         &[data-ui-variant="primary"] {

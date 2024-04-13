@@ -16,7 +16,7 @@
     "variant": "for-planet-default",
     "class_name": null,
     "createdAt": "2024-04-03T16:18:52.256Z",
-    "updatedAt": "2024-04-05T17:48:41.680Z",
+    "updatedAt": "2024-04-12T11:50:21.075Z",
     "publishedAt": "2024-01-10T11:45:35.047Z",
     "locale": "en"
   },
@@ -30,7 +30,7 @@
     "position": "fixed",
     "side": "top",
     "createdAt": "2024-04-03T16:18:52.548Z",
-    "updatedAt": "2024-04-03T18:49:20.348Z",
+    "updatedAt": "2024-04-12T16:22:46.649Z",
     "publishedAt": "2023-04-08T05:04:22.148Z",
     "locale": "en"
   },
@@ -43,7 +43,7 @@
       "title": "Main page",
       "url": "/",
       "createdAt": "2024-04-03T16:18:52.621Z",
-      "updatedAt": "2024-04-05T13:07:22.755Z",
+      "updatedAt": "2024-04-12T17:04:09.530Z",
       "publishedAt": "2023-04-08T12:06:05.277Z",
       "locale": "en"
     }

@@ -8,6 +8,7 @@ export function Component(props: IComponentPropsExtended) {
       data-module="sps-website-builder"
       data-model="page-blocks.hero-section-block"
       data-variant={props.variant}
+      id={props.data.anchor || ""}
       className="w-full bg-[#F5F5F5] py-[60px] md:py-32"
     >
       <div className="mx-auto max-w-7xl px-5 md:px-0">

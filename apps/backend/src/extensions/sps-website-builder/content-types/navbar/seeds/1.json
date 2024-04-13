@@ -7,7 +7,7 @@
   "position": "fixed",
   "side": "top",
   "createdAt": "2024-04-03T16:18:52.548Z",
-  "updatedAt": "2024-04-03T18:49:20.348Z",
+  "updatedAt": "2024-04-12T16:22:46.649Z",
   "publishedAt": "2023-04-08T05:04:22.148Z",
   "locale": "en",
   "localizations": [
@@ -56,6 +56,38 @@
             "folderPath": "/",
             "createdAt": "2024-04-03T18:49:17.648Z",
             "updatedAt": "2024-04-03T18:49:17.648Z"
+          },
+          {
+            "id": 34,
+            "name": "logo.png",
+            "alternativeText": null,
+            "caption": null,
+            "width": 445,
+            "height": 38,
+            "formats": {
+              "thumbnail": {
+                "ext": ".png",
+                "url": "/uploads/thumbnail_logo_99d4d63d3b.png",
+                "hash": "thumbnail_logo_99d4d63d3b",
+                "mime": "image/png",
+                "name": "thumbnail_logo.png",
+                "path": null,
+                "size": 3.88,
+                "width": 245,
+                "height": 21
+              }
+            },
+            "hash": "logo_99d4d63d3b",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 1.77,
+            "url": "/uploads/logo_99d4d63d3b.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "folderPath": "/",
+            "createdAt": "2024-04-12T12:59:22.172Z",
+            "updatedAt": "2024-04-12T12:59:22.172Z"
           }
         ],
         "additional_media": null
@@ -63,7 +95,7 @@
       "buttons": [
         {
           "id": 7,
-          "url": "/",
+          "url": "/#landing",
           "description": null,
           "variant": "link",
           "title": "Посадить дерево",
@@ -75,7 +107,7 @@
         },
         {
           "id": 3,
-          "url": "/",
+          "url": "/#subscription",
           "description": null,
           "variant": "link",
           "title": "Оформить подписку",
@@ -87,7 +119,7 @@
         },
         {
           "id": 4,
-          "url": "/",
+          "url": "/#works",
           "description": null,
           "variant": "link",
           "title": "Как это работает",
@@ -98,20 +130,8 @@
           "flyout": null
         },
         {
-          "id": 6,
-          "url": "/",
-          "description": null,
-          "variant": "link",
-          "title": "Миссия",
-          "additional_attributes": null,
-          "class_name": null,
-          "media": null,
-          "additional_media": null,
-          "flyout": null
-        },
-        {
           "id": 5,
-          "url": "/",
+          "url": "/#donate",
           "description": null,
           "variant": "link",
           "title": "Донат",
@@ -124,8 +144,20 @@
       ],
       "additional_buttons": [
         {
+          "id": 29,
+          "url": null,
+          "description": null,
+          "variant": "for-planet-button-language",
+          "title": null,
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        },
+        {
           "id": 8,
-          "url": "/",
+          "url": "/#landing",
           "description": null,
           "variant": "primary",
           "title": "Посадить дерево",
