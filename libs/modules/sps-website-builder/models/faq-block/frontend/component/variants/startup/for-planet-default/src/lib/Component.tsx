@@ -17,10 +17,10 @@ export function Component(props: IComponentPropsExtended) {
       <div className="bg-black">
         <div className=" mx-auto max-w-7xl py-16 sm:py-[60px] px-5 md:px-0 flex flex-col md:flex-row gap-10 md:gap-[183px]">
           <div>
-            <h2 className="text-center text-[32px] md:text-5xl font-bold text-white font-primary font-medium">
+            <h2 className="text-center md:text-left text-[32px] md:text-5xl font-bold text-white font-primary font-medium">
               {props.data.title}
             </h2>
-            <p className="text-center mt-5 text-base md:text-xl text-white">
+            <p className="text-center md:text-left text-nowrap mt-5 text-base md:text-xl text-white">
               {props.data.description}
             </p>
           </div>
@@ -43,12 +43,12 @@ export function Component(props: IComponentPropsExtended) {
                           ) : null}
                           <span className="ml-2 flex-shrink-0 flex h-7 w-7 text-black items-center">
                             {open ? (
-                              <ChevronUp
-                                area-hidden="true"
-                                className="text-[#8F8F8F]"
-                              />
+                              <ChevronUp area-hidden="true" />
                             ) : (
-                              <ChevronDown aria-hidden="true" />
+                              <ChevronDown
+                                aria-hidden="true"
+                                className="text-[#999999]"
+                              />
                             )}
                           </span>
                         </Disclosure.Button>

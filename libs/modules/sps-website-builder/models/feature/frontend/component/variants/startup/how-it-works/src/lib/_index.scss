@@ -1,6 +1,9 @@
 [data-module="sps-website-builder"] {
   &[data-model="feature"] {
     &[data-variant="how-it-works"] {
+      [data-ui="button"][data-ui-variant="primary"] {
+        @apply bg-[#A8DA1A] text-[#1D1D1D] text-xl py-3 w-full rounded-[20px];
+      }
     }
   }
 }

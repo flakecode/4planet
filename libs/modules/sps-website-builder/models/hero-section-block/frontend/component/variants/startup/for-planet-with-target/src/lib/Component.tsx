@@ -25,7 +25,7 @@ export function Component(props: IComponentPropsExtended) {
       <div className="relative max-w-7xl mx-auto px-4">
         <div className="text-left">
           {props.data?.title ? (
-            <h1 className="md:text-5xl text-[28px] font-medium font-primary tracking-tight leading-[130%] text-white uppercase">
+            <h1 className="md:text-[48px] text-[28px] font-medium font-primary tracking-tight leading-[130%] text-white uppercase">
               <ReactMarkdown>{props.data?.title}</ReactMarkdown>
             </h1>
           ) : null}

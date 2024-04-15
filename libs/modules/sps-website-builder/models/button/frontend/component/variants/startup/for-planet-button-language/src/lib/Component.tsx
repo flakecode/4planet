@@ -32,7 +32,7 @@ export function Component(props: IComponentPropsExtended) {
             РУ
           </Button>
         </PopoverTrigger>
-        <PopoverContent className="p-1 border border-[#EFEFEF] shadow-none rounded-[20px] w-[200px]">
+        <PopoverContent className="mt-5 p-1 border border-[#EFEFEF] shadow-none rounded-[20px] w-[200px]">
           <div className="flex flex-col gap-2 bg-white">
             <Button
               ui="sps"

@@ -24,6 +24,11 @@
           }
         }
       }
+      [data-model="elements.logotype"][data-variant="default"] {
+        [data-model="file"][data-variant="image"] {
+          @apply w-[250px];
+        }
+      }
     }
   }
 }
