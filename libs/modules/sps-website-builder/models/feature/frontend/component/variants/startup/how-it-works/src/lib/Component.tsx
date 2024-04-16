@@ -1,6 +1,7 @@
 import React from "react";
 import { IComponentPropsExtended } from "./interface";
 import ReactMarkdown from "react-markdown";
+import { Component as Button } from "@sps/sps-website-builder-models-button-frontend-component";
 
 export function Component(props: IComponentPropsExtended) {
   return (
@@ -17,10 +18,22 @@ export function Component(props: IComponentPropsExtended) {
           </ReactMarkdown>
         ) : null}
         {props.data.description ? (
-          <ReactMarkdown className="md:text-lg text-bases text-black font-regular mt-5">
+          <ReactMarkdown className="md:text-lg text-bases text-black font-regular mt-5 mb-[30px]">
             {props.data.description}
           </ReactMarkdown>
         ) : null}
+        <div className="">
+          {props.data?.buttons?.map((button, index) => {
+            return (
+              <Button
+                isServer={false}
+                key={index}
+                variant={button.variant}
+                data={button}
+              />
+            );
+          })}
+        </div>
       </div>
     </div>
   );

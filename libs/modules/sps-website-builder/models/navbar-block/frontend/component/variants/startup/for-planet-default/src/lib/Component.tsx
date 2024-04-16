@@ -113,7 +113,7 @@ function DisclosureInner({
             />
           ) : null}
         </div>
-        <div className="flex flex-col gap-3  h-full justify-center">
+        <div className="flex flex-col gap-3  h-full pt-[200px]">
           <div className="flex-col flex gap-[18px]">
             {props.data.buttons?.map((button, index) => {
               return (
@@ -134,7 +134,7 @@ function DisclosureInner({
               );
             })}
           </div>
-          <div className="absolute bottom-[5%] px-5 flex justify-between w-full">
+          <div className="absolute bottom-[5%] px-5 flex gap-10  w-full">
             {props.data.additionalButtons?.map((button, index) => {
               return (
                 <Button

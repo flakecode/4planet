@@ -13,8 +13,8 @@ export function Component(props: IComponentPropsExtended) {
       className="w-full bg-primary-green py-[60px] md:py-24"
     >
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-10 md:mb-20">
-          <h2 className="md:text-5xl text-[32px] font-medium font-primary leading-[130%] text-black uppercase mb-5">
+        <div className="text-center mb-10 md:mb-20 px-5 md:px-0">
+          <h2 className="md:text-[48px] text-[32px] font-medium font-primary md:leading-[130%] text-black uppercase mb-5">
             {props.data?.title ? (
               <ReactMarkdown>{props.data?.title}</ReactMarkdown>
             ) : null}

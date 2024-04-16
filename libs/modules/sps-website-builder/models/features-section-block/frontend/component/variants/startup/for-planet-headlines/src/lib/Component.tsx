@@ -2,6 +2,8 @@ import React from "react";
 import { IComponentPropsExtended } from "./interface";
 import ReactMarkdown from "react-markdown";
 import { Component as Feature } from "@sps/sps-website-builder-models-feature-frontend-component";
+import Image from "next/image";
+import { getFileUrl } from "@sps/shared-utils";
 
 export function Component(props: IComponentPropsExtended) {
   return (
@@ -9,11 +11,21 @@ export function Component(props: IComponentPropsExtended) {
       data-module="sps-website-builder"
       data-model="page-blocks.features-section-block"
       data-variant={props.variant}
-      className="w-full bg-black pt-[60px] md:pt-60 pb-[60px] md:pb-40 px-5 md:px-0"
+      className="w-full bg-black relative pt-[60px] md:pt-60 pb-[60px] md:pb-40 px-5 md:px-0"
     >
-      <div className="mx-auto max-w-7xl flex justify-center">
+      {props.data.media?.length ? (
+        <div className="">
+          <Image
+            src={getFileUrl(props.data.media[0])}
+            alt=""
+            fill={true}
+            className="object-cover object-center"
+          />
+        </div>
+      ) : null}
+      <div className="mx-auto max-w-7xl flex justify-center relative">
         <div className="relative max-w-5xl">
-          <h2 className="md:text-5xl text-[32px] font-medium font-primary leading-[130%] uppercase text-white md:text-center">
+          <h2 className="md:text-[48px] text-[32px] font-medium font-primary leading-[130%] uppercase text-white md:text-center">
             {props.data?.title ? (
               <ReactMarkdown>{props.data?.title}</ReactMarkdown>
             ) : null}
