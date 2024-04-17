@@ -11,7 +11,7 @@ export function Component(props: IComponentPropsExtended) {
       data-variant={props.variant}
       className="w-full bg-[#F5F5F5] overflow-hidden md:pt-32 py-20 md:pb-40 "
     >
-      <h2 className="px-5 md:px-0 max-w-2xl mx-auto text-[28px] md:text-5xl font-medium font-primary text-center text-black uppercase">
+      <h2 className="px-5 md:px-0 max-w-2xl mx-auto text-[28px] md:text-[48px] font-medium font-primary text-center text-black uppercase leading-[130%]">
         {props.data?.title ? (
           <ReactMarkdown>{props.data?.title}</ReactMarkdown>
         ) : null}
