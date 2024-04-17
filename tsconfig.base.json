@@ -103,9 +103,6 @@
       "@sps/sps-crm-models-form-frontend-component": [
         "libs/modules/sps-crm/models/form/frontend/component/root/src/index.ts"
       ],
-      "@sps/sps-crm-models-form-frontend-component-variants-sps-lite-list": [
-        "libs/modules/sps-crm/models/form/frontend/component/variants/sps-lite/list/src/index.ts"
-      ],
       "@sps/sps-crm-models-form-frontend-component-variants-sps-lite-simple": [
         "libs/modules/sps-crm/models/form/frontend/component/variants/sps-lite/simple/src/index.ts"
       ],
@@ -634,6 +631,27 @@
       ],
       "@sps/sps-website-builder-models-button-frontend-component-variants-startup-for-planet-button-language": [
         "libs/modules/sps-website-builder/models/button/frontend/component/variants/startup/for-planet-button-language/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-button-frontend-component-variants-sps-lite-destructive": [
+        "libs/modules/sps-website-builder/models/button/frontend/component/variants/sps-lite/destructive/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-button-frontend-component-variants-sps-lite-ghost": [
+        "libs/modules/sps-website-builder/models/button/frontend/component/variants/sps-lite/ghost/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-button-frontend-component-variants-sps-lite-link": [
+        "libs/modules/sps-website-builder/models/button/frontend/component/variants/sps-lite/link/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-button-frontend-component-variants-sps-lite-locale": [
+        "libs/modules/sps-website-builder/models/button/frontend/component/variants/sps-lite/locale/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-button-frontend-component-variants-sps-lite-outline": [
+        "libs/modules/sps-website-builder/models/button/frontend/component/variants/sps-lite/outline/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-button-frontend-component-variants-sps-lite-primary": [
+        "libs/modules/sps-website-builder/models/button/frontend/component/variants/sps-lite/primary/src/index.ts"
+      ],
+      "@sps/sps-website-builder-models-button-frontend-component-variants-sps-lite-secondary": [
+        "libs/modules/sps-website-builder/models/button/frontend/component/variants/sps-lite/secondary/src/index.ts"
       ],
       "@sps/sps-website-builder-models-button-frontend-redux": [
         "libs/modules/sps-website-builder/models/button/frontend/redux/src/index.ts"
