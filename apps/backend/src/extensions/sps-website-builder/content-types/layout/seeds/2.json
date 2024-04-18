@@ -1,51 +1,63 @@
 {
   "id": 2,
-  "title": "Mise en page publique",
-  "uid": "mise-en-page-publique",
+  "title": "Public Page Layout",
+  "uid": "public-page-layout",
   "variant": "wide",
   "class_name": "[&>.layout-container]:pt-16",
-  "createdAt": "2024-04-03T16:18:52.353Z",
-  "updatedAt": "2024-04-03T16:18:53.991Z",
-  "publishedAt": "2024-01-12T23:28:53.035Z",
-  "locale": "fr",
-  "localizations": [],
+  "createdAt": "2024-02-05T00:06:02.537Z",
+  "updatedAt": "2024-04-18T00:46:04.179Z",
+  "publishedAt": "2023-04-20T03:23:38.447Z",
+  "locale": "en",
+  "localizations": [
+    {
+      "id": 4,
+      "title": "Лейаут публичных страниц",
+      "uid": null,
+      "variant": "wide",
+      "class_name": null,
+      "createdAt": "2024-04-18T00:46:04.130Z",
+      "updatedAt": "2024-04-18T00:46:57.419Z",
+      "publishedAt": "2024-04-18T00:46:20.196Z",
+      "locale": "ru"
+    }
+  ],
   "footer": {
-    "id": 1,
-    "title": "Pied de page public",
-    "uid": "pied-de-page-public",
-    "variant": "boxed",
+    "id": 4,
+    "title": "Public Page Footer",
+    "uid": "footer",
+    "variant": "for-planet-default",
     "class_name": null,
-    "createdAt": "2024-04-03T16:18:52.195Z",
-    "updatedAt": "2024-04-03T16:18:53.516Z",
-    "publishedAt": "2024-01-12T23:31:13.162Z",
-    "locale": "fr"
+    "createdAt": "2024-04-01T21:32:23.928Z",
+    "updatedAt": "2024-04-18T00:47:14.594Z",
+    "publishedAt": "2024-01-10T11:45:35.047Z",
+    "locale": "en"
   },
   "modals": [],
   "navbar": {
-    "id": 2,
-    "title": "Barre de navigation des pages publiques",
-    "uid": "barre-de-navigation-des-pages-publiques",
-    "variant": "boxed",
+    "id": 1,
+    "title": "Public Page Navbar",
+    "uid": "public-page-navbar",
+    "variant": "for-planet-boxed-transparent",
     "class_name": null,
     "position": "fixed",
     "side": "top",
-    "createdAt": "2024-04-03T16:18:52.597Z",
-    "updatedAt": "2024-04-03T16:18:55.027Z",
-    "publishedAt": "2024-01-12T23:50:09.029Z",
-    "locale": "fr"
+    "createdAt": "2024-02-05T00:06:02.652Z",
+    "updatedAt": "2024-04-18T00:46:46.448Z",
+    "publishedAt": "2023-04-08T05:04:22.148Z",
+    "locale": "en"
   },
   "sidebar": null,
   "slide_overs": [],
   "topbar": null,
   "pages": [
     {
-      "id": 2,
-      "title": "Page d'accueil",
+      "id": 1,
+      "title": "Main page",
       "url": "/",
-      "createdAt": "2024-04-03T16:18:52.729Z",
-      "updatedAt": "2024-04-15T20:01:37.526Z",
-      "publishedAt": "2024-01-12T23:28:07.163Z",
-      "locale": "fr"
+      "createdAt": "2024-02-05T00:06:02.699Z",
+      "updatedAt": "2024-04-18T00:48:04.203Z",
+      "publishedAt": "2023-04-08T12:06:05.277Z",
+      "locale": "en"
     }
   ]
 }

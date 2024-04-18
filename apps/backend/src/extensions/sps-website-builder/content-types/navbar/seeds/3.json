@@ -1,0 +1,187 @@
+{
+  "id": 3,
+  "title": "Public Page Navbar",
+  "uid": "public-page-navbar-ru",
+  "variant": "for-planet-boxed-transparent",
+  "class_name": null,
+  "position": "fixed",
+  "side": "top",
+  "createdAt": "2024-04-18T00:46:46.406Z",
+  "updatedAt": "2024-04-18T00:48:26.055Z",
+  "publishedAt": "2024-04-18T00:46:47.077Z",
+  "locale": "ru",
+  "localizations": [
+    {
+      "id": 1,
+      "title": "Public Page Navbar",
+      "uid": "public-page-navbar",
+      "variant": "for-planet-boxed-transparent",
+      "class_name": null,
+      "position": "fixed",
+      "side": "top",
+      "createdAt": "2024-02-05T00:06:02.652Z",
+      "updatedAt": "2024-04-18T00:46:46.448Z",
+      "publishedAt": "2023-04-08T05:04:22.148Z",
+      "locale": "en"
+    }
+  ],
+  "page_blocks": [
+    {
+      "__component": "page-blocks.navbar-block",
+      "id": 27,
+      "variant": "for-planet-default",
+      "description": null,
+      "class_name": null,
+      "logotype": {
+        "id": 52,
+        "title": null,
+        "url": "/",
+        "media": [
+          {
+            "id": 321,
+            "name": "for planet.svg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 260,
+            "height": 23,
+            "formats": null,
+            "hash": "for_planet_6bc4d869d8",
+            "ext": ".svg",
+            "mime": "image/svg+xml",
+            "size": 2.17,
+            "url": "/uploads/for_planet_6bc4d869d8.svg",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "folderPath": "/",
+            "createdAt": "2024-04-17T23:04:13.324Z",
+            "updatedAt": "2024-04-17T23:04:13.324Z"
+          },
+          {
+            "id": 322,
+            "name": "logo.png",
+            "alternativeText": null,
+            "caption": null,
+            "width": 445,
+            "height": 38,
+            "formats": {
+              "thumbnail": {
+                "ext": ".png",
+                "url": "/uploads/thumbnail_logo_a0df1c145d.png",
+                "hash": "thumbnail_logo_a0df1c145d",
+                "mime": "image/png",
+                "name": "thumbnail_logo.png",
+                "path": null,
+                "size": 3.91,
+                "width": 245,
+                "height": 21
+              }
+            },
+            "hash": "logo_a0df1c145d",
+            "ext": ".png",
+            "mime": "image/png",
+            "size": 1.69,
+            "url": "/uploads/logo_a0df1c145d.png",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "folderPath": "/",
+            "createdAt": "2024-04-17T23:04:13.339Z",
+            "updatedAt": "2024-04-17T23:04:13.339Z"
+          }
+        ],
+        "additional_media": null
+      },
+      "buttons": [
+        {
+          "id": 355,
+          "url": "/#landing",
+          "description": null,
+          "variant": "link",
+          "title": "Посадить дерево",
+          "additional_attributes": null,
+          "class_name": "w-fit",
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        },
+        {
+          "id": 356,
+          "url": "/#subscription",
+          "description": null,
+          "variant": "link",
+          "title": "Оформить подписку",
+          "additional_attributes": null,
+          "class_name": "w-fit",
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        },
+        {
+          "id": 357,
+          "url": "/#works",
+          "description": null,
+          "variant": "link",
+          "title": "Как это работает",
+          "additional_attributes": null,
+          "class_name": "w-fit",
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        },
+        {
+          "id": 358,
+          "url": "/#donate",
+          "description": null,
+          "variant": "link",
+          "title": "Донат",
+          "additional_attributes": null,
+          "class_name": "w-fit",
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        }
+      ],
+      "additional_buttons": [
+        {
+          "id": 359,
+          "url": null,
+          "description": null,
+          "variant": "for-planet-button-language",
+          "title": null,
+          "additional_attributes": null,
+          "class_name": "w-fit",
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        },
+        {
+          "id": 360,
+          "url": "/#landing",
+          "description": null,
+          "variant": "primary",
+          "title": "Посадить дерево",
+          "additional_attributes": null,
+          "class_name": "w-fit",
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        }
+      ],
+      "extra_buttons": []
+    }
+  ],
+  "layouts": [
+    {
+      "id": 4,
+      "title": "Лейаут публичных страниц",
+      "uid": null,
+      "variant": "wide",
+      "class_name": null,
+      "createdAt": "2024-04-18T00:46:04.130Z",
+      "updatedAt": "2024-04-18T00:46:57.419Z",
+      "publishedAt": "2024-04-18T00:46:20.196Z",
+      "locale": "ru"
+    }
+  ]
+}

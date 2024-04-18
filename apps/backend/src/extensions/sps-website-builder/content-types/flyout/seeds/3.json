@@ -1,0 +1,40 @@
+{
+  "id": 3,
+  "variant": "simple",
+  "title": "Icône déroulante Paramètres régionaux",
+  "uid": "icone-deroulante-parametres-regionaux",
+  "class_name": null,
+  "createdAt": "2024-02-05T00:06:02.463Z",
+  "updatedAt": "2024-04-17T23:04:13.028Z",
+  "publishedAt": "2024-01-12T23:59:23.441Z",
+  "locale": "fr",
+  "localizations": [],
+  "page_blocks": [
+    {
+      "__component": "elements.button",
+      "id": 321,
+      "url": "/en",
+      "description": null,
+      "variant": "ghost",
+      "title": "EN (English)",
+      "additional_attributes": null,
+      "class_name": null,
+      "media": null,
+      "additional_media": null,
+      "flyout": null
+    },
+    {
+      "__component": "elements.button",
+      "id": 320,
+      "url": "/fr",
+      "description": null,
+      "variant": "ghost",
+      "title": "FR (French)",
+      "additional_attributes": null,
+      "class_name": null,
+      "media": null,
+      "additional_media": null,
+      "flyout": null
+    }
+  ]
+}

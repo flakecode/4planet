@@ -2,17 +2,26 @@
   "id": 1,
   "title": "Main page",
   "url": "/",
-  "createdAt": "2024-04-03T16:18:52.621Z",
-  "updatedAt": "2024-04-15T20:01:37.214Z",
+  "createdAt": "2024-02-05T00:06:02.699Z",
+  "updatedAt": "2024-04-18T00:48:04.203Z",
   "publishedAt": "2023-04-08T12:06:05.277Z",
   "locale": "en",
   "localizations": [
     {
-      "id": 2,
+      "id": 10,
+      "title": "Главная страница",
+      "url": "/",
+      "createdAt": "2024-04-18T00:47:28.187Z",
+      "updatedAt": "2024-04-18T00:48:04.150Z",
+      "publishedAt": "2024-04-18T00:47:45.324Z",
+      "locale": "ru"
+    },
+    {
+      "id": 9,
       "title": "Page d'accueil",
       "url": "/",
-      "createdAt": "2024-04-03T16:18:52.729Z",
-      "updatedAt": "2024-04-15T20:01:37.526Z",
+      "createdAt": "2024-02-05T00:06:02.813Z",
+      "updatedAt": "2024-04-18T00:48:04.203Z",
       "publishedAt": "2024-01-12T23:28:07.163Z",
       "locale": "fr"
     }
@@ -20,7 +29,7 @@
   "page_blocks": [
     {
       "__component": "page-blocks.hero-section-block",
-      "id": 5,
+      "id": 100,
       "title": "_FOR planet_ - сервис по посадке  деревьев по всему миру",
       "description": null,
       "variant": "for-planet-heading",
@@ -28,8 +37,8 @@
       "class_name": null,
       "media": [
         {
-          "id": 33,
-          "name": "backgroundNew.webp",
+          "id": 323,
+          "name": "backgroundnew.webp",
           "alternativeText": null,
           "caption": null,
           "width": 5760,
@@ -37,65 +46,65 @@
           "formats": {
             "large": {
               "ext": ".webp",
-              "url": "/uploads/large_background_New_0c2518a4a5.webp",
-              "hash": "large_background_New_0c2518a4a5",
+              "url": "/uploads/large_backgroundnew_8ff619fed3.webp",
+              "hash": "large_backgroundnew_8ff619fed3",
               "mime": "image/webp",
-              "name": "large_backgroundNew.webp",
+              "name": "large_backgroundnew.webp",
               "path": null,
-              "size": 31.94,
+              "size": 31.37,
               "width": 1000,
               "height": 576
             },
             "small": {
               "ext": ".webp",
-              "url": "/uploads/small_background_New_0c2518a4a5.webp",
-              "hash": "small_background_New_0c2518a4a5",
+              "url": "/uploads/small_backgroundnew_8ff619fed3.webp",
+              "hash": "small_backgroundnew_8ff619fed3",
               "mime": "image/webp",
-              "name": "small_backgroundNew.webp",
+              "name": "small_backgroundnew.webp",
               "path": null,
-              "size": 13.03,
+              "size": 12.87,
               "width": 500,
               "height": 288
             },
             "medium": {
               "ext": ".webp",
-              "url": "/uploads/medium_background_New_0c2518a4a5.webp",
-              "hash": "medium_background_New_0c2518a4a5",
+              "url": "/uploads/medium_backgroundnew_8ff619fed3.webp",
+              "hash": "medium_backgroundnew_8ff619fed3",
               "mime": "image/webp",
-              "name": "medium_backgroundNew.webp",
+              "name": "medium_backgroundnew.webp",
               "path": null,
-              "size": 22.02,
+              "size": 21.84,
               "width": 750,
               "height": 432
             },
             "thumbnail": {
               "ext": ".webp",
-              "url": "/uploads/thumbnail_background_New_0c2518a4a5.webp",
-              "hash": "thumbnail_background_New_0c2518a4a5",
+              "url": "/uploads/thumbnail_backgroundnew_8ff619fed3.webp",
+              "hash": "thumbnail_backgroundnew_8ff619fed3",
               "mime": "image/webp",
-              "name": "thumbnail_backgroundNew.webp",
+              "name": "thumbnail_backgroundnew.webp",
               "path": null,
-              "size": 4.62,
+              "size": 4.59,
               "width": 245,
               "height": 141
             }
           },
-          "hash": "background_New_0c2518a4a5",
+          "hash": "backgroundnew_8ff619fed3",
           "ext": ".webp",
           "mime": "image/webp",
-          "size": 320.97,
-          "url": "/uploads/background_New_0c2518a4a5.webp",
+          "size": 306.43,
+          "url": "/uploads/backgroundnew_8ff619fed3.webp",
           "previewUrl": null,
           "provider": "local",
           "provider_metadata": null,
           "folderPath": "/",
-          "createdAt": "2024-04-12T11:30:25.166Z",
-          "updatedAt": "2024-04-12T11:30:25.166Z"
+          "createdAt": "2024-04-17T23:04:15.213Z",
+          "updatedAt": "2024-04-17T23:04:15.213Z"
         }
       ],
       "buttons": [
         {
-          "id": 12,
+          "id": 342,
           "url": "/#subscription",
           "description": null,
           "variant": "outline",
@@ -111,7 +120,7 @@
     },
     {
       "__component": "page-blocks.hero-section-block",
-      "id": 4,
+      "id": 101,
       "title": "О проекте\nи создателе",
       "description": "В современном мире супер-герои не носят плащи, это обычные люди, живущие среди нас. Алексей Сибирский ([alex4planet](https://www.instagram.com/alexey4planet/)), создатель проекта For Planet и эко-блогер занимается спасением планеты более 5 лет. \n\nНачиналось все с уборки пляжей от мусора и маленького блога на тысячу человек. Спустя время, когда у проекта появилось комьюнити и тысячи людей, готовых помогать планете, было принято решение сажать деревья в России и по всему миру. На сегодняшний день благодаря проекту посажено 150 тысяч деревьев. И это только начало!",
       "variant": "for-planet-gallery-and-text-inversed",
@@ -119,7 +128,7 @@
       "class_name": null,
       "media": [
         {
-          "id": 26,
+          "id": 324,
           "name": "image 2.webp",
           "alternativeText": null,
           "caption": null,
@@ -128,52 +137,52 @@
           "formats": {
             "small": {
               "ext": ".webp",
-              "url": "/uploads/small_image_2_6f3ebeb42c.webp",
-              "hash": "small_image_2_6f3ebeb42c",
+              "url": "/uploads/small_image_2_a2fecbab4b.webp",
+              "hash": "small_image_2_a2fecbab4b",
               "mime": "image/webp",
               "name": "small_image 2.webp",
               "path": null,
-              "size": 21.14,
+              "size": 20.91,
               "width": 381,
               "height": 500
             },
             "medium": {
               "ext": ".webp",
-              "url": "/uploads/medium_image_2_6f3ebeb42c.webp",
-              "hash": "medium_image_2_6f3ebeb42c",
+              "url": "/uploads/medium_image_2_a2fecbab4b.webp",
+              "hash": "medium_image_2_a2fecbab4b",
               "mime": "image/webp",
               "name": "medium_image 2.webp",
               "path": null,
-              "size": 36.61,
+              "size": 36.28,
               "width": 572,
               "height": 750
             },
             "thumbnail": {
               "ext": ".webp",
-              "url": "/uploads/thumbnail_image_2_6f3ebeb42c.webp",
-              "hash": "thumbnail_image_2_6f3ebeb42c",
+              "url": "/uploads/thumbnail_image_2_a2fecbab4b.webp",
+              "hash": "thumbnail_image_2_a2fecbab4b",
               "mime": "image/webp",
               "name": "thumbnail_image 2.webp",
               "path": null,
-              "size": 3.86,
+              "size": 3.87,
               "width": 119,
               "height": 156
             }
           },
-          "hash": "image_2_6f3ebeb42c",
+          "hash": "image_2_a2fecbab4b",
           "ext": ".webp",
           "mime": "image/webp",
-          "size": 54.28,
-          "url": "/uploads/image_2_6f3ebeb42c.webp",
+          "size": 53.35,
+          "url": "/uploads/image_2_a2fecbab4b.webp",
           "previewUrl": null,
           "provider": "local",
           "provider_metadata": null,
           "folderPath": "/",
-          "createdAt": "2024-04-12T11:22:18.411Z",
-          "updatedAt": "2024-04-12T11:22:18.411Z"
+          "createdAt": "2024-04-17T23:04:15.368Z",
+          "updatedAt": "2024-04-17T23:04:15.368Z"
         },
         {
-          "id": 36,
+          "id": 325,
           "name": "image 3.webp",
           "alternativeText": null,
           "caption": null,
@@ -182,71 +191,71 @@
           "formats": {
             "large": {
               "ext": ".webp",
-              "url": "/uploads/large_image_3_63b554ef21.webp",
-              "hash": "large_image_3_63b554ef21",
+              "url": "/uploads/large_image_3_ca8d3c6816.webp",
+              "hash": "large_image_3_ca8d3c6816",
               "mime": "image/webp",
               "name": "large_image 3.webp",
               "path": null,
-              "size": 137.32,
+              "size": 136.76,
               "width": 764,
               "height": 1000
             },
             "small": {
               "ext": ".webp",
-              "url": "/uploads/small_image_3_63b554ef21.webp",
-              "hash": "small_image_3_63b554ef21",
+              "url": "/uploads/small_image_3_ca8d3c6816.webp",
+              "hash": "small_image_3_ca8d3c6816",
               "mime": "image/webp",
               "name": "small_image 3.webp",
               "path": null,
-              "size": 42.03,
+              "size": 41.84,
               "width": 382,
               "height": 500
             },
             "medium": {
               "ext": ".webp",
-              "url": "/uploads/medium_image_3_63b554ef21.webp",
-              "hash": "medium_image_3_63b554ef21",
+              "url": "/uploads/medium_image_3_ca8d3c6816.webp",
+              "hash": "medium_image_3_ca8d3c6816",
               "mime": "image/webp",
               "name": "medium_image 3.webp",
               "path": null,
-              "size": 84.76,
+              "size": 84.41,
               "width": 573,
               "height": 750
             },
             "thumbnail": {
               "ext": ".webp",
-              "url": "/uploads/thumbnail_image_3_63b554ef21.webp",
-              "hash": "thumbnail_image_3_63b554ef21",
+              "url": "/uploads/thumbnail_image_3_ca8d3c6816.webp",
+              "hash": "thumbnail_image_3_ca8d3c6816",
               "mime": "image/webp",
               "name": "thumbnail_image 3.webp",
               "path": null,
-              "size": 5.53,
+              "size": 5.59,
               "width": 119,
               "height": 156
             }
           },
-          "hash": "image_3_63b554ef21",
+          "hash": "image_3_ca8d3c6816",
           "ext": ".webp",
           "mime": "image/webp",
-          "size": 261.65,
-          "url": "/uploads/image_3_63b554ef21.webp",
+          "size": 259.05,
+          "url": "/uploads/image_3_ca8d3c6816.webp",
           "previewUrl": null,
           "provider": "local",
           "provider_metadata": null,
           "folderPath": "/",
-          "createdAt": "2024-04-14T13:06:39.746Z",
-          "updatedAt": "2024-04-14T13:06:39.746Z"
+          "createdAt": "2024-04-17T23:04:15.712Z",
+          "updatedAt": "2024-04-17T23:04:15.712Z"
         }
       ],
       "buttons": [
         {
-          "id": 17,
+          "id": 343,
           "url": "/#planting",
           "description": null,
           "variant": "link",
           "title": "Прошедшие посадки",
           "additional_attributes": null,
-          "class_name": null,
+          "class_name": "w-fit",
           "media": null,
           "additional_media": null,
           "flyout": null
@@ -256,7 +265,7 @@
     },
     {
       "__component": "page-blocks.hero-section-block",
-      "id": 6,
+      "id": 103,
       "title": "Ближайшая цель –\nпосадить 100 тыс деревьев",
       "description": "весной 2024 в Сибири и Казахстане",
       "variant": "for-planet-with-target",
@@ -264,8 +273,8 @@
       "class_name": null,
       "media": [
         {
-          "id": 28,
-          "name": "Bg.webp",
+          "id": 326,
+          "name": "bg.webp",
           "alternativeText": null,
           "caption": null,
           "width": 1920,
@@ -273,65 +282,65 @@
           "formats": {
             "large": {
               "ext": ".webp",
-              "url": "/uploads/large_Bg_27ac7d9e81.webp",
-              "hash": "large_Bg_27ac7d9e81",
+              "url": "/uploads/large_bg_8fb4310b12.webp",
+              "hash": "large_bg_8fb4310b12",
               "mime": "image/webp",
-              "name": "large_Bg.webp",
+              "name": "large_bg.webp",
               "path": null,
-              "size": 64.57,
+              "size": 63.57,
               "width": 1000,
               "height": 577
             },
             "small": {
               "ext": ".webp",
-              "url": "/uploads/small_Bg_27ac7d9e81.webp",
-              "hash": "small_Bg_27ac7d9e81",
+              "url": "/uploads/small_bg_8fb4310b12.webp",
+              "hash": "small_bg_8fb4310b12",
               "mime": "image/webp",
-              "name": "small_Bg.webp",
+              "name": "small_bg.webp",
               "path": null,
-              "size": 18.74,
+              "size": 18.95,
               "width": 500,
               "height": 288
             },
             "medium": {
               "ext": ".webp",
-              "url": "/uploads/medium_Bg_27ac7d9e81.webp",
-              "hash": "medium_Bg_27ac7d9e81",
+              "url": "/uploads/medium_bg_8fb4310b12.webp",
+              "hash": "medium_bg_8fb4310b12",
               "mime": "image/webp",
-              "name": "medium_Bg.webp",
+              "name": "medium_bg.webp",
               "path": null,
-              "size": 39.07,
+              "size": 38.72,
               "width": 750,
               "height": 432
             },
             "thumbnail": {
               "ext": ".webp",
-              "url": "/uploads/thumbnail_Bg_27ac7d9e81.webp",
-              "hash": "thumbnail_Bg_27ac7d9e81",
+              "url": "/uploads/thumbnail_bg_8fb4310b12.webp",
+              "hash": "thumbnail_bg_8fb4310b12",
               "mime": "image/webp",
-              "name": "thumbnail_Bg.webp",
+              "name": "thumbnail_bg.webp",
               "path": null,
-              "size": 5.27,
+              "size": 5.21,
               "width": 245,
               "height": 141
             }
           },
-          "hash": "Bg_27ac7d9e81",
+          "hash": "bg_8fb4310b12",
           "ext": ".webp",
           "mime": "image/webp",
-          "size": 212.08,
-          "url": "/uploads/Bg_27ac7d9e81.webp",
+          "size": 205.98,
+          "url": "/uploads/bg_8fb4310b12.webp",
           "previewUrl": null,
           "provider": "local",
           "provider_metadata": null,
           "folderPath": "/",
-          "createdAt": "2024-04-12T11:22:29.744Z",
-          "updatedAt": "2024-04-12T11:22:29.744Z"
+          "createdAt": "2024-04-17T23:04:16.089Z",
+          "updatedAt": "2024-04-17T23:04:16.089Z"
         }
       ],
       "buttons": [
         {
-          "id": 13,
+          "id": 344,
           "url": "/#landing",
           "description": null,
           "variant": "primary",
@@ -347,7 +356,7 @@
     },
     {
       "__component": "page-blocks.hero-section-block",
-      "id": 2,
+      "id": 98,
       "title": "География посадок",
       "description": "За 1,5 года мы посадили **50 тысяч деревьев**. Первая посадка была в Иркутской области. Дальше были посадки в Республике Бурятия, в Красноярском Крае, а также в Казахстане (ЗКО). \n\nСледущая посадка планируется весной 2024 года в тех же местах, а также в республике Алтай.",
       "variant": "for-planet-map",
@@ -359,7 +368,7 @@
     },
     {
       "__component": "page-blocks.features-section-block",
-      "id": 1,
+      "id": 70,
       "title": "Что мы делаем и куда идем?",
       "description": null,
       "subtitle": null,
@@ -370,7 +379,7 @@
       "additional_media": null,
       "features": [
         {
-          "id": 1,
+          "id": 261,
           "description": "- Сажаем деревья в Сибири и Казахстане\n- Боремся против незаконных вырубок\n- Тормозим деструктивные законопроекты",
           "title": "Сейчас",
           "subtitle": null,
@@ -380,7 +389,7 @@
           "buttons": []
         },
         {
-          "id": 2,
+          "id": 262,
           "description": "Будем брать в долгосрочную аренду самые важные леса планеты для сохранения биоразнообразия",
           "title": "Скоро",
           "subtitle": null,
@@ -390,7 +399,7 @@
           "buttons": []
         },
         {
-          "id": 3,
+          "id": 263,
           "description": "Будем самостоятельно тушить пожары и восстанавливать лес",
           "title": "В течение 5 лет",
           "subtitle": null,
@@ -403,7 +412,7 @@
     },
     {
       "__component": "page-blocks.features-section-block",
-      "id": 3,
+      "id": 71,
       "title": "Почему нужно действовать срочно?",
       "description": null,
       "subtitle": null,
@@ -412,7 +421,7 @@
       "class_name": null,
       "media": [
         {
-          "id": 35,
+          "id": 327,
           "name": "black-bg.webp",
           "alternativeText": null,
           "caption": null,
@@ -421,19 +430,19 @@
           "formats": {
             "large": {
               "ext": ".webp",
-              "url": "/uploads/large_black_bg_d9947502ad.webp",
-              "hash": "large_black_bg_d9947502ad",
+              "url": "/uploads/large_black_bg_01dc442752.webp",
+              "hash": "large_black_bg_01dc442752",
               "mime": "image/webp",
               "name": "large_black-bg.webp",
               "path": null,
-              "size": 1.75,
+              "size": 1.72,
               "width": 400,
               "height": 1000
             },
             "small": {
               "ext": ".webp",
-              "url": "/uploads/small_black_bg_d9947502ad.webp",
-              "hash": "small_black_bg_d9947502ad",
+              "url": "/uploads/small_black_bg_01dc442752.webp",
+              "hash": "small_black_bg_01dc442752",
               "mime": "image/webp",
               "name": "small_black-bg.webp",
               "path": null,
@@ -443,8 +452,8 @@
             },
             "medium": {
               "ext": ".webp",
-              "url": "/uploads/medium_black_bg_d9947502ad.webp",
-              "hash": "medium_black_bg_d9947502ad",
+              "url": "/uploads/medium_black_bg_01dc442752.webp",
+              "hash": "medium_black_bg_01dc442752",
               "mime": "image/webp",
               "name": "medium_black-bg.webp",
               "path": null,
@@ -454,8 +463,8 @@
             },
             "thumbnail": {
               "ext": ".webp",
-              "url": "/uploads/thumbnail_black_bg_d9947502ad.webp",
-              "hash": "thumbnail_black_bg_d9947502ad",
+              "url": "/uploads/thumbnail_black_bg_01dc442752.webp",
+              "hash": "thumbnail_black_bg_01dc442752",
               "mime": "image/webp",
               "name": "thumbnail_black-bg.webp",
               "path": null,
@@ -464,23 +473,23 @@
               "height": 156
             }
           },
-          "hash": "black_bg_d9947502ad",
+          "hash": "black_bg_01dc442752",
           "ext": ".webp",
           "mime": "image/webp",
-          "size": 469.42,
-          "url": "/uploads/black_bg_d9947502ad.webp",
+          "size": 445.35,
+          "url": "/uploads/black_bg_01dc442752.webp",
           "previewUrl": null,
           "provider": "local",
           "provider_metadata": null,
           "folderPath": "/",
-          "createdAt": "2024-04-12T17:04:06.392Z",
-          "updatedAt": "2024-04-12T17:04:06.392Z"
+          "createdAt": "2024-04-17T23:04:22.098Z",
+          "updatedAt": "2024-04-17T23:04:22.098Z"
         }
       ],
       "additional_media": null,
       "features": [
         {
-          "id": 4,
+          "id": 264,
           "description": null,
           "title": "Леспроминформ: В первом полугодии 2022 года Китай увеличил импорт лиственного леса",
           "subtitle": null,
@@ -490,7 +499,7 @@
           "buttons": []
         },
         {
-          "id": 6,
+          "id": 265,
           "description": null,
           "title": "РБК: 2023 год стал самым жарким в истории",
           "subtitle": null,
@@ -500,7 +509,7 @@
           "buttons": []
         },
         {
-          "id": 5,
+          "id": 266,
           "description": null,
           "title": "Olive Oil Times: В 2021 году было уничтожено рекордное количество деревьев",
           "subtitle": null,
@@ -510,7 +519,7 @@
           "buttons": []
         },
         {
-          "id": 7,
+          "id": 267,
           "description": null,
           "title": "РБК: Вырубка тропических лесов в Бразилии достигла рекордного уровня",
           "subtitle": null,
@@ -520,7 +529,7 @@
           "buttons": []
         },
         {
-          "id": 8,
+          "id": 268,
           "description": null,
           "title": "Газета.Ru: в России уничтожение лесов идет быстрее восстановления",
           "subtitle": null,
@@ -530,7 +539,7 @@
           "buttons": []
         },
         {
-          "id": 9,
+          "id": 269,
           "description": null,
           "title": "Рамблер: вечная мерзлота тает из-за мегапожаров в сибирской Арктике",
           "subtitle": null,
@@ -540,7 +549,7 @@
           "buttons": []
         },
         {
-          "id": 10,
+          "id": 270,
           "description": null,
           "title": "Лента.ру: Россия увеличила вывоз пиломатериалов в Китай",
           "subtitle": null,
@@ -553,7 +562,7 @@
     },
     {
       "__component": "page-blocks.features-section-block",
-      "id": 6,
+      "id": 74,
       "title": null,
       "description": null,
       "subtitle": null,
@@ -562,7 +571,7 @@
       "class_name": null,
       "media": [
         {
-          "id": 35,
+          "id": 332,
           "name": "black-bg.webp",
           "alternativeText": null,
           "caption": null,
@@ -571,19 +580,19 @@
           "formats": {
             "large": {
               "ext": ".webp",
-              "url": "/uploads/large_black_bg_d9947502ad.webp",
-              "hash": "large_black_bg_d9947502ad",
+              "url": "/uploads/large_black_bg_ef956f6642.webp",
+              "hash": "large_black_bg_ef956f6642",
               "mime": "image/webp",
               "name": "large_black-bg.webp",
               "path": null,
-              "size": 1.75,
+              "size": 1.72,
               "width": 400,
               "height": 1000
             },
             "small": {
               "ext": ".webp",
-              "url": "/uploads/small_black_bg_d9947502ad.webp",
-              "hash": "small_black_bg_d9947502ad",
+              "url": "/uploads/small_black_bg_ef956f6642.webp",
+              "hash": "small_black_bg_ef956f6642",
               "mime": "image/webp",
               "name": "small_black-bg.webp",
               "path": null,
@@ -593,8 +602,8 @@
             },
             "medium": {
               "ext": ".webp",
-              "url": "/uploads/medium_black_bg_d9947502ad.webp",
-              "hash": "medium_black_bg_d9947502ad",
+              "url": "/uploads/medium_black_bg_ef956f6642.webp",
+              "hash": "medium_black_bg_ef956f6642",
               "mime": "image/webp",
               "name": "medium_black-bg.webp",
               "path": null,
@@ -604,8 +613,8 @@
             },
             "thumbnail": {
               "ext": ".webp",
-              "url": "/uploads/thumbnail_black_bg_d9947502ad.webp",
-              "hash": "thumbnail_black_bg_d9947502ad",
+              "url": "/uploads/thumbnail_black_bg_ef956f6642.webp",
+              "hash": "thumbnail_black_bg_ef956f6642",
               "mime": "image/webp",
               "name": "thumbnail_black-bg.webp",
               "path": null,
@@ -614,30 +623,30 @@
               "height": 156
             }
           },
-          "hash": "black_bg_d9947502ad",
+          "hash": "black_bg_ef956f6642",
           "ext": ".webp",
           "mime": "image/webp",
-          "size": 469.42,
-          "url": "/uploads/black_bg_d9947502ad.webp",
+          "size": 445.35,
+          "url": "/uploads/black_bg_ef956f6642.webp",
           "previewUrl": null,
           "provider": "local",
           "provider_metadata": null,
           "folderPath": "/",
-          "createdAt": "2024-04-12T17:04:06.392Z",
-          "updatedAt": "2024-04-12T17:04:06.392Z"
+          "createdAt": "2024-04-17T23:04:28.576Z",
+          "updatedAt": "2024-04-17T23:04:28.576Z"
         }
       ],
       "additional_media": null,
       "features": [
         {
-          "id": 19,
+          "id": 271,
           "description": "Каждую секунду в мире исчезает участок леса размером с футбольное поле.",
           "title": null,
           "subtitle": null,
           "amount": null,
           "media": [
             {
-              "id": 29,
+              "id": 328,
               "name": "1.webp",
               "alternativeText": null,
               "caption": null,
@@ -646,63 +655,63 @@
               "formats": {
                 "small": {
                   "ext": ".webp",
-                  "url": "/uploads/small_1_b610d54cd4.webp",
-                  "hash": "small_1_b610d54cd4",
+                  "url": "/uploads/small_1_8f341fa11f.webp",
+                  "hash": "small_1_8f341fa11f",
                   "mime": "image/webp",
                   "name": "small_1.webp",
                   "path": null,
-                  "size": 30.04,
+                  "size": 29.75,
                   "width": 500,
                   "height": 318
                 },
                 "medium": {
                   "ext": ".webp",
-                  "url": "/uploads/medium_1_b610d54cd4.webp",
-                  "hash": "medium_1_b610d54cd4",
+                  "url": "/uploads/medium_1_8f341fa11f.webp",
+                  "hash": "medium_1_8f341fa11f",
                   "mime": "image/webp",
                   "name": "medium_1.webp",
                   "path": null,
-                  "size": 61.8,
+                  "size": 61.79,
                   "width": 750,
                   "height": 477
                 },
                 "thumbnail": {
                   "ext": ".webp",
-                  "url": "/uploads/thumbnail_1_b610d54cd4.webp",
-                  "hash": "thumbnail_1_b610d54cd4",
+                  "url": "/uploads/thumbnail_1_8f341fa11f.webp",
+                  "hash": "thumbnail_1_8f341fa11f",
                   "mime": "image/webp",
                   "name": "thumbnail_1.webp",
                   "path": null,
-                  "size": 8.04,
+                  "size": 7.89,
                   "width": 245,
                   "height": 156
                 }
               },
-              "hash": "1_b610d54cd4",
+              "hash": "1_8f341fa11f",
               "ext": ".webp",
               "mime": "image/webp",
-              "size": 104.23,
-              "url": "/uploads/1_b610d54cd4.webp",
+              "size": 101.86,
+              "url": "/uploads/1_8f341fa11f.webp",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
               "folderPath": "/",
-              "createdAt": "2024-04-12T11:22:52.357Z",
-              "updatedAt": "2024-04-12T11:22:52.357Z"
+              "createdAt": "2024-04-17T23:04:22.254Z",
+              "updatedAt": "2024-04-17T23:04:22.254Z"
             }
           ],
           "additional_media": null,
           "buttons": []
         },
         {
-          "id": 21,
+          "id": 272,
           "description": "Леса предотвращают эрозию почв, удерживают\nвлагу, смягчают последствия изменения климата\nи наводнений, а главное они обеспечивают\nстабильность эко системы планеты.",
           "title": null,
           "subtitle": null,
           "amount": null,
           "media": [
             {
-              "id": 30,
+              "id": 329,
               "name": "4.webp",
               "alternativeText": null,
               "caption": null,
@@ -711,63 +720,63 @@
               "formats": {
                 "small": {
                   "ext": ".webp",
-                  "url": "/uploads/small_4_4dd53839ca.webp",
-                  "hash": "small_4_4dd53839ca",
+                  "url": "/uploads/small_4_221e5e2a53.webp",
+                  "hash": "small_4_221e5e2a53",
                   "mime": "image/webp",
                   "name": "small_4.webp",
                   "path": null,
-                  "size": 35.46,
+                  "size": 34.76,
                   "width": 500,
                   "height": 318
                 },
                 "medium": {
                   "ext": ".webp",
-                  "url": "/uploads/medium_4_4dd53839ca.webp",
-                  "hash": "medium_4_4dd53839ca",
+                  "url": "/uploads/medium_4_221e5e2a53.webp",
+                  "hash": "medium_4_221e5e2a53",
                   "mime": "image/webp",
                   "name": "medium_4.webp",
                   "path": null,
-                  "size": 61.3,
+                  "size": 61.18,
                   "width": 750,
                   "height": 477
                 },
                 "thumbnail": {
                   "ext": ".webp",
-                  "url": "/uploads/thumbnail_4_4dd53839ca.webp",
-                  "hash": "thumbnail_4_4dd53839ca",
+                  "url": "/uploads/thumbnail_4_221e5e2a53.webp",
+                  "hash": "thumbnail_4_221e5e2a53",
                   "mime": "image/webp",
                   "name": "thumbnail_4.webp",
                   "path": null,
-                  "size": 11.54,
+                  "size": 11.47,
                   "width": 245,
                   "height": 156
                 }
               },
-              "hash": "4_4dd53839ca",
+              "hash": "4_221e5e2a53",
               "ext": ".webp",
               "mime": "image/webp",
-              "size": 92.84,
-              "url": "/uploads/4_4dd53839ca.webp",
+              "size": 91.93,
+              "url": "/uploads/4_221e5e2a53.webp",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
               "folderPath": "/",
-              "createdAt": "2024-04-12T11:23:03.053Z",
-              "updatedAt": "2024-04-12T11:23:03.053Z"
+              "createdAt": "2024-04-17T23:04:22.410Z",
+              "updatedAt": "2024-04-17T23:04:22.410Z"
             }
           ],
           "additional_media": null,
           "buttons": []
         },
         {
-          "id": 22,
+          "id": 273,
           "description": "Мы едим, пьем и дышим благодаря тому, что биоразнообразие ещё есть. Выделение кислорода, очистка воды, опыление растений – все это часть большой системы.",
           "title": null,
           "subtitle": null,
           "amount": null,
           "media": [
             {
-              "id": 31,
+              "id": 330,
               "name": "3.webp",
               "alternativeText": null,
               "caption": null,
@@ -776,63 +785,63 @@
               "formats": {
                 "small": {
                   "ext": ".webp",
-                  "url": "/uploads/small_3_2fb60a0106.webp",
-                  "hash": "small_3_2fb60a0106",
+                  "url": "/uploads/small_3_d46945cdbe.webp",
+                  "hash": "small_3_d46945cdbe",
                   "mime": "image/webp",
                   "name": "small_3.webp",
                   "path": null,
-                  "size": 8.76,
+                  "size": 8.57,
                   "width": 500,
                   "height": 318
                 },
                 "medium": {
                   "ext": ".webp",
-                  "url": "/uploads/medium_3_2fb60a0106.webp",
-                  "hash": "medium_3_2fb60a0106",
+                  "url": "/uploads/medium_3_d46945cdbe.webp",
+                  "hash": "medium_3_d46945cdbe",
                   "mime": "image/webp",
                   "name": "medium_3.webp",
                   "path": null,
-                  "size": 13.58,
+                  "size": 13.25,
                   "width": 750,
                   "height": 477
                 },
                 "thumbnail": {
                   "ext": ".webp",
-                  "url": "/uploads/thumbnail_3_2fb60a0106.webp",
-                  "hash": "thumbnail_3_2fb60a0106",
+                  "url": "/uploads/thumbnail_3_d46945cdbe.webp",
+                  "hash": "thumbnail_3_d46945cdbe",
                   "mime": "image/webp",
                   "name": "thumbnail_3.webp",
                   "path": null,
-                  "size": 3.8,
+                  "size": 3.74,
                   "width": 245,
                   "height": 156
                 }
               },
-              "hash": "3_2fb60a0106",
+              "hash": "3_d46945cdbe",
               "ext": ".webp",
               "mime": "image/webp",
-              "size": 17.79,
-              "url": "/uploads/3_2fb60a0106.webp",
+              "size": 17.08,
+              "url": "/uploads/3_d46945cdbe.webp",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
               "folderPath": "/",
-              "createdAt": "2024-04-12T11:23:11.760Z",
-              "updatedAt": "2024-04-12T11:23:11.760Z"
+              "createdAt": "2024-04-17T23:04:22.514Z",
+              "updatedAt": "2024-04-17T23:04:22.514Z"
             }
           ],
           "additional_media": null,
           "buttons": []
         },
         {
-          "id": 25,
+          "id": 274,
           "description": "Если потерять леса, восстановить былую экосистему будет уже невозможно. В мире начнется экологический ад. Поэтому, действовать нужно сейчас.",
           "title": null,
           "subtitle": null,
           "amount": null,
           "media": [
             {
-              "id": 32,
+              "id": 331,
               "name": "2.webp",
               "alternativeText": null,
               "caption": null,
@@ -841,49 +850,49 @@
               "formats": {
                 "small": {
                   "ext": ".webp",
-                  "url": "/uploads/small_2_9d4548c9eb.webp",
-                  "hash": "small_2_9d4548c9eb",
+                  "url": "/uploads/small_2_b130d0f4ef.webp",
+                  "hash": "small_2_b130d0f4ef",
                   "mime": "image/webp",
                   "name": "small_2.webp",
                   "path": null,
-                  "size": 36.21,
+                  "size": 35.98,
                   "width": 500,
                   "height": 318
                 },
                 "medium": {
                   "ext": ".webp",
-                  "url": "/uploads/medium_2_9d4548c9eb.webp",
-                  "hash": "medium_2_9d4548c9eb",
+                  "url": "/uploads/medium_2_b130d0f4ef.webp",
+                  "hash": "medium_2_b130d0f4ef",
                   "mime": "image/webp",
                   "name": "medium_2.webp",
                   "path": null,
-                  "size": 74.99,
+                  "size": 74.3,
                   "width": 750,
                   "height": 477
                 },
                 "thumbnail": {
                   "ext": ".webp",
-                  "url": "/uploads/thumbnail_2_9d4548c9eb.webp",
-                  "hash": "thumbnail_2_9d4548c9eb",
+                  "url": "/uploads/thumbnail_2_b130d0f4ef.webp",
+                  "hash": "thumbnail_2_b130d0f4ef",
                   "mime": "image/webp",
                   "name": "thumbnail_2.webp",
                   "path": null,
-                  "size": 9.88,
+                  "size": 9.85,
                   "width": 245,
                   "height": 156
                 }
               },
-              "hash": "2_9d4548c9eb",
+              "hash": "2_b130d0f4ef",
               "ext": ".webp",
               "mime": "image/webp",
-              "size": 128.56,
-              "url": "/uploads/2_9d4548c9eb.webp",
+              "size": 126.32,
+              "url": "/uploads/2_b130d0f4ef.webp",
               "previewUrl": null,
               "provider": "local",
               "provider_metadata": null,
               "folderPath": "/",
-              "createdAt": "2024-04-12T11:23:21.568Z",
-              "updatedAt": "2024-04-12T11:23:21.568Z"
+              "createdAt": "2024-04-17T23:04:22.682Z",
+              "updatedAt": "2024-04-17T23:04:22.682Z"
             }
           ],
           "additional_media": null,
@@ -893,7 +902,7 @@
     },
     {
       "__component": "page-blocks.features-section-block",
-      "id": 4,
+      "id": 73,
       "title": "Посадить дерево",
       "description": "Выберите желаемое количество. \n\n1 дерево = 190₽ ",
       "subtitle": null,
@@ -902,7 +911,7 @@
       "class_name": null,
       "media": [
         {
-          "id": 35,
+          "id": 333,
           "name": "black-bg.webp",
           "alternativeText": null,
           "caption": null,
@@ -911,19 +920,19 @@
           "formats": {
             "large": {
               "ext": ".webp",
-              "url": "/uploads/large_black_bg_d9947502ad.webp",
-              "hash": "large_black_bg_d9947502ad",
+              "url": "/uploads/large_black_bg_bdbccbe69f.webp",
+              "hash": "large_black_bg_bdbccbe69f",
               "mime": "image/webp",
               "name": "large_black-bg.webp",
               "path": null,
-              "size": 1.75,
+              "size": 1.72,
               "width": 400,
               "height": 1000
             },
             "small": {
               "ext": ".webp",
-              "url": "/uploads/small_black_bg_d9947502ad.webp",
-              "hash": "small_black_bg_d9947502ad",
+              "url": "/uploads/small_black_bg_bdbccbe69f.webp",
+              "hash": "small_black_bg_bdbccbe69f",
               "mime": "image/webp",
               "name": "small_black-bg.webp",
               "path": null,
@@ -933,8 +942,8 @@
             },
             "medium": {
               "ext": ".webp",
-              "url": "/uploads/medium_black_bg_d9947502ad.webp",
-              "hash": "medium_black_bg_d9947502ad",
+              "url": "/uploads/medium_black_bg_bdbccbe69f.webp",
+              "hash": "medium_black_bg_bdbccbe69f",
               "mime": "image/webp",
               "name": "medium_black-bg.webp",
               "path": null,
@@ -944,8 +953,8 @@
             },
             "thumbnail": {
               "ext": ".webp",
-              "url": "/uploads/thumbnail_black_bg_d9947502ad.webp",
-              "hash": "thumbnail_black_bg_d9947502ad",
+              "url": "/uploads/thumbnail_black_bg_bdbccbe69f.webp",
+              "hash": "thumbnail_black_bg_bdbccbe69f",
               "mime": "image/webp",
               "name": "thumbnail_black-bg.webp",
               "path": null,
@@ -954,23 +963,23 @@
               "height": 156
             }
           },
-          "hash": "black_bg_d9947502ad",
+          "hash": "black_bg_bdbccbe69f",
           "ext": ".webp",
           "mime": "image/webp",
-          "size": 469.42,
-          "url": "/uploads/black_bg_d9947502ad.webp",
+          "size": 445.35,
+          "url": "/uploads/black_bg_bdbccbe69f.webp",
           "previewUrl": null,
           "provider": "local",
           "provider_metadata": null,
           "folderPath": "/",
-          "createdAt": "2024-04-12T17:04:06.392Z",
-          "updatedAt": "2024-04-12T17:04:06.392Z"
+          "createdAt": "2024-04-17T23:04:34.630Z",
+          "updatedAt": "2024-04-17T23:04:34.630Z"
         }
       ],
       "additional_media": null,
       "features": [
         {
-          "id": 11,
+          "id": 275,
           "description": "Вы можете оплатить любое количество деревьев",
           "title": "1 дерево = 190р",
           "subtitle": null,
@@ -980,7 +989,7 @@
           "buttons": []
         },
         {
-          "id": 14,
+          "id": 276,
           "description": "Оплачивая от 50 деревьев, вы получите именной сертификат",
           "title": "50 деревьев = 9500р",
           "subtitle": null,
@@ -990,7 +999,7 @@
           "buttons": []
         },
         {
-          "id": 12,
+          "id": 277,
           "description": "Вы создадите целый лес!",
           "title": "100 деревьев",
           "subtitle": null,
@@ -1003,7 +1012,7 @@
     },
     {
       "__component": "page-blocks.hero-section-block",
-      "id": 7,
+      "id": 102,
       "title": "Оформить подписку",
       "description": "Каждый раз мы ставим все более масштабные цели по количеству деревьев за сезон. Чтобы планомерно выполнять эти цели без аврального режима прямо перед посадкой, будет эффективнее ежемесячно приближаться к нужной сумме. Поэтому, вы можете ежемесячно помогать природе и нам идти к заветной цели.",
       "variant": "for-planet-create-subscription",
@@ -1012,27 +1021,69 @@
       "media": null,
       "buttons": [
         {
-          "id": 14,
-          "url": "#subscribe",
+          "id": 345,
+          "url": "#landing",
           "description": null,
           "variant": "outline",
           "title": "Подписка с картой",
           "additional_attributes": null,
-          "class_name": null,
+          "class_name": "w-fit",
           "media": null,
-          "additional_media": null,
+          "additional_media": [
+            {
+              "id": 341,
+              "name": "fiat.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 110,
+              "height": 24,
+              "formats": null,
+              "hash": "fiat_ab44b771c8",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 2.46,
+              "url": "/uploads/fiat_ab44b771c8.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "folderPath": "/",
+              "createdAt": "2024-04-17T23:20:31.830Z",
+              "updatedAt": "2024-04-17T23:20:31.830Z"
+            }
+          ],
           "flyout": null
         },
         {
-          "id": 15,
-          "url": "#subscribe",
+          "id": 346,
+          "url": "#donate",
           "description": null,
           "variant": "outline",
           "title": "Подписка в криптовалюте",
-          "additional_attributes": null,
-          "class_name": null,
+          "additional_attributes": {},
+          "class_name": "w-fit",
           "media": null,
-          "additional_media": null,
+          "additional_media": [
+            {
+              "id": 342,
+              "name": "Coins.svg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 82,
+              "height": 32,
+              "formats": null,
+              "hash": "Coins_4a85fd1066",
+              "ext": ".svg",
+              "mime": "image/svg+xml",
+              "size": 3.04,
+              "url": "/uploads/Coins_4a85fd1066.svg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "folderPath": "/",
+              "createdAt": "2024-04-17T23:29:03.336Z",
+              "updatedAt": "2024-04-17T23:29:03.336Z"
+            }
+          ],
           "flyout": null
         }
       ],
@@ -1040,7 +1091,7 @@
     },
     {
       "__component": "page-blocks.features-section-block",
-      "id": 2,
+      "id": 75,
       "title": "Как работает _FOR planet_",
       "description": "3 простых шага",
       "subtitle": null,
@@ -1051,7 +1102,7 @@
       "additional_media": null,
       "features": [
         {
-          "id": 13,
+          "id": 282,
           "description": "Оплатите посадку деревьев и оставьте ваши контакты",
           "title": "1",
           "subtitle": null,
@@ -1060,7 +1111,7 @@
           "additional_media": null,
           "buttons": [
             {
-              "id": 30,
+              "id": 347,
               "url": "/#landing",
               "description": null,
               "variant": "primary",
@@ -1074,7 +1125,7 @@
           ]
         },
         {
-          "id": 15,
+          "id": 278,
           "description": "После оплаты дождитесь страницы, которая ведет на телеграм с результатами. Там вы сможете скачать сертификат, который можно распечатать, заполнить и преподнести как подарок или оставить себе",
           "title": "2",
           "subtitle": null,
@@ -1084,7 +1135,7 @@
           "buttons": []
         },
         {
-          "id": 16,
+          "id": 279,
           "description": "После посадки, в этой же телеграмм группе вы увидите фото, видео отчет и точную локацию места. А также другие новости и бонусы.",
           "title": "3",
           "subtitle": null,
@@ -1097,7 +1148,7 @@
     },
     {
       "__component": "page-blocks.hero-section-block",
-      "id": 3,
+      "id": 99,
       "title": "Прошедшие посадки",
       "description": "Вы можете посмотреть, как происходили наши прошлые посадки, а также присоединиться к следующим",
       "variant": "for-planet-videos",
@@ -1109,7 +1160,7 @@
     },
     {
       "__component": "page-blocks.faqs-block",
-      "id": 1,
+      "id": 16,
       "title": "FAQ",
       "description": "Частые вопросы",
       "variant": "for-planet-default",
@@ -1118,32 +1169,32 @@
       "subtitle": null,
       "faqs": [
         {
-          "id": 1,
+          "id": 73,
           "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
           "title": "Где проходит посадка деревьев?"
         },
         {
-          "id": 2,
+          "id": 74,
           "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
           "title": "Когда происходят посадки?"
         },
         {
-          "id": 3,
+          "id": 78,
           "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
           "title": "Как я могу поучаствовать кроме финансов?"
         },
         {
-          "id": 4,
+          "id": 76,
           "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
           "title": "Кто сажает деревья?"
         },
         {
-          "id": 6,
+          "id": 77,
           "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
           "title": "Могу ли я оплатить деревья из другой страны?"
         },
         {
-          "id": 5,
+          "id": 75,
           "description": "Мы сажаем в разных местах. На данный момент посадки были в Иркутской области, в Республике Бурятия, Красноярском крае, а также в Казахстане.",
           "title": "Почему 190 рублей?"
         }
@@ -1151,7 +1202,7 @@
     },
     {
       "__component": "page-blocks.features-section-block",
-      "id": 5,
+      "id": 72,
       "title": "Для донатов",
       "description": "Если вы хотите отблагодарить меня за работу, то можете поддержать меня по любым реквизитам. Покупка деревьев через реквизиты не осуществляется.",
       "subtitle": null,
@@ -1162,8 +1213,8 @@
       "additional_media": null,
       "features": [
         {
-          "id": 17,
-          "description": "Сбер: 2202 2023 0605 8409 (Алексей)\n\nТинькоф: 5536 9138 0663 0055 (Ульяна)",
+          "id": 280,
+          "description": "Сбер: [2202 2023 0605 8409 (Алексей)](copy_2202202306058409)\n\nТинькоф: [5536 9138 0663 0055 (Ульяна)](copy_5536913806630055)",
           "title": "реквизиты для РФ:",
           "subtitle": null,
           "amount": null,
@@ -1172,8 +1223,8 @@
           "buttons": []
         },
         {
-          "id": 18,
-          "description": "Каспи: 4400 4302 7927 2477 (Aleksei Кozhevykh)\n\nПриват: 4731 1856 2659 7162 (Oleksandr Hurov)\n\nPayPal: alex4planet@gmail.com (Viktor)\n\nUSDT (TRC20): TAes5RejWjuGWi9nWfZDgjxPqJtaagncHx",
+          "id": 281,
+          "description": "Каспи: [4400 4302 7927 2477 (Aleksei Кozhevykh)](copy_4400430279272477)\n\nПриват: [4731 1856 2659 7162 (Oleksandr Hurov)](copy_4731185626597162)\n\nPayPal: alex4planet@gmail.com (Viktor)\n\nUSDT (TRC20): [TAes5RejWjuGWi9nWfZDgjxPqJtaagncHx](copy_TAes5RejWjuGWi9nWfZDgjxPqJtaagncHx)",
           "title": "Для других стран:",
           "subtitle": null,
           "amount": null,
@@ -1185,13 +1236,13 @@
     }
   ],
   "layout": {
-    "id": 1,
+    "id": 2,
     "title": "Public Page Layout",
     "uid": "public-page-layout",
     "variant": "wide",
     "class_name": "[&>.layout-container]:pt-16",
-    "createdAt": "2024-04-03T16:18:52.287Z",
-    "updatedAt": "2024-04-03T16:18:53.786Z",
+    "createdAt": "2024-02-05T00:06:02.537Z",
+    "updatedAt": "2024-04-18T00:46:04.179Z",
     "publishedAt": "2023-04-20T03:23:38.447Z",
     "locale": "en"
   }

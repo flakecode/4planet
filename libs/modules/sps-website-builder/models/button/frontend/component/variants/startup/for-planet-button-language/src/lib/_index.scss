@@ -1,9 +1,8 @@
 [data-module="sps-website-builder"] {
   &[data-model="elements.button"] {
     &[data-variant="for-planet-button-language"] {
-      @apply border-[1px] lg:py-3.5 lg:px-7 rounded-[20px] focus:bg-white focus:text-black border-[#1D1D1D] lg:border-white;
-      [data-ui="button"][data-ui-variant="link"] {
-        @apply text-lg border-none text-[#1D1D1D] hover:no-underline;
+      [data-ui="button"][data-ui-variant="outline"] {
+        @apply w-full py-3.5 px-6 lg:px-6 lg:py-4 border-[1px] rounded-[20px] focus:bg-white focus:text-black border-[#1D1D1D] lg:border-white lg:text-white hover:text-black text-xl leading-none;
       }
     }
   }

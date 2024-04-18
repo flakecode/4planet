@@ -1,0 +1,63 @@
+{
+  "id": 4,
+  "title": "Лейаут публичных страниц",
+  "uid": null,
+  "variant": "wide",
+  "class_name": null,
+  "createdAt": "2024-04-18T00:46:04.130Z",
+  "updatedAt": "2024-04-18T00:46:57.419Z",
+  "publishedAt": "2024-04-18T00:46:20.196Z",
+  "locale": "ru",
+  "localizations": [
+    {
+      "id": 2,
+      "title": "Public Page Layout",
+      "uid": "public-page-layout",
+      "variant": "wide",
+      "class_name": "[&>.layout-container]:pt-16",
+      "createdAt": "2024-02-05T00:06:02.537Z",
+      "updatedAt": "2024-04-18T00:46:04.179Z",
+      "publishedAt": "2023-04-20T03:23:38.447Z",
+      "locale": "en"
+    }
+  ],
+  "footer": {
+    "id": 5,
+    "title": "Public Page Footer",
+    "uid": "footer-ru",
+    "variant": "for-planet-default",
+    "class_name": null,
+    "createdAt": "2024-04-18T00:47:14.522Z",
+    "updatedAt": "2024-04-18T00:48:37.436Z",
+    "publishedAt": "2024-04-18T00:47:15.380Z",
+    "locale": "ru"
+  },
+  "modals": [],
+  "navbar": {
+    "id": 3,
+    "title": "Public Page Navbar",
+    "uid": "public-page-navbar-ru",
+    "variant": "for-planet-boxed-transparent",
+    "class_name": null,
+    "position": "fixed",
+    "side": "top",
+    "createdAt": "2024-04-18T00:46:46.406Z",
+    "updatedAt": "2024-04-18T00:48:26.055Z",
+    "publishedAt": "2024-04-18T00:46:47.077Z",
+    "locale": "ru"
+  },
+  "sidebar": null,
+  "slide_overs": [],
+  "topbar": null,
+  "pages": [
+    {
+      "id": 10,
+      "title": "Главная страница",
+      "url": "/",
+      "createdAt": "2024-04-18T00:47:28.187Z",
+      "updatedAt": "2024-04-18T00:48:04.150Z",
+      "publishedAt": "2024-04-18T00:47:45.324Z",
+      "locale": "ru"
+    }
+  ]
+}

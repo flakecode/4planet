@@ -5,8 +5,8 @@
   "script": null,
   "gtm_key": null,
   "is_default": true,
-  "createdAt": "2024-04-03T16:18:52.432Z",
-  "updatedAt": "2024-04-03T16:18:54.324Z",
+  "createdAt": "2024-02-05T00:06:02.587Z",
+  "updatedAt": "2024-04-17T23:04:13.305Z",
   "publishedAt": "2023-04-08T06:09:23.027Z",
   "locale": "en",
   "localizations": [
@@ -17,30 +17,30 @@
       "script": null,
       "gtm_key": null,
       "is_default": true,
-      "createdAt": "2024-04-03T16:18:52.496Z",
-      "updatedAt": "2024-04-03T16:18:54.422Z",
+      "createdAt": "2024-02-05T00:06:02.603Z",
+      "updatedAt": "2024-04-17T23:04:13.316Z",
       "publishedAt": "2024-01-13T00:01:32.693Z",
       "locale": "fr"
     }
   ],
   "favicon": {
-    "id": 1,
+    "id": 320,
     "name": "favicon.svg",
     "alternativeText": null,
     "caption": null,
     "width": 100,
     "height": 100,
     "formats": null,
-    "hash": "favicon_e45c4b9bc4",
+    "hash": "favicon_803b827c18",
     "ext": ".svg",
     "mime": "image/svg+xml",
     "size": 0.82,
-    "url": "/uploads/favicon_e45c4b9bc4.svg",
+    "url": "/uploads/favicon_803b827c18.svg",
     "previewUrl": null,
     "provider": "local",
     "provider_metadata": null,
     "folderPath": "/",
-    "createdAt": "2024-04-03T16:18:54.146Z",
-    "updatedAt": "2024-04-03T16:18:54.146Z"
+    "createdAt": "2024-04-17T23:04:13.297Z",
+    "updatedAt": "2024-04-17T23:04:13.297Z"
   }
 }

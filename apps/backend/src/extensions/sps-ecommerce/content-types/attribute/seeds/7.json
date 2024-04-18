@@ -1,0 +1,19 @@
+{
+  "id": 7,
+  "string": null,
+  "number": null,
+  "boolean": null,
+  "date": null,
+  "datetime": null,
+  "time": null,
+  "createdAt": "2024-04-05T20:32:53.672Z",
+  "updatedAt": "2024-04-17T23:04:12.997Z",
+  "locale": "en",
+  "localizations": [],
+  "attribute_key": null,
+  "media": null,
+  "products": [],
+  "additional_media": null,
+  "currency": null,
+  "order_products": []
+}

@@ -26,7 +26,7 @@ export function Component(props: IComponentPropsExtended) {
           ) : null}
         </div>
       </div>
-      <div className="mx-auto max-w-5xl flex flex-col md:grid md:grid-cols-2 gap-10 px-5 md:px-0">
+      <div className="mx-auto max-w-6xl flex flex-col md:grid md:grid-cols-2 gap-10 px-5 md:px-0">
         {props.data.features?.map((feature, index) => (
           <Feature
             key={index}

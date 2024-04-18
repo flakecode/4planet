@@ -30,12 +30,14 @@ export function Component(props: IComponentPropsExtended) {
                 <Disclosure
                   as="div"
                   key={index}
-                  className="bg-[#FFFFFF] md:p-8 p-5 rounded-xl "
+                  className="bg-[#FFFFFF] rounded-xl"
                 >
                   {({ open }) => (
                     <>
                       <div className="text-lg">
-                        <Disclosure.Button className="flex w-full items-start justify-between text-left">
+                        <Disclosure.Button
+                          className={`flex w-full items-start justify-between text-left bg-[#FFFFFF] md:px-8 px-5 pt-5 md:pt-8 rounded-xl ${open ? "pb-0" : "pb-5"}`}
+                        >
                           {faq.title ? (
                             <ReactMarkdown className="md:text-xl text-lg font-medium  leading-6 text-black">
                               {faq.title}
@@ -53,9 +55,12 @@ export function Component(props: IComponentPropsExtended) {
                           </span>
                         </Disclosure.Button>
                       </div>
-                      <Disclosure.Panel as="div" className="mt-4 lg:mt-6 pr-12">
+                      <Disclosure.Panel
+                        as="div"
+                        className="mt-4 px-5 md:px-8 pb-5"
+                      >
                         {faq.description ? (
-                          <ReactMarkdown className="mt-5 md:text-lg text-base font-regular text-gray-500">
+                          <ReactMarkdown className="md:text-lg text-base font-regular text-gray-500">
                             {faq.description}
                           </ReactMarkdown>
                         ) : null}

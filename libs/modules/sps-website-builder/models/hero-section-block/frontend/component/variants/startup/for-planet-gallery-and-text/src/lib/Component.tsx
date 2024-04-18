@@ -28,7 +28,7 @@ export function Component(props: IComponentPropsExtended) {
                     }}
                   >
                     <File
-                      isServer={false}
+                      isServer={props.isServer}
                       variant="image"
                       className="object-cover object-center"
                       containerClassName="w-full aspect-w-5 aspect-h-3"
@@ -73,7 +73,7 @@ export function Component(props: IComponentPropsExtended) {
                 return (
                   <div key={index} className="relative">
                     <File
-                      isServer={false}
+                      isServer={props.isServer}
                       variant="image"
                       className="object-cover object-center"
                       containerClassName="w-full aspect-w-5 aspect-h-3"

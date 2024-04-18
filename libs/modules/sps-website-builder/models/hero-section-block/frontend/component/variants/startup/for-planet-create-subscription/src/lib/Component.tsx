@@ -28,7 +28,7 @@ export function Component(props: IComponentPropsExtended) {
             {props.data?.buttons?.map((button, index) => {
               return (
                 <Button
-                  isServer={false}
+                  isServer={props.isServer}
                   key={index}
                   variant={button.variant}
                   data={button}

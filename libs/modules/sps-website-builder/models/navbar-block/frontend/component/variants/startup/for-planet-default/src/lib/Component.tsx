@@ -43,51 +43,7 @@ function DisclosureInner({
   return (
     <div className="relative">
       <div className="relative mx-auto flex flex-row w-full pt-[50px] lg:pt-8">
-        <div className="flex w-full justify-between">
-          <div className="flex w-full items-center px-5 md:px-2 lg:px-0 justify-between">
-            {props.data.logotype ? (
-              <Logotype
-                variant="default"
-                isServer={false}
-                data={props.data.logotype}
-              />
-            ) : null}
-            <div className="hidden lg:flex gap-8 mx-auto">
-              {props.data.buttons?.map((button, index) => {
-                return (
-                  <Button
-                    isServer={false}
-                    key={index}
-                    variant={button.variant}
-                    data={button}
-                  />
-                );
-              })}
-            </div>
-            <div className="hidden lg:flex lg:space-x-2 items-center gap-5">
-              {props.data.additionalButtons?.map((button, index) => {
-                return (
-                  <Button
-                    isServer={false}
-                    key={index}
-                    variant={button.variant}
-                    data={button}
-                  />
-                );
-              })}
-              {props.data.extraButtons?.map((button, index) => {
-                return (
-                  <Button
-                    isServer={false}
-                    key={index}
-                    variant={button.variant}
-                    data={button}
-                  />
-                );
-              })}
-            </div>
-          </div>
-        </div>
+        {props.children}
         <div className="flex flex-shrink-0 items-center lg:hidden pr-5 ">
           <Disclosure.Button className="inline-flex items-center justify-center rounded-md text-white hover:text-gray-500">
             <span className="sr-only">Open main menu</span>
@@ -113,7 +69,7 @@ function DisclosureInner({
             />
           ) : null}
         </div>
-        <div className="flex flex-col gap-3  h-full pt-[200px]">
+        <div className="flex flex-col gap-3 h-full pt-[200px]">
           <div className="flex-col flex gap-[18px]">
             {props.data.buttons?.map((button, index) => {
               return (
@@ -134,7 +90,7 @@ function DisclosureInner({
               );
             })}
           </div>
-          <div className="absolute bottom-[5%] px-5 flex gap-10  w-full">
+          <div className="absolute bottom-[5%] px-5 flex gap-10 w-full items-center justify-between">
             {props.data.additionalButtons?.map((button, index) => {
               return (
                 <Button

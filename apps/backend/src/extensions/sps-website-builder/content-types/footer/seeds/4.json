@@ -1,0 +1,392 @@
+{
+  "id": 4,
+  "title": "Public Page Footer",
+  "uid": "footer",
+  "variant": "for-planet-default",
+  "class_name": null,
+  "createdAt": "2024-04-01T21:32:23.928Z",
+  "updatedAt": "2024-04-18T00:47:14.594Z",
+  "publishedAt": "2024-01-10T11:45:35.047Z",
+  "locale": "en",
+  "localizations": [
+    {
+      "id": 5,
+      "title": "Public Page Footer",
+      "uid": "footer-ru",
+      "variant": "for-planet-default",
+      "class_name": null,
+      "createdAt": "2024-04-18T00:47:14.522Z",
+      "updatedAt": "2024-04-18T00:48:37.436Z",
+      "publishedAt": "2024-04-18T00:47:15.380Z",
+      "locale": "ru"
+    },
+    {
+      "id": 2,
+      "title": "Pied de page public",
+      "uid": "pied-de-page-public",
+      "variant": "boxed",
+      "class_name": null,
+      "createdAt": "2024-02-05T00:06:02.499Z",
+      "updatedAt": "2024-04-18T00:47:14.594Z",
+      "publishedAt": "2024-01-12T23:31:13.162Z",
+      "locale": "fr"
+    }
+  ],
+  "page_blocks": [
+    {
+      "__component": "page-blocks.footer-block",
+      "id": 25,
+      "copyrights": "© 2024 | Все права защищены",
+      "description": "ИП Кожевых Алексей Владимирович ИНН 220416845180 ОГРН/ОГРНИП 322784700121750",
+      "variant": "for-planet-default",
+      "class_name": null,
+      "logotype": {
+        "id": 49,
+        "title": "международная коммерческая экологическая компания",
+        "url": null,
+        "media": [
+          {
+            "id": 314,
+            "name": "for planet.svg",
+            "alternativeText": null,
+            "caption": null,
+            "width": 260,
+            "height": 23,
+            "formats": null,
+            "hash": "for_planet_65ae7f6b57",
+            "ext": ".svg",
+            "mime": "image/svg+xml",
+            "size": 2.17,
+            "url": "/uploads/for_planet_65ae7f6b57.svg",
+            "previewUrl": null,
+            "provider": "local",
+            "provider_metadata": null,
+            "folderPath": "/",
+            "createdAt": "2024-04-17T23:04:13.102Z",
+            "updatedAt": "2024-04-17T23:04:13.102Z"
+          }
+        ],
+        "additional_media": null
+      },
+      "buttons_arrays": [
+        {
+          "id": 44,
+          "title": "О ПРОЕКТЕ",
+          "class_name": null,
+          "variant": "column-with-title",
+          "description": null,
+          "url": null,
+          "additional_attributes": null,
+          "buttons": [
+            {
+              "id": 322,
+              "url": "/#plans",
+              "description": null,
+              "variant": "link",
+              "title": "Планы",
+              "additional_attributes": null,
+              "class_name": "w-fit",
+              "media": null,
+              "additional_media": null,
+              "flyout": null
+            },
+            {
+              "id": 323,
+              "url": "/#works",
+              "description": null,
+              "variant": "link",
+              "title": "Как работает",
+              "additional_attributes": null,
+              "class_name": "w-fit",
+              "media": null,
+              "additional_media": null,
+              "flyout": null
+            },
+            {
+              "id": 324,
+              "url": "/#planting",
+              "description": null,
+              "variant": "link",
+              "title": "Прошедшие посадки",
+              "additional_attributes": null,
+              "class_name": "w-fit",
+              "media": null,
+              "additional_media": null,
+              "flyout": null
+            }
+          ],
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 45,
+          "title": "помочь",
+          "class_name": null,
+          "variant": "column-with-title",
+          "description": null,
+          "url": null,
+          "additional_attributes": null,
+          "buttons": [
+            {
+              "id": 325,
+              "url": "/#landing",
+              "description": null,
+              "variant": "link",
+              "title": "Посадить дерево",
+              "additional_attributes": null,
+              "class_name": "w-fit",
+              "media": null,
+              "additional_media": null,
+              "flyout": null
+            },
+            {
+              "id": 326,
+              "url": "/#subscription",
+              "description": null,
+              "variant": "link",
+              "title": "Оформить подписку",
+              "additional_attributes": null,
+              "class_name": "w-fit",
+              "media": null,
+              "additional_media": null,
+              "flyout": null
+            },
+            {
+              "id": 327,
+              "url": "/#donate",
+              "description": null,
+              "variant": "link",
+              "title": "Донат",
+              "additional_attributes": null,
+              "class_name": "w-fit",
+              "media": null,
+              "additional_media": null,
+              "flyout": null
+            }
+          ],
+          "media": null,
+          "additional_media": null
+        },
+        {
+          "id": 43,
+          "title": "Контакты",
+          "class_name": null,
+          "variant": "for-planet-column-with-title",
+          "description": "По всем вопросам вы можете писать на почту alex4planet@mail.ru",
+          "url": null,
+          "additional_attributes": null,
+          "buttons": [],
+          "media": null,
+          "additional_media": null
+        }
+      ],
+      "additional_buttons_arrays": [
+        {
+          "id": 46,
+          "title": null,
+          "class_name": null,
+          "variant": "column-with-title",
+          "description": null,
+          "url": null,
+          "additional_attributes": null,
+          "buttons": [],
+          "media": null,
+          "additional_media": null
+        }
+      ],
+      "extra_buttons_arrays": [
+        {
+          "id": 47,
+          "title": null,
+          "class_name": "pt-6",
+          "variant": "row",
+          "description": null,
+          "url": null,
+          "additional_attributes": null,
+          "buttons": [
+            {
+              "id": 328,
+              "url": "https://t.me/alex4planet",
+              "description": null,
+              "variant": "link",
+              "title": null,
+              "additional_attributes": null,
+              "class_name": "w-fit",
+              "media": [
+                {
+                  "id": 315,
+                  "name": "telegram.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 24,
+                  "height": 24,
+                  "formats": null,
+                  "hash": "telegram_25ad5fe792",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 1,
+                  "url": "/uploads/telegram_25ad5fe792.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "folderPath": "/",
+                  "createdAt": "2024-04-17T23:04:13.119Z",
+                  "updatedAt": "2024-04-17T23:04:13.119Z"
+                }
+              ],
+              "additional_media": null,
+              "flyout": null
+            },
+            {
+              "id": 329,
+              "url": "https://www.youtube.com/@alex4planet10",
+              "description": null,
+              "variant": "link",
+              "title": null,
+              "additional_attributes": null,
+              "class_name": "w-fit",
+              "media": [
+                {
+                  "id": 316,
+                  "name": "youtube.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 24,
+                  "height": 24,
+                  "formats": null,
+                  "hash": "youtube_ef786beb31",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 0.57,
+                  "url": "/uploads/youtube_ef786beb31.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "folderPath": "/",
+                  "createdAt": "2024-04-17T23:04:13.125Z",
+                  "updatedAt": "2024-04-17T23:04:13.125Z"
+                }
+              ],
+              "additional_media": null,
+              "flyout": null
+            },
+            {
+              "id": 330,
+              "url": "https://www.instagram.com/alexey4planet",
+              "description": null,
+              "variant": "link",
+              "title": null,
+              "additional_attributes": null,
+              "class_name": "w-fit",
+              "media": [
+                {
+                  "id": 317,
+                  "name": "inst.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 24,
+                  "height": 24,
+                  "formats": null,
+                  "hash": "inst_bf799dc114",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 1.29,
+                  "url": "/uploads/inst_bf799dc114.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "folderPath": "/",
+                  "createdAt": "2024-04-17T23:04:13.131Z",
+                  "updatedAt": "2024-04-17T23:04:13.131Z"
+                }
+              ],
+              "additional_media": null,
+              "flyout": null
+            },
+            {
+              "id": 331,
+              "url": "https://www.tiktok.com/@alex4_planet",
+              "description": null,
+              "variant": "link",
+              "title": null,
+              "additional_attributes": null,
+              "class_name": "w-fit",
+              "media": [
+                {
+                  "id": 318,
+                  "name": "tiktok.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 24,
+                  "height": 24,
+                  "formats": null,
+                  "hash": "tiktok_d2924b9129",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 0.71,
+                  "url": "/uploads/tiktok_d2924b9129.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "folderPath": "/",
+                  "createdAt": "2024-04-17T23:04:13.137Z",
+                  "updatedAt": "2024-04-17T23:04:13.137Z"
+                }
+              ],
+              "additional_media": null,
+              "flyout": null
+            },
+            {
+              "id": 332,
+              "url": "https://vk.com/for_planet",
+              "description": null,
+              "variant": "link",
+              "title": null,
+              "additional_attributes": null,
+              "class_name": "w-fit",
+              "media": [
+                {
+                  "id": 319,
+                  "name": "vk.svg",
+                  "alternativeText": null,
+                  "caption": null,
+                  "width": 24,
+                  "height": 24,
+                  "formats": null,
+                  "hash": "vk_196bf5566a",
+                  "ext": ".svg",
+                  "mime": "image/svg+xml",
+                  "size": 0.49,
+                  "url": "/uploads/vk_196bf5566a.svg",
+                  "previewUrl": null,
+                  "provider": "local",
+                  "provider_metadata": null,
+                  "folderPath": "/",
+                  "createdAt": "2024-04-17T23:04:13.142Z",
+                  "updatedAt": "2024-04-17T23:04:13.142Z"
+                }
+              ],
+              "additional_media": null,
+              "flyout": null
+            }
+          ],
+          "media": null,
+          "additional_media": null
+        }
+      ]
+    }
+  ],
+  "layouts": [
+    {
+      "id": 2,
+      "title": "Public Page Layout",
+      "uid": "public-page-layout",
+      "variant": "wide",
+      "class_name": "[&>.layout-container]:pt-16",
+      "createdAt": "2024-02-05T00:06:02.537Z",
+      "updatedAt": "2024-04-18T00:46:04.179Z",
+      "publishedAt": "2023-04-20T03:23:38.447Z",
+      "locale": "en"
+    }
+  ]
+}

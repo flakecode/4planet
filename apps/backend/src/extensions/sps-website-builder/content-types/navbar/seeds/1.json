@@ -6,59 +6,59 @@
   "class_name": null,
   "position": "fixed",
   "side": "top",
-  "createdAt": "2024-04-03T16:18:52.548Z",
-  "updatedAt": "2024-04-12T16:22:46.649Z",
+  "createdAt": "2024-02-05T00:06:02.652Z",
+  "updatedAt": "2024-04-18T00:46:46.448Z",
   "publishedAt": "2023-04-08T05:04:22.148Z",
   "locale": "en",
   "localizations": [
     {
-      "id": 2,
-      "title": "Barre de navigation des pages publiques",
-      "uid": "barre-de-navigation-des-pages-publiques",
-      "variant": "boxed",
+      "id": 3,
+      "title": "Public Page Navbar",
+      "uid": "public-page-navbar-ru",
+      "variant": "for-planet-boxed-transparent",
       "class_name": null,
       "position": "fixed",
       "side": "top",
-      "createdAt": "2024-04-03T16:18:52.597Z",
-      "updatedAt": "2024-04-03T16:18:55.027Z",
-      "publishedAt": "2024-01-12T23:50:09.029Z",
-      "locale": "fr"
+      "createdAt": "2024-04-18T00:46:46.406Z",
+      "updatedAt": "2024-04-18T00:48:26.055Z",
+      "publishedAt": "2024-04-18T00:46:47.077Z",
+      "locale": "ru"
     }
   ],
   "page_blocks": [
     {
       "__component": "page-blocks.navbar-block",
-      "id": 1,
+      "id": 25,
       "variant": "for-planet-default",
       "description": null,
       "class_name": null,
       "logotype": {
-        "id": 3,
+        "id": 50,
         "title": null,
         "url": "/",
         "media": [
           {
-            "id": 12,
-            "name": "FOR planet.svg",
+            "id": 321,
+            "name": "for planet.svg",
             "alternativeText": null,
             "caption": null,
             "width": 260,
             "height": 23,
             "formats": null,
-            "hash": "FOR_planet_0814df3bcc",
+            "hash": "for_planet_6bc4d869d8",
             "ext": ".svg",
             "mime": "image/svg+xml",
             "size": 2.17,
-            "url": "/uploads/FOR_planet_0814df3bcc.svg",
+            "url": "/uploads/for_planet_6bc4d869d8.svg",
             "previewUrl": null,
             "provider": "local",
             "provider_metadata": null,
             "folderPath": "/",
-            "createdAt": "2024-04-03T18:49:17.648Z",
-            "updatedAt": "2024-04-03T18:49:17.648Z"
+            "createdAt": "2024-04-17T23:04:13.324Z",
+            "updatedAt": "2024-04-17T23:04:13.324Z"
           },
           {
-            "id": 34,
+            "id": 322,
             "name": "logo.png",
             "alternativeText": null,
             "caption": null,
@@ -67,76 +67,76 @@
             "formats": {
               "thumbnail": {
                 "ext": ".png",
-                "url": "/uploads/thumbnail_logo_99d4d63d3b.png",
-                "hash": "thumbnail_logo_99d4d63d3b",
+                "url": "/uploads/thumbnail_logo_a0df1c145d.png",
+                "hash": "thumbnail_logo_a0df1c145d",
                 "mime": "image/png",
                 "name": "thumbnail_logo.png",
                 "path": null,
-                "size": 3.88,
+                "size": 3.91,
                 "width": 245,
                 "height": 21
               }
             },
-            "hash": "logo_99d4d63d3b",
+            "hash": "logo_a0df1c145d",
             "ext": ".png",
             "mime": "image/png",
-            "size": 1.77,
-            "url": "/uploads/logo_99d4d63d3b.png",
+            "size": 1.69,
+            "url": "/uploads/logo_a0df1c145d.png",
             "previewUrl": null,
             "provider": "local",
             "provider_metadata": null,
             "folderPath": "/",
-            "createdAt": "2024-04-12T12:59:22.172Z",
-            "updatedAt": "2024-04-12T12:59:22.172Z"
+            "createdAt": "2024-04-17T23:04:13.339Z",
+            "updatedAt": "2024-04-17T23:04:13.339Z"
           }
         ],
         "additional_media": null
       },
       "buttons": [
         {
-          "id": 7,
+          "id": 333,
           "url": "/#landing",
           "description": null,
           "variant": "link",
           "title": "Посадить дерево",
           "additional_attributes": null,
-          "class_name": null,
+          "class_name": "w-fit",
           "media": null,
           "additional_media": null,
           "flyout": null
         },
         {
-          "id": 3,
+          "id": 334,
           "url": "/#subscription",
           "description": null,
           "variant": "link",
           "title": "Оформить подписку",
           "additional_attributes": null,
-          "class_name": null,
+          "class_name": "w-fit",
           "media": null,
           "additional_media": null,
           "flyout": null
         },
         {
-          "id": 4,
+          "id": 335,
           "url": "/#works",
           "description": null,
           "variant": "link",
           "title": "Как это работает",
           "additional_attributes": null,
-          "class_name": null,
+          "class_name": "w-fit",
           "media": null,
           "additional_media": null,
           "flyout": null
         },
         {
-          "id": 5,
+          "id": 336,
           "url": "/#donate",
           "description": null,
           "variant": "link",
           "title": "Донат",
           "additional_attributes": null,
-          "class_name": null,
+          "class_name": "w-fit",
           "media": null,
           "additional_media": null,
           "flyout": null
@@ -144,25 +144,25 @@
       ],
       "additional_buttons": [
         {
-          "id": 29,
+          "id": 337,
           "url": null,
           "description": null,
           "variant": "for-planet-button-language",
           "title": null,
           "additional_attributes": null,
-          "class_name": null,
+          "class_name": "w-fit",
           "media": null,
           "additional_media": null,
           "flyout": null
         },
         {
-          "id": 8,
+          "id": 338,
           "url": "/#landing",
           "description": null,
           "variant": "primary",
           "title": "Посадить дерево",
           "additional_attributes": null,
-          "class_name": null,
+          "class_name": "w-fit",
           "media": null,
           "additional_media": null,
           "flyout": null
@@ -173,13 +173,13 @@
   ],
   "layouts": [
     {
-      "id": 1,
+      "id": 2,
       "title": "Public Page Layout",
       "uid": "public-page-layout",
       "variant": "wide",
       "class_name": "[&>.layout-container]:pt-16",
-      "createdAt": "2024-04-03T16:18:52.287Z",
-      "updatedAt": "2024-04-03T16:18:53.786Z",
+      "createdAt": "2024-02-05T00:06:02.537Z",
+      "updatedAt": "2024-04-18T00:46:04.179Z",
       "publishedAt": "2023-04-20T03:23:38.447Z",
       "locale": "en"
     }

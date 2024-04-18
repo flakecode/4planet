@@ -12,7 +12,7 @@ export function Component(props: IComponentPropsExtended) {
     >
       {props.data?.media && props.data.media.length > 1 ? (
         <File
-          isServer={false}
+          isServer={props.isServer}
           variant="image"
           data={props.data.media[1]}
           containerClassName="relative w-[200px] h-[50px]"

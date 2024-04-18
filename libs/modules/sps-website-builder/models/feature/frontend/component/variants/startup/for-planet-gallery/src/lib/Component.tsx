@@ -14,7 +14,7 @@ export function Component(props: IComponentPropsExtended) {
         <div className="w-full">
           {props.data.media?.length ? (
             <File
-              isServer={false}
+              isServer={props.isServer}
               variant="image"
               className="object-cover object-center"
               containerClassName="w-full aspect-w-5 aspect-h-3 relative"

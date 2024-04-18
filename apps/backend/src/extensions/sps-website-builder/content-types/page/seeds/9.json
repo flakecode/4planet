@@ -1,0 +1,67 @@
+{
+  "id": 9,
+  "title": "Page d'accueil",
+  "url": "/",
+  "createdAt": "2024-02-05T00:06:02.813Z",
+  "updatedAt": "2024-04-18T00:48:04.203Z",
+  "publishedAt": "2024-01-12T23:28:07.163Z",
+  "locale": "fr",
+  "localizations": [
+    {
+      "id": 10,
+      "title": "Главная страница",
+      "url": "/",
+      "createdAt": "2024-04-18T00:47:28.187Z",
+      "updatedAt": "2024-04-18T00:48:04.150Z",
+      "publishedAt": "2024-04-18T00:47:45.324Z",
+      "locale": "ru"
+    },
+    {
+      "id": 1,
+      "title": "Main page",
+      "url": "/",
+      "createdAt": "2024-02-05T00:06:02.699Z",
+      "updatedAt": "2024-04-18T00:48:04.203Z",
+      "publishedAt": "2023-04-08T12:06:05.277Z",
+      "locale": "en"
+    }
+  ],
+  "page_blocks": [
+    {
+      "__component": "page-blocks.hero-section-block",
+      "id": 104,
+      "title": "Démarrez votre Lean Startup avec un Boilerplate convivial pour les développeurs",
+      "description": "Passez moins de temps à la configuration et plus de temps à créer votre produit innovant grâce à notre modèle prêt à l'emploi et riche en fonctionnalités, conçu pour les développeurs de startups Lean.",
+      "variant": "simple-centered",
+      "anchor": null,
+      "class_name": "pt-16",
+      "media": null,
+      "buttons": [
+        {
+          "id": 348,
+          "url": "https://github.com/singlepagestartup/sps-lite",
+          "description": "",
+          "variant": "primary",
+          "title": "Commencez gratuitement",
+          "additional_attributes": null,
+          "class_name": null,
+          "media": null,
+          "additional_media": null,
+          "flyout": null
+        }
+      ],
+      "additional_media": null
+    }
+  ],
+  "layout": {
+    "id": 3,
+    "title": "Mise en page publique",
+    "uid": "mise-en-page-publique",
+    "variant": "wide",
+    "class_name": "[&>.layout-container]:pt-16",
+    "createdAt": "2024-02-05T00:06:02.551Z",
+    "updatedAt": "2024-04-17T23:04:13.277Z",
+    "publishedAt": "2024-01-12T23:28:53.035Z",
+    "locale": "fr"
+  }
+}

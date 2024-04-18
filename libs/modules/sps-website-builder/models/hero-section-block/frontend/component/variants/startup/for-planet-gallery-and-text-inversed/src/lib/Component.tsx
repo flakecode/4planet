@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 import { IComponentPropsExtended } from "./interface";
 import ReactMarkdown from "react-markdown";
@@ -43,7 +41,7 @@ export function Component(props: IComponentPropsExtended) {
               {props.data?.buttons?.map((button, index) => {
                 return (
                   <Button
-                    isServer={false}
+                    isServer={props.isServer}
                     key={index}
                     variant={button.variant}
                     data={button}
@@ -64,7 +62,7 @@ export function Component(props: IComponentPropsExtended) {
                     style={style}
                   >
                     <File
-                      isServer={false}
+                      isServer={props.isServer}
                       variant="image"
                       className="object-cover object-center"
                       containerClassName="w-full aspect-w-7 aspect-h-10"
@@ -86,7 +84,7 @@ export function Component(props: IComponentPropsExtended) {
                     style={style}
                   >
                     <File
-                      isServer={false}
+                      isServer={props.isServer}
                       variant="image"
                       className="object-cover object-center"
                       containerClassName="w-full aspect-w-7 aspect-h-10"
@@ -101,7 +99,7 @@ export function Component(props: IComponentPropsExtended) {
           {props.data?.buttons?.map((button, index) => {
             return (
               <Button
-                isServer={false}
+                isServer={props.isServer}
                 key={index}
                 variant={button.variant}
                 data={button}

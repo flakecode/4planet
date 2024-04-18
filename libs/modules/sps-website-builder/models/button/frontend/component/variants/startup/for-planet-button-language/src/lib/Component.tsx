@@ -11,48 +11,28 @@ export function Component(props: IComponentPropsExtended) {
       data-module="sps-website-builder"
       data-model="elements.button"
       data-variant={props.data.variant}
-      data-ui-variant={props.data.variant}
-      {...(props.data.url ? { url: props.data.url } : {})}
     >
-      <Popover
-        data-module="sps-website-builder"
-        data-model="flyout"
-        data-variant={props.variant}
-      >
+      <Popover>
         <PopoverTrigger asChild={true}>
-          <Button
-            ui="sps"
-            data-module="sps-website-builder"
-            data-model="elements.button"
-            data-variant={props.data.variant}
-            data-ui-variant="link"
-            className="w-full py-3.5 px-7 lg:p-0 "
-            onClick={() => {}}
-          >
+          <Button ui="sps" data-ui-variant="outline" onClick={() => {}}>
             РУ
           </Button>
         </PopoverTrigger>
-        <PopoverContent className="mt-5 p-1 border border-[#EFEFEF] shadow-none rounded-[20px] w-[200px]">
+        <PopoverContent className="mt-5 p-1 border border-[#EFEFEF] shadow-none rounded-[20px] overflow-hidden w-[200px]">
           <div className="flex flex-col gap-2 bg-white">
             <Button
               ui="sps"
-              data-module="sps-website-builder"
-              data-model="elements.button"
-              data-variant={props.data.variant}
-              data-ui-variant="link"
-              className="w-full border-none text-lg text-[#1D1D1D] hover:bg-[#F3F3F3] hover:no-underline"
-              url="/"
+              data-ui-variant="ghost"
+              url="/ru"
+              className="w-full rounded-[20px] text-xl py-3.5 lg:py-4"
             >
               Русский(РУ)
             </Button>
             <Button
               ui="sps"
-              data-module="sps-website-builder"
-              data-model="elements.button"
-              data-variant={props.data.variant}
-              data-ui-variant="link"
-              className="w-full border-none text-lg text-[#1D1D1D] hover:bg-[#F3F3F3] hover:no-underline"
-              url="/landing"
+              data-ui-variant="ghost"
+              url="/"
+              className="w-full rounded-[20px] text-xl py-3.5 lg:py-4"
             >
               English (EN)
             </Button>
