@@ -95,7 +95,7 @@ export function Component(props: IComponentPropsExtended) {
           className="object-cover object-center"
         />
       ) : null}
-      {/* <FormProvider {...methods}>
+      <FormProvider {...methods}>
         <div className="w-full max-w-[980px] mx-auto relative px-5 md:px-0">
           <div className="bg-white rounded-[20px] py-[60px]">
             <div className="flex flex-col gap-12 px-5 lg:px-0">
@@ -172,7 +172,7 @@ export function Component(props: IComponentPropsExtended) {
             </div>
           </div>
         </div>
-      </FormProvider> */}
+      </FormProvider>
     </div>
   );
 }

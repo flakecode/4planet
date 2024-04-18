@@ -34,10 +34,10 @@ jobs:
           npm run backend:build
           cp apps/backend/.env.seed apps/backend/.env
           npm run backend:start &
-      - name: Make scripts files executable
-        run: |
-          chmod +x ./wait-for-seeed.sh
-      - name: Wait until seed is finished
-        if: ${{ !env.AVOID_DATABASE_SEEDING }}
-        run: |
-          ./wait-for-seeed.sh
+      # - name: Make scripts files executable
+      #   run: |
+      #     chmod +x ./wait-for-seeed.sh
+      # - name: Wait until seed is finished
+      #   if: ${{ !env.AVOID_DATABASE_SEEDING }}
+      #   run: |
+      #     ./wait-for-seeed.sh
