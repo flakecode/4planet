@@ -1,8 +1,7 @@
 import React from "react";
 import { IComponentPropsExtended } from "./interface";
 import { Component as Feature } from "@sps/sps-website-builder-models-feature-frontend-component";
-import Image from "next/image";
-import { getFileUrl } from "@sps/shared-utils";
+import { Component as File } from "@sps/sps-file-storage-models-file-frontend-component";
 
 export function Component(props: IComponentPropsExtended) {
   return (
@@ -13,30 +12,21 @@ export function Component(props: IComponentPropsExtended) {
       className="w-full bg-black relative"
     >
       {props.data.media?.length ? (
-        <div className="">
-          <Image
-            src={getFileUrl(props.data.media[0])}
-            alt=""
-            fill={true}
-            className="object-cover object-center"
-          />
-        </div>
+        <File
+          isServer={props.isServer}
+          variant="image"
+          data={props.data.media[0]}
+          containerClassName=""
+          className="object-cover object-center"
+        />
       ) : null}
       <div className="relative hidden md:flex items-center justify-between max-w-7xl mx-auto">
         <div className="w-5/12">
           {props.data.features?.map((feature, index) => {
-            const rotate =
-              index % 2 !== 0
-                ? `-${(index + 1) * 1}deg`
-                : `${(index + 1) * 1}deg`;
+            const style = getStyles({ index });
+
             return (
-              <div
-                key={index}
-                className="relative"
-                style={{
-                  transform: `rotate(${rotate})`,
-                }}
-              >
+              <div key={index} className="relative" style={style}>
                 <Feature
                   isServer={props.isServer}
                   variant="for-planet-gallery"
@@ -78,4 +68,12 @@ export function Component(props: IComponentPropsExtended) {
       </div>
     </div>
   );
+}
+
+function getStyles({ index }: { index: number }) {
+  const rotate = index % 2 !== 0 ? `-${index + 1}deg` : `${index + 1}deg`;
+
+  return {
+    rotate: `${rotate}`,
+  };
 }

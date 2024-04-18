@@ -2,8 +2,7 @@ import React from "react";
 import { IComponentPropsExtended } from "./interface";
 import ReactMarkdown from "react-markdown";
 import { Component as Feature } from "@sps/sps-website-builder-models-feature-frontend-component";
-import Image from "next/image";
-import { getFileUrl } from "@sps/shared-utils";
+import { Component as File } from "@sps/sps-file-storage-models-file-frontend-component";
 
 export function Component(props: IComponentPropsExtended) {
   return (
@@ -14,14 +13,13 @@ export function Component(props: IComponentPropsExtended) {
       className="w-full bg-black relative pt-[60px] md:pt-60 pb-[60px] md:pb-40 px-5 md:px-0"
     >
       {props.data.media?.length ? (
-        <div className="">
-          <Image
-            src={getFileUrl(props.data.media[0])}
-            alt=""
-            fill={true}
-            className="object-cover object-center"
-          />
-        </div>
+        <File
+          isServer={props.isServer}
+          variant="image"
+          data={props.data.media[0]}
+          containerClassName=""
+          className="object-cover object-center"
+        />
       ) : null}
       <div className="mx-auto max-w-7xl flex justify-center relative">
         <div className="relative max-w-5xl">

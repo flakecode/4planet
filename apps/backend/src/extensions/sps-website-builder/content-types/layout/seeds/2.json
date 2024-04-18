@@ -52,10 +52,10 @@
   "pages": [
     {
       "id": 1,
-      "title": "Main page",
+      "title": "Главная страница",
       "url": "/",
       "createdAt": "2024-02-05T00:06:02.699Z",
-      "updatedAt": "2024-04-18T00:48:04.203Z",
+      "updatedAt": "2024-04-18T13:57:08.874Z",
       "publishedAt": "2023-04-08T12:06:05.277Z",
       "locale": "en"
     }

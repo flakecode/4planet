@@ -11,6 +11,7 @@ export interface IComponentBase {
 export interface IComponentProps extends IComponentBase {
   variant: typeof variant;
   data: IModel;
+  onClick?: () => void;
 }
 
 export interface IComponentPropsExtended extends IComponentProps {

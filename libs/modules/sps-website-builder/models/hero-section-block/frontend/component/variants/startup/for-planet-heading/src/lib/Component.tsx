@@ -1,11 +1,8 @@
-"use client";
-
 import React from "react";
 import { IComponentPropsExtended } from "./interface";
 import ReactMarkdown from "react-markdown";
-import { getFileUrl } from "@sps/shared-utils";
-import Image from "next/image";
 import { Component as Button } from "@sps/sps-website-builder-models-button-frontend-component";
+import { Component as File } from "@sps/sps-file-storage-models-file-frontend-component";
 
 export function Component(props: IComponentPropsExtended) {
   return (
@@ -16,10 +13,11 @@ export function Component(props: IComponentPropsExtended) {
       className="w-full relative flex flex-col items-center justify-between mx-auto  min-h-screen"
     >
       {props.data.media?.length ? (
-        <Image
-          src={getFileUrl(props.data.media[0])}
-          alt=""
-          fill={true}
+        <File
+          isServer={props.isServer}
+          variant="image"
+          data={props.data.media[0]}
+          containerClassName=""
           className="object-cover object-center"
         />
       ) : null}
@@ -41,7 +39,7 @@ export function Component(props: IComponentPropsExtended) {
               {props.data?.buttons?.map((button, index) => {
                 return (
                   <Button
-                    isServer={false}
+                    isServer={props.isServer}
                     key={index}
                     data={button}
                     variant={button.variant}

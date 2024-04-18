@@ -1,0 +1,37 @@
+{
+  "id": 2,
+  "class_name": null,
+  "additional_attributes": null,
+  "variant": "simple",
+  "uid": "form",
+  "title": "фывафыва",
+  "createdAt": "2024-04-18T11:40:55.089Z",
+  "updatedAt": "2024-04-18T11:41:12.815Z",
+  "publishedAt": "2024-04-18T11:41:12.802Z",
+  "locale": "en",
+  "localizations": [],
+  "inputs": [
+    {
+      "id": 28,
+      "placeholder": "фывафыва",
+      "variant": "text",
+      "is_required": true,
+      "value": null,
+      "name": "lupa",
+      "label": "фывафыва",
+      "class_name": null,
+      "type": "text",
+      "multiple": null,
+      "min": null,
+      "max": null,
+      "step": null,
+      "options": [],
+      "media": null,
+      "additional_media": null,
+      "extra_media": null
+    }
+  ],
+  "button": null,
+  "side_effects": [],
+  "form_requests": []
+}

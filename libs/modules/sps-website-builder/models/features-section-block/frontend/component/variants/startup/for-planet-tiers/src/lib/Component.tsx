@@ -1,25 +1,19 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import { IComponentPropsExtended } from "./interface";
 import ReactMarkdown from "react-markdown";
-import { Component as Feature } from "@sps/sps-website-builder-models-feature-frontend-component";
-import Image from "next/image";
-import { getFileUrl } from "@sps/shared-utils";
 import { FormProvider, useForm } from "react-hook-form";
 import { Button, FormField } from "@sps/ui-adapter";
-
-const cloudPaymentsPublicId =
-  process.env.NODE_ENV === "development"
-    ? "pk_4eddbc1335cd8507962a357186a21"
-    : "pk_b2124921a65199e4082fd293a1136";
-const treePriceByCurrency = { rub: 190, usd: 3, kzt: 1000 };
+import { Component as File } from "@sps/sps-file-storage-models-file-frontend-component";
 
 export function Component(props: IComponentPropsExtended) {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
-  function close() {
-    setIsOpen(false);
-  }
+  const cloudPaymentsPublicId =
+    process.env.NODE_ENV === "development"
+      ? "pk_4eddbc1335cd8507962a357186a21"
+      : "pk_b2124921a65199e4082fd293a1136";
+  const treePriceByCurrency = { rub: 190, usd: 3, kzt: 1000 };
+
   const methods = useForm<any>({
     mode: "all",
   });
@@ -29,14 +23,19 @@ export function Component(props: IComponentPropsExtended) {
     handleSubmit,
     setValue,
     watch,
-    reset,
     formState: { errors },
   } = methods;
 
   const watchData = watch();
-  const numbers = [1, 3, 5, 10, 20, 50, 100, 1000];
+
+  const numbers = useMemo(() => {
+    return [1, 3, 5, 10, 20, 50, 100, 1000];
+  }, []);
 
   async function onSubmit(data: any) {
+    if (typeof window === "undefined") {
+      return;
+    }
     const passData = { ...data };
     console.log(passData);
 
@@ -49,7 +48,7 @@ export function Component(props: IComponentPropsExtended) {
       "auth", // или 'charge'
       {
         //options
-        publicId: "pk_b2124921a65199e4082fd293a1136", //id из личного кабинета
+        publicId: cloudPaymentsPublicId, //id из личного кабинета
         description: "Оплата деревьев в 4planet.ru", //назначение
         amount: amount * price, //сумма
         currency: "RUB", //валюта
@@ -87,17 +86,16 @@ export function Component(props: IComponentPropsExtended) {
       id={props.data.anchor || ""}
       className="w-full bg-black pt-40 pb-24 relative"
     >
-      {props.data.media?.length ? (
-        <div className="">
-          <Image
-            src={getFileUrl(props.data.media[0])}
-            alt=""
-            fill={true}
-            className="object-cover object-center"
-          />
-        </div>
+      {props.data.media && props.data.media?.length ? (
+        <File
+          isServer={false}
+          variant="image"
+          data={props.data.media[0]}
+          containerClassName=""
+          className="object-cover object-center"
+        />
       ) : null}
-      <FormProvider {...methods}>
+      {/* <FormProvider {...methods}>
         <div className="w-full max-w-[980px] mx-auto relative px-5 md:px-0">
           <div className="bg-white rounded-[20px] py-[60px]">
             <div className="flex flex-col gap-12 px-5 lg:px-0">
@@ -158,7 +156,7 @@ export function Component(props: IComponentPropsExtended) {
                   </Button>
                 </div>
                 <div className="flex justify-center text-[#B2B2B2] text-xl">
-                  = {190 * parseInt(watchData.amount)}₽
+                  = {190 * parseInt(watchData.amount || 0)}₽
                 </div>
               </div>
 
@@ -174,7 +172,7 @@ export function Component(props: IComponentPropsExtended) {
             </div>
           </div>
         </div>
-      </FormProvider>
+      </FormProvider> */}
     </div>
   );
 }

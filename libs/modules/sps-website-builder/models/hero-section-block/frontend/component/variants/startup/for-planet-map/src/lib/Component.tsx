@@ -1,15 +1,9 @@
 "use client";
 
-import React, { useRef } from "react";
 import { IComponentPropsExtended } from "./interface";
 import ReactMarkdown from "react-markdown";
 import { YMaps, Map, Placemark } from "@pbe/react-yandex-maps";
-
-const error = console.error;
-console.error = (...args: any) => {
-  if (/defaultProps/.test(args[0])) return;
-  error(...args);
-};
+// import { Component as File } from "@sps/sps-file-storage-models-file-frontend-component";
 
 export function Component(props: IComponentPropsExtended) {
   return (
@@ -33,6 +27,15 @@ export function Component(props: IComponentPropsExtended) {
           ) : null}
         </div>
         <div className="w-full mt-10 lg:mt-[66px]">
+          {/* {props.data.media && props.data.media?.length ? (
+            <File
+              isServer={props.isServer}
+              variant="image"
+              data={props.data.media[0]}
+              containerClassName="w-full aspect-w-16 aspect-h-9"
+              className="object-cover object-center"
+            />
+          ) : null} */}
           <YMaps>
             <div className="flex justify-center">
               <Map
