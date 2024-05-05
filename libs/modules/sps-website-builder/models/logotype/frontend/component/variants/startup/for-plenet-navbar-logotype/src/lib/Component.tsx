@@ -16,7 +16,7 @@ export function Component(props: IComponentPropsExtended) {
           variant="image"
           data={props.data.media[1]}
           containerClassName="relative w-[200px] h-[50px]"
-          className="object-contain object-left"
+          className="h-full object-contain object-left"
         />
       ) : null}
     </div>
