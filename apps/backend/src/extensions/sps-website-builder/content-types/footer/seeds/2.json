@@ -27,7 +27,7 @@
       "variant": "for-planet-default",
       "class_name": null,
       "createdAt": "2024-04-01T21:32:23.928Z",
-      "updatedAt": "2024-04-18T00:47:14.594Z",
+      "updatedAt": "2024-05-05T14:12:18.770Z",
       "publishedAt": "2024-01-10T11:45:35.047Z",
       "locale": "en"
     }
@@ -44,6 +44,7 @@
         "id": 48,
         "title": null,
         "url": null,
+        "class_name": null,
         "media": null,
         "additional_media": null
       },
